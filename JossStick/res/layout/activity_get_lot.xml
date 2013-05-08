@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/show_lot_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:id="@+id/AdLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@+id/show_anim_lot" android:layout_width="88.0dip" android:layout_height="220.0dip" android:layout_marginTop="50.0dip" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+    <ImageView android:id="@+id/show_lot" android:visibility="gone" android:layout_width="58.0dip" android:layout_height="198.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/lot" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+    <ImageView android:id="@+id/show_zhibei" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/start_zhibei" android:layout_above="@id/AdLinearLayout" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+    <TextView android:id="@+id/show_vertical_lot_title" android:visibility="invisible" style="@style/vertical_lot_title" />
+</RelativeLayout>
