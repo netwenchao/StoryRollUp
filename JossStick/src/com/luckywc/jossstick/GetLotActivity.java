@@ -4,9 +4,12 @@ import java.io.IOException;
 import java.util.Random;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.drawable.AnimationDrawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.animation.Animation;
 import android.view.animation.Animation.AnimationListener;
 import android.view.animation.AnimationUtils;
@@ -42,13 +45,23 @@ public class GetLotActivity extends Activity {
 		mNameList=getResources().getStringArray(R.array.lot_names);
 		this.mMPLotSound = MediaPlayer.create(this,R.raw.lot_sound);
 		mLotAnimDrawable=new AnimationDrawable();
+		mRanIndex=-1;
+		((ImageView)findViewById(R.id.show_zhibei)).setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				if(mRanIndex>0 && mRanIndex<=100){
+					Intent showDetail=new Intent(GetLotActivity.this,ShowLotDetail.class);
+					showDetail.putExtra("mRanIndex",mRanIndex);
+					startActivity(showDetail);					
+				}				
+			}
+		});
 		
 		for(int j=0;j<3;j++){
 			this.mLotAnimDrawable.addFrame(getResources().getDrawable(getResources().getIdentifier("lot_" + j % 3, "drawable", getPackageName())), 100);
 		}
 		mAnimLot.setImageDrawable(mLotAnimDrawable);
-		mLotAnimDrawable.setOneShot(false);
-		mLotAnimDrawable.start();
+		mLotAnimDrawable.setOneShot(false);	
 		
 		mLotAnim.setAnimationListener(new AnimationListener() {					
 			@Override
@@ -65,11 +78,10 @@ public class GetLotActivity extends Activity {
 		          if (i >= GetLotActivity.this.mRanText.length())
 		          {
 		        	  GetLotActivity.this.mVerticalLotTitle.setText(str);
-		            return;
+		        	  break;
 		          }
 		          str = str + GetLotActivity.this.mRanText.substring(i, i + 1) + "\n";
 		        }
-		        /**/
 			}
 
 			@Override
@@ -83,8 +95,11 @@ public class GetLotActivity extends Activity {
 				// TODO Auto-generated method stub
 				
 			}
-		});
-		
+		});		
+		Test();
+	}
+	private void Test(){
+		mLotAnimDrawable.start();
 	    try
 	    {
 	    	this.mMPLotSound.setOnCompletionListener(new MediaPlayer.OnCompletionListener()
@@ -95,15 +110,14 @@ public class GetLotActivity extends Activity {
 	            GetLotActivity.this.mLot.setVisibility(0);
 	            GetLotActivity.this.mLot.startAnimation(GetLotActivity.this.mLotAnim);
 	            GetLotActivity.this.mLotAnimDrawable.stop();
-	            Toast.makeText(GetLotActivity.this,"Stoped", 1000);
 	          }
 	        });
 	    	//this.mMPLotSound.prepare();
 	        this.mMPLotSound.start();	        	        
-	      }
-	      catch (IllegalStateException localIllegalStateException)
-	      {
-	          localIllegalStateException.printStackTrace();
-	      }	    
-	}
+	    }
+	    catch (IllegalStateException localIllegalStateException)
+	    {
+	    	localIllegalStateException.printStackTrace();
+	    }
+	}	
 }
