@@ -1,5 +1,7 @@
 package com.luckywc.jossstick;
 
+import java.text.DecimalFormat;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -19,5 +21,9 @@ public class ShowLotDetail extends Activity{
 		mLogImage=(ImageView)findViewById(R.id.lotImage);
 		lotTitle=(TextView)findViewById(R.id.lotTitle);
 		lotDesc=(TextView)findViewById(R.id.lotDesc);
+		
+		String lotIdx=new DecimalFormat("00").format(mRanIndex+1);
+		this.mLogImage.setImageBitmap(Utility.getImageFromAssetsFile(this,lotIdx+".gif"));
+		this.lotDesc.setText(Utility.getStringFromAssetsFile(this,lotIdx+".txt"));
 	}
 }
