@@ -23,6 +23,8 @@
             </intent-filter>
         </activity>
         <activity android:name="GetLotActivity"></activity>
+        <activity android:name="ShengBei"></activity>
+        <activity android:name="ShowLotDetail"></activity>
     </application>
 
 </manifest>

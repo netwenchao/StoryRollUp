@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/show_lot_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:id="@+id/miniAdLinearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+    <LinearLayout android:gravity="center_horizontal" android:id="@+id/AdLinearLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+    <TextView android:id="@+id/pelt_cup_prompt" android:layout_margin="20.0dip" android:maxWidth="200.0dip" android:text="" style="@style/prompt_text" />
+    <ImageView android:id="@+id/pelt_cup_cup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bei_0" android:layout_below="@id/pelt_cup_prompt" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+    <TextView android:id="@+id/pelt_cup_count" android:layout_margin="20.0dip" android:text="" android:layout_below="@id/pelt_cup_cup" style="@style/prompt_text" />
+    <ImageView android:id="@+id/pelt_cup_bt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:src="@drawable/zhibei" android:layout_above="@id/AdLinearLayout" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+</RelativeLayout>

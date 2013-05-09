@@ -15,6 +15,7 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+      <item name="android:windowNoTitle">true</item>
     </style>
     
     <style name="vertical_lot_title">
@@ -30,5 +31,17 @@
         <item name="android:shadowDy">2.0</item>
         <item name="android:shadowRadius">1.0</item>
     </style>
-
+    
+    <style name="prompt_text">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#ff8f2704</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
 </resources>

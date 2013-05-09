@@ -5,7 +5,11 @@ import java.util.Random;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Matrix;
 import android.graphics.drawable.AnimationDrawable;
+import android.graphics.drawable.Drawable;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -34,8 +38,7 @@ public class GetLotActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
-		super.onCreate(savedInstanceState);
-		requestWindowFeature(1);
+		super.onCreate(savedInstanceState);		
 		setContentView(R.layout.activity_get_lot);
 		mAnimLot=(ImageView)findViewById(R.id.show_anim_lot);
 		mLot=(ImageView)findViewById(R.id.show_lot);
@@ -50,10 +53,14 @@ public class GetLotActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				if(mRanIndex>0 && mRanIndex<=100){
-					Intent showDetail=new Intent(GetLotActivity.this,ShowLotDetail.class);
+					Intent showDetail=new Intent(GetLotActivity.this,ShengBei.class);
 					showDetail.putExtra("mRanIndex",mRanIndex);
-					startActivity(showDetail);					
+					startActivity(showDetail);		
+					finish();			
 				}				
+				else{
+					GetLotActivity.this.ReLot();
+				}
 			}
 		});
 		
@@ -96,11 +103,7 @@ public class GetLotActivity extends Activity {
 				
 			}
 		});		
-		Test();
-	}
-	private void Test(){
-		mLotAnimDrawable.start();
-	    try
+		try
 	    {
 	    	this.mMPLotSound.setOnCompletionListener(new MediaPlayer.OnCompletionListener()
 	        {
@@ -112,12 +115,16 @@ public class GetLotActivity extends Activity {
 	            GetLotActivity.this.mLotAnimDrawable.stop();
 	          }
 	        });
-	    	//this.mMPLotSound.prepare();
-	        this.mMPLotSound.start();	        	        
+	    	//this.mMPLotSound.prepare();	                	        
 	    }
 	    catch (IllegalStateException localIllegalStateException)
 	    {
 	    	localIllegalStateException.printStackTrace();
 	    }
-	}	
+		ReLot();
+	}
+	private void ReLot(){
+		mLotAnimDrawable.start();
+		this.mMPLotSound.start();
+	}
 }
