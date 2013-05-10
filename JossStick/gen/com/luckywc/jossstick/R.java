@@ -55,16 +55,15 @@ public final class R {
     }
     public static final class id {
         public static final int AdLinearLayout=0x7f0b0000;
-        public static final int action_settings=0x7f0b000e;
-        public static final int lotDesc=0x7f0b000c;
-        public static final int lotImage=0x7f0b000a;
-        public static final int lotTitle=0x7f0b000b;
-        public static final int mian_qiuqian=0x7f0b000d;
-        public static final int miniAdLinearLayout=0x7f0b0005;
-        public static final int pelt_cup_bt=0x7f0b0009;
-        public static final int pelt_cup_count=0x7f0b0008;
-        public static final int pelt_cup_cup=0x7f0b0007;
-        public static final int pelt_cup_prompt=0x7f0b0006;
+        public static final int action_settings=0x7f0b000d;
+        public static final int lotDesc=0x7f0b000b;
+        public static final int lotImage=0x7f0b0009;
+        public static final int lotTitle=0x7f0b000a;
+        public static final int mian_qiuqian=0x7f0b000c;
+        public static final int pelt_cup_bt=0x7f0b0008;
+        public static final int pelt_cup_count=0x7f0b0007;
+        public static final int pelt_cup_cup=0x7f0b0006;
+        public static final int pelt_cup_prompt=0x7f0b0005;
         public static final int show_anim_lot=0x7f0b0001;
         public static final int show_lot=0x7f0b0002;
         public static final int show_vertical_lot_title=0x7f0b0004;
