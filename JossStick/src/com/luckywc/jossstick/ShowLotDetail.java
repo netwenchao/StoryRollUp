@@ -20,10 +20,12 @@ public class ShowLotDetail extends Activity{
 		mRanIndex=getIntent().getExtras().getInt("RanIndex");
 		mLogImage=(ImageView)findViewById(R.id.lotImage);
 		lotTitle=(TextView)findViewById(R.id.lotTitle);
-		lotDesc=(TextView)findViewById(R.id.lotDesc);
+		lotDesc=(TextView)findViewById(R.id.lotDesc);	
 		
+		String [] titleS=getResources().getStringArray(R.array.lot_names);
 		String lotIdx=new DecimalFormat("00").format(mRanIndex+1);
 		this.mLogImage.setImageBitmap(Utility.getImageFromAssetsFile(this,lotIdx+".gif"));
 		this.lotDesc.setText(Utility.getStringFromAssetsFile(this,lotIdx+".txt"));
+		this.lotTitle.setText(titleS[mRanIndex]);
 	}
 }

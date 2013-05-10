@@ -4,7 +4,7 @@
     <string name="app_name">JossStick</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
-    <string name="pelt_cup_count">您已掷%d个圣杯.</string>
+    <string name="pelt_cup_count">您已掷%d次圣杯.</string>
     <string name="pelt_cup_no">必须掷出3次圣杯，请重新抽签.</string>
 
 </resources>

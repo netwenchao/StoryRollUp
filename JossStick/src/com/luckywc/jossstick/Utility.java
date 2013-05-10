@@ -15,7 +15,7 @@ public class Utility {
 	    AssetManager localAssetManager = paramContext.getResources().getAssets();
 	    try
 	    {
-	      InputStream localInputStream = localAssetManager.open(paramString);
+	      InputStream localInputStream = localAssetManager.open(paramString);	      
 	      localBitmap = BitmapFactory.decodeStream(localInputStream);
 	      localInputStream.close();
 	      return localBitmap;

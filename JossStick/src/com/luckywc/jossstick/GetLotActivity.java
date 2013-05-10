@@ -56,6 +56,7 @@ public class GetLotActivity extends Activity {
 					Intent showDetail=new Intent(GetLotActivity.this,ShengBei.class);
 					showDetail.putExtra("mRanIndex",mRanIndex);
 					startActivity(showDetail);		
+					overridePendingTransition(R.anim.activity_open, R.anim.activity_close);
 					finish();			
 				}				
 				else{

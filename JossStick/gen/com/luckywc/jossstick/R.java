@@ -116,6 +116,8 @@ public final class R {
         /**  Application theme. 
          */
         public static final int AppTheme=0x7f090001;
+        public static final int lot_desc_text=0x7f090005;
+        public static final int lot_title_text=0x7f090004;
         public static final int prompt_text=0x7f090003;
         public static final int vertical_lot_title=0x7f090002;
     }

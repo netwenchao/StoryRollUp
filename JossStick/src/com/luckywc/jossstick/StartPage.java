@@ -20,7 +20,7 @@ public class StartPage extends Activity {
 				// TODO Auto-generated method stub
 				Intent i=new Intent(StartPage.this,GetLotActivity.class);
 				startActivity(i);
-				StartPage.this.overridePendingTransition(R.anim.activity_open, R.anim.activity_close);
+				overridePendingTransition(R.anim.activity_open, R.anim.activity_close);
 			}			
 		});
 	}
