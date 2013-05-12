@@ -27,7 +27,7 @@ public class StartPage extends Activity {
 		LinearLayout layout=(LinearLayout)findViewById(R.id.AdLinearLayout);		
 		AdViewTargeting.setRunMode(RunMode.NORMAL); 
 		AdViewTargeting.setUpdateMode(UpdateMode.EVERYTIME); 
-		AdViewLayout adViewLayout = new AdViewLayout(this, "SDK20130927090430cbq70w7q3d4kvax"); 
+		AdViewLayout adViewLayout = new AdViewLayout(this, "SDK20131012100521kidb0cxesk8oste"); 
 		//adViewLayout.setAdViewInterface(this); 
 		adViewLayout.setAdViewInterface(new AdViewInterface(){
 
@@ -61,7 +61,7 @@ public class StartPage extends Activity {
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.start_page, menu);
+		//getMenuInflater().inflate(R.menu.start_page, menu);
 		return true;
 	}
 

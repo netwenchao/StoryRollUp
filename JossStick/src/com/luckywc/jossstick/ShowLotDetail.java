@@ -39,7 +39,7 @@ public class ShowLotDetail extends Activity{
 		LinearLayout layout=(LinearLayout)findViewById(R.id.AdLinearLayout);		
 		AdViewTargeting.setRunMode(RunMode.NORMAL); 
 		AdViewTargeting.setUpdateMode(UpdateMode.EVERYTIME); 
-		AdViewLayout adViewLayout = new AdViewLayout(this, "SDK20130927090430cbq70w7q3d4kvax"); 
+		AdViewLayout adViewLayout = new AdViewLayout(this, "SDK20131012100521kidb0cxesk8oste"); 
 		//adViewLayout.setAdViewInterface(this); 
 		adViewLayout.setAdViewInterface(new AdViewInterface(){
 
