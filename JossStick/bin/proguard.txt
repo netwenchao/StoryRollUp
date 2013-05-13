@@ -1,0 +1,33 @@
+# view AndroidManifest.xml #generated:51
+-keep class cn.domob.android.ads.DomobActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class com.baidu.mobads.AppActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.google.ads.AdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.kyview.AdviewWebView { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.kyview.DownloadService { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.luckywc.jossstick.GetLotActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class com.luckywc.jossstick.ShengBei { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.luckywc.jossstick.ShowLotDetail { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.luckywc.jossstick.StartPage { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class com.tencent.exmobwin.banner.DialogActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.tencent.exmobwin.banner.MobWINBrowserActivity { <init>(...); }
+

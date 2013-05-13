@@ -26,7 +26,7 @@ public class StartPage extends Activity {
 		
 		LinearLayout layout=(LinearLayout)findViewById(R.id.AdLinearLayout);		
 		AdViewTargeting.setRunMode(RunMode.NORMAL); 
-		AdViewTargeting.setUpdateMode(UpdateMode.EVERYTIME); 
+		AdViewTargeting.setUpdateMode(UpdateMode.DEFAULT); 
 		AdViewLayout adViewLayout = new AdViewLayout(this, "SDK20131012100521kidb0cxesk8oste"); 
 		//adViewLayout.setAdViewInterface(this); 
 		adViewLayout.setAdViewInterface(new AdViewInterface(){
