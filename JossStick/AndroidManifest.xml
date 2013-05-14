@@ -47,9 +47,6 @@
 		android:configChanges="keyboard|keyboardHidden|orientation" /> 
 		<meta-data android:name="BaiduMobAd_DEBUG_TOKEN" android:value="adview" />
 		
-		<!--AdView SDK for Domob --> 
-		<activity android:name="cn.domob.android.ads.DomobActivity" 
-		android:theme =  "@android:style/Theme.Translucent" /> 
 		
 		<!--AdView SDK for tencentMobinWin --> 
 		<activity android:name="com.tencent.exmobwin.banner.MobWINBrowserActivity" ></activity> 
