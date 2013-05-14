@@ -100,9 +100,9 @@ public class MyDatabaseAdapter extends SQLiteOpenHelper{
 		ContentValues taskValues = new ContentValues();
 		//taskValues.put("_id", Integer.valueOf(task.Id));
 		taskValues.put("name",task.Name);
-		taskValues.put("category",Integer.valueOf(task.CategoryInfo.Id));
-		taskValues.put("priority",Integer.valueOf(task.Priority));
-		taskValues.put("status",Integer.valueOf(task.Status));
+		taskValues.put("category",Integer.valueOf(task.Category.Id));
+		taskValues.put("priority",Integer.valueOf((int)task.Priority));
+		taskValues.put("status",task.Status);
 		taskValues.put("textColor",task.TextColor);
 		taskValues.put("iconUrl",task.IconUrl);
 		taskValues.put("perComplete",Integer.valueOf(task.PerComplete));
