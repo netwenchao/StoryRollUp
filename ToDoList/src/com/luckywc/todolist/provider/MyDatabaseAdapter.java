@@ -2,6 +2,8 @@ package com.luckywc.todolist.provider;
 
 import java.util.ArrayList;
 
+import com.luckywc.todolist.provider.EnumMgr.TaskStatus;
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -98,11 +100,10 @@ public class MyDatabaseAdapter extends SQLiteOpenHelper{
 	public long TaskInfo_Add(TaskInfo task)
 	{
 		ContentValues taskValues = new ContentValues();
-		//taskValues.put("_id", Integer.valueOf(task.Id));
 		taskValues.put("name",task.Name);
 		taskValues.put("category",Integer.valueOf(task.Category.Id));
-		taskValues.put("priority",Integer.valueOf((int)task.Priority));
-		taskValues.put("status",task.Status);
+		taskValues.put("priority",Integer.valueOf(task.Priority.getValue()));
+		taskValues.put("status",task.Status.getValue());
 		taskValues.put("textColor",task.TextColor);
 		taskValues.put("iconUrl",task.IconUrl);
 		taskValues.put("perComplete",Integer.valueOf(task.PerComplete));
@@ -117,4 +118,8 @@ public class MyDatabaseAdapter extends SQLiteOpenHelper{
 		return mDataBase.insert(DBTableNameTaskInfos, null, taskValues);				
 	}
 
+	public long TaskInfo_StatusChange(int taskId,TaskStatus status){
+		return 0;
+	}
+	
 }
