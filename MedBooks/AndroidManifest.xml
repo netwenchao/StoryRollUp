@@ -12,6 +12,23 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.luckywc.activity.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.luckywc.activity.WelcomeActivity" >
+        </activity>
+        <activity android:name="com.luckywc.activity.FoodActivity" >
+        </activity>
+        <activity android:name="com.luckywc.activity.SearchActivity" >
+        </activity>
+        <activity android:name="com.luckywc.activity.SettingActivity" >
+        </activity>
+        <activity android:name="com.luckywc.activity.TabMainActivity" >
+        </activity>
     </application>
 
 </manifest>

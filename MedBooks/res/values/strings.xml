@@ -1,5 +1,33 @@
 <resources>
 
     <string name="app_name">MedBooks</string>
+    <string name="tabName_Welcome">偏方主页</string>
+    <string name="tabName_Food">饮食搭配</string>
+    <string name="tabName_Search">药方查询</string>
+    <string name="tabName_Setting">相关设置</string>
+    <string name="TextView1">常用偏方</string>
+    <string name="TextView2">内.外科偏方</string>
+    <string name="TextView3">儿童.男妇科</string>
+    <string name="TextView4">五官.美容</string>
+    <string name="TextView5">儿科偏方</string>
+    <string name="TextView6">内科偏方</string>
+    <string name="TextView7">外科偏方</string>
+    <string name="TextView8">五官科偏方</string>
+    <string name="TextView9">皮肤科偏方</string>
+    <string name="TextView10">男性偏方</string>
+    <string name="TextView11">女性偏方</string>
+    <string name="TextView12">美容偏方</string>
+    <string name="TextView13">淋巴肩颈</string>
+    <string name="TextView14">肿瘤偏方</string>
+    <string name="TextView15">偏方专题</string>
+    <string name="TextView16">生活常识</string>
+    <string name="TextView17">关爱乳房</string>
+    <string name="TextView18">紧急救助</string>
+    <string name="TextView19">眼科偏方</string>
+    <string name="TextView20">孕妇常识</string>
+    <string name="TextView21">家庭医疗</string>
+    <string name="TextView22">食物相克</string>
+    <string name="TextView23">饮食禁忌</string>
+    <string name="TextView24">春药房中术</string>
 
 </resources>
