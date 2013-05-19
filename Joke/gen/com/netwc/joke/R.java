@@ -75,47 +75,56 @@ public final class R {
     }
     public static final class drawable {
         public static final int action_arrow=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int item_selector=0x7f020002;
-        public static final int shape_item_normal=0x7f020003;
-        public static final int shape_item_press=0x7f020004;
-        public static final int top_bar_background=0x7f020005;
-        public static final int top_bar_home_normal=0x7f020006;
-        public static final int top_bar_home_press=0x7f020007;
-        public static final int top_bar_home_selector=0x7f020008;
-        public static final int top_bar_return_normal=0x7f020009;
-        public static final int top_bar_return_press=0x7f02000a;
-        public static final int top_bar_return_selector=0x7f02000b;
+        public static final int daily_item_bg=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int item_selector=0x7f020003;
+        public static final int onload=0x7f020004;
+        public static final int shape_item_normal=0x7f020005;
+        public static final int shape_item_press=0x7f020006;
+        public static final int top_bar_background=0x7f020007;
+        public static final int top_bar_home_normal=0x7f020008;
+        public static final int top_bar_home_press=0x7f020009;
+        public static final int top_bar_home_selector=0x7f02000a;
+        public static final int top_bar_return_normal=0x7f02000b;
+        public static final int top_bar_return_press=0x7f02000c;
+        public static final int top_bar_return_selector=0x7f02000d;
     }
     public static final class id {
-        public static final int ItemTitle=0x7f09000c;
-        public static final int action_changeappr=0x7f090014;
-        public static final int action_settings=0x7f090015;
-        public static final int action_share=0x7f090013;
+        public static final int ItemTitle=0x7f09000e;
+        public static final int action_changeappr=0x7f090017;
+        public static final int action_settings=0x7f090018;
+        public static final int action_share=0x7f090016;
         public static final int adContainer=0x7f090004;
         public static final int bookList=0x7f090003;
-        public static final int btnBack2ClassList=0x7f090005;
+        public static final int btnBack2ClassList=0x7f090007;
         public static final int btnHome=0x7f090001;
-        public static final int btnSettingCancel=0x7f090012;
-        public static final int btnSettingSure=0x7f090011;
-        public static final int contentAd=0x7f09000a;
+        public static final int btnSettingCancel=0x7f090014;
+        public static final int btnSettingSure=0x7f090013;
+        public static final int contentAd=0x7f09000c;
         public static final int contentContainer=0x7f090000;
-        public static final int contentScroll=0x7f090008;
-        public static final int contentTitle=0x7f090006;
-        public static final int fontSize=0x7f09000e;
-        public static final int itemImageRight=0x7f09000b;
-        public static final int prevText=0x7f09000d;
-        public static final int sbFontSize=0x7f09000f;
-        public static final int txtArticalTitle=0x7f090007;
-        public static final int txtContent=0x7f090009;
+        public static final int contentScroll=0x7f09000a;
+        public static final int contentTitle=0x7f090008;
+        public static final int daily_item_jokeTitle=0x7f090015;
+        public static final int fontSize=0x7f090010;
+        public static final int itemImageRight=0x7f09000d;
+        public static final int listView1=0x7f090005;
+        public static final int prevText=0x7f09000f;
+        public static final int sbFontSize=0x7f090011;
+        public static final int tabhost=0x7f090006;
+        public static final int txtArticalTitle=0x7f090009;
+        public static final int txtContent=0x7f09000b;
         public static final int txtTitle=0x7f090002;
-        public static final int zoomFontSize=0x7f090010;
+        public static final int zoomFontSize=0x7f090012;
     }
     public static final class layout {
         public static final int activity_book_main=0x7f030000;
-        public static final int book_content=0x7f030001;
-        public static final int book_item=0x7f030002;
-        public static final int change_apperance=0x7f030003;
+        public static final int activity_daily_list=0x7f030001;
+        public static final int activity_splash=0x7f030002;
+        public static final int activity_start_page=0x7f030003;
+        public static final int book_content=0x7f030004;
+        public static final int book_item=0x7f030005;
+        public static final int change_apperance=0x7f030006;
+        public static final int daily_item=0x7f030007;
     }
     public static final class menu {
         public static final int content_menu=0x7f080000;
@@ -134,6 +143,9 @@ public final class R {
         public static final int preview=0x7f060004;
         public static final int previewText=0x7f060008;
         public static final int settingDialogTitle=0x7f060005;
+        public static final int tab_spec_daily=0x7f06000c;
+        public static final int tab_spec_local=0x7f06000d;
+        public static final int tab_spec_settings=0x7f06000e;
     }
     public static final class style {
         /** 
@@ -162,5 +174,6 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f070001;
+        public static final int dailyItemtitle=0x7f070002;
     }
 }

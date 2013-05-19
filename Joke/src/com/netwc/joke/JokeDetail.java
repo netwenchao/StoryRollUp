@@ -6,6 +6,11 @@ import com.baidu.mobads.AdSettings;
 import com.baidu.mobads.AdSize;
 import com.baidu.mobads.AdView;
 import com.baidu.mobads.AdViewListener;
+import com.kyview.AdViewInterface;
+import com.kyview.AdViewLayout;
+import com.kyview.AdViewTargeting;
+import com.kyview.AdViewTargeting.RunMode;
+import com.kyview.AdViewTargeting.UpdateMode;
 import com.tencent.exmobwin.MobWINManager;
 import com.tencent.exmobwin.Type;
 import com.tencent.exmobwin.banner.AdListener;
@@ -64,100 +69,29 @@ public class JokeDetail extends Activity{
 		this.mQ = getResources().getStringArray(this.Q[getIntent().getExtras().getInt("Num")]);
 		this.mA = getResources().getStringArray(this.A[getIntent().getExtras().getInt("Num")]);
 		this.ItemNum = getIntent().getExtras().getInt("ItemNum");
+		
 		contentAd=(LinearLayout)findViewById(R.id.contentAd);
-		MobWINManager.init(this,Type.MOBWIN_BANNER);
-		TAdView tadview=new TAdView(JokeDetail.this);
-		tadview.setAdListener(new AdListener(){
-
+		AdViewTargeting.setRunMode(RunMode.NORMAL); 
+		AdViewTargeting.setUpdateMode(UpdateMode.DEFAULT); 
+		AdViewLayout adViewLayout = new AdViewLayout(this, "SDK20131012100521kidb0cxesk8oste"); 
+		//adViewLayout.setAdViewInterface(this); 
+		adViewLayout.setAdViewInterface(new AdViewInterface(){
 			@Override
-			public void onReceiveAd() {
+			public void onClickAd() {
 				// TODO Auto-generated method stub
-				Log.v("ad","received");
+				Log.v("AD","Clicked");
 			}
 
 			@Override
-			public void onReceiveFailed(int arg0) {
+			public void onDisplayAd() {
 				// TODO Auto-generated method stub
-				Log.v("ad","error");
+				Log.v("AD","Displayed");
 			}
 			
 		});
-		contentAd.addView(tadview);
+		contentAd.addView(adViewLayout); 
+		contentAd.invalidate();
 		
-		/*
-		AdSettings.setKey(new String[] { "baidu", "жа Йњ " });
-		AdView adView = new AdView(this,AdSize.Banner,"");
-		adView.setListener(new AdViewListener() {
-
-			@Override
-			public void onAdClick(JSONObject arg0) {
-				// TODO Auto-generated method stub
-				
-			}
-
-			@Override
-			public void onAdFailed(String arg0) {
-				// TODO Auto-generated method stub
-				Log.v("Ad","onAdFailed"+arg0);
-			}
-
-			@Override
-			public void onAdReady(AdView arg0) {
-				// TODO Auto-generated method stub
-				Log.v("Ad","Ready");
-			}
-
-			@Override
-			public void onAdShow(JSONObject arg0) {
-				// TODO Auto-generated method stub
-				Log.v("Ad","Show");
-			}
-
-			@Override
-			public void onAdSwitch() {
-				// TODO Auto-generated method stub
-				Log.v("Ad","onAdSwitch");
-			}
-
-			@Override
-			public void onVideoClickAd() {
-				// TODO Auto-generated method stub
-				
-			}
-
-			@Override
-			public void onVideoClickClose() {
-				// TODO Auto-generated method stub
-				
-			}
-
-			@Override
-			public void onVideoClickReplay() {
-				// TODO Auto-generated method stub
-				
-			}
-
-			@Override
-			public void onVideoError() {
-				// TODO Auto-generated method stub
-				
-			}
-
-			@Override
-			public void onVideoFinish() {
-				// TODO Auto-generated method stub
-				
-			}
-
-			@Override
-			public void onVideoStart() {
-				// TODO Auto-generated method stub
-				
-			}
-		});		
-		contentAd.addView(adView);
-		
-		*/
 		prefrence=getPreferences(MODE_PRIVATE);
 		this.mTextView.setFocusable(true);
 		((TextView)findViewById(R.id.contentTitle)).setText(this.mQ[this.ItemNum]);

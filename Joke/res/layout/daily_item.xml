@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="4sp"
+    android:background="@drawable/daily_item_bg"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/dailyItemtitle"
+        android:text="www"
+        android:id="@+id/daily_item_jokeTitle"/>
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingTop="6sp"
+        android:text="2011-2-2"
+        android:textColor="#FF999999"
+        android:id="@+id/daily_item_jokeTitle"/>"
+</LinearLayout>

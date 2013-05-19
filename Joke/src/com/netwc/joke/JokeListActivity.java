@@ -3,9 +3,16 @@ package com.netwc.joke;
 import java.util.ArrayList;
 import java.util.HashMap;
 
+import com.kyview.AdViewInterface;
+import com.kyview.AdViewLayout;
+import com.kyview.AdViewTargeting;
+import com.kyview.AdViewTargeting.RunMode;
+import com.kyview.AdViewTargeting.UpdateMode;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -13,6 +20,7 @@ import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
@@ -23,6 +31,7 @@ public class JokeListActivity extends Activity{
 		R.array.Tgh, R.array.Tsf, R.array.Tty, R.array.Tjy, R.array.Tyl, R.array.Tgw, R.array.Twr };
     ListView mListView;
     String[] mQ;
+    LinearLayout contentAd;
 
 	
 	@Override
@@ -56,6 +65,28 @@ public class JokeListActivity extends Activity{
 			}
 	    	
 	    });
+	
+	    contentAd=(LinearLayout)findViewById(R.id.adContainer);
+		AdViewTargeting.setRunMode(RunMode.NORMAL); 
+		AdViewTargeting.setUpdateMode(UpdateMode.DEFAULT); 
+		AdViewLayout adViewLayout = new AdViewLayout(this, "SDK20131012100521kidb0cxesk8oste"); 
+		//adViewLayout.setAdViewInterface(this); 
+		adViewLayout.setAdViewInterface(new AdViewInterface(){
+			@Override
+			public void onClickAd() {
+				// TODO Auto-generated method stub
+				Log.v("AD","Clicked");
+			}
+
+			@Override
+			public void onDisplayAd() {
+				// TODO Auto-generated method stub
+				Log.v("AD","Displayed");
+			}
+			
+		});
+		contentAd.addView(adViewLayout); 
+		contentAd.invalidate();
 	}
 
 	@Override
