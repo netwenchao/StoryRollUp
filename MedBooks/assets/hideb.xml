@@ -1,10 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<array>
-	<dict>
-		<key>myinfo</key>
-		<string> 日常食物相克
+﻿<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfArticalInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArticalInfo>
+    <Content> 日常食物相克
 1.生葱与蜂蜜 2. 蜜糖与豆腐 3.皮蛋与红糖 4. 胡萝卜汁与酒 5. 烧酒与桃子6.烧酒与柿子 7.烧酒与玉米 8.甜酒与味精 9. 鸡蛋与糖精 10. 鸡蛋与消炎片11.鸡蛋与树薯 12.鸡蛋与豆浆 13.白藤与川连 14.西药片与烧酒
 二、肉类与相关食物相克
 1..狗肉与绿豆 2.羊肉与柚柑 3.羊肉与西瓜 4.羊肉与霉干菜 5.兔肉与芥菜6.兔肉与芹菜 7.兔肉与小白菜 8.驴肉与黄花菜 9.牛肉与橄榄 10. 牛肉与毛姜11.猪肉与甘草 12. 猪肉与菱角 13.鸭肉与李子 14.鸭肉与杨梅子 15.鸡肉与菊花16.鸡肉与芥末 17.鹅肉与柿子 18.鹅肉与鸭梨 19.蛇肉与萝卜
@@ -113,15 +110,11 @@
 160、蜂蜜与开水相克：会改变蜂蜜甜美的味道，使其产生酸味。
 161、蜂蜜与豆腐相克：易导致腹泻。
 162、蜂蜜与韭菜相克：易导致腹泻。
-</string>
-		<key>mytitle</key>
-		<string> 日常食物相克 </string>
-	</dict>
-	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 日常食物禁忌
+</Content>
+    <Title> 日常食物相克 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 日常食物禁忌
 1、鸡蛋忌糖精┄┄同食中毒、死亡、
 2、豆腐忌蜂蜜┄┄同食耳聋
 3、海带忌猪血┄┄同食便秘
@@ -139,28 +132,22 @@
 15、皮蛋忌红糖┄┄同食作呕
 16、人参忌萝卜┄┄同食积食滞气
 17、白酒忌柿子┄┄同食心闷 
- </string>
-		<key>mytitle</key>
-		<string> 日常食物禁忌  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 不能一起吃的食物:
+ </Content>
+    <Title> 日常食物禁忌  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 不能一起吃的食物:
 1.红薯和柿子——会得结石
 2.萝卜和木耳——皮肤发炎
 3.芋头和香蕉——腹胀
 4.花生和黄瓜——伤害肾脏
 5.牛肉和栗子——引起呕吐
 6.鲤鱼和甘草——会中毒
- </string>
-		<key>mytitle</key>
-		<string>  不能一起吃的食物 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 两小时内一定不要同吃的食物：
+ </Content>
+    <Title>  不能一起吃的食物 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 两小时内一定不要同吃的食物：
 羊肉忌西瓜———同食 伤元气
 鹅肉忌鸡蛋———同食伤元气
 洋葱忌蜂蜜———同食伤眼睛
@@ -181,14 +168,11 @@
 海蟹忌大枣———同食易得疟疾
 芥菜忌鸭梨———同食发呕
 马铃薯忌香蕉———同食面部生斑
- </string>
-		<key>mytitle</key>
-		<string> 两小时内一定不要同吃的食物  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 一些蔬菜不能搭配吃 :
+ </Content>
+    <Title> 两小时内一定不要同吃的食物  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 一些蔬菜不能搭配吃 :
 猪肉菱角同食会肝疼，羊肉西瓜相会定互侵；
 狗肉如遇绿豆会伤身，萝卜水果不利甲状腺；
 鲤鱼甘草加之将有害，蟹与柿子结伴会中毒；
@@ -200,14 +184,11 @@
 香蕉芋艿入胃酸胀痛，马铃薯香蕉面部起斑。
 
 
- </string>
-		<key>mytitle</key>
-		<string> 一些蔬菜不能搭配吃  </string>
-	</dict>	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 不宜吃的食物 :
+ </Content>
+    <Title> 一些蔬菜不能搭配吃  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 不宜吃的食物 :
 1、发芽、发青的土豆有毒，不能吃。
 2、新鲜的黄花菜（金针菜）有毒，不能吃。
 3、没有炒透的四季豆、扁豆有毒，吃不得。
@@ -224,15 +205,11 @@
 14、烘烤的肉串类、鱼片含致癌物，不宜多吃。
 15、柿子空服易患胃内柿结石，千万不要吃。
 16、食品添加剂、人造食素、香料、香精、皮蛋、方便面、午餐肉、油炸食物不宜多吃。
- </string>
-		<key>mytitle</key>
-		<string> 不宜吃的食物  </string>
-	</dict>
-	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 食疗歌 :
+ </Content>
+    <Title> 不宜吃的食物  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 食疗歌 :
 盐醋防毒消炎好，韭菜补肾暖膝腰。
 萝卜化痰消胀气，芹菜能降血压高。
 胡椒去寒又除湿，葱辣姜汤治感冒。
@@ -246,14 +223,11 @@
 香蕉通便解胃火，苹果止泻营养高。
 海带含钙又含磺，蘑菇抑制癌细胞。
 白菜利尿排毒素，菜花常吃癌症少 。
- </string>
-		<key>mytitle</key>
-		<string> 食疗歌  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 不应该同食的食物：
+ </Content>
+    <Title> 食疗歌  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 不应该同食的食物：
 鹌鹑 猪肝 
 白酒 萝卜 
 百合 甲鱼 
@@ -344,14 +318,11 @@
 猪肉 菱角、羊肉、马肉、鲤鱼 
 猪心 吴茱萸 
 
- </string>
-		<key>mytitle</key>
-		<string> 不应该同食的食物  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 食物之间的配伍情况 
+ </Content>
+    <Title> 不应该同食的食物  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 食物之间的配伍情况 
 
 猪肉与马肉、牛肉、羊肝、荞麦、同食，食之则病；与鸡蛋、鲫鱼、黄豆同食，易引起气滞；和龟肉、蟹肉同食伤人。 
 鸡肉忌、芥末、糯米、李子、狗肉、鲤鱼；与兔肉同食令人泻泄。 
@@ -514,14 +485,11 @@ Z
 猪肝：忌与荞麦、黄豆、豆腐同食，同食发痼疾；忌与鱼肉同食，否则令人伤神；忌与雀肉、山鸡、鹌鹑肉同食。 
 獐肉：不宜与虾、生菜、梅子、李子同食 。 
 枣：不可与海鲜同食，否则令人腰腹疼痛；不可与葱同食，否则令人脏腑不合，头胀。 
- </string>
-		<key>mytitle</key>
-		<string>  食物之间的配伍情况 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 哪些东西不能混在一起吃 
+ </Content>
+    <Title>  食物之间的配伍情况 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 哪些东西不能混在一起吃 
 
 1. 猪肉*菱角=肚子痛 
 
@@ -635,14 +603,11 @@ Z
 
 20. 花生*黄瓜——会伤身 
 
- </string>
-		<key>mytitle</key>
-		<string> 哪些东西不能混在一起吃  </string>
-	</dict>	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 21种食物不能一起吃 
+ </Content>
+    <Title> 哪些东西不能混在一起吃  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 21种食物不能一起吃 
 
 1.猪肉菱角若共食,肚子疼痛不好受. 
 
@@ -686,15 +651,11 @@ Z
 
 21.萝卜水果更相背,甲状腺肿会诱发. 
 
- </string>
-		<key>mytitle</key>
-		<string> 21种食物不能一起吃 </string>
-	</dict>
-	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 饮食冲突注意事项：
+ </Content>
+    <Title> 21种食物不能一起吃 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 饮食冲突注意事项：
 啤酒忌白酒啤酒中含有大量的二氧化碳，容易挥发， 
 
 如果与白酒同饮，就会带动酒精渗透。有些朋友常常是先喝了啤酒再喝白酒， 
@@ -797,14 +758,11 @@ Z
 
 从而影响药效的释放及吸收。因此，在服药前后1小时也不要喝奶。 
  
- </string>
-		<key>mytitle</key>
-		<string> 饮食冲突注意事项  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 哪些食物相克： 
+ </Content>
+    <Title> 饮食冲突注意事项  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 哪些食物相克： 
 
 以下相克食物2小时内不可同吃，望大家谨记。 
 
@@ -842,10 +800,7 @@ Z
 
 17、白酒忌柿子┄┄同食心闷
 
- </string>
-		<key>mytitle</key>
-		<string>  哪些食物相克 </string>
-	</dict>
-	
-</array>
-</plist>
+ </Content>
+    <Title>  哪些食物相克 </Title>
+  </ArticalInfo>
+</ArrayOfArticalInfo>

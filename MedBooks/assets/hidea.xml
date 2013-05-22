@@ -1,10 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<array>
-	<dict>
-		<key>myinfo</key>
-		<string> 便秘
+﻿<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfArticalInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArticalInfo>
+    <Content> 便秘
 ◆按穴治便秘法
 ①让便秘的小儿仰卧，按摩者右手四指并拢，在小儿脐中顺时针方向作环行按摩，每次３００圈，每日早晚各１次。
 ②用左手中指点压在肚脐旁２寸的天枢穴上，有明显酸胀感即按住不动，坚持１分钟左右，然后屏气，增加腹内压，即可排便。
@@ -52,15 +49,11 @@
 ◆芝麻杏仁粥治便秘法
 
 将１５０克黑芝麻、１００克杏仁、１５０克米放进水中浸泡，然后捣成糊状，煮熟后加糖服食，可治便秘。
- </string>
-		<key>mytitle</key>
-		<string> 便秘 </string>
-	</dict>
-	
-
-	<dict>
-		<key>myinfo</key>
-		<string>便血
+ </Content>
+    <Title> 便秘 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content>便血
 ◆豆腐渣治便血法
 
 将豆腐渣炒焦后研细，用红糖水送服，每次６～９克，每日２次，可治长期不愈的大便下血。
@@ -82,14 +75,11 @@
 ◆香蕉皮治痔疮便血法
 
 将香蕉皮烧熟食用，可治痔疮便血。  
- </string>
-		<key>mytitle</key>
-		<string> 便血  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 盗汗
+ </Content>
+    <Title> 便血  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 盗汗
 ◆红枣乌梅浮小麦治盗汗法
 
 取红枣、乌梅肉各１５克，２０克浮小麦，加水煎服，常服可治盗汗。
@@ -99,14 +89,11 @@
 ◆玉米茎芯治盗汗法
 
 取玉米秆茎内白色柔软的芯，加水煎服，对盗汗有疗效，治产后虚汗效果更好。
-</string>
-		<key>mytitle</key>
-		<string>  盗汗 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 呃逆
+</Content>
+    <Title>  盗汗 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 呃逆
 ◆按穴治呃逆法
 
 ①按少商穴：用手指甲压迫少商穴，压至有明显酸痛感，持续３０～６０秒，患者可两手交替进行。少商穴在大拇指甲根部桡侧角，距指甲缘约１分许。
@@ -168,14 +155,11 @@
 ◆纸捻治呃逆法
 
 用１张软纸搓成细捻，伸入鼻腔内捻转，引发喷嚏后，可治呃逆。
- </string>
-		<key>mytitle</key>
-		<string> 呃逆  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 腹泻
+ </Content>
+    <Title> 呃逆  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 腹泻
 ◆大蒜明矾治婴儿腹泻法
 
 将２瓣大蒜，捣烂去渣取汁；再将１粒黄豆大的明矾研末，与蒜汁调匀，每日１剂，可治婴儿腹泻。
@@ -268,14 +252,11 @@
 ◆益智仁治腹泻法
 
 取１０克益智仁，加水煎浓汁，每日１剂，分２次服，可治愈一般腹泻。服药期间忌生冷或油腻食物。
- </string>
-		<key>mytitle</key>
-		<string> 腹泻  </string>
-	</dict>	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 腹胀
+ </Content>
+    <Title> 腹泻  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 腹胀
 ◆ 醋汤增进食欲法
 
 天热胃口不好，可取１汤匙醋，加适量白糖，用开水冲饮，能生津止渴，增加食欲。
@@ -362,15 +343,11 @@
 小儿积食，往往出现胃口不竣腹胀、口臭、手足发热、精神不振、肤色发黄等症状，可选用下列方法食疗：
 ①将３～５个鸡内金焙干，研成粉末，与面粉、盐、水掺合，擀成薄饼烤熟吃。
 ②将少量食糖炒化，放入山楂再炒３分钟左右，食之。
-③山楂适量，二丑6克以内，加红糖炒后煮汤，食之。 </string>
-		<key>mytitle</key>
-		<string>  腹胀 </string>
-	</dict>
-	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 咳嗽
+③山楂适量，二丑6克以内，加红糖炒后煮汤，食之。 </Content>
+    <Title>  腹胀 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 咳嗽
 ◆按摩止咳法
 当咳嗽时，可将食指用力按压两个耳垂下面的部位，便可减少咳嗽，甚至停止咳嗽。
 
@@ -467,14 +444,11 @@
 取５０克瘦猪肉、少许米酒，加适量清水，隔水蒸熟后食用，可治久咳。
 
 ◆紫菜治咳嗽法
-取适量紫菜研末，加蜂蜜炼成药丸，每次６克，每日３次，饭后吞服，可治咳嗽、咯吐浓臭痰液。 </string>
-		<key>mytitle</key>
-		<string> 咳嗽  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 咯血
+取适量紫菜研末，加蜂蜜炼成药丸，每次６克，每日３次，饭后吞服，可治咳嗽、咯吐浓臭痰液。 </Content>
+    <Title> 咳嗽  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 咯血
 ◆白茅根治咯血法
 取３０克白茅根、１０克熟大黄，用水煎服，每日２～３次，对咯血有疗效。
 
@@ -584,14 +558,11 @@
 ◆玉米治尿路结石法
 ①鲜玉米根、叶各６０克，加水煎服，可治尿路结石。
 ②取玉米须与金钱草各３０克加水煎服，有同样疗效。
- </string>
-		<key>mytitle</key>
-		<string>  咯血 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 暑热
+ </Content>
+    <Title>  咯血 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 暑热
 ◆风油精消暑法
 夏天，在凉开水中加几滴风油精，饮服后可消暑去热。
 
@@ -622,14 +593,11 @@
 
 ◆疰夏防治法
 减少进食。少吃、不吃油腻、肥肉、奶油、巧克力等，吃清淡、素净食物。多饮水，每日用鲜藿香、鲜佩兰各６～９克，飞滑石、焦大麦各３０克，粉甘草３克，煎汤代茶。有疰夏史者，应在天气转热时就注意饮食清淡，多饮焦大麦茶，加强体质锻炼。
- </string>
-		<key>mytitle</key>
-		<string>  暑热 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 水肿
+ </Content>
+    <Title>  暑热 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 水肿
 ◆赤豆西瓜皮冬瓜皮治水肿法
 赤豆、西瓜皮、冬瓜皮各３０克，加水煎服，每日１剂，可治水肿。
 
@@ -647,14 +615,11 @@
 
 ◆维生素Ｅ治小儿遗尿法
 遗尿的儿童可服５０毫克维生素Ｅ，每日２～３次，连服１月，可治遗尿。 
- </string>
-		<key>mytitle</key>
-		<string> 水肿  </string>
-	</dict>	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 头痛
+ </Content>
+    <Title> 水肿  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 头痛
 ◆按穴治头痛法
 用一只手的拇指和中指使劲按两边的太阳穴，另一只手的拇指和食指按揉后颈部的颈窝，可治头痛。
 
@@ -678,15 +643,11 @@
 ◆盐治头痛法
 用食盐轻擦舌尖，并且喝一杯盐开水，头痛症状可望减轻。
 
- </string>
-		<key>mytitle</key>
-		<string> 头痛 </string>
-	</dict>
-	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 眩晕
+ </Content>
+    <Title> 头痛 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 眩晕
 ◆按穴治眩晕法
 用按穴法，可治眩晕：
 ①用双手中指对准晕听区（位于耳尖直上１．５厘米处，向前、向后各延伸２厘米之水平线），左右各旋转按揉３６次。严重者，可增至１００次。
@@ -726,14 +687,11 @@
 ③乘车时选坐车辆中部并靠近窗口的座位，面向前方。
 ④乘车中可闭目养神，欣赏音乐等。
 ⑤有轻度不适者，可在前额、鼻唇间的人中处，涂少许清凉油或薄荷油等。 
- </string>
-		<key>mytitle</key>
-		<string> 眩晕  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 腰痛
+ </Content>
+    <Title> 眩晕  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 腰痛
 ◆按穴治腰痛法
 用拇指或食指依次点按：坐骨结节和股骨大转子联线的中点，大腿后方中央，窝中央偏外处，小腿肚中央，内踝的后方等５个穴位，每穴点按１分钟，有酸、胀、麻的感觉为佳，每日３次，可减轻腰部疼痛。
 
@@ -819,14 +777,11 @@
 
 ◆羊肉猪蹄催乳法
 取２５０克羊肉、２个猪蹄，加适量葱、舰盐一起炖烂，食肉饮汤，每日１剂，连用３～５日，即可增乳。
- </string>
-		<key>mytitle</key>
-		<string>  腰痛 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 护乳丰乳
+ </Content>
+    <Title>  腰痛 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 护乳丰乳
 ◆按摩丰乳法
 ①每天睡前和起床前按摩乳房５～１０分钟，并适当牵拉乳头，可促进乳房的发育。
 ②采用环形方向按摩，用中等力度，使乳房血液供应量增加，从而使乳房丰满、高耸。
@@ -884,14 +839,11 @@
 ⑤仰卧，头与臀部不离地，向上挺胸片刻，重复６～８次。
 ⑥坚持胸部肌肉锻炼，促使胸大肌发达。
 
- </string>
-		<key>mytitle</key>
-		<string>  护乳丰乳 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 经期病症
+ </Content>
+    <Title>  护乳丰乳 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 经期病症
 ◆艾灸治痛经法
 用艾条熏灸下腹部的关元穴（位于脐下３寸的部位），可治妇女痛经。
 
@@ -951,14 +903,11 @@
 ◆油菜治痛经法
 油菜有行瘀散癣消肿解毒、温经散寒的功效。常食可治妇女经期小腹下坠疼痛，对产后瘀血腹痛、乳痈阴疽等症也有疗效。
 
- </string>
-		<key>mytitle</key>
-		<string> 经期病症  </string>
-	</dict>	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 阴道病症
+ </Content>
+    <Title> 经期病症  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 阴道病症
 ◆白果豆浆治白带过多法
 将１０粒去皮去心的白果捣碎，冲入２５０克豆浆，炖温后每日服１剂，连服３～５日，年老者连服８～１０日，可治妇女白带过多症。
 
@@ -984,15 +933,11 @@
 取茄子蒂头３０克左右，水煎后服汁，可治子宫脱垂。
 
 ◆生姜艾叶治阴痒法
-将１２０克生姜去皮切碎，拌入９０克艾叶（鲜叶用２５０克），加水１２００克，煮沸２０分钟，去渣取汁，倒入盆内，坐盆上熏阴部，待水温适宜时，浸洗１０分钟，每日２次，连续４日，可治阴部瘙痒。治疗期间，忌饮酒，忌辛辣、煎炒食物，１５日内忌性交。 </string>
-		<key>mytitle</key>
-		<string>  阴道病症 </string>
-	</dict>
-	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 疾病自测类
+将１２０克生姜去皮切碎，拌入９０克艾叶（鲜叶用２５０克），加水１２００克，煮沸２０分钟，去渣取汁，倒入盆内，坐盆上熏阴部，待水温适宜时，浸洗１０分钟，每日２次，连续４日，可治阴部瘙痒。治疗期间，忌饮酒，忌辛辣、煎炒食物，１５日内忌性交。 </Content>
+    <Title>  阴道病症 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 疾病自测类
 1妇女疾病自测
 ◆白带异常辨病法
 正常情况下妇女的白带为白色糊状，无特殊气味，量不多，仅能使妇女微有湿润的感觉。但是，白带量多、味臭、颜色改变或呈脓状，则预示着某些妇科疾病或其他疾病的发生。常见的有下列几种：
@@ -1171,14 +1116,11 @@
 
 ◆肿瘤性质判别法
 良性肿瘤外面大多有包膜，同正常组织边界清楚，生长缓慢，不会转移到身体的其它组织和器官。恶性肿瘤即癌，肿瘤外无包膜，与周围组织边界不清，生长较快，长到一定程度会引起疼痛，有的表面溃烂出血，伴恶臭，癌细胞能转移到身体其它部位。
- </string>
-		<key>mytitle</key>
-		<string>  疾病自测类 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 其他辨病
+ </Content>
+    <Title>  疾病自测类 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 其他辨病
 ◆步态辨病法
 ①剪刀步态：步幅小而慢，双腿僵直，两脚向内交叉，两膝靠近，呈剪刀状。常见于脑性瘫痪、家族性痉挛性截瘫等双侧脑和脊髓病变。
 ②醉汉样步态：行走不稳、摇摆不定如醉状，抬脚缓慢，落地重如跺脚，常见小脑炎症等小脑病变。
@@ -1245,14 +1187,11 @@
 
 ◆眼周扁平黄色小粒辨病法
 眼睛周围出现枯黄色或桔黄色扁平土圆形稍高出皮肤的疹点，多时会成群出现，患者一般以为皮肤病求治于皮肤科，然而此症常常提示患者全身脂质代谢紊乱，血中胆固醇和甘油三酯会增高。有时还会伴生血管硬化、心冠状动脉功能不全等病。
- </string>
-		<key>mytitle</key>
-		<string>  其他辨病 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string>舌苔辨病
+ </Content>
+    <Title>  其他辨病 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content>舌苔辨病
 ◆草莓舌辨病法
 患者出现舌面乳头增大、红肿，样子像红色的草莓即称作草莓舌。此刻如伴见高热及皮肤生出猩红色密集细小疹点等症，很可能患上了猩红热病。
 
@@ -1304,14 +1243,11 @@
 ◆唾液辨病法
 小儿清醒时流唾液是正常现象，睡着时口角流涎，则表示脾虚，甚至有贫血病。有些小儿患低热，爱哭闹，不肯吃东西，伴有流涎，可能患有虫积、舌炎、牙龈炎、口腔溃疡等疾病。老年人流涎，则表示肾虚。
  
- </string>
-		<key>mytitle</key>
-		<string> 舌苔辨病  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 幼儿疾病自测
+ </Content>
+    <Title> 舌苔辨病  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 幼儿疾病自测
 ◆咳嗽辨别小儿病情法
 从小儿咳嗽可以辨别患感冒轻重的症状：
 ①时间：轻者只在早晨起床和午睡起来时吐痰咳嗽；重者夜里比白天咳得厉害。
@@ -1363,10 +1299,7 @@
 ①生理性睡卧不安：３岁以下尿床、过饥过饱、饮水过量、皮肤过敏及中枢神经发育未完善等引起。
 ②病理性睡卧不安：由器质性遗尿、夜惊恶梦、癫痫、高热、肠道寄生虫、龋齿、瘙痒、药物反应等引起。
 ③反应性睡卧不安：由蚊叮虫咬、过度兴奋、紧张、惊吓、恐惧、噪音及灯光干扰等引起。
- </string>
-		<key>mytitle</key>
-		<string> 幼儿疾病自测  </string>
-	</dict>	
-	
-</array>
-</plist>
+ </Content>
+    <Title> 幼儿疾病自测  </Title>
+  </ArticalInfo>
+</ArrayOfArticalInfo>

@@ -11,46 +11,49 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int convenience=0x7f020000;
-        public static final int female=0x7f020001;
-        public static final int hide2=0x7f020002;
-        public static final int hide3=0x7f020003;
-        public static final int hide4=0x7f020004;
-        public static final int ic_launcher=0x7f020005;
-        public static final int jijiu=0x7f020006;
-        public static final int linba=0x7f020007;
-        public static final int list_corner_round=0x7f020008;
-        public static final int list_corner_round_bottom=0x7f020009;
-        public static final int list_corner_round_sharp=0x7f02000a;
-        public static final int list_corner_round_top=0x7f02000b;
-        public static final int male=0x7f02000c;
-        public static final int marker=0x7f02000d;
-        public static final int museum=0x7f02000e;
-        public static final int park=0x7f02000f;
-        public static final int recommend1=0x7f020010;
-        public static final int recommend2=0x7f020011;
-        public static final int recommend3=0x7f020012;
-        public static final int recommend4=0x7f020013;
-        public static final int rufang=0x7f020014;
-        public static final int search=0x7f020015;
-        public static final int settings=0x7f020016;
-        public static final int tabhost1=0x7f020017;
-        public static final int tabhost2=0x7f020018;
-        public static final int tabhost3=0x7f020019;
-        public static final int tabhost4=0x7f02001a;
-        public static final int tabhost5=0x7f02001b;
-        public static final int toilets1=0x7f02001c;
-        public static final int train=0x7f02001d;
-        public static final int user=0x7f02001e;
-        public static final int wuguan=0x7f02001f;
-        public static final int yanke=0x7f020020;
-        public static final int yunfu=0x7f020021;
+        public static final int action_arrow=0x7f020000;
+        public static final int convenience=0x7f020001;
+        public static final int female=0x7f020002;
+        public static final int hide2=0x7f020003;
+        public static final int hide3=0x7f020004;
+        public static final int hide4=0x7f020005;
+        public static final int ic_launcher=0x7f020006;
+        public static final int jijiu=0x7f020007;
+        public static final int linba=0x7f020008;
+        public static final int list_corner_round=0x7f020009;
+        public static final int list_corner_round_bottom=0x7f02000a;
+        public static final int list_corner_round_sharp=0x7f02000b;
+        public static final int list_corner_round_top=0x7f02000c;
+        public static final int male=0x7f02000d;
+        public static final int marker=0x7f02000e;
+        public static final int museum=0x7f02000f;
+        public static final int park=0x7f020010;
+        public static final int recommend1=0x7f020011;
+        public static final int recommend2=0x7f020012;
+        public static final int recommend3=0x7f020013;
+        public static final int recommend4=0x7f020014;
+        public static final int rufang=0x7f020015;
+        public static final int search=0x7f020016;
+        public static final int settings=0x7f020017;
+        public static final int tabhost1=0x7f020018;
+        public static final int tabhost2=0x7f020019;
+        public static final int tabhost3=0x7f02001a;
+        public static final int tabhost4=0x7f02001b;
+        public static final int tabhost5=0x7f02001c;
+        public static final int toilets1=0x7f02001d;
+        public static final int train=0x7f02001e;
+        public static final int user=0x7f02001f;
+        public static final int wuguan=0x7f020020;
+        public static final int yanke=0x7f020021;
+        public static final int yunfu=0x7f020022;
     }
     public static final class id {
         public static final int AdView=0x7f060002;
         public static final int edit_item_tab_host=0x7f060000;
         public static final int imgIcon=0x7f060003;
         public static final int lstCategorys=0x7f060001;
+        public static final int title_item_id=0x7f060005;
+        public static final int title_item_title=0x7f060006;
         public static final int tvTitle=0x7f060004;
     }
     public static final class layout {
@@ -62,6 +65,7 @@ public final class R {
         public static final int activity_titles=0x7f030005;
         public static final int activity_welcome=0x7f030006;
         public static final int item_nav=0x7f030007;
+        public static final int title_item=0x7f030008;
     }
     public static final class string {
         public static final int TextView1=0x7f040005;
