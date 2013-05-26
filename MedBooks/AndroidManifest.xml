@@ -29,6 +29,8 @@
         </activity>
         <activity android:name="com.luckywc.activity.TabMainActivity" >
         </activity>
+        <activity android:name="com.luckywc.activity.TitleListActivity" >
+        </activity>
     </application>
 
 </manifest>

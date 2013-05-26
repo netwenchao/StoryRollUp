@@ -1,10 +1,7 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<array>
-	<dict>
-		<key>myinfo</key>
-		<string> 儿童厌食症偏方中药方剂:处方（一） 
+﻿<?xml version="1.0" encoding="utf-16"?>
+<ArrayOfArticalInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ArticalInfo>
+    <Content> 儿童厌食症偏方中药方剂:处方（一） 
 
 　　【辨证】饮食失调，喂养不当，影响受纳运化。
 
@@ -58,168 +55,110 @@
 
 　　【用法】上方药量系3-5岁1日煎剂量，可根据年龄大小酌情增减。
 
- </string>
-		<key>mytitle</key>
-		<string> 儿童厌食症偏方中药方剂:处方（一） </string>
-	</dict>
-	
-
-	<dict>
-		<key>myinfo</key>
-		<string>误食杂物怎么办?韭菜半斤，不要切碎，炒熟多加些猪油，一次吃光，杂物可随大便排出。 </string>
-		<key>mytitle</key>
-		<string> 误食杂物怎么办?  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 驱蛔虫偏方:生南瓜籽20粒，去壳饭前空服，一次吃下，第二天虫子即可随大便排出。</string>
-		<key>mytitle</key>
-		<string> 驱蛔虫偏方  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 猪肚治小儿遗尿偏方:鲜猪肚一只，益智仁九至十五克。先将猪肚切开洗净，再将益智仁放入小肚内，炖熟后将猪肚和益智仁连汤全部吃下，一日一次，连服三日即可见效。治小儿遗尿</string>
-		<key>mytitle</key>
-		<string>  猪肚治小儿遗尿偏方 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 治疗小儿多动症的偏方:   
+ </Content>
+    <Title> 儿童厌食症偏方中药方剂:处方（一） </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content>误食杂物怎么办?韭菜半斤，不要切碎，炒熟多加些猪油，一次吃光，杂物可随大便排出。 </Content>
+    <Title> 误食杂物怎么办?  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 驱蛔虫偏方:生南瓜籽20粒，去壳饭前空服，一次吃下，第二天虫子即可随大便排出。</Content>
+    <Title> 驱蛔虫偏方  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 猪肚治小儿遗尿偏方:鲜猪肚一只，益智仁九至十五克。先将猪肚切开洗净，再将益智仁放入小肚内，炖熟后将猪肚和益智仁连汤全部吃下，一日一次，连服三日即可见效。治小儿遗尿</Content>
+    <Title>  猪肚治小儿遗尿偏方 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 治疗小儿多动症的偏方:   
 
 [用料]  百合60克，红枣4枚，鸡蛋2个
 
 [制用法]  将百合、红枣加水400毫升，大火烧开，打入鸡蛋，煮至熟，下白糖，调匀。分2次服。
 
 
- </string>
-		<key>mytitle</key>
-		<string>  治疗小儿多动症的偏方 </string>
-	</dict>	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 小儿感冒（包括婴儿）:生姜5钱，水半碗煎开加入红塘服下，一日二次，2天可愈。  </string>
-		<key>mytitle</key>
-		<string>  小儿感冒 </string>
-	</dict>
-	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 百日咳是儿童常见病，用以下偏方试一下：
+ </Content>
+    <Title>  治疗小儿多动症的偏方 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 小儿感冒（包括婴儿）:生姜5钱，水半碗煎开加入红塘服下，一日二次，2天可愈。  </Content>
+    <Title>  小儿感冒 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 百日咳是儿童常见病，用以下偏方试一下：
 
 大蒜一头，去皮捣烂加白糖3钱，过半小时后用开水一两冲，两天可治小儿咳嗽、婴幼儿气喘，有特效。
 
- </string>
-		<key>mytitle</key>
-		<string>  百日咳儿童常见病偏方 </string>
-	</dict>
+ </Content>
+    <Title>  百日咳儿童常见病偏方 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 小儿遗尿:生葱白一根，捣烂，每晚睡前敷肚脐，用布包好，次日晨揭去，连用3-5天，可治愈 
+ </Content>
+    <Title>  小儿遗尿 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 夜啼:大人用一小撮绿茶放口内嚼碎，每晚睡前敷小儿肚脐，用布包好，次日晨揭去，连用3天。 
+ </Content>
+    <Title> 夜啼  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 婴幼儿腹泻、腹胀:大蒜一头，连皮烧焦，再与半碗水烧开，加适量白糖服汤，一日一次，一般两三天即可消食止泻。
 
-	<dict>
-		<key>myinfo</key>
-		<string> 小儿遗尿:生葱白一根，捣烂，每晚睡前敷肚脐，用布包好，次日晨揭去，连用3-5天，可治愈 
- </string>
-		<key>mytitle</key>
-		<string>  小儿遗尿 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 夜啼:大人用一小撮绿茶放口内嚼碎，每晚睡前敷小儿肚脐，用布包好，次日晨揭去，连用3天。 
- </string>
-		<key>mytitle</key>
-		<string> 夜啼  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 婴幼儿腹泻、腹胀:大蒜一头，连皮烧焦，再与半碗水烧开，加适量白糖服汤，一日一次，一般两三天即可消食止泻。
-
- </string>
-		<key>mytitle</key>
-		<string>  婴幼儿腹泻、腹胀 </string>
-	</dict>	
-
-	<dict>
-		<key>myinfo</key>
-		<string>盗汗（成人盗汗同）偏方:老豆腐半斤，切片贴锅内烧成巴，再加水一碗，白糖适量，烧汤连巴一同食用，每晚睡前服，3天痊愈。</string>
-		<key>mytitle</key>
-		<string> 盗汗（成人盗汗同）偏方 </string>
-	</dict>
-	
-
-	<dict>
-		<key>myinfo</key>
-		<string>经常肛门痒:伤湿解膏一块，每晚睡觉前贴肛门上，次日晨揭去，连用三天。可治肛门痒。
+ </Content>
+    <Title>  婴幼儿腹泻、腹胀 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content>盗汗（成人盗汗同）偏方:老豆腐半斤，切片贴锅内烧成巴，再加水一碗，白糖适量，烧汤连巴一同食用，每晚睡前服，3天痊愈。</Content>
+    <Title> 盗汗（成人盗汗同）偏方 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content>经常肛门痒:伤湿解膏一块，每晚睡觉前贴肛门上，次日晨揭去，连用三天。可治肛门痒。
   
- </string>
-		<key>mytitle</key>
-		<string> 经常肛门痒  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string>腹痛肚子痛偏方（成人腹痛同）:用一片桔皮敷在肚脐上。再用半斤盐炒热（不要太烫），敷在桔皮上，可立即止痛。
+ </Content>
+    <Title> 经常肛门痒  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content>腹痛肚子痛偏方（成人腹痛同）:用一片桔皮敷在肚脐上。再用半斤盐炒热（不要太烫），敷在桔皮上，可立即止痛。
 
  
- </string>
-		<key>mytitle</key>
-		<string>  腹痛肚子痛偏方（成人腹痛同） </string>
-	</dict>
+ </Content>
+    <Title>  腹痛肚子痛偏方（成人腹痛同） </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 小儿厌食（不想吃饭）:山楂*3钱，鸡盹皮1钱，加半碗水煮熟饭前吃完，一日二次，连吃三天，有开胃、助消化之功效。
 
-	<dict>
-		<key>myinfo</key>
-		<string> 小儿厌食（不想吃饭）:山楂*3钱，鸡盹皮1钱，加半碗水煮熟饭前吃完，一日二次，连吃三天，有开胃、助消化之功效。
+ </Content>
+    <Title> 小儿厌食  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 流口水（成人、老人睡觉流口水方法同）:泥鳅半斤，去内脏晒干，炒黄研成粉，用黄酒冲服，一次二钱，一日一次，服完即可治流口水。
 
- </string>
-		<key>mytitle</key>
-		<string> 小儿厌食  </string>
-	</dict>
+ </Content>
+    <Title> 流口水（成人、老人睡觉流口水方法同）  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 磨牙偏方治疗:每晚睡前吃一块生桔皮，连吃2-3天，可治小儿及成人睡觉磨牙。
 
-	<dict>
-		<key>myinfo</key>
-		<string> 流口水（成人、老人睡觉流口水方法同）:泥鳅半斤，去内脏晒干，炒黄研成粉，用黄酒冲服，一次二钱，一日一次，服完即可治流口水。
-
- </string>
-		<key>mytitle</key>
-		<string> 流口水（成人、老人睡觉流口水方法同）  </string>
-	</dict>	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 磨牙偏方治疗:每晚睡前吃一块生桔皮，连吃2-3天，可治小儿及成人睡觉磨牙。
-
- </string>
-		<key>mytitle</key>
-		<string>  磨牙偏方治疗 </string>
-	</dict>
-	
-
-	<dict>
-		<key>myinfo</key>
-		<string> 治疗儿童缺钙有很多种方法，以下方法简单可行，不防试一下：
+ </Content>
+    <Title>  磨牙偏方治疗 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 治疗儿童缺钙有很多种方法，以下方法简单可行，不防试一下：
 
 每次用虾皮5钱，海带1两，一起煮汤，加油盐食用，一日一次连用半月。
 
- </string>
-		<key>mytitle</key>
-		<string> 治疗儿童缺钙有很多种方法  </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 腮腺炎偏方治疗:醋和墨汁按1：1配好，用毛笔蘸此，涂于患处，每天5-6次，一般二三天腮部肿胀自消。
- </string>
-		<key>mytitle</key>
-		<string>  腮腺炎偏方治疗 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string> 小儿佝偻病的秘方:简称佝偻病，俗称软骨病，是小儿常见病。其原因是维生素D不足引起全身性钙、磷代谢失常和骨骼改变。大多发生于1岁以内的生长发育迅速、早产、双胎和人工喂养的小儿。表现为骨骼生长发育障碍和肌肉松驰、易惊、多汗等。本病的主要防治措施如下： 
+ </Content>
+    <Title> 治疗儿童缺钙有很多种方法  </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 腮腺炎偏方治疗:醋和墨汁按1：1配好，用毛笔蘸此，涂于患处，每天5-6次，一般二三天腮部肿胀自消。
+ </Content>
+    <Title>  腮腺炎偏方治疗 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content> 小儿佝偻病的秘方:简称佝偻病，俗称软骨病，是小儿常见病。其原因是维生素D不足引起全身性钙、磷代谢失常和骨骼改变。大多发生于1岁以内的生长发育迅速、早产、双胎和人工喂养的小儿。表现为骨骼生长发育障碍和肌肉松驰、易惊、多汗等。本病的主要防治措施如下： 
 
     未病先防 
 
@@ -266,14 +205,11 @@
 　　③捏脊方法：自尾骶部起，沿脊柱两旁向上推捏至大椎穴，反复3～5次，提至第三次时，每捏3把，将皮肤提一下，提完后，以拇指按摩两侧肾俞数次，每日1次，6次为1疗程。用2～3个疗程。
 
 
- </string>
-		<key>mytitle</key>
-		<string>  小儿佝偻病的秘方 </string>
-	</dict>
-
-	<dict>
-		<key>myinfo</key>
-		<string>如何治疗佝偻病:治疗的目的在于控制活动期，防止骨骼畸形，应采取综合性治疗措施：
+ </Content>
+    <Title>  小儿佝偻病的秘方 </Title>
+  </ArticalInfo>
+  <ArticalInfo>
+    <Content>如何治疗佝偻病:治疗的目的在于控制活动期，防止骨骼畸形，应采取综合性治疗措施：
 
     一般性治疗：提倡母乳喂养，无母乳者可使用维生素D强化奶粉，及时添加含维生素D丰富的食物，如动物肝脏、蛋黄、鱼子等，多到户外活动，多晒太阳，活动期患儿勿久坐、久站、早走，以防止骨骼发生畸形，活动期患儿特别是在治疗后，运动功能恢复较快，此时要限制过多的活动，以防出现畸形。
 
@@ -288,10 +224,7 @@
     后遗症的矫形治疗：轻度骨骼畸形在治疗后可自行恢复或在生长过程中自行矫正。患鸡胸、漏斗胸或脊柱弯曲者，在佝偻病治愈后加强体格锻炼，如扩胸运动、俯卧撑、抬头等运动，一日两到三次，可加速畸形的矫正。严重下肢畸形至4岁后尚未自行纠正影响行走者，可考虑手术矫正。
 
 
- </string>
-		<key>mytitle</key>
-		<string> 如何治疗佝偻病  </string>
-	</dict>	
-	
-</array>
-</plist>
+ </Content>
+    <Title> 如何治疗佝偻病  </Title>
+  </ArticalInfo>
+</ArrayOfArticalInfo>
