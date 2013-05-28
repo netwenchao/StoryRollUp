@@ -15,16 +15,16 @@ public class MainAcvitity extends ActivityGroup{
 		TabHost tabHost=(TabHost)findViewById(R.id.tabhost);
 		tabHost.setup(getLocalActivityManager());
 		
-		TabHost.TabSpec tcWebView=tabHost.newTabSpec("localJoke");
-		tcWebView.setContent(new Intent(this,JokeActivity.class));
-		tcWebView.setIndicator(getString(R.string.tab_spec_daily));
-		tabHost.addTab(tcWebView);
-		
 		TabHost.TabSpec tabFood = tabHost.newTabSpec("dailyJoke");
 	    tabFood.setContent(new Intent(this, JokeDailyActivity.class));
-	    tabFood.setIndicator(getString(R.string.tab_spec_local));
+	    tabFood.setIndicator(getString(R.string.tab_spec_daily));
 	    tabHost.addTab(tabFood);
 		
+		TabHost.TabSpec tcWebView=tabHost.newTabSpec("localJoke");
+		tcWebView.setContent(new Intent(this,JokeActivity.class));
+		tcWebView.setIndicator(getString(R.string.tab_spec_local));
+		tabHost.addTab(tcWebView);
+				
 	    tabHost.setCurrentTab(0);
 	}
 

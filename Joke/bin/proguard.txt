@@ -1,12 +1,21 @@
-# view AndroidManifest.xml #generated:33
+# view AndroidManifest.xml #generated:29
 -keep class com.google.ads.AdActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:22
 -keep class com.netwc.joke.JokeActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:31
+# view AndroidManifest.xml #generated:53
+-keep class com.netwc.joke.JokeDailyActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
 -keep class com.netwc.joke.JokeDetail { <init>(...); }
 
-# view AndroidManifest.xml #generated:32
+# view AndroidManifest.xml #generated:28
 -keep class com.netwc.joke.JokeListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:54
+-keep class com.netwc.joke.MainAcvitity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.netwc.joke.SplashActivity { <init>(...); }
 
