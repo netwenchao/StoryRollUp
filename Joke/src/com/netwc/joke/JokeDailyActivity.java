@@ -1,8 +1,12 @@
 package com.netwc.joke;
 
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.HashMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.htmlparser.Node;
 import org.htmlparser.Parser;
@@ -45,6 +49,7 @@ public class JokeDailyActivity extends Activity{
 			}
 		}
 	};
+	@SuppressWarnings("deprecation")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -56,11 +61,12 @@ public class JokeDailyActivity extends Activity{
 		JokeAdapter ja=new JokeAdapter(this,cus);
 		lstView.setAdapter(ja);
 		sp=getSharedPreferences(spName, MODE_PRIVATE);
-		Date now=new Date();		
-		Long lastRun=sp.getLong(updateTimeKey,0);
-		if((now.getTime()-lastRun)>86400000){
+		Date now=new Date();			
+		Long lastRun=sp.getLong(updateTimeKey,now.getTime()-86400000);
+		Date lstRun=new Date(lastRun);
+		//if((now.getYear()>=lstRun.getYear() || now.getMonth()>=lstRun.getMonth()) && now.getDay()>lstRun.getDay()){
 			new Thread(new DailyDataProcesser()).start();
-		}
+		//}
 	}
 
 	private String GetContent(String url){
@@ -71,11 +77,13 @@ public class JokeDailyActivity extends Activity{
 			if(jkContent!=null && jkContent.size()>0){
 				return RemoveHtmlCode(jkContent.toHtml());
 			}
+			Log.v("Content", jkContent.toHtml());
 			return "";
 		}
 		catch (ParserException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
+			Log.v("ErrorMsg",e.getMessage());
 			return "";
 		}
 	}
@@ -90,12 +98,24 @@ public class JokeDailyActivity extends Activity{
 		.replaceAll("(?m)(?u)&nbsp[ ]*;"," ");
 	}
 	
+	private String UrlEncodeChina(String str){
+		Pattern p=Pattern.compile("(?m)(?u)([\u4E00-\u9FA5]+)");
+		String outStr=str;
+		Matcher m=p.matcher(str);
+		while(m.find()){
+			Log.v("Match",Integer.toString(m.group(1).length()));
+			Log.v("Match",m.group(1));
+			outStr=outStr.replace(m.group(1),URLEncoder.encode(m.group(1)));
+		}
+		return outStr;
+	}
+	
 	class DailyDataProcesser implements Runnable{
 
 		@Override
 		public void run() {
 			MyDBHelper db=new MyDBHelper(JokeDailyActivity.this);
-			final String dailyUrl="http://www.jokeji.cn/";
+			final String dailyUrl="http://www.jokeji.cn";
 			ArrayList<com.netwc.Provider.Entities.JokeInfo> jokes=new ArrayList<com.netwc.Provider.Entities.JokeInfo>();
 			Parser htmlParse;
 			try {
@@ -121,8 +141,9 @@ public class JokeDailyActivity extends Activity{
 							if(aTags!=null && aTags.size()>0){
 								com.netwc.Provider.Entities.JokeInfo joke=new com.netwc.Provider.Entities.JokeInfo();
 								joke.Title=((LinkTag)aTags.elementAt(0)).getLinkText();
-								String url=dailyUrl+((TagNode)aTags.elementAt(0)).getAttribute("href");							
-								joke.Url=url;								
+								String url;
+								url = dailyUrl+((TagNode)aTags.elementAt(0)).getAttribute("href");
+								joke.Url=UrlEncodeChina(url);								
 								if(spanTags!=null && spanTags.size()>0){
 									joke.SiteDate=((Span)spanTags.elementAt(0)).getStringText();	
 								}else{

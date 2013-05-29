@@ -94,9 +94,9 @@ public final class R {
     }
     public static final class id {
         public static final int ItemTitle=0x7f09000e;
-        public static final int action_changeappr=0x7f090019;
-        public static final int action_settings=0x7f09001a;
-        public static final int action_share=0x7f090018;
+        public static final int action_changeappr=0x7f09001a;
+        public static final int action_settings=0x7f09001b;
+        public static final int action_share=0x7f090019;
         public static final int adContainer=0x7f090004;
         public static final int bookList=0x7f090003;
         public static final int btnBack2ClassList=0x7f090007;
@@ -109,7 +109,8 @@ public final class R {
         public static final int contentTitle=0x7f090008;
         public static final int daily_item_jokeContent=0x7f090016;
         public static final int daily_item_jokeTitle=0x7f090015;
-        public static final int daily_item_jokeUpdate=0x7f090017;
+        public static final int daily_item_jokeUpdate=0x7f090018;
+        public static final int daily_item_jokeUrl=0x7f090017;
         public static final int fontSize=0x7f090010;
         public static final int itemImageRight=0x7f09000d;
         public static final int listDaily=0x7f090005;

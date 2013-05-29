@@ -26,9 +26,12 @@ public class JokeAdapter extends CursorAdapter{
 		String Title=cursor.getString(cursor.getColumnIndex("title"));
 		String Content=cursor.getString(cursor.getColumnIndex("content"));
 		String SiteDate=cursor.getString(cursor.getColumnIndex("siteDate"));
+		String Url=cursor.getString(cursor.getColumnIndex("url"));
 		((TextView)v.findViewById(R.id.daily_item_jokeTitle)).setText(Title);
 		((TextView)v.findViewById(R.id.daily_item_jokeContent)).setText(Content);
 		((TextView)v.findViewById(R.id.daily_item_jokeUpdate)).setText(SiteDate);
+		((TextView)v.findViewById(R.id.daily_item_jokeUrl)).setText(Url);
+		
 	}
 
 	@Override

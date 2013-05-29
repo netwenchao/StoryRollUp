@@ -23,6 +23,10 @@
       android:id="@+id/daily_item_jokeContent"      
       >    
     </TextView>
+  <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"        
+        android:id="@+id/daily_item_jokeUrl"/>
     <TextView 
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
