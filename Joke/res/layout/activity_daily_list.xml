@@ -2,11 +2,16 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFFFF"
     android:orientation="vertical" >
 
     <ListView
-        android:id="@+id/listView1"
+        android:id="@+id/listDaily"
         android:layout_width="match_parent"
+        android:layout_margin="8sp"
+        android:divider="#FFFFFFFF"
+        android:background="#FFFFFFFF"         
+        android:dividerHeight="16sp"
         android:layout_height="wrap_content" >
     </ListView>
 
