@@ -29,10 +29,14 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.widget.AbsListView;
+import android.widget.AbsListView.OnScrollListener;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
-public class JokeDailyActivity extends Activity{
+public class JokeDailyActivity extends Activity implements OnScrollListener{
 
 	final String spName="com.netwc.joke.sp";
 	final String updateTimeKey="lstUpdateTime";
@@ -40,6 +44,8 @@ public class JokeDailyActivity extends Activity{
 	public SharedPreferences sp;
 	private ListView lstView;
 	private SimpleAdapter sa;
+	private View header;
+	private View footer;
 	Handler dailyHandler=new Handler(){
 		public void handleMessage(Message msg){
 			switch(msg.what){
@@ -56,6 +62,15 @@ public class JokeDailyActivity extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_daily_list);
 		lstView=(ListView)findViewById(R.id.listDaily);
+		LayoutInflater layOut=getLayoutInflater();		
+		header=layOut.inflate(R.layout.daily_item_header,null);
+		footer=layOut.inflate(R.layout.daily_item_footer,null);
+		header.setVisibility(View.VISIBLE);
+		footer.setVisibility(View.VISIBLE);
+		
+		lstView.addHeaderView(header);		
+		lstView.addFooterView(footer);
+		
 		MyDBHelper helper=new MyDBHelper(this);
 		Cursor cus=helper.GetJokeBySiteDate("");
 		JokeAdapter ja=new JokeAdapter(this,cus);
@@ -175,5 +190,22 @@ public class JokeDailyActivity extends Activity{
 			edit.commit();
 			db.Close();
 		}		
+	}
+
+	@Override
+	public void onScroll(AbsListView view, int firstVisibleItem,
+			int visibleItemCount, int totalItemCount) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void onScrollStateChanged(AbsListView view, int scrollState) {
+		// TODO Auto-generated method stub
+		if(scrollState==OnScrollListener.SCROLL_STATE_IDLE){
+			header.setVisibility(View.VISIBLE);
+		}else{
+			header.setVisibility(View.GONE);
+		}
 	}
 }
