@@ -17,7 +17,7 @@ public class MyDatabaseAdapter extends SQLiteOpenHelper{
 	private final static Integer DataBaseVersion=1;
 	private static SQLiteDatabase mDataBase=null;
 
-	private final static String DBCreateTableTaskInfos="CREATE TABLE TaskInfos(_id INTEGER PRIMARY KEY,name TEXT,category INTEGER NOT NUll,priority INTEGER DEFAULT 2,status INTEGER DEFAULT 0,textColor INTEGER,iconUrl VARCHAR(100),perComplete INTEGER,taskDesc TEXT,startDate UNSIGNED BIG INT,endDate UNSIGNED BIG INT,dateAdd UNSIGNED BIG INT,other1 TEXT,other2 TEXT)";
+	private final static String DBCreateTableTaskInfos="CREATE TABLE TaskInfos(_id INTEGER PRIMARY KEY,name TEXT,category INTEGER NOT NUll,priority INTEGER DEFAULT 2,status INTEGER DEFAULT 0,textColor INTEGER,backColor INTEGER,iconUrl VARCHAR(100),perComplete INTEGER,taskDesc TEXT,startDate UNSIGNED BIG INT,endDate UNSIGNED BIG INT,dateAdd UNSIGNED BIG INT,other1 TEXT,other2 TEXT)";
 	private final static String DBCreateTableCategoryInfos="CREATE TABLE CategoryInfos(_id INTEGER PRIMARY KEY,name TEXT,dateAdd UNSIGNED BIG INT,other1 TEXT,other2 TEXT)";
 	private final static String DBDropTableTaskInfos="DROP TABLE IF EXISTS TaskInfos";
 	private final static String DBDropTableCategoryInfos="DROP TABLE IF EXISTS CategoryInfos";
@@ -58,14 +58,15 @@ public class MyDatabaseAdapter extends SQLiteOpenHelper{
 				content.put("priority",Integer.valueOf(taskCursor.getInt(3)));
 				content.put("status",Integer.valueOf(taskCursor.getInt(4)));
 				content.put("textColor",taskCursor.getString(5));
-				content.put("iconUrl",taskCursor.getString(6));
-				content.put("perComplete",Integer.valueOf(taskCursor.getInt(7)));
-				content.put("taskDesc",taskCursor.getString(8));
-				content.put("startDate",Integer.valueOf(taskCursor.getInt(9)));
-				content.put("endDate",Integer.valueOf(taskCursor.getInt(10)));
-				content.put("dateAdd",Integer.valueOf(taskCursor.getInt(11)));
-				content.put("other1",taskCursor.getString(12));
-				content.put("other2",taskCursor.getString(13));
+				content.put("backColor",taskCursor.getString(6));
+				content.put("iconUrl",taskCursor.getString(7));
+				content.put("perComplete",Integer.valueOf(taskCursor.getInt(8)));
+				content.put("taskDesc",taskCursor.getString(9));
+				content.put("startDate",Integer.valueOf(taskCursor.getInt(10)));
+				content.put("endDate",Integer.valueOf(taskCursor.getInt(11)));
+				content.put("dateAdd",Integer.valueOf(taskCursor.getInt(12)));
+				content.put("other1",taskCursor.getString(13));
+				content.put("other2",taskCursor.getString(14));
 				taskArr.add(content);
 			}
 			while(taskCursor.moveToNext());
@@ -97,6 +98,9 @@ public class MyDatabaseAdapter extends SQLiteOpenHelper{
 		}
 	}
 
+	/*
+	 * Ìí¼ÓTask
+	*/
 	public long TaskInfo_Add(TaskInfo task)
 	{
 		ContentValues taskValues = new ContentValues();
@@ -105,6 +109,7 @@ public class MyDatabaseAdapter extends SQLiteOpenHelper{
 		taskValues.put("priority",Integer.valueOf(task.Priority.getValue()));
 		taskValues.put("status",task.Status.getValue());
 		taskValues.put("textColor",task.TextColor);
+		taskValues.put("backColor",task.BackColor);
 		taskValues.put("iconUrl",task.IconUrl);
 		taskValues.put("perComplete",Integer.valueOf(task.PerComplete));
 		taskValues.put("taskDesc",task.TaskDesc);
@@ -118,8 +123,30 @@ public class MyDatabaseAdapter extends SQLiteOpenHelper{
 		return mDataBase.insert(DBTableNameTaskInfos, null, taskValues);				
 	}
 
-	public long TaskInfo_StatusChange(int taskId,TaskStatus status){
-		return 0;
+	public Cursor TaskInfoList(int count,int offset){
+		InitDataBase();
+		return mDataBase.rawQuery("select * from TaskInfos limit "+count+" offset "+offset,null);
+	}
+
+	/*
+	 * É¾³ýTask
+	 */
+	public int TaskInfo_Del(int taskId){
+		return mDataBase.delete(DBTableNameTaskInfos,"_id=?",new String[]{Integer.toString(taskId)});
+	} 
+	
+	/*
+	 * ¸ü¸ÄTask×´Ì¬
+	 */
+	public int TaskInfo_StatusChange(int taskId,TaskStatus status){
+		ContentValues taskValues = new ContentValues();
+		taskValues.put("priority",Integer.valueOf(status.getValue()));
+		return mDataBase.update(DBTableNameTaskInfos,taskValues,"_id=?",new String[]{String.valueOf(status.getValue())});
+	}
+	
+	public int CategoryInfo_Add(CategoryInfo category){
+		ContentValues ctv=new ContentValues();
+		return 1;
 	}
 	
 }

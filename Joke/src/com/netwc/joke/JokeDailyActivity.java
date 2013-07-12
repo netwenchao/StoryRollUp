@@ -195,17 +195,20 @@ public class JokeDailyActivity extends Activity implements OnScrollListener{
 	@Override
 	public void onScroll(AbsListView view, int firstVisibleItem,
 			int visibleItemCount, int totalItemCount) {
-		// TODO Auto-generated method stub
-		
+		if(firstVisibleItem+visibleItemCount==totalItemCount){
+			footer.setVisibility(View.VISIBLE);
+		}else{
+			footer.setVisibility(View.GONE);
+		}
 	}
 
 	@Override
 	public void onScrollStateChanged(AbsListView view, int scrollState) {
 		// TODO Auto-generated method stub
-		if(scrollState==OnScrollListener.SCROLL_STATE_IDLE){
-			header.setVisibility(View.VISIBLE);
-		}else{
-			header.setVisibility(View.GONE);
-		}
+		//if(scrollState==OnScrollListener.SCROLL_STATE_IDLE){
+		//	header.setVisibility(View.VISIBLE);
+		//}else{
+		//	header.setVisibility(View.GONE);
+		//}
 	}
 }

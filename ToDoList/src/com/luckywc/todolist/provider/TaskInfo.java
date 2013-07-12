@@ -10,6 +10,7 @@ public class TaskInfo {
 	public TaskPriority Priority;
 	public TaskStatus Status;
 	public Integer TextColor;
+	public Integer BackColor;
 	public String IconUrl;
 	public Integer PerComplete;
 	public String TaskDesc;

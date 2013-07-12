@@ -70,31 +70,31 @@ public class WelcomeActivity extends BaseActivity{
 		HashMap<String,Object> searchItem=new HashMap<String,Object>();
 		searchItem.put("resId",R.drawable.search);
 		searchItem.put("title",getString(R.string.TextView5));
-		searchItem.put("file","search.xml");
+		searchItem.put("file","children.xml");//儿科
 		navItems.add(searchItem);
 
 		HashMap<String,Object> userItem=new HashMap<String,Object>();
 		userItem.put("resId",R.drawable.user);
 		userItem.put("title",getString(R.string.TextView6));
-		userItem.put("file","user.xml");
+		userItem.put("file","interna.xml");//内科
 		navItems.add(userItem);
 
 		HashMap<String,Object> settingsItem=new HashMap<String,Object>();
 		settingsItem.put("resId",R.drawable.settings);
 		settingsItem.put("title",getString(R.string.TextView7));
-		settingsItem.put("file","settings.xml");
+		settingsItem.put("file","surgical.xml");//外壳
 		navItems.add(settingsItem);
 
 		HashMap<String,Object> wuguanItem=new HashMap<String,Object>();
 		wuguanItem.put("resId",R.drawable.wuguan);
 		wuguanItem.put("title",getString(R.string.TextView8));
-		wuguanItem.put("file","wuguan.xml");
+		wuguanItem.put("file","face.xml");//五官
 		navItems.add(wuguanItem);
 
 		HashMap<String,Object> trainItem=new HashMap<String,Object>();
 		trainItem.put("resId",R.drawable.train);
 		trainItem.put("title",getString(R.string.TextView9));
-		trainItem.put("file","train.xml");
+		trainItem.put("file","skin.xml");//皮肤科
 		navItems.add(trainItem);
 
 		HashMap<String,Object> maleItem=new HashMap<String,Object>();
@@ -112,31 +112,31 @@ public class WelcomeActivity extends BaseActivity{
 		HashMap<String,Object> markerItem=new HashMap<String,Object>();
 		markerItem.put("resId",R.drawable.marker);
 		markerItem.put("title",getString(R.string.TextView12));
-		markerItem.put("file","marker.xml");
+		markerItem.put("file","beautify.xml");//美容
 		navItems.add(markerItem);
 
 		HashMap<String,Object> linbaItem=new HashMap<String,Object>();
 		linbaItem.put("resId",R.drawable.linba);
 		linbaItem.put("title",getString(R.string.TextView13));
-		linbaItem.put("file","linba.xml");
+		linbaItem.put("file","jian.xml");//淋巴
 		navItems.add(linbaItem);
 
 		HashMap<String,Object> parkItem=new HashMap<String,Object>();
 		parkItem.put("resId",R.drawable.park);
 		parkItem.put("title",getString(R.string.TextView14));
-		parkItem.put("file","park.xml");
+		parkItem.put("file","tumour.xml");//肿瘤
 		navItems.add(parkItem);
 
 		HashMap<String,Object> convenienceItem=new HashMap<String,Object>();
 		convenienceItem.put("resId",R.drawable.convenience);
 		convenienceItem.put("title",getString(R.string.TextView15));
-		convenienceItem.put("file","convenience.xml");
+		convenienceItem.put("file","subject.xml");//
 		navItems.add(convenienceItem);
 
 		HashMap<String,Object> toilets1Item=new HashMap<String,Object>();
-		toilets1Item.put("resId",R.drawable.toilets1);
+		toilets1Item.put("resId",R.drawable.toilets1);//dailylife.xml
 		toilets1Item.put("title",getString(R.string.TextView16));
-		toilets1Item.put("file","toilets1.xml");
+		toilets1Item.put("file","dailylife.xml");
 		navItems.add(toilets1Item);
 
 		HashMap<String,Object> rufangItem=new HashMap<String,Object>();
@@ -146,9 +146,9 @@ public class WelcomeActivity extends BaseActivity{
 		navItems.add(rufangItem);
 
 		HashMap<String,Object> jijiuItem=new HashMap<String,Object>();
-		jijiuItem.put("resId",R.drawable.jijiu);
+		jijiuItem.put("resId",R.drawable.jijiu);//youmi.xml
 		jijiuItem.put("title",getString(R.string.TextView18));
-		jijiuItem.put("file","jijiu.xml");
+		jijiuItem.put("file","youmi.xml");
 		navItems.add(jijiuItem);
 
 		HashMap<String,Object> yankeItem=new HashMap<String,Object>();
@@ -166,25 +166,25 @@ public class WelcomeActivity extends BaseActivity{
 		HashMap<String,Object> museumItem=new HashMap<String,Object>();
 		museumItem.put("resId",R.drawable.museum);
 		museumItem.put("title",getString(R.string.TextView21));
-		museumItem.put("file","museum.xml");
+		museumItem.put("file","hidea.xml");
 		navItems.add(museumItem);
 
 		HashMap<String,Object> hide2Item=new HashMap<String,Object>();
 		hide2Item.put("resId",R.drawable.hide2);
 		hide2Item.put("title",getString(R.string.TextView22));
-		hide2Item.put("file","hide2.xml");
+		hide2Item.put("file","hideb.xml");
 		navItems.add(hide2Item);
 
 		HashMap<String,Object> hide3Item=new HashMap<String,Object>();
 		hide3Item.put("resId",R.drawable.hide3);
 		hide3Item.put("title",getString(R.string.TextView23));
-		hide3Item.put("file","hide3.xml");
+		hide3Item.put("file","hidec.xml");
 		navItems.add(hide3Item);
 
 		HashMap<String,Object> hide4Item=new HashMap<String,Object>();
 		hide4Item.put("resId",R.drawable.hide4);
 		hide4Item.put("title",getString(R.string.TextView24));
-		hide4Item.put("file","hide4.xml");
+		hide4Item.put("file","hided.xml");
 		navItems.add(hide4Item);
 
 		SimpleAdapter adapter=new SimpleAdapter(this,navItems,R.layout.item_nav,new String []{"resId","title"},new int[]{R.id.imgIcon,R.id.tvTitle});

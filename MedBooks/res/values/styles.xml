@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
@@ -22,6 +22,16 @@
     <style name="NavItemStyle">
         <item name="android:textSize">18sp</item>
         <item name="android:gravity">center_vertical</item>
+    </style>
+    <style name="DetailTitleStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">6sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+    <style name="DetailContentStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">6sp</item>
+        <item name="android:textColor">#FFFFFFFF</item>
     </style>
 
 </resources>

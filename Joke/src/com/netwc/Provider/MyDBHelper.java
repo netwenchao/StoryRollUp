@@ -10,7 +10,7 @@ public class MyDBHelper{
 	SQLiteDatabase mDB=null;
 	final DbOpenHelper openHelper;
 	final String TABLE_NAME_NetJoke="NetJoke";
-	final String TABLE_NAME_Fav="Favorite";
+	final String TABLE_NAME_Category="Category";
 
 	public MyDBHelper(Context context){
 		mContext=context;
@@ -31,7 +31,7 @@ public class MyDBHelper{
 			data.put("dateadd",joke.dateAdd);
 			data.put("url",joke.Url);
 			mDB.insert(TABLE_NAME_NetJoke,null, data);
-		}		
+		}
 	}
 
 	public Boolean JokeExists(String url){
@@ -44,12 +44,7 @@ public class MyDBHelper{
 			return mDB.query(TABLE_NAME_NetJoke, new String[]{"_id","title","content","siteDate","dateadd","url"},"siteDate=?",new String[]{siteDate}, null, null," siteDate desc");
 		return mDB.query(TABLE_NAME_NetJoke, new String[]{"_id","title","content","siteDate","dateadd","url"},"",new String[]{}, null, null," siteDate desc");
 	}
-
-	public void AddFavoriteInfo(com.netwc.Provider.Entities.FavoriteInfo fav){
-		ContentValues data=new ContentValues();
-		data.put("joke_id",fav.ID);
-		mDB.insert(TABLE_NAME_Fav,null, data);
-	}
+	
 	class DbOpenHelper extends SQLiteOpenHelper{
 		static final String DB_NAME="Joke_Data.db";
 		static final int DB_VERSION=4;		
@@ -60,20 +55,20 @@ public class MyDBHelper{
 		/*
 		Table NetJoke
 		--Table History
-		Table Favorite	
+		Table Category
 		*/
 
 		@Override
 		public void onCreate(SQLiteDatabase db) {
-			db.execSQL("CREATE TABLE NetJoke(_id integer PRIMARY KEY AUTOINCREMENT,title text,content text,url text,dateadd UNSIGNED BIG INT,siteDate text);");		
-			db.execSQL("CREATE TABLE Favorite(joke_id integer);");		
+			db.execSQL("CREATE TABLE NetJoke(_id integer PRIMARY KEY AUTOINCREMENT,category int,title text,content text,url text,dateadd UNSIGNED BIG INT,siteDate text,isfavourite BOOLEAN,datafrom int,IsView boolean);");
+			db.execSQL("CREATE TABLE Category(_id integer PRIMARY KEY AUTOINCREMENT,categoryname,datafrom int);");
 		}
 	
 		@Override
 		public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
 			// TODO Auto-generated method stub
 			db.execSQL("DROP TABLE IF EXISTS NetJoke");
-			db.execSQL("DROP TABLE IF EXISTS Favorite");
+			db.execSQL("DROP TABLE IF EXISTS Category");
 			onCreate(db);
 		}
 	}

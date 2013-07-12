@@ -3892,199 +3892,6 @@ com.baidu.mobads.a.d: int c(java.lang.String)
 com.baidu.mobads.a.d: int d(java.lang.String)
 com.baidu.mobads.a.d: int c(java.lang.Object[])
 com.baidu.mobads.a.d: void <clinit>()
-com.google.ads.Ad
-com.google.ads.AdActivity
-com.google.ads.AdActivity: AdActivity()
-com.google.ads.AdActivity: void onClick(android.view.View)
-com.google.ads.AdActivity$StaticMethodWrapper
-com.google.ads.AdListener
-com.google.ads.AdRequest
-com.google.ads.AdRequest$ErrorCode
-com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode[] values()
-com.google.ads.AdRequest$ErrorCode: com.google.ads.AdRequest$ErrorCode valueOf(java.lang.String)
-com.google.ads.AdRequest$Gender
-com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender[] values()
-com.google.ads.AdRequest$Gender: com.google.ads.AdRequest$Gender valueOf(java.lang.String)
-com.google.ads.AdSize
-com.google.ads.AdView
-com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet)
-com.google.ads.AdView: AdView(android.content.Context,android.util.AttributeSet,int)
-com.google.ads.AdView: void setAdListener(com.google.ads.AdListener)
-com.google.ads.AdView: void setAppEventListener(com.google.ads.AppEventListener)
-com.google.ads.AdView: void setSupportedAdSizes(com.google.ads.AdSize[])
-com.google.ads.AppEventListener
-com.google.ads.InterstitialAd
-com.google.ads.a
-com.google.ads.aa
-com.google.ads.ab
-com.google.ads.ac
-com.google.ads.ae
-com.google.ads.af
-com.google.ads.ag
-com.google.ads.ag$a
-com.google.ads.ag$b
-com.google.ads.ag$c
-com.google.ads.ah
-com.google.ads.ai
-com.google.ads.ai$a
-com.google.ads.ai$b
-com.google.ads.ai$b: com.google.ads.ai$b[] values()
-com.google.ads.ai$b: com.google.ads.ai$b valueOf(java.lang.String)
-com.google.ads.ai$c
-com.google.ads.b
-com.google.ads.c
-com.google.ads.c$1
-com.google.ads.d
-com.google.ads.doubleclick.DfpAdView
-com.google.ads.doubleclick.DfpAdView: DfpAdView(android.content.Context,android.util.AttributeSet)
-com.google.ads.doubleclick.DfpAdView: DfpAdView(android.content.Context,android.util.AttributeSet,int)
-com.google.ads.doubleclick.DfpAdView: void setAppEventListener(com.google.ads.AppEventListener)
-com.google.ads.doubleclick.DfpAdView: void setSupportedAdSizes(com.google.ads.AdSize[])
-com.google.ads.doubleclick.DfpExtras
-com.google.ads.doubleclick.DfpInterstitialAd
-com.google.ads.e
-com.google.ads.e$1
-com.google.ads.e$2
-com.google.ads.e$3
-com.google.ads.e$4
-com.google.ads.e$5
-com.google.ads.e$6
-com.google.ads.e$7
-com.google.ads.e$8
-com.google.ads.f
-com.google.ads.g
-com.google.ads.g$a
-com.google.ads.g$a: com.google.ads.g$a[] values()
-com.google.ads.g$a: com.google.ads.g$a valueOf(java.lang.String)
-com.google.ads.h
-com.google.ads.h$1
-com.google.ads.h$2
-com.google.ads.i
-com.google.ads.i$a
-com.google.ads.internal.AdVideoView
-com.google.ads.internal.AdVideoView: void setMediaControllerEnabled(boolean)
-com.google.ads.internal.AdVideoView: void setSrc(java.lang.String)
-com.google.ads.internal.AdVideoView$a
-com.google.ads.internal.AdWebView
-com.google.ads.internal.AdWebView: void setAdActivity(com.google.ads.AdActivity)
-com.google.ads.internal.AdWebView: void setAdSize(com.google.ads.AdSize)
-com.google.ads.internal.AdWebView: void setCustomClose(boolean)
-com.google.ads.internal.AdWebView: void setIsExpandedMraid(boolean)
-com.google.ads.internal.AdWebView$1
-com.google.ads.internal.a
-com.google.ads.internal.a$1
-com.google.ads.internal.a$2
-com.google.ads.internal.a$3
-com.google.ads.internal.b
-com.google.ads.internal.c
-com.google.ads.internal.c$1
-com.google.ads.internal.c$2
-com.google.ads.internal.c$a
-com.google.ads.internal.c$b
-com.google.ads.internal.c$c
-com.google.ads.internal.c$d
-com.google.ads.internal.c$d: com.google.ads.internal.c$d[] values()
-com.google.ads.internal.c$d: com.google.ads.internal.c$d valueOf(java.lang.String)
-com.google.ads.internal.c$e
-com.google.ads.internal.d
-com.google.ads.internal.e
-com.google.ads.internal.f
-com.google.ads.internal.f$1
-com.google.ads.internal.f$a
-com.google.ads.internal.g
-com.google.ads.internal.h
-com.google.ads.internal.i
-com.google.ads.internal.j
-com.google.ads.internal.j$a
-com.google.ads.internal.j$a$1
-com.google.ads.internal.j$a$2
-com.google.ads.j
-com.google.ads.k
-com.google.ads.l
-com.google.ads.l$a
-com.google.ads.m
-com.google.ads.mediation.EmptyNetworkExtras
-com.google.ads.mediation.MediationAdRequest
-com.google.ads.mediation.MediationAdapter
-com.google.ads.mediation.MediationBannerAdapter
-com.google.ads.mediation.MediationBannerListener
-com.google.ads.mediation.MediationInterstitialAdapter
-com.google.ads.mediation.MediationInterstitialListener
-com.google.ads.mediation.MediationServerParameters
-com.google.ads.mediation.MediationServerParameters$MappingException
-com.google.ads.mediation.MediationServerParameters$Parameter
-com.google.ads.mediation.NetworkExtras
-com.google.ads.mediation.admob.AdMobAdapter
-com.google.ads.mediation.admob.AdMobAdapter$1
-com.google.ads.mediation.admob.AdMobAdapter$a
-com.google.ads.mediation.admob.AdMobAdapter$b
-com.google.ads.mediation.admob.AdMobAdapterExtras
-com.google.ads.mediation.admob.AdMobAdapterServerParameters
-com.google.ads.mediation.customevent.CustomEvent
-com.google.ads.mediation.customevent.CustomEventAdapter
-com.google.ads.mediation.customevent.CustomEventAdapter$a
-com.google.ads.mediation.customevent.CustomEventAdapter$b
-com.google.ads.mediation.customevent.CustomEventBanner
-com.google.ads.mediation.customevent.CustomEventBannerListener
-com.google.ads.mediation.customevent.CustomEventExtras
-com.google.ads.mediation.customevent.CustomEventInterstitial
-com.google.ads.mediation.customevent.CustomEventInterstitialListener
-com.google.ads.mediation.customevent.CustomEventListener
-com.google.ads.mediation.customevent.CustomEventServerParameters
-com.google.ads.n
-com.google.ads.o
-com.google.ads.p
-com.google.ads.q
-com.google.ads.r
-com.google.ads.s
-com.google.ads.searchads.SearchAdRequest
-com.google.ads.searchads.SearchAdRequest$BorderType
-com.google.ads.searchads.SearchAdRequest$BorderType: com.google.ads.searchads.SearchAdRequest$BorderType[] values()
-com.google.ads.searchads.SearchAdRequest$BorderType: com.google.ads.searchads.SearchAdRequest$BorderType valueOf(java.lang.String)
-com.google.ads.t
-com.google.ads.u
-com.google.ads.util.AdUtil
-com.google.ads.util.AdUtil$UserActivityReceiver
-com.google.ads.util.AdUtil$a
-com.google.ads.util.AdUtil$a: com.google.ads.util.AdUtil$a[] values()
-com.google.ads.util.AdUtil$a: com.google.ads.util.AdUtil$a valueOf(java.lang.String)
-com.google.ads.util.a
-com.google.ads.util.a$a
-com.google.ads.util.b
-com.google.ads.util.b$a
-com.google.ads.util.b$a: com.google.ads.util.b$a[] values()
-com.google.ads.util.b$a: com.google.ads.util.b$a valueOf(java.lang.String)
-com.google.ads.util.b$b
-com.google.ads.util.c
-com.google.ads.util.c$a
-com.google.ads.util.c$b
-com.google.ads.util.c$c
-com.google.ads.util.d
-com.google.ads.util.e
-com.google.ads.util.f
-com.google.ads.util.g
-com.google.ads.util.g$1
-com.google.ads.util.g$a
-com.google.ads.util.g$a$1
-com.google.ads.util.g$a$2
-com.google.ads.util.g$a$3
-com.google.ads.util.g$a$4
-com.google.ads.util.g$a$5
-com.google.ads.util.g$a$6
-com.google.ads.util.g$b
-com.google.ads.util.h
-com.google.ads.util.h$a
-com.google.ads.util.i
-com.google.ads.util.i$1
-com.google.ads.util.i$a
-com.google.ads.util.i$b
-com.google.ads.util.i$c
-com.google.ads.util.i$d
-com.google.ads.v
-com.google.ads.w
-com.google.ads.x
-com.google.ads.y
-com.google.ads.z
 com.kyview.AdViewInterface
 com.kyview.AdViewInterface: void onClickAd()
 com.kyview.AdViewInterface: void onDisplayAd()
@@ -4092,6 +3899,7 @@ com.kyview.AdViewLayout
 com.kyview.AdViewLayout: java.lang.ref.WeakReference activityReference
 com.kyview.AdViewLayout: android.os.Handler handler
 com.kyview.AdViewLayout: java.util.concurrent.ScheduledExecutorService scheduler
+com.kyview.AdViewLayout: boolean isTest
 com.kyview.AdViewLayout: java.lang.String a
 com.kyview.AdViewLayout: java.lang.String keyDev
 com.kyview.AdViewLayout: java.lang.String typeDev
@@ -4117,6 +3925,7 @@ com.kyview.AdViewLayout: int maxHeight
 com.kyview.AdViewLayout: void setMaxWidth(int)
 com.kyview.AdViewLayout: void setMaxHeight(int)
 com.kyview.AdViewLayout: AdViewLayout(android.app.Activity,java.lang.String)
+com.kyview.AdViewLayout: void onFocusChanged(boolean,int,android.graphics.Rect)
 com.kyview.AdViewLayout: AdViewLayout(android.content.Context,android.util.AttributeSet)
 com.kyview.AdViewLayout: java.lang.String a(android.content.Context)
 com.kyview.AdViewLayout: void onMeasure(int,int)
@@ -4143,42 +3952,43 @@ com.kyview.AdViewLayout: java.lang.String b(android.content.Context)
 com.kyview.AdViewLayout: void a(android.content.Context)
 com.kyview.AdViewLayout: boolean onInterceptTouchEvent(android.view.MotionEvent)
 com.kyview.AdViewLayout: void setAdViewInterface(com.kyview.AdViewInterface)
+com.kyview.AdViewLayout: void release()
 com.kyview.AdViewLayout: boolean a(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout: void a(com.kyview.AdViewLayout,boolean)
 com.kyview.AdViewLayout: void a(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout: void b(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout$a
-com.kyview.AdViewLayout$a: java.lang.ref.WeakReference a
+com.kyview.AdViewLayout$a: java.lang.ref.WeakReference adViewLayoutReference
 com.kyview.AdViewLayout$a: AdViewLayout$a(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout$a: void run()
 com.kyview.AdViewLayout$b
-com.kyview.AdViewLayout$b: java.lang.ref.WeakReference a
+com.kyview.AdViewLayout$b: java.lang.ref.WeakReference adViewLayoutReference
 com.kyview.AdViewLayout$b: AdViewLayout$b(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout$b: void run()
 com.kyview.AdViewLayout$c
-com.kyview.AdViewLayout$c: java.lang.ref.WeakReference a
+com.kyview.AdViewLayout$c: java.lang.ref.WeakReference adViewLayoutReference
 com.kyview.AdViewLayout$c: java.lang.String a
 com.kyview.AdViewLayout$c: AdViewLayout$c(com.kyview.AdViewLayout,java.lang.String)
 com.kyview.AdViewLayout$c: void run()
 com.kyview.AdViewLayout$d
-com.kyview.AdViewLayout$d: java.lang.String b
-com.kyview.AdViewLayout$d: java.lang.String c
+com.kyview.AdViewLayout$d: java.lang.String url
+com.kyview.AdViewLayout$d: java.lang.String content
 com.kyview.AdViewLayout$d: AdViewLayout$d(java.lang.String,java.lang.String)
 com.kyview.AdViewLayout$d: void run()
 com.kyview.AdViewLayout$e
-com.kyview.AdViewLayout$e: java.lang.String b
+com.kyview.AdViewLayout$e: java.lang.String url
 com.kyview.AdViewLayout$e: AdViewLayout$e(java.lang.String)
 com.kyview.AdViewLayout$e: void run()
 com.kyview.AdViewLayout$f
-com.kyview.AdViewLayout$f: java.lang.ref.WeakReference a
+com.kyview.AdViewLayout$f: java.lang.ref.WeakReference adViewLayoutReference
 com.kyview.AdViewLayout$f: AdViewLayout$f(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout$f: void run()
 com.kyview.AdViewLayout$g
-com.kyview.AdViewLayout$g: java.lang.ref.WeakReference a
+com.kyview.AdViewLayout$g: java.lang.ref.WeakReference adViewLayoutReference
 com.kyview.AdViewLayout$g: AdViewLayout$g(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout$g: void run()
 com.kyview.AdViewLayout$h
-com.kyview.AdViewLayout$h: java.lang.ref.WeakReference a
+com.kyview.AdViewLayout$h: java.lang.ref.WeakReference adViewLayoutReference
 com.kyview.AdViewLayout$h: android.view.ViewGroup a
 com.kyview.AdViewLayout$h: AdViewLayout$h(com.kyview.AdViewLayout,android.view.ViewGroup)
 com.kyview.AdViewLayout$h: void run()
@@ -4187,7 +3997,7 @@ com.kyview.AdViewManager: java.lang.String a
 com.kyview.AdViewManager: com.kyview.b.a extra
 com.kyview.AdViewManager: java.util.List a
 com.kyview.AdViewManager: double a
-com.kyview.AdViewManager: java.lang.ref.WeakReference b
+com.kyview.AdViewManager: java.lang.ref.WeakReference a
 com.kyview.AdViewManager: int a
 com.kyview.AdViewManager: boolean c
 com.kyview.AdViewManager: java.util.Iterator a
@@ -4195,10 +4005,10 @@ com.kyview.AdViewManager: int b
 com.kyview.AdViewManager: boolean d
 com.kyview.AdViewManager: boolean e
 com.kyview.AdViewManager: boolean f
-com.kyview.AdViewManager: java.lang.String d
+com.kyview.AdViewManager: java.lang.String b
 com.kyview.AdViewManager: int width
 com.kyview.AdViewManager: int height
-com.kyview.AdViewManager: java.lang.String e
+com.kyview.AdViewManager: java.lang.String mDeviceid
 com.kyview.AdViewManager: void <clinit>()
 com.kyview.AdViewManager: AdViewManager(java.lang.ref.WeakReference,java.lang.String)
 com.kyview.AdViewManager: void setYoumiInit(boolean)
@@ -4216,6 +4026,8 @@ com.kyview.AdViewManager: void fetchConfigFromServer()
 com.kyview.AdViewManager: java.lang.String convertStreamToString(java.io.InputStream)
 com.kyview.AdViewManager: boolean a(java.lang.String)
 com.kyview.AdViewManager: void a(org.json.JSONObject)
+com.kyview.AdViewManager: java.util.List getRationList()
+com.kyview.AdViewManager: void setTestRationsList(com.kyview.b.b)
 com.kyview.AdViewManager: void a(org.json.JSONArray)
 com.kyview.AdViewManager: boolean isLocateForeign()
 com.kyview.AdViewManager: java.lang.String getIDByMAC(android.content.Context)
@@ -4226,12 +4038,12 @@ com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$UpdateMode a
 com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$AdArea a
 com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$Gender a
 com.kyview.AdViewTargeting: java.util.GregorianCalendar a
-com.kyview.AdViewTargeting: java.lang.String f
-com.kyview.AdViewTargeting: java.lang.String g
+com.kyview.AdViewTargeting: java.lang.String c
+com.kyview.AdViewTargeting: java.lang.String d
 com.kyview.AdViewTargeting: java.util.Set a
 com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$Channel a
-com.kyview.AdViewTargeting: int c
-com.kyview.AdViewTargeting: int d
+com.kyview.AdViewTargeting: int adWidth
+com.kyview.AdViewTargeting: int adHeight
 com.kyview.AdViewTargeting: void <clinit>()
 com.kyview.AdViewTargeting: AdViewTargeting()
 com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$Channel getChannel()
@@ -4309,7 +4121,7 @@ com.kyview.AdViewTargeting$UpdateMode: com.kyview.AdViewTargeting$UpdateMode val
 com.kyview.AdviewWebView
 com.kyview.AdviewWebView: android.webkit.WebView a
 com.kyview.AdviewWebView: com.kyview.AdviewWebView$e a
-com.kyview.AdviewWebView: java.lang.String h
+com.kyview.AdviewWebView: java.lang.String e
 com.kyview.AdviewWebView: boolean g
 com.kyview.AdviewWebView: android.widget.ImageView a
 com.kyview.AdviewWebView: android.widget.ImageView b
@@ -4349,7 +4161,7 @@ com.kyview.AdviewWebView$e: int height
 com.kyview.AdviewWebView$e: android.graphics.Bitmap a
 com.kyview.AdviewWebView$e: android.graphics.Bitmap b
 com.kyview.AdviewWebView$e: boolean h
-com.kyview.AdviewWebView$e: int e
+com.kyview.AdviewWebView$e: int c
 com.kyview.AdviewWebView$e: android.os.Handler a
 com.kyview.AdviewWebView$e: AdviewWebView$e(com.kyview.AdviewWebView,android.content.Context)
 com.kyview.AdviewWebView$e: void onSizeChanged(int,int,int,int)
@@ -4361,8 +4173,8 @@ com.kyview.AdviewWebView$f: AdviewWebView$f(com.kyview.AdviewWebView)
 com.kyview.AdviewWebView$f: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)
 com.kyview.AdviewWebView$f: void onPageFinished(android.webkit.WebView,java.lang.String)
 com.kyview.DownloadService
-com.kyview.DownloadService: java.lang.String i
-com.kyview.DownloadService: java.lang.String j
+com.kyview.DownloadService: java.lang.String title
+com.kyview.DownloadService: java.lang.String f
 com.kyview.DownloadService: java.io.File a
 com.kyview.DownloadService: java.io.File b
 com.kyview.DownloadService: int index
@@ -4401,9 +4213,9 @@ com.kyview.a: com.kyview.a a()
 com.kyview.a: void a(int,java.lang.Class)
 com.kyview.a: java.lang.Class a(int)
 com.kyview.a.a
-com.kyview.a.a: java.lang.String k
-com.kyview.a.a: int f
-com.kyview.a.a: int g
+com.kyview.a.a: java.lang.String appId
+com.kyview.a.a: int d
+com.kyview.a.a: int e
 com.kyview.a.a: a()
 com.kyview.a.a: java.lang.String getAppId()
 com.kyview.a.a: void setAppId(java.lang.String)
@@ -4413,20 +4225,20 @@ com.kyview.a.a: int c()
 com.kyview.a.a: void b(int)
 com.kyview.a.a: java.lang.String b(java.lang.String)
 com.kyview.a.b
-com.kyview.a.b: java.lang.String k
-com.kyview.a.b: java.lang.String l
-com.kyview.a.b: int h
-com.kyview.a.b: int i
+com.kyview.a.b: java.lang.String appId
+com.kyview.a.b: java.lang.String g
+com.kyview.a.b: int f
+com.kyview.a.b: int g
 com.kyview.a.b: int textColor
 com.kyview.a.b: boolean i
 com.kyview.a.b: com.kyview.a.a a
-com.kyview.a.b: java.lang.String m
-com.kyview.a.b: java.lang.String n
-com.kyview.a.b: java.lang.String o
+com.kyview.a.b: java.lang.String h
+com.kyview.a.b: java.lang.String i
+com.kyview.a.b: java.lang.String j
 com.kyview.a.b: com.kyview.a.f a
-com.kyview.a.b: java.lang.String p
-com.kyview.a.b: java.lang.String q
-com.kyview.a.b: java.lang.String r
+com.kyview.a.b: java.lang.String k
+com.kyview.a.b: java.lang.String l
+com.kyview.a.b: java.lang.String m
 com.kyview.a.b: android.graphics.Bitmap c
 com.kyview.a.b: android.widget.ImageView d
 com.kyview.a.b: android.widget.TextView a
@@ -4478,7 +4290,7 @@ com.kyview.a.b: void a(com.kyview.a.b,android.content.Intent)
 com.kyview.a.b: android.content.Intent a(com.kyview.a.b)
 com.kyview.a.b$a
 com.kyview.a.b$a: android.content.Context b
-com.kyview.a.b$a: java.lang.String t
+com.kyview.a.b$a: java.lang.String o
 com.kyview.a.b$a: com.kyview.a.b a
 com.kyview.a.b$a: b$a(com.kyview.a.b,android.content.Context,java.lang.String)
 com.kyview.a.b$a: void run()
@@ -4489,8 +4301,8 @@ com.kyview.a.b$a: void a(com.kyview.a.f)
 com.kyview.a.b$a: com.kyview.a.f a(java.lang.String)
 com.kyview.a.b$a: java.lang.String a(java.lang.String,java.lang.String)
 com.kyview.a.b$b
-com.kyview.a.b$b: java.lang.String b
-com.kyview.a.b$b: java.lang.String c
+com.kyview.a.b$b: java.lang.String url
+com.kyview.a.b$b: java.lang.String content
 com.kyview.a.b$b: b$b(com.kyview.a.b,java.lang.String,java.lang.String)
 com.kyview.a.b$b: void run()
 com.kyview.a.b$c
@@ -4498,8 +4310,8 @@ com.kyview.a.b$c: com.kyview.a.b a
 com.kyview.a.b$c: b$c(com.kyview.a.b)
 com.kyview.a.b$c: void run()
 com.kyview.a.b$d
-com.kyview.a.b$d: void e(com.kyview.a.b)
-com.kyview.a.b$d: void f(com.kyview.a.b)
+com.kyview.a.b$d: void onReceivedAd(com.kyview.a.b)
+com.kyview.a.b$d: void onConnectFailed(com.kyview.a.b)
 com.kyview.a.c
 com.kyview.a.c: com.kyview.a.b a
 com.kyview.a.c: c(com.kyview.a.b)
@@ -4511,15 +4323,15 @@ com.kyview.a.d: void onClick(android.view.View)
 com.kyview.a.e
 com.kyview.a.e: com.kyview.a.b a
 com.kyview.a.e: android.content.Context a
-com.kyview.a.e: java.lang.String s
+com.kyview.a.e: java.lang.String n
 com.kyview.a.e: e(com.kyview.a.b,android.content.Context,java.lang.String)
 com.kyview.a.e: void onClick(android.content.DialogInterface,int)
 com.kyview.a.f
-com.kyview.a.f: java.lang.String u
-com.kyview.a.f: int j
-com.kyview.a.f: java.lang.String v
-com.kyview.a.f: java.lang.String w
-com.kyview.a.f: java.lang.String h
+com.kyview.a.f: java.lang.String p
+com.kyview.a.f: int h
+com.kyview.a.f: java.lang.String q
+com.kyview.a.f: java.lang.String r
+com.kyview.a.f: java.lang.String e
 com.kyview.a.f: f()
 com.kyview.a.f: java.lang.String b()
 com.kyview.a.f: void a(java.lang.String)
@@ -4531,518 +4343,190 @@ com.kyview.a.f: java.lang.String d()
 com.kyview.a.f: void c(java.lang.String)
 com.kyview.a.f: java.lang.String e()
 com.kyview.a.f: void d(java.lang.String)
-com.kyview.adapters.A
-com.kyview.adapters.A: cn.immob.sdk.ImmobView a
-com.kyview.adapters.A: void a(com.kyview.a)
-com.kyview.adapters.A: A()
-com.kyview.adapters.A: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.A: void handle()
-com.kyview.adapters.A: void onAdReceived(cn.immob.sdk.ImmobView)
-com.kyview.adapters.A: void onFailedToReceiveAd(cn.immob.sdk.ImmobView,int)
-com.kyview.adapters.A: void onDismissScreen(cn.immob.sdk.ImmobView)
-com.kyview.adapters.A: void onLeaveApplication(cn.immob.sdk.ImmobView)
-com.kyview.adapters.A: void onPresentScreen(cn.immob.sdk.ImmobView)
+com.kyview.adapters.AdBaiduAdapter
+com.kyview.adapters.AdBaiduAdapter: boolean isFailed
+com.kyview.adapters.AdBaiduAdapter: int networkType()
+com.kyview.adapters.AdBaiduAdapter: void load(com.kyview.a)
+com.kyview.adapters.AdBaiduAdapter: AdBaiduAdapter()
+com.kyview.adapters.AdBaiduAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.AdBaiduAdapter: void handle()
+com.kyview.adapters.AdBaiduAdapter: void onAdClick(org.json.JSONObject)
+com.kyview.adapters.AdBaiduAdapter: void onAdFailed(java.lang.String)
+com.kyview.adapters.AdBaiduAdapter: void onAdReady(com.baidu.mobads.AdView)
+com.kyview.adapters.AdBaiduAdapter: void onAdShow(org.json.JSONObject)
+com.kyview.adapters.AdBaiduAdapter: void onAdSwitch()
+com.kyview.adapters.AdBaiduAdapter: void onVideoClickAd()
+com.kyview.adapters.AdBaiduAdapter: void onVideoClickClose()
+com.kyview.adapters.AdBaiduAdapter: void onVideoClickReplay()
+com.kyview.adapters.AdBaiduAdapter: void onVideoError()
+com.kyview.adapters.AdBaiduAdapter: void onVideoFinish()
+com.kyview.adapters.AdBaiduAdapter: void onVideoStart()
 com.kyview.adapters.AdViewAdapter
-com.kyview.adapters.AdViewAdapter: java.lang.ref.WeakReference a
-com.kyview.adapters.AdViewAdapter: com.kyview.b.b a
-com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter a
-com.kyview.adapters.AdViewAdapter: java.util.Timer a
+com.kyview.adapters.AdViewAdapter: java.lang.ref.WeakReference adViewLayoutReference
+com.kyview.adapters.AdViewAdapter: com.kyview.b.b ration
+com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter adapter
+com.kyview.adapters.AdViewAdapter: java.util.Timer reqTimeListenerTimer
 com.kyview.adapters.AdViewAdapter: AdViewAdapter()
 com.kyview.adapters.AdViewAdapter: AdViewAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
 com.kyview.adapters.AdViewAdapter: void setParamters(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter a(java.lang.Class,com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter getAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter getNetworkAdapter(java.lang.Class,com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter unknownAdNetwork(com.kyview.AdViewLayout,com.kyview.b.b)
 com.kyview.adapters.AdViewAdapter: void handleOne(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.AdViewAdapter: void onRelease()
 com.kyview.adapters.AdViewAdapter: void onClickAd()
 com.kyview.adapters.AdViewAdapter: void startTimer()
 com.kyview.adapters.AdViewAdapter: void shoutdownTimer()
 com.kyview.adapters.AdViewAdapter: void requestTimeOut()
 com.kyview.adapters.AdViewAdapter: void handle()
+com.kyview.adapters.AdViewAdapter: void release(com.kyview.AdViewLayout)
 com.kyview.adapters.AdViewAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
 com.kyview.adapters.AdViewAdapter: void click()
-com.kyview.adapters.B
-com.kyview.adapters.B: com.l.adlib_android.AdView a
-com.kyview.adapters.B: void a(com.kyview.a)
-com.kyview.adapters.B: B()
-com.kyview.adapters.B: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.B: void handle()
-com.kyview.adapters.B: void OnConnectFailed(java.lang.String)
-com.kyview.adapters.B: void OnAcceptAd(int)
-com.kyview.adapters.C
-com.kyview.adapters.C: void a(com.kyview.a)
-com.kyview.adapters.C: C()
-com.kyview.adapters.C: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.C: void handle()
-com.kyview.adapters.C: void adRequestCompletedSuccessfully(com.mdotm.android.ads.MdotMView)
-com.kyview.adapters.C: void adRequestFailed(com.mdotm.android.ads.MdotMView)
-com.kyview.adapters.D
-com.kyview.adapters.D: void a(com.kyview.a)
-com.kyview.adapters.D: D()
-com.kyview.adapters.D: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.D: void handle()
-com.kyview.adapters.D: void MMAdOverlayLaunched(com.millennialmedia.android.MMAd)
-com.kyview.adapters.D: void MMAdRequestIsCaching(com.millennialmedia.android.MMAd)
-com.kyview.adapters.D: void requestCompleted(com.millennialmedia.android.MMAd)
-com.kyview.adapters.D: void requestFailed(com.millennialmedia.android.MMAd,com.millennialmedia.android.MMException)
-com.kyview.adapters.E
-com.kyview.adapters.E: com.tencent.exmobwin.banner.TAdView a
-com.kyview.adapters.E: void a(com.kyview.a)
-com.kyview.adapters.E: E()
-com.kyview.adapters.E: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.E: void handle()
-com.kyview.adapters.E: void onReceiveFailed(int)
-com.kyview.adapters.E: void onReceiveAd()
-com.kyview.adapters.F
-com.kyview.adapters.F: com.mobisage.android.MobiSageAdBanner a
-com.kyview.adapters.F: void a(com.kyview.a)
-com.kyview.adapters.F: F()
-com.kyview.adapters.F: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.F: void handle()
-com.kyview.adapters.F: void onMobiSageAdViewShow(java.lang.Object)
-com.kyview.adapters.F: void onMobiSageAdViewUpdate(java.lang.Object)
-com.kyview.adapters.F: void onMobiSageAdViewHide(java.lang.Object)
-com.kyview.adapters.F: void onMobiSageAdViewError(java.lang.Object)
-com.kyview.adapters.F: void onMobiSageAdViewClick(java.lang.Object)
-com.kyview.adapters.G
-com.kyview.adapters.G: com.donson.momark.view.view.AdView a
-com.kyview.adapters.G: void a(com.kyview.a)
-com.kyview.adapters.G: G()
-com.kyview.adapters.G: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.G: void handle()
-com.kyview.adapters.G: void onConnectFailed(com.donson.momark.view.view.AdView)
-com.kyview.adapters.G: void onAdViewSwitchedAd(com.donson.momark.view.view.AdView)
-com.kyview.adapters.H
-com.kyview.adapters.H: java.lang.String L
-com.kyview.adapters.H: com.kyview.adapters.i b
-com.kyview.adapters.H: H(com.kyview.adapters.i,java.lang.String)
-com.kyview.adapters.H: void run()
-com.kyview.adapters.I
-com.kyview.adapters.I: com.smaato.SOMA.SOMABanner a
-com.kyview.adapters.I: void a(com.kyview.a)
-com.kyview.adapters.I: I()
-com.kyview.adapters.I: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.I: void handle()
-com.kyview.adapters.I: void onFailedToReceiveAd(com.smaato.SOMA.AdDownloader,com.smaato.SOMA.ErrorCode)
-com.kyview.adapters.I: void onReceiveAd(com.smaato.SOMA.AdDownloader,com.smaato.SOMA.SOMAReceivedBanner)
-com.kyview.adapters.J
-com.kyview.adapters.J: cn.smartmad.ads.android.SMAdBannerView a
-com.kyview.adapters.J: void a(com.kyview.a)
-com.kyview.adapters.J: J()
-com.kyview.adapters.J: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.J: void handle()
-com.kyview.adapters.J: void onAppResumeFromAd(cn.smartmad.ads.android.SMAdBannerView)
-com.kyview.adapters.J: void onAppSuspendForAd(cn.smartmad.ads.android.SMAdBannerView)
-com.kyview.adapters.J: void onClickedAd()
-com.kyview.adapters.J: void onClosedAdExpand(cn.smartmad.ads.android.SMAdBannerView)
-com.kyview.adapters.J: void onDetachedFromScreen(cn.smartmad.ads.android.SMAdBannerView)
-com.kyview.adapters.J: void onExpandedAd(cn.smartmad.ads.android.SMAdBannerView)
-com.kyview.adapters.J: void onLeaveApplication(cn.smartmad.ads.android.SMAdBannerView)
-com.kyview.adapters.J: void onReceivedAd(cn.smartmad.ads.android.SMAdBannerView)
-com.kyview.adapters.J: void onAttachedToScreen(cn.smartmad.ads.android.SMAdBannerView,cn.smartmad.ads.android.SMRequestEventCode)
-com.kyview.adapters.J: void onFailedToReceiveAd(cn.smartmad.ads.android.SMAdBannerView,cn.smartmad.ads.android.SMRequestEventCode)
-com.kyview.adapters.K
-com.kyview.adapters.K: java.lang.String y
-com.kyview.adapters.K: java.lang.String M
-com.kyview.adapters.K: java.lang.String N
-com.kyview.adapters.K: java.lang.String O
-com.kyview.adapters.K: java.lang.String P
-com.kyview.adapters.K: java.lang.String Q
-com.kyview.adapters.K: K()
-com.kyview.adapters.L
-com.kyview.adapters.L: com.kyview.adapters.K a
-com.kyview.adapters.L: double d
-com.kyview.adapters.L: java.lang.String R
-com.kyview.adapters.L: double b
-com.kyview.adapters.L: double c
-com.kyview.adapters.L: java.lang.String b
-com.kyview.adapters.L: java.lang.String S
-com.kyview.adapters.L: com.kyview.AdViewLayout a
-com.kyview.adapters.L: com.kyview.adapters.Q a
-com.kyview.adapters.L: java.lang.String e
-com.kyview.adapters.L: android.content.Context mContext
-com.kyview.adapters.L: void <clinit>()
-com.kyview.adapters.L: int a(int,double)
-com.kyview.adapters.L: void a(com.kyview.a)
-com.kyview.adapters.L: L()
-com.kyview.adapters.L: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.L: void handle()
-com.kyview.adapters.L: void click()
-com.kyview.adapters.L: void a(java.util.HashMap,java.lang.String)
-com.kyview.adapters.L: java.lang.String n()
-com.kyview.adapters.L: java.lang.String a(java.util.HashMap)
-com.kyview.adapters.L: java.lang.String b(java.util.HashMap)
-com.kyview.adapters.L: java.lang.String c(java.util.HashMap)
-com.kyview.adapters.L: void a(com.kyview.AdViewLayout,java.lang.String)
-com.kyview.adapters.L: void c()
-com.kyview.adapters.L: java.lang.String a(com.kyview.adapters.L,java.util.HashMap)
-com.kyview.adapters.L: java.lang.String a(com.kyview.adapters.L)
-com.kyview.adapters.L$a
-com.kyview.adapters.L$a: java.lang.String J
-com.kyview.adapters.L$a: com.kyview.adapters.L b
-com.kyview.adapters.L$a: L$a(com.kyview.adapters.L)
-com.kyview.adapters.L$a: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)
-com.kyview.adapters.L$a: L$a(com.kyview.adapters.L,byte)
-com.kyview.adapters.L$a: com.kyview.adapters.L a(com.kyview.adapters.L$a)
-com.kyview.adapters.M
-com.kyview.adapters.M: com.kyview.adapters.L b
-com.kyview.adapters.M: M(com.kyview.adapters.L)
-com.kyview.adapters.M: void run()
-com.kyview.adapters.N
-com.kyview.adapters.N: com.kyview.adapters.L b
-com.kyview.adapters.N: N(com.kyview.adapters.L)
-com.kyview.adapters.N: void run()
-com.kyview.adapters.O
-com.kyview.adapters.O: com.kyview.adapters.L$a a
-com.kyview.adapters.O: O(com.kyview.adapters.L$a)
-com.kyview.adapters.O: void onClick(android.content.DialogInterface,int)
-com.kyview.adapters.P
-com.kyview.adapters.P: P(com.kyview.adapters.L$a)
-com.kyview.adapters.P: void onClick(android.content.DialogInterface,int)
-com.kyview.adapters.Q
-com.kyview.adapters.Q: java.lang.String T
-com.kyview.adapters.Q: java.lang.String U
-com.kyview.adapters.Q: int screenWidth
-com.kyview.adapters.Q: java.lang.String o()
-com.kyview.adapters.Q: java.lang.String p()
-com.kyview.adapters.Q: Q(int)
-com.kyview.adapters.R
-com.kyview.adapters.R: void a(com.kyview.a)
-com.kyview.adapters.R: R()
-com.kyview.adapters.R: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.R: void handle()
-com.kyview.adapters.S
-com.kyview.adapters.S: void a(com.kyview.a)
-com.kyview.adapters.S: S()
-com.kyview.adapters.S: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.S: void handle()
-com.kyview.adapters.S: void onRequestFail(com.umengAd.android.AdView)
-com.kyview.adapters.S: void onRequestSuccess(com.umengAd.android.AdView)
-com.kyview.adapters.T
-com.kyview.adapters.T: int d
-com.kyview.adapters.T: int c
-com.kyview.adapters.T: void a(com.kyview.a)
-com.kyview.adapters.T: T()
-com.kyview.adapters.T: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.T: void handle()
-com.kyview.adapters.T: void onFailedToRecevieAd(com.vpon.adon.android.AdView)
-com.kyview.adapters.T: void onRecevieAd(com.vpon.adon.android.AdView)
-com.kyview.adapters.U
-com.kyview.adapters.U: com.wiyun.ad.AdView a
-com.kyview.adapters.U: void a(com.kyview.a)
-com.kyview.adapters.U: U()
-com.kyview.adapters.U: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.U: void handle()
-com.kyview.adapters.U: void onAdClicked()
-com.kyview.adapters.U: void onAdLoadFailed()
-com.kyview.adapters.U: void onAdLoaded()
-com.kyview.adapters.U: void onExitButtonClicked()
-com.kyview.adapters.U: void onAppDownloadFailed()
-com.kyview.adapters.U: void onAppDownloaded()
-com.kyview.adapters.U: void onMiniSiteClosed()
-com.kyview.adapters.V
-com.kyview.adapters.V: void a(com.kyview.a)
-com.kyview.adapters.V: V()
-com.kyview.adapters.V: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.V: void handle()
-com.kyview.adapters.V: void onFailedToReceiveAd(java.lang.Object)
-com.kyview.adapters.V: void onReceiveAd(java.lang.Object)
-com.kyview.adapters.V: void onPlayFinish()
-com.kyview.adapters.W
-com.kyview.adapters.W: void a(com.kyview.a)
-com.kyview.adapters.W: W()
-com.kyview.adapters.W: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.W: void handle()
-com.kyview.adapters.W: void onWQAdReceived(com.wqmobile.sdk.WQAdView)
-com.kyview.adapters.W: void onWQAdFailed(com.wqmobile.sdk.WQAdView)
-com.kyview.adapters.W: void onWQAdDismiss(com.wqmobile.sdk.WQAdView)
-com.kyview.adapters.W: void onWQAdLoadTimeout(com.wqmobile.sdk.WQAdView)
-com.kyview.adapters.X
-com.kyview.adapters.X: void a(com.kyview.a)
-com.kyview.adapters.X: X()
-com.kyview.adapters.X: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.X: void handle()
-com.kyview.adapters.X: void onSwitchedAd(net.youmi.android.banner.AdView)
-com.kyview.adapters.X: void onReceivedAd(net.youmi.android.banner.AdView)
-com.kyview.adapters.X: void onFailedToReceivedAd(net.youmi.android.banner.AdView)
-com.kyview.adapters.Y
-com.kyview.adapters.Y: void a(com.kyview.a)
-com.kyview.adapters.Y: Y()
-com.kyview.adapters.Y: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.Y: void handle()
-com.kyview.adapters.Y: void AdFailed(com.zestadz.android.ZestADZAdView)
-com.kyview.adapters.Y: void AdReturned(com.zestadz.android.ZestADZAdView)
-com.kyview.adapters.a
-com.kyview.adapters.a: void a(com.kyview.a)
-com.kyview.adapters.a: a()
-com.kyview.adapters.a: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.a: void handle()
-com.kyview.adapters.a: void onAdReady(com.baidu.mobads.AdView)
-com.kyview.adapters.a: void onAdShow(org.json.JSONObject)
-com.kyview.adapters.a: void onAdClick(org.json.JSONObject)
-com.kyview.adapters.a: void onAdFailed(java.lang.String)
-com.kyview.adapters.a: void onAdSwitch()
-com.kyview.adapters.a: void onVideoFinish()
-com.kyview.adapters.a: void onVideoStart()
-com.kyview.adapters.a: void onVideoClickAd()
-com.kyview.adapters.a: void onVideoClickClose()
-com.kyview.adapters.a: void onVideoClickReplay()
-com.kyview.adapters.a: void onVideoError()
-com.kyview.adapters.b
-com.kyview.adapters.b: void a(com.kyview.a)
-com.kyview.adapters.b: b()
-com.kyview.adapters.b: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.b: void handle()
-com.kyview.adapters.b: void onFailedToReceiveAd(com.adchina.android.ads.views.AdView)
-com.kyview.adapters.b: void onReceiveAd(com.adchina.android.ads.views.AdView)
-com.kyview.adapters.b: boolean OnRecvSms(com.adchina.android.ads.views.AdView,java.lang.String)
-com.kyview.adapters.b: void onClickBanner(com.adchina.android.ads.views.AdView)
-com.kyview.adapters.b: void onFailedToRefreshAd(com.adchina.android.ads.views.AdView)
-com.kyview.adapters.b: void onRefreshAd(com.adchina.android.ads.views.AdView)
-com.kyview.adapters.c
-com.kyview.adapters.c: void a(com.kyview.a)
-com.kyview.adapters.c: c()
-com.kyview.adapters.c: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.c: void handle()
-com.kyview.adapters.c: void onDismissScreen(com.google.ads.Ad)
-com.kyview.adapters.c: void onFailedToReceiveAd(com.google.ads.Ad,com.google.ads.AdRequest$ErrorCode)
-com.kyview.adapters.c: void onLeaveApplication(com.google.ads.Ad)
-com.kyview.adapters.c: void onPresentScreen(com.google.ads.Ad)
-com.kyview.adapters.c: void onReceiveAd(com.google.ads.Ad)
-com.kyview.adapters.d
-com.kyview.adapters.d: int k
-com.kyview.adapters.d: void a(com.kyview.a)
-com.kyview.adapters.d: d()
-com.kyview.adapters.d: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.d: void handle()
-com.kyview.adapters.d: void failedReceiveAd(com.energysource.szj.embeded.AdView)
-com.kyview.adapters.d: void receiveAd(com.energysource.szj.embeded.AdView)
-com.kyview.adapters.e
-com.kyview.adapters.e: com.kyview.adapters.AdViewAdapter b
-com.kyview.adapters.e: e(com.kyview.adapters.AdViewAdapter)
-com.kyview.adapters.e: void run()
-com.kyview.adapters.f
-com.kyview.adapters.f: void a(com.kyview.a)
-com.kyview.adapters.f: f()
-com.kyview.adapters.f: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.f: void handle()
-com.kyview.adapters.f: void f(com.kyview.a.b)
-com.kyview.adapters.f: void e(com.kyview.a.b)
-com.kyview.adapters.g
-com.kyview.adapters.g: jp.adlantis.android.AdlantisView a
-com.kyview.adapters.g: void a(com.kyview.a)
-com.kyview.adapters.g: g()
-com.kyview.adapters.g: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.g: void handle()
-com.kyview.adapters.g: void onFailedToReceiveAd(jp.adlantis.android.AdRequestNotifier)
-com.kyview.adapters.g: void onReceiveAd(jp.adlantis.android.AdRequestNotifier)
-com.kyview.adapters.h
-com.kyview.adapters.h: java.lang.String x
-com.kyview.adapters.h: java.lang.String y
-com.kyview.adapters.h: java.lang.String z
-com.kyview.adapters.h: java.lang.String A
-com.kyview.adapters.h: java.lang.String B
-com.kyview.adapters.h: java.lang.String C
-com.kyview.adapters.h: java.lang.String D
-com.kyview.adapters.h: java.lang.String E
-com.kyview.adapters.h: java.lang.String F
-com.kyview.adapters.h: h()
-com.kyview.adapters.h: java.lang.String f()
-com.kyview.adapters.h: void e(java.lang.String)
-com.kyview.adapters.h: java.lang.String g()
-com.kyview.adapters.h: void f(java.lang.String)
-com.kyview.adapters.h: java.lang.String h()
-com.kyview.adapters.h: void g(java.lang.String)
-com.kyview.adapters.h: java.lang.String i()
-com.kyview.adapters.h: void h(java.lang.String)
-com.kyview.adapters.h: java.lang.String j()
-com.kyview.adapters.h: void i(java.lang.String)
-com.kyview.adapters.h: java.lang.String k()
-com.kyview.adapters.h: void j(java.lang.String)
-com.kyview.adapters.h: java.lang.String l()
-com.kyview.adapters.h: void k(java.lang.String)
-com.kyview.adapters.h: java.lang.String getText()
-com.kyview.adapters.h: void setText(java.lang.String)
-com.kyview.adapters.h: java.lang.String m()
-com.kyview.adapters.h: void l(java.lang.String)
-com.kyview.adapters.i
-com.kyview.adapters.i: double b
-com.kyview.adapters.i: double c
-com.kyview.adapters.i: com.kyview.AdViewLayout a
-com.kyview.adapters.i: android.content.Context mContext
-com.kyview.adapters.i: com.kyview.adapters.h a
-com.kyview.adapters.i: java.lang.String G
-com.kyview.adapters.i: java.lang.String H
-com.kyview.adapters.i: java.lang.String I
-com.kyview.adapters.i: void a(com.kyview.a)
-com.kyview.adapters.i: i()
-com.kyview.adapters.i: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.i: void handle()
-com.kyview.adapters.i: void click()
-com.kyview.adapters.i: java.lang.String c(java.lang.String)
-com.kyview.adapters.i: java.util.ArrayList a(java.lang.String)
-com.kyview.adapters.i: void c(com.kyview.AdViewLayout)
-com.kyview.adapters.i: void m(java.lang.String)
-com.kyview.adapters.i: com.kyview.AdViewLayout a(com.kyview.adapters.i)
-com.kyview.adapters.i$a
-com.kyview.adapters.i$a: java.lang.String J
-com.kyview.adapters.i$a: com.kyview.adapters.i a
-com.kyview.adapters.i$a: i$a(com.kyview.adapters.i)
-com.kyview.adapters.i$a: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)
-com.kyview.adapters.i$a: i$a(com.kyview.adapters.i,byte)
-com.kyview.adapters.i$a: com.kyview.adapters.i a(com.kyview.adapters.i$a)
-com.kyview.adapters.j
-com.kyview.adapters.j: com.kyview.adapters.i$a a
-com.kyview.adapters.j: j(com.kyview.adapters.i$a)
-com.kyview.adapters.j: void onClick(android.content.DialogInterface,int)
-com.kyview.adapters.k
-com.kyview.adapters.k: k(com.kyview.adapters.i$a)
-com.kyview.adapters.k: void onClick(android.content.DialogInterface,int)
-com.kyview.adapters.l
-com.kyview.adapters.l: void a(com.kyview.a)
-com.kyview.adapters.l: l()
-com.kyview.adapters.l: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.l: void handle()
-com.kyview.adapters.l: void onFailedToReceiveAd(com.adwo.adsdk.AdwoAdView,com.adwo.adsdk.ErrorCode)
-com.kyview.adapters.l: void onReceiveAd(com.adwo.adsdk.AdwoAdView)
-com.kyview.adapters.m
-com.kyview.adapters.m: com.mt.airad.AirAD a
-com.kyview.adapters.m: void a(com.kyview.a)
-com.kyview.adapters.m: m()
-com.kyview.adapters.m: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.m: void handle()
-com.kyview.adapters.m: void onAdReceived()
-com.kyview.adapters.m: void onAdReceivedFailed(int)
-com.kyview.adapters.m: void onAdContentShow()
-com.kyview.adapters.m: void onAdContentLoadFinished()
-com.kyview.adapters.m: void onAdContentClose()
-com.kyview.adapters.m: void onAdBannerShown()
-com.kyview.adapters.n
-com.kyview.adapters.n: void a(com.kyview.a)
-com.kyview.adapters.n: n()
-com.kyview.adapters.n: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.n: void handle()
-com.kyview.adapters.n: void onReceiveAdFailure(cn.appmedia.ad.BannerAdView)
-com.kyview.adapters.n: void onReceiveAdSuccess(cn.appmedia.ad.BannerAdView)
-com.kyview.adapters.o
-com.kyview.adapters.o: com.kyview.adapters.i b
-com.kyview.adapters.o: java.lang.String K
-com.kyview.adapters.o: o(com.kyview.adapters.i,java.lang.String)
-com.kyview.adapters.o: void run()
-com.kyview.adapters.p
-com.kyview.adapters.p: com.kyview.adapters.L a
-com.kyview.adapters.p: p(com.kyview.adapters.L)
-com.kyview.adapters.p: void run()
-com.kyview.adapters.q
-com.kyview.adapters.q: void a(com.kyview.a)
-com.kyview.adapters.q: q()
-com.kyview.adapters.q: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.q: void handle()
-com.kyview.adapters.q: void onDomobAdFailed(cn.domob.android.ads.DomobAdView,cn.domob.android.ads.DomobAdManager$ErrorCode)
-com.kyview.adapters.q: void onDomobAdReturned(cn.domob.android.ads.DomobAdView)
-com.kyview.adapters.q: void onDomobAdClicked(cn.domob.android.ads.DomobAdView)
-com.kyview.adapters.q: void onDomobLeaveApplication(cn.domob.android.ads.DomobAdView)
-com.kyview.adapters.q: void onDomobAdOverlayPresented(cn.domob.android.ads.DomobAdView)
-com.kyview.adapters.q: void onDomobAdOverlayDismissed(cn.domob.android.ads.DomobAdView)
-com.kyview.adapters.q: android.content.Context onDomobAdRequiresCurrentContext()
-com.kyview.adapters.r
-com.kyview.adapters.r: void a(com.kyview.a)
-com.kyview.adapters.r: r()
-com.kyview.adapters.r: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.r: void handle()
-com.kyview.adapters.r: void onDismissScreen(com.google.ads.Ad)
-com.kyview.adapters.r: void onFailedToReceiveAd(com.google.ads.Ad,com.google.ads.AdRequest$ErrorCode)
-com.kyview.adapters.r: void onLeaveApplication(com.google.ads.Ad)
-com.kyview.adapters.r: void onPresentScreen(com.google.ads.Ad)
-com.kyview.adapters.r: void onReceiveAd(com.google.ads.Ad)
-com.kyview.adapters.s
-com.kyview.adapters.s: void a(com.kyview.a)
-com.kyview.adapters.s: s()
-com.kyview.adapters.s: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.s: void handle()
-com.kyview.adapters.t
-com.kyview.adapters.t: com.kyview.adapters.i b
-com.kyview.adapters.t: com.kyview.b.b a
-com.kyview.adapters.t: t(com.kyview.adapters.i,com.kyview.b.b)
-com.kyview.adapters.t: void run()
-com.kyview.adapters.u
-com.kyview.adapters.u: com.kyview.adapters.L a
-com.kyview.adapters.u: com.kyview.b.b a
-com.kyview.adapters.u: u(com.kyview.adapters.L,com.kyview.b.b)
-com.kyview.adapters.u: void run()
-com.kyview.adapters.v
-com.kyview.adapters.v: com.fractalist.android.ads.ADView a
-com.kyview.adapters.v: void a(com.kyview.a)
-com.kyview.adapters.v: v()
-com.kyview.adapters.v: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.v: void handle()
-com.kyview.adapters.v: void onClick()
-com.kyview.adapters.v: void onFail()
-com.kyview.adapters.v: void onReceiveAd()
-com.kyview.adapters.v: void onRefreshAd()
-com.kyview.adapters.w
-com.kyview.adapters.w: void a(com.kyview.a)
-com.kyview.adapters.w: w()
-com.kyview.adapters.w: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.w: void handle()
-com.kyview.adapters.w: void onAdClickthrough(com.greystripe.sdk.GSAd)
-com.kyview.adapters.w: void onAdDismissal(com.greystripe.sdk.GSAd)
-com.kyview.adapters.w: void onFailedToFetchAd(com.greystripe.sdk.GSAd,com.greystripe.sdk.GSAdErrorCode)
-com.kyview.adapters.w: void onFetchedAd(com.greystripe.sdk.GSAd)
-com.kyview.adapters.w: void addListener(com.greystripe.sdk.GSAdListener)
-com.kyview.adapters.w: boolean isAdReady()
-com.kyview.adapters.w: void removeListener(com.greystripe.sdk.GSAdListener)
-com.kyview.adapters.x
-com.kyview.adapters.x: com.inmobi.androidsdk.IMAdView a
-com.kyview.adapters.x: com.inmobi.androidsdk.IMAdRequest a
-com.kyview.adapters.x: com.inmobi.androidsdk.IMAdListener a
-com.kyview.adapters.x: void a(com.kyview.a)
-com.kyview.adapters.x: x()
-com.kyview.adapters.x: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.x: void handle()
-com.kyview.adapters.y
-com.kyview.adapters.y: com.kyview.adapters.x a
-com.kyview.adapters.y: y(com.kyview.adapters.x)
-com.kyview.adapters.y: void onShowAdScreen(com.inmobi.androidsdk.IMAdView)
-com.kyview.adapters.y: void onDismissAdScreen(com.inmobi.androidsdk.IMAdView)
-com.kyview.adapters.y: void onLeaveApplication(com.inmobi.androidsdk.IMAdView)
-com.kyview.adapters.y: void onAdRequestFailed(com.inmobi.androidsdk.IMAdView,com.inmobi.androidsdk.IMAdRequest$ErrorCode)
-com.kyview.adapters.y: void onAdRequestCompleted(com.inmobi.androidsdk.IMAdView)
-com.kyview.adapters.z
-com.kyview.adapters.z: void a(com.kyview.a)
-com.kyview.adapters.z: z()
-com.kyview.adapters.z: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.z: void handle()
-com.kyview.adapters.z: boolean shouldRequestFreshAd(com.izp.views.IZPView)
-com.kyview.adapters.z: void didReceiveFreshAd(com.izp.views.IZPView,int)
-com.kyview.adapters.z: boolean shouldShowFreshAd(com.izp.views.IZPView)
-com.kyview.adapters.z: void didShowFreshAd(com.izp.views.IZPView)
-com.kyview.adapters.z: void willLeaveApplication(com.izp.views.IZPView)
-com.kyview.adapters.z: void errorReport(com.izp.views.IZPView,int,java.lang.String)
-com.kyview.adapters.z: void didStopFullScreenAd(com.izp.views.IZPView)
+com.kyview.adapters.AdViewAdapter$1
+com.kyview.adapters.AdViewAdapter$1: com.kyview.adapters.AdViewAdapter this$0
+com.kyview.adapters.AdViewAdapter$1: AdViewAdapter$1(com.kyview.adapters.AdViewAdapter)
+com.kyview.adapters.AdViewAdapter$1: void run()
+com.kyview.adapters.AdViewHouseAdapter
+com.kyview.adapters.AdViewHouseAdapter: int networkType()
+com.kyview.adapters.AdViewHouseAdapter: void load(com.kyview.a)
+com.kyview.adapters.AdViewHouseAdapter: AdViewHouseAdapter()
+com.kyview.adapters.AdViewHouseAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.AdViewHouseAdapter: void handle()
+com.kyview.adapters.AdViewHouseAdapter: void onConnectFailed(com.kyview.a.b)
+com.kyview.adapters.AdViewHouseAdapter: void onReceivedAd(com.kyview.a.b)
+com.kyview.adapters.DisplaySuizongADRunnable
+com.kyview.adapters.DisplaySuizongADRunnable: com.kyview.adapters.SuizongInterfaceAdapter suizongADAdapter
+com.kyview.adapters.DisplaySuizongADRunnable: DisplaySuizongADRunnable(com.kyview.adapters.SuizongInterfaceAdapter)
+com.kyview.adapters.DisplaySuizongADRunnable: void run()
+com.kyview.adapters.EventAdapter
+com.kyview.adapters.EventAdapter: int networkType()
+com.kyview.adapters.EventAdapter: void load(com.kyview.a)
+com.kyview.adapters.EventAdapter: EventAdapter()
+com.kyview.adapters.EventAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.EventAdapter: void handle()
+com.kyview.adapters.FetchSuizongADRunnable
+com.kyview.adapters.FetchSuizongADRunnable: com.kyview.adapters.SuizongInterfaceAdapter suizongADAdapter
+com.kyview.adapters.FetchSuizongADRunnable: com.kyview.b.b ration
+com.kyview.adapters.FetchSuizongADRunnable: FetchSuizongADRunnable(com.kyview.adapters.SuizongInterfaceAdapter,com.kyview.b.b)
+com.kyview.adapters.FetchSuizongADRunnable: void run()
+com.kyview.adapters.MobWinAdapter
+com.kyview.adapters.MobWinAdapter: com.tencent.exmobwin.banner.TAdView adView
+com.kyview.adapters.MobWinAdapter: int networkType()
+com.kyview.adapters.MobWinAdapter: void load(com.kyview.a)
+com.kyview.adapters.MobWinAdapter: MobWinAdapter()
+com.kyview.adapters.MobWinAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.MobWinAdapter: void handle()
+com.kyview.adapters.MobWinAdapter: void onReceiveFailed(int)
+com.kyview.adapters.MobWinAdapter: void onReceiveAd()
+com.kyview.adapters.MobWinAdapter: void onAdClick()
+com.kyview.adapters.SuizongAD
+com.kyview.adapters.SuizongAD: java.lang.String adid
+com.kyview.adapters.SuizongAD: java.lang.String status
+com.kyview.adapters.SuizongAD: java.lang.String msg
+com.kyview.adapters.SuizongAD: java.lang.String updateTime
+com.kyview.adapters.SuizongAD: java.lang.String refreshTime
+com.kyview.adapters.SuizongAD: java.lang.String awidth
+com.kyview.adapters.SuizongAD: java.lang.String aheight
+com.kyview.adapters.SuizongAD: java.lang.String impURL
+com.kyview.adapters.SuizongAD: java.lang.String clickURL
+com.kyview.adapters.SuizongAD: java.lang.String priceType
+com.kyview.adapters.SuizongAD: java.lang.String price
+com.kyview.adapters.SuizongAD: java.lang.String adType
+com.kyview.adapters.SuizongAD: java.lang.String impResult
+com.kyview.adapters.SuizongAD: java.lang.String clkResult
+com.kyview.adapters.SuizongAD: java.lang.String data
+com.kyview.adapters.SuizongAD: java.lang.String sid
+com.kyview.adapters.SuizongAD: SuizongAD()
+com.kyview.adapters.SuizongInterfaceAdapter
+com.kyview.adapters.SuizongInterfaceAdapter: com.kyview.adapters.SuizongAD suizongAD
+com.kyview.adapters.SuizongInterfaceAdapter: double density
+com.kyview.adapters.SuizongInterfaceAdapter: java.lang.String ip
+com.kyview.adapters.SuizongInterfaceAdapter: double adHeight
+com.kyview.adapters.SuizongInterfaceAdapter: double adWidth
+com.kyview.adapters.SuizongInterfaceAdapter: java.lang.String url
+com.kyview.adapters.SuizongInterfaceAdapter: java.lang.String serial_key
+com.kyview.adapters.SuizongInterfaceAdapter: com.kyview.AdViewLayout adViewLayout
+com.kyview.adapters.SuizongInterfaceAdapter: com.kyview.adapters.SuizongScreenManager suizongScreenManager
+com.kyview.adapters.SuizongInterfaceAdapter: java.lang.String SuizongApiAddr
+com.kyview.adapters.SuizongInterfaceAdapter: java.lang.String mDeviceid
+com.kyview.adapters.SuizongInterfaceAdapter: android.content.Context mContext
+com.kyview.adapters.SuizongInterfaceAdapter: void <clinit>()
+com.kyview.adapters.SuizongInterfaceAdapter: int convertToScreenPixels(int,double)
+com.kyview.adapters.SuizongInterfaceAdapter: int networkType()
+com.kyview.adapters.SuizongInterfaceAdapter: void load(com.kyview.a)
+com.kyview.adapters.SuizongInterfaceAdapter: SuizongInterfaceAdapter()
+com.kyview.adapters.SuizongInterfaceAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.SuizongInterfaceAdapter: void handle()
+com.kyview.adapters.SuizongInterfaceAdapter: void calcAdSize(int)
+com.kyview.adapters.SuizongInterfaceAdapter: void click()
+com.kyview.adapters.SuizongInterfaceAdapter: java.net.HttpURLConnection createConnection(java.util.HashMap,java.lang.String,java.lang.String,boolean,boolean,boolean,boolean,int,int)
+com.kyview.adapters.SuizongInterfaceAdapter: void httpRequest(java.util.HashMap,java.lang.String)
+com.kyview.adapters.SuizongInterfaceAdapter: java.lang.String getLocalIPAddress()
+com.kyview.adapters.SuizongInterfaceAdapter: java.lang.String makePcheck(java.util.HashMap)
+com.kyview.adapters.SuizongInterfaceAdapter: java.lang.String makePcheck4GetBody(java.util.HashMap)
+com.kyview.adapters.SuizongInterfaceAdapter: java.lang.String makePcheck4Show(java.util.HashMap)
+com.kyview.adapters.SuizongInterfaceAdapter: void requestSuizongAD(com.kyview.AdViewLayout,java.lang.String)
+com.kyview.adapters.SuizongInterfaceAdapter: void displaySuizongAD()
+com.kyview.adapters.SuizongInterfaceAdapter: java.lang.String access$0(com.kyview.adapters.SuizongInterfaceAdapter,java.util.HashMap)
+com.kyview.adapters.SuizongInterfaceAdapter: java.lang.String access$1(com.kyview.adapters.SuizongInterfaceAdapter)
+com.kyview.adapters.SuizongInterfaceAdapter$1
+com.kyview.adapters.SuizongInterfaceAdapter$1: com.kyview.adapters.SuizongInterfaceAdapter this$0
+com.kyview.adapters.SuizongInterfaceAdapter$1: SuizongInterfaceAdapter$1(com.kyview.adapters.SuizongInterfaceAdapter)
+com.kyview.adapters.SuizongInterfaceAdapter$1: void run()
+com.kyview.adapters.SuizongInterfaceAdapter$2
+com.kyview.adapters.SuizongInterfaceAdapter$2: com.kyview.adapters.SuizongInterfaceAdapter this$0
+com.kyview.adapters.SuizongInterfaceAdapter$2: SuizongInterfaceAdapter$2(com.kyview.adapters.SuizongInterfaceAdapter)
+com.kyview.adapters.SuizongInterfaceAdapter$2: void run()
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient: java.lang.String url2
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient: com.kyview.adapters.SuizongInterfaceAdapter this$0
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient: SuizongInterfaceAdapter$webViewClient(com.kyview.adapters.SuizongInterfaceAdapter)
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient: SuizongInterfaceAdapter$webViewClient(com.kyview.adapters.SuizongInterfaceAdapter,com.kyview.adapters.SuizongInterfaceAdapter$webViewClient)
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient: com.kyview.adapters.SuizongInterfaceAdapter access$1(com.kyview.adapters.SuizongInterfaceAdapter$webViewClient)
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$1
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$1: com.kyview.adapters.SuizongInterfaceAdapter$webViewClient this$1
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$1: SuizongInterfaceAdapter$webViewClient$1(com.kyview.adapters.SuizongInterfaceAdapter$webViewClient)
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$1: void onClick(android.content.DialogInterface,int)
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$2
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$2: com.kyview.adapters.SuizongInterfaceAdapter$webViewClient this$1
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$2: SuizongInterfaceAdapter$webViewClient$2(com.kyview.adapters.SuizongInterfaceAdapter$webViewClient)
+com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$2: void onClick(android.content.DialogInterface,int)
+com.kyview.adapters.SuizongScreenManager
+com.kyview.adapters.SuizongScreenManager: java.lang.String aw
+com.kyview.adapters.SuizongScreenManager: java.lang.String ah
+com.kyview.adapters.SuizongScreenManager: int screenWidth
+com.kyview.adapters.SuizongScreenManager: java.lang.String getAw()
+com.kyview.adapters.SuizongScreenManager: void setAw(java.lang.String)
+com.kyview.adapters.SuizongScreenManager: java.lang.String getAh()
+com.kyview.adapters.SuizongScreenManager: void setAh(java.lang.String)
+com.kyview.adapters.SuizongScreenManager: SuizongScreenManager(int)
+com.kyview.adapters.SuizongScreenManager: void calc()
 com.kyview.b
 com.kyview.b: com.kyview.AdviewWebView a
 com.kyview.b: b(com.kyview.AdviewWebView)
 com.kyview.b: void handleMessage(android.os.Message)
 com.kyview.b.a
+com.kyview.b.a: int i
+com.kyview.b.a: int j
+com.kyview.b.a: int k
 com.kyview.b.a: int l
 com.kyview.b.a: int m
 com.kyview.b.a: int n
 com.kyview.b.a: int o
-com.kyview.b.a: int p
-com.kyview.b.a: int q
-com.kyview.b.a: int r
-com.kyview.b.a: java.lang.String V
+com.kyview.b.a: java.lang.String s
 com.kyview.b.a: a()
 com.kyview.b.b
-com.kyview.b.b: java.lang.String W
+com.kyview.b.b: java.lang.String t
 com.kyview.b.b: int type
 com.kyview.b.b: java.lang.String name
-com.kyview.b.b: double e
-com.kyview.b.b: java.lang.String X
-com.kyview.b.b: java.lang.String Y
-com.kyview.b.b: java.lang.String Z
-com.kyview.b.b: int s
+com.kyview.b.b: double b
+com.kyview.b.b: java.lang.String u
+com.kyview.b.b: java.lang.String v
+com.kyview.b.b: java.lang.String w
+com.kyview.b.b: int p
 com.kyview.b.b: int priority
-com.kyview.b.b: java.lang.String t
+com.kyview.b.b: java.lang.String o
 com.kyview.b.b: b()
 com.kyview.b.b: int compareTo(java.lang.Object)
 com.kyview.c
@@ -5050,52 +4534,55 @@ com.kyview.c: com.kyview.AdviewWebView a
 com.kyview.c: c(com.kyview.AdviewWebView,android.content.Context)
 com.kyview.c: void onSizeChanged(int,int,int,int)
 com.kyview.c.a
-com.kyview.c.a: java.lang.String aa
-com.kyview.c.a: java.lang.String ab
-com.kyview.c.a: java.lang.String ac
+com.kyview.c.a: java.lang.String x
+com.kyview.c.a: java.lang.String y
+com.kyview.c.a: java.lang.String z
 com.kyview.c.a: int[] a
 com.kyview.c.a: double mDensity
 com.kyview.c.a: void <clinit>()
 com.kyview.c.a: a()
 com.kyview.c.a: double a(android.app.Activity)
-com.kyview.c.a: int a(int,double)
+com.kyview.c.a: int convertToScreenPixels(int,double)
 com.kyview.c.a: boolean a(android.content.Context,java.lang.String)
 com.kyview.c.a: java.lang.String d(android.content.Context)
 com.kyview.c.a: java.lang.String e(android.content.Context)
 com.kyview.c.a: java.lang.String getIDByMAC(android.content.Context)
 com.kyview.c.a: java.lang.String f(android.content.Context)
 com.kyview.c.a: int[] a(android.content.Context)
+com.kyview.c.a: void logDebug(java.lang.String)
+com.kyview.c.a: void a(java.lang.String,java.lang.Throwable)
+com.kyview.c.a: void e(java.lang.String)
 com.kyview.c.b
-com.kyview.c.b: int t
+com.kyview.c.b: int q
 com.kyview.c.b: int[] b
-com.kyview.c.b: int u
-com.kyview.c.b: int v
+com.kyview.c.b: int r
+com.kyview.c.b: int s
 com.kyview.c.b: boolean j
 com.kyview.c.b: int[] c
 com.kyview.c.b: int width
 com.kyview.c.b: int height
-com.kyview.c.b: int w
+com.kyview.c.b: int t
 com.kyview.c.b: boolean k
 com.kyview.c.b: boolean l
 com.kyview.c.b: int[] d
-com.kyview.c.b: int x
+com.kyview.c.b: int u
 com.kyview.c.b: boolean m
-com.kyview.c.b: int y
+com.kyview.c.b: int v
 com.kyview.c.b: long a
-com.kyview.c.b: int z
+com.kyview.c.b: int w
 com.kyview.c.b: int[] e
 com.kyview.c.b: int[] f
+com.kyview.c.b: int x
+com.kyview.c.b: int y
+com.kyview.c.b: int z
+com.kyview.c.b: byte[] a
 com.kyview.c.b: int A
 com.kyview.c.b: int B
 com.kyview.c.b: int C
-com.kyview.c.b: byte[] a
-com.kyview.c.b: int D
-com.kyview.c.b: int E
-com.kyview.c.b: int F
 com.kyview.c.b: void <clinit>()
 com.kyview.c.b: b(byte[])
 com.kyview.c.b: boolean a()
-com.kyview.c.b: void d()
+com.kyview.c.b: void c()
 com.kyview.c.b: android.graphics.Bitmap a()
 com.kyview.c.b: void clear()
 com.kyview.c.b: boolean a(int,boolean)
@@ -5108,13 +4595,13 @@ com.kyview.c.c: int index
 com.kyview.c.c: c()
 com.kyview.c.c: int size()
 com.kyview.c.c: android.graphics.Bitmap b()
-com.kyview.c.c: void d()
+com.kyview.c.c: void c()
 com.kyview.c.c: com.kyview.c.c a(byte[])
 com.kyview.c.d
 com.kyview.c.d: java.lang.String[] b
 com.kyview.c.d: void <clinit>()
 com.kyview.c.d: java.lang.String a(byte[])
-com.kyview.c.d: java.lang.String d(java.lang.String)
+com.kyview.c.d: java.lang.String c(java.lang.String)
 com.kyview.d
 com.kyview.d: com.kyview.AdviewWebView$e b
 com.kyview.d: d(com.kyview.AdviewWebView$e)

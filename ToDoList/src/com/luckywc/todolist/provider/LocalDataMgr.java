@@ -21,7 +21,7 @@ public class LocalDataMgr {
 			Element item=doc.createElement("item");
 			Element title=doc.createElement("title");
 			Element content=doc.createElement("content");
-			Element content=doc.createElement("dateadd");
+			Element dateAdd=doc.createElement("dateadd");
 		}
 	}
 }

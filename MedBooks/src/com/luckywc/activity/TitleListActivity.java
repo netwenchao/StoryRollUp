@@ -16,23 +16,67 @@ import org.xml.sax.SAXException;
 import com.luckywc.medbooks.R;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
 import android.app.ListActivity;
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.PopupWindow;
 import android.widget.SimpleAdapter;
+import android.widget.TextView;
 
-public class TitleListActivity extends ListActivity{
-
+public class TitleListActivity extends ListActivity{	
+	private PopupWindow ppw;
+	private TextView tvTitle;
+	private TextView tvContent;
+	
+	private void ShowDetailDialog(String title,String content){
+		View detailView=getLayoutInflater().inflate(R.layout.activity_detail,null);
+		int width=getWindowManager().getDefaultDisplay().getWidth();
+		int height=(int)(getWindowManager().getDefaultDisplay().getHeight());
+		tvTitle=((TextView)detailView.findViewById(R.id.tv_detail_Title));
+		tvTitle.setText(title);
+		tvContent=((TextView)detailView.findViewById(R.id.tv_detail_content));
+		tvContent.setText(content);		
+				
+		((Button)detailView.findViewById(R.id.btn_Detail_Share)).setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent intent=new Intent(Intent.ACTION_SEND);
+				intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+				intent.putExtra(Intent.EXTRA_TEXT,tvContent.getText());
+				intent.setType("text/plain");
+				startActivity(Intent.createChooser(intent,getString(R.string.dialog_share)));
+			}		
+		});
+		
+		((Button)detailView.findViewById(R.id.btn_Detail_Close)).setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View arg0) {ppw.dismiss();}		
+		});
+		
+		ppw=new PopupWindow(detailView,width,height);
+		ppw.setOutsideTouchable(false);
+		ColorDrawable dw=new ColorDrawable(-00000);
+		ppw.setBackgroundDrawable(dw);
+		ppw.setFocusable(true);
+		ppw.update();
+		ppw.showAtLocation(findViewById(R.id.titleContainer), BIND_AUTO_CREATE, 0,0);
+	}
+	
 	@Override
 	protected void onListItemClick(ListView l, View v, int position, long id) {
 		HashMap<String,String> itemHashMap=(HashMap<String,String>)l.getItemAtPosition(position);
-		if(itemHashMap==null) return;
-		Intent detail=new Intent(this,DetailActivity.class);		
-		detail.putExtra("content",itemHashMap.get("Content"));
-		startActivity(detail);
+		if(itemHashMap==null) return;	
+		ShowDetailDialog(itemHashMap.get("Title"),itemHashMap.get("Content"));
 	}
 
 	@Override

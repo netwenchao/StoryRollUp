@@ -79,24 +79,25 @@ public final class R {
         public static final int bg_block=0x7f020002;
         public static final int daily_item_bg=0x7f020003;
         public static final int ic_launcher=0x7f020004;
-        public static final int item_selector=0x7f020005;
-        public static final int onload=0x7f020006;
-        public static final int shape_item_normal=0x7f020007;
-        public static final int shape_item_press=0x7f020008;
-        public static final int spliter=0x7f020009;
-        public static final int top_bar_background=0x7f02000a;
-        public static final int top_bar_home_normal=0x7f02000b;
-        public static final int top_bar_home_press=0x7f02000c;
-        public static final int top_bar_home_selector=0x7f02000d;
-        public static final int top_bar_return_normal=0x7f02000e;
-        public static final int top_bar_return_press=0x7f02000f;
-        public static final int top_bar_return_selector=0x7f020010;
+        public static final int ic_pulltorefresh_arrow=0x7f020005;
+        public static final int item_selector=0x7f020006;
+        public static final int onload=0x7f020007;
+        public static final int shape_item_normal=0x7f020008;
+        public static final int shape_item_press=0x7f020009;
+        public static final int spliter=0x7f02000a;
+        public static final int top_bar_background=0x7f02000b;
+        public static final int top_bar_home_normal=0x7f02000c;
+        public static final int top_bar_home_press=0x7f02000d;
+        public static final int top_bar_home_selector=0x7f02000e;
+        public static final int top_bar_return_normal=0x7f02000f;
+        public static final int top_bar_return_press=0x7f020010;
+        public static final int top_bar_return_selector=0x7f020011;
     }
     public static final class id {
         public static final int ItemTitle=0x7f09000e;
-        public static final int action_changeappr=0x7f09001c;
-        public static final int action_settings=0x7f09001d;
-        public static final int action_share=0x7f09001b;
+        public static final int action_changeappr=0x7f09001e;
+        public static final int action_settings=0x7f09001f;
+        public static final int action_share=0x7f09001d;
         public static final int adContainer=0x7f090004;
         public static final int bookList=0x7f090003;
         public static final int btnBack2ClassList=0x7f090007;
@@ -116,6 +117,8 @@ public final class R {
         public static final int itemImageRight=0x7f09000d;
         public static final int listDaily=0x7f090005;
         public static final int prevText=0x7f09000f;
+        public static final int pull_to_refresh_header=0x7f09001b;
+        public static final int pull_to_refresh_progress=0x7f09001c;
         public static final int sbFontSize=0x7f090011;
         public static final int tabhost=0x7f090006;
         public static final int tvRelease=0x7f09001a;
@@ -135,6 +138,7 @@ public final class R {
         public static final int daily_item=0x7f030007;
         public static final int daily_item_footer=0x7f030008;
         public static final int daily_item_header=0x7f030009;
+        public static final int pull_to_refresh_header=0x7f03000a;
     }
     public static final class menu {
         public static final int content_menu=0x7f080000;

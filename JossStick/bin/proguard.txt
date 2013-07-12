@@ -1,8 +1,5 @@
-# view AndroidManifest.xml #generated:51
--keep class com.baidu.mobads.AppActivity { <init>(...); }
-
 # view AndroidManifest.xml #generated:46
--keep class com.google.ads.AdActivity { <init>(...); }
+-keep class com.baidu.mobads.AppActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:44
 -keep class com.kyview.AdviewWebView { <init>(...); }
@@ -22,9 +19,9 @@
 # view AndroidManifest.xml #generated:26
 -keep class com.luckywc.jossstick.StartPage { <init>(...); }
 
-# view AndroidManifest.xml #generated:62
+# view AndroidManifest.xml #generated:57
 -keep class com.tencent.exmobwin.banner.DialogActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:60
+# view AndroidManifest.xml #generated:55
 -keep class com.tencent.exmobwin.banner.MobWINBrowserActivity { <init>(...); }
 

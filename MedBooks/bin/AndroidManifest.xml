@@ -31,6 +31,8 @@
         </activity>
         <activity android:name="com.luckywc.activity.TitleListActivity" >
         </activity>
+        <activity android:name="com.luckywc.activity.DetailActivity" >
+        </activity>
     </application>
 
 </manifest>

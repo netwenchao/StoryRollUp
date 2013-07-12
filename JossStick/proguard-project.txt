@@ -9,7 +9,6 @@
 -libraryjars /libs/Tencent_MobWIN_SDK_2.0.jar
 -libraryjars /libs/android-support-v4.jar
 -libraryjars /libs/Baidu_MobAds_SDK_Agg_3.2.jar
--libraryjars /libs/GoogleAdMobAdsSdk-6.2.1.jar
 
 -ignorewarnings
 
@@ -52,4 +51,3 @@
 -keep class android.support.v4.**{*;}
 -keep class com.baidu.mobads.**{*;}
 -keep class cn.domob.android.**{*;}
--keep class com.google.ads.**{}
