@@ -23,6 +23,7 @@
         </activity>
         <activity android:name="com.luckywc.activity.FoodActivity" >
         </activity>
+        <activity android:name="com.luckywc.activity.FoodInfo" />
         <activity android:name="com.luckywc.activity.SearchActivity" >
         </activity>
         <activity android:name="com.luckywc.activity.SettingActivity" >

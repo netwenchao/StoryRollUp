@@ -4,11 +4,47 @@ import com.luckywc.medbooks.R;
 
 import android.app.Activity;
 import android.app.ActivityGroup;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.KeyEvent;
 import android.widget.TabHost;
 
 public class TabMainActivity extends ActivityGroup{
+	@Override
+	public boolean onKeyDown(int keyCode, KeyEvent event) {
+		// TODO Auto-generated method stub
+		if(keyCode==KeyEvent.KEYCODE_BACK){
+			exitApp();
+		}
+		return false;		
+	}
+
+	private void exitApp()
+	  {
+	    AlertDialog.Builder localBuilder = new AlertDialog.Builder(this);
+	    localBuilder.setIcon(2130837616);
+	    localBuilder.setTitle("亲！");
+	    localBuilder.setMessage("5555舍不得您走...祝您健康长寿！");
+	    localBuilder.setPositiveButton("退出程序", new DialogInterface.OnClickListener()
+	    {
+	      public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt)
+	      {
+	        
+	    	  TabMainActivity.this.finish();
+	      }
+	    });
+	    localBuilder.setNegativeButton("再看一会儿", new DialogInterface.OnClickListener()
+	    {
+	      public void onClick(DialogInterface paramAnonymousDialogInterface, int paramAnonymousInt)
+	      {	        
+	      }
+	    });
+	    localBuilder.create().show();
+	  }
+	
 	private TabHost tabHost;
 	
 	@SuppressWarnings("deprecation")
@@ -40,4 +76,5 @@ public class TabMainActivity extends ActivityGroup{
 	    
 	    tabHost.setCurrentTab(0);
 	}
+	
 }

@@ -1,0 +1,60 @@
+﻿body {
+}
+
+.ViewList {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+    .ViewList li {
+        list-style-type: none;
+        float:left;
+        margin-left:8px;
+    }
+
+.androidViewItem {
+    width: 200px;
+}
+
+.androidViewItem_Page {
+    border: solid 1px #0094ff;
+    height: 300px;
+    background-color:#EEE;
+}
+
+.androidViewItem_Desc {
+    margin-top:4px;
+    border: solid 1px #CCC;
+    height: 60px;
+    text-align:center;
+}
+
+/**********Item***********/
+.androidTitleText {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.android_TabHost {
+    border-top: solid 1px #0094ff;
+    background-color:#FFF;
+}
+
+    .android_TabHost a {
+        margin-right:1px;
+        background-color:#DDD;
+        height:40px;
+        width:40px;
+        display:inline-block;
+    }
+        .android_TabHost a:hover {
+            background-color:#EEE;
+        }
+
+.android_button {
+    border:solid 1px #CCC;
+    color:#000;
+    line-height:24px;
+    text-align:center;
+}

@@ -3,17 +3,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <com.luckywc.controls.RoundCornerListView
+    <ListView
         android:id="@+id/lstCategorys"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:background="@drawable/list_corner_round"
+        android:layout_alignParentTop="true"     
         android:paddingLeft="12sp"
         android:paddingRight="12sp" >
-    </com.luckywc.controls.RoundCornerListView>
+    </ListView>
 
     <LinearLayout
+        android:orientation="horizontal"
         android:id="@+id/AdView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

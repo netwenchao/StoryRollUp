@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+  <include layout="@layout/frg_nav"/>
+  <RelativeLayout
+    android:background="#fff6f5ec"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <Button
+      android:id="@+id/btnFoodImg"
+      android:background="@drawable/pork"
+      android:padding="4.0dip"
+      android:clickable="false"      
+      android:layout_width="100.0dip"
+      android:layout_height="100.0dip"
+      android:layout_margin="10.0dip"
+      android:layout_marginBottom="15.0dip" />
+    <TextView
+      android:id="@+id/tvFoodName"
+      android:layout_width="350.0dip"
+      android:layout_height="wrap_content"
+      android:layout_margin="10.0dip"
+      android:width="10.0px"
+      android:layout_toRightOf="@id/btnFoodImg" />
+  </RelativeLayout>
+  <TextView
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	/>
+  <ListView
+    android:id="@android:id/list"
+    android:background="#fff6f5ec"
+    android:focusable="false"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" />
+</LinearLayout>

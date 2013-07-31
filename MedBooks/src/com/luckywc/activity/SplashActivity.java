@@ -4,6 +4,7 @@ import com.luckywc.medbooks.R;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 
 public class SplashActivity extends Activity{
 
@@ -12,9 +13,13 @@ public class SplashActivity extends Activity{
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_splash);
-		
-		Intent tabs=new Intent(this,TabMainActivity.class);
-		startActivity(tabs);
+		 (new Handler()).postDelayed(new Runnable(){			
+			@Override
+			public void run() {
+				Intent tabs=new Intent(SplashActivity.this,TabMainActivity.class);
+				startActivity(tabs);
+				SplashActivity.this.finish();
+			}
+		 },3000);		 
 	}
-
 }

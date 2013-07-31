@@ -83,7 +83,7 @@ public class TitleListActivity extends ListActivity{
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_titles);
+		setContentView(R.layout.activity_titles_ctnav);
 		String filePath=getIntent().getStringExtra("fileName");
 		try {
 			ArrayList<HashMap<String,String>> t=GetContent(filePath);
@@ -93,6 +93,14 @@ public class TitleListActivity extends ListActivity{
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		((Button)findViewById(R.id.btnBack)).setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				finish();
+			}			
+		});
 	}
 		
 	private ArrayList<HashMap<String,String>> GetContent(String fileName) throws IOException{		

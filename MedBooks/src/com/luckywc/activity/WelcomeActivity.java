@@ -17,14 +17,14 @@ import android.widget.SimpleAdapter;
 
 public class WelcomeActivity extends BaseActivity{
 
-	private RoundCornerListView lstView;	
+	private ListView lstView;	
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_welcome);
-		lstView=(RoundCornerListView)findViewById(R.id.lstCategorys);
+		lstView=(ListView)findViewById(R.id.lstCategorys);
 		lstView.setOnItemClickListener(new OnItemClickListener() {
 			@SuppressWarnings("unchecked")
 			@Override
