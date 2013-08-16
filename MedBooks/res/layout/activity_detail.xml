@@ -1,51 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="#99000000">   
-    <LinearLayout
-        android:id="@+id/windowContainer"
-	    android:layout_width="fill_parent"
-	    android:layout_height="wrap_content"
-	    android:layout_centerInParent="true"	    
-		android:background="@drawable/popwindow_round_corner"
-		android:paddingTop="8dp"
-		android:paddingLeft="8dp"
-		android:paddingRight="8dp"
-	    android:orientation="vertical"> 		
-        <TextView
-            android:id="@+id/tv_detail_Title"
-		    android:layout_width="fill_parent"
-		    android:layout_height="wrap_content"
-		    style="@style/DetailTitleStyle"
-		    />
-        <LinearLayout
-            android:layout_width="fill_parent"
-            android:layout_height="1sp"
-            android:layout_marginTop="4sp"
-            android:layout_marginBottom="4sp"
-            android:background="@drawable/sharp_split"
-            ></LinearLayout>
-		<TextView
-		    style="@style/DetailContentStyle"		    
-		    android:layout_width="fill_parent"
-		    android:layout_height="wrap_content"
-		    android:id="@+id/tv_detail_content"/>		
-		<LinearLayout
-		    android:layout_width="fill_parent"
-		    android:layout_height="wrap_content"
-		    android:layout_marginTop="16dip"
-		    android:layout_marginBottom="16dip"
-		    android:background="#FFCCCCCC"
-		    android:orientation="horizontal" >
-		    <Button android:id="@+id/btn_Detail_Share" android:text="@string/dialog_share" 
-		        android:layout_width="wrap_content" android:layout_height="wrap_content" 
-		        android:layout_weight="1" />
-		    <Button android:id="@+id/btn_Detail_Close" android:text="@string/dialog_sure" 
-		        android:layout_width="wrap_content" 
-		        android:layout_height="wrap_content"  
-		        android:layout_weight="1"/>
-		</LinearLayout>
-	</LinearLayout>
-</RelativeLayout>
+    android:orientation="vertical"
+    android:background="@drawable/popwindow_round_corner">   
+    		<TextView
+	            android:id="@+id/tv_detail_Title"
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    style="@style/DetailTitleStyle"
+			    />
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="1sp"
+	            android:layout_marginTop="4sp"
+	            android:layout_marginBottom="4sp"
+	            android:background="@drawable/sharp_split"
+	            >
+	        </LinearLayout>   
+	        <ScrollView			    
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    >
+			    <TextView
+			    style="@style/DetailContentStyle"		    
+			    android:layout_width="fill_parent"
+			    android:layout_height="wrap_content"
+			    android:id="@+id/tv_detail_content"/>	
+			</ScrollView>
+			<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+			    <CheckBox android:button="@drawable/star_checkbox" android:id="@+id/rbFav" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+			</RelativeLayout>		
+</LinearLayout>

@@ -4,7 +4,7 @@
     	android:orientation="horizontal"
     	android:layout_width="fill_parent"    	
     	android:background="@drawable/btn_nomal"
-    	android:layout_height="78.0dip">
+    	android:layout_height="60.0dip">
     	<Button 
     	    android:id="@+id/btnBack"
     	    android:layout_marginLeft="16dip"

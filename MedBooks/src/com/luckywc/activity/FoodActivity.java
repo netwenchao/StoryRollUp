@@ -2,8 +2,6 @@ package com.luckywc.activity;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-
-import com.luckywc.controls.RoundCornerListView;
 import com.luckywc.medbooks.R;
 
 import android.app.Activity;
