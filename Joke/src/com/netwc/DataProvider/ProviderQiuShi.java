@@ -13,7 +13,7 @@ import org.htmlparser.util.ParserException;
 import com.netwc.Provider.Entities.JokeInfo;
 import com.netwc.Provider.Entities.LinkNodeData;
 import com.netwc.Provider.Entities.NodeData;
-import com.netwc.PublicFunc.EnumMgr.DataFrom;
+import com.netwc.joke.EnumMgr.DataFrom;
 
 public class ProviderQiuShi extends AbsJokeProvider{
 	private final String siteUrl="http://www.qiushibaike.com";	

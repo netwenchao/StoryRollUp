@@ -17,7 +17,7 @@ import org.htmlparser.util.ParserException;
 import android.util.Log;
 
 import com.netwc.Provider.Entities.JokeInfo;
-import com.netwc.PublicFunc.EnumMgr.DataFrom;
+import com.netwc.joke.EnumMgr.DataFrom;
 
 public class ProviderJokeJi extends AbsJokeProvider{
 	private final String siteUrl="http://www.jokeji.cn";

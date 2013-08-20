@@ -11,10 +11,11 @@ import org.htmlparser.nodes.TagNode;
 import org.htmlparser.tags.LinkTag;
 import org.htmlparser.util.NodeList;
 
+import com.netwc.Entities.JokeInfo;
+import com.netwc.Entities.LinkNodeData;
+import com.netwc.Entities.NodeData;
+
 import android.util.Log;
-import com.netwc.Provider.Entities.JokeInfo;
-import com.netwc.Provider.Entities.LinkNodeData;
-import com.netwc.Provider.Entities.NodeData;
 
 public abstract class AbsJokeProvider {
 	public abstract ArrayList<JokeInfo> Execute();
