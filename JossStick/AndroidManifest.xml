@@ -23,21 +23,19 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.luckywc.jossstick.StartPage"
-            android:label="@string/app_name" >
+        <activity android:name="StartPage" />
+        <activity android:name="GetLotActivity" />
+        <activity android:name="ShengBei" />
+        <activity android:name="ShowLotDetail" />
+        <activity android:name="com.luckywc.jossstick.ActivityMain" android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="GetLotActivity" >
-        </activity>
-        <activity android:name="ShengBei" >
-        </activity>
-        <activity android:name="ShowLotDetail" >
-        </activity>
+        <activity android:name="WordAnalysisActivity"/>
+        <activity android:name="WordAnalysisResultActivity"/>        
+        
         <!-- Must declare it for Adivew SDK -->
         <service android:name="com.kyview.DownloadService" />
 

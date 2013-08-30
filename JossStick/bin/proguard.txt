@@ -1,27 +1,36 @@
-# view AndroidManifest.xml #generated:46
+# view AndroidManifest.xml #generated:44
 -keep class com.baidu.mobads.AppActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:44
+# view AndroidManifest.xml #generated:42
 -keep class com.kyview.AdviewWebView { <init>(...); }
 
-# view AndroidManifest.xml #generated:42
+# view AndroidManifest.xml #generated:40
 -keep class com.kyview.DownloadService { <init>(...); }
 
-# view AndroidManifest.xml #generated:35
+# view AndroidManifest.xml #generated:30
+-keep class com.luckywc.jossstick.ActivityMain { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
 -keep class com.luckywc.jossstick.GetLotActivity { <init>(...); }
 
-# view AndroidManifest.xml #generated:37
+# view AndroidManifest.xml #generated:28
 -keep class com.luckywc.jossstick.ShengBei { <init>(...); }
 
-# view AndroidManifest.xml #generated:39
+# view AndroidManifest.xml #generated:29
 -keep class com.luckywc.jossstick.ShowLotDetail { <init>(...); }
 
 # view AndroidManifest.xml #generated:26
 -keep class com.luckywc.jossstick.StartPage { <init>(...); }
 
-# view AndroidManifest.xml #generated:57
--keep class com.tencent.exmobwin.banner.DialogActivity { <init>(...); }
+# view AndroidManifest.xml #generated:36
+-keep class com.luckywc.jossstick.WordAnalysisActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:37
+-keep class com.luckywc.jossstick.WordAnalysisResultActivity { <init>(...); }
 
 # view AndroidManifest.xml #generated:55
+-keep class com.tencent.exmobwin.banner.DialogActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:53
 -keep class com.tencent.exmobwin.banner.MobWINBrowserActivity { <init>(...); }
 

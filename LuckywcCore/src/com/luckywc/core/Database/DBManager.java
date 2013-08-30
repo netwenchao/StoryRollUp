@@ -29,7 +29,7 @@ public class DBManager {
 
 	public void CloseDatabase(){
 		if(null!=DataBase){
-			DataBase.close();
+			DataBase.close();		
 		}
 	}
 	

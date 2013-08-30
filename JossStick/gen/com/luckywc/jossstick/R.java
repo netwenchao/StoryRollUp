@@ -32,48 +32,76 @@ public final class R {
         public static final int bei_0=0x7f020000;
         public static final int bei_1=0x7f020001;
         public static final int bei_2=0x7f020002;
-        public static final int btn_dropdown_normal=0x7f020003;
-        public static final int btn_dropdown_pressed=0x7f020004;
-        public static final int chakan=0x7f020005;
-        public static final int check_bg=0x7f020006;
-        public static final int chongchou=0x7f020007;
-        public static final int ic_dialog=0x7f020008;
-        public static final int ic_launcher=0x7f020009;
-        public static final int list_above_nor=0x7f02000a;
-        public static final int list_below_nor=0x7f02000b;
-        public static final int lot=0x7f02000c;
-        public static final int lot_0=0x7f02000d;
-        public static final int lot_1=0x7f02000e;
-        public static final int lot_2=0x7f02000f;
-        public static final int main_bg=0x7f020010;
-        public static final int qiuqian=0x7f020011;
-        public static final int show_lot_bg=0x7f020012;
-        public static final int start_zhibei=0x7f020013;
-        public static final int top_button=0x7f020014;
-        public static final int top_button_press=0x7f020015;
-        public static final int zhibei=0x7f020016;
+        public static final int btn_analysis=0x7f020003;
+        public static final int btn_analysis_focused=0x7f020004;
+        public static final int btn_analysis_normal=0x7f020005;
+        public static final int btn_analysis_pressed=0x7f020006;
+        public static final int btn_drawing=0x7f020007;
+        public static final int btn_drawing_focused=0x7f020008;
+        public static final int btn_drawing_normal=0x7f020009;
+        public static final int btn_drawing_pressed=0x7f02000a;
+        public static final int btn_dropdown_normal=0x7f02000b;
+        public static final int btn_dropdown_pressed=0x7f02000c;
+        public static final int btn_zhougong=0x7f02000d;
+        public static final int btn_zhougong_focused=0x7f02000e;
+        public static final int btn_zhougong_normal=0x7f02000f;
+        public static final int btn_zhougong_pressed=0x7f020010;
+        public static final int chakan=0x7f020011;
+        public static final int check_bg=0x7f020012;
+        public static final int chongchou=0x7f020013;
+        public static final int ic_dialog=0x7f020014;
+        public static final int ic_launcher=0x7f020015;
+        public static final int list_above_nor=0x7f020016;
+        public static final int list_below_nor=0x7f020017;
+        public static final int lot=0x7f020018;
+        public static final int lot_0=0x7f020019;
+        public static final int lot_1=0x7f02001a;
+        public static final int lot_2=0x7f02001b;
+        public static final int main_bg=0x7f02001c;
+        public static final int qiuqian=0x7f02001d;
+        public static final int result_frame=0x7f02001e;
+        public static final int result_frame_two_part=0x7f02001f;
+        public static final int show_lot_bg=0x7f020020;
+        public static final int start_zhibei=0x7f020021;
+        public static final int top_button=0x7f020022;
+        public static final int top_button_press=0x7f020023;
+        public static final int zhibei=0x7f020024;
     }
     public static final class id {
         public static final int AdLinearLayout=0x7f0b0000;
-        public static final int action_settings=0x7f0b000d;
-        public static final int lotDesc=0x7f0b000b;
-        public static final int lotImage=0x7f0b0009;
-        public static final int lotTitle=0x7f0b000a;
-        public static final int mian_qiuqian=0x7f0b000c;
-        public static final int pelt_cup_bt=0x7f0b0008;
-        public static final int pelt_cup_count=0x7f0b0007;
-        public static final int pelt_cup_cup=0x7f0b0006;
-        public static final int pelt_cup_prompt=0x7f0b0005;
+        public static final int action_settings=0x7f0b0018;
+        public static final int btnAnys=0x7f0b0016;
+        public static final int btn_lot=0x7f0b0005;
+        public static final int btn_word_analysis=0x7f0b0006;
+        public static final int btn_zhougong=0x7f0b0007;
+        public static final int mian_qiuqian=0x7f0b0014;
+        public static final int pelt_cup_bt=0x7f0b000b;
+        public static final int pelt_cup_count=0x7f0b000a;
+        public static final int pelt_cup_cup=0x7f0b0009;
+        public static final int pelt_cup_prompt=0x7f0b0008;
         public static final int show_anim_lot=0x7f0b0001;
         public static final int show_lot=0x7f0b0002;
         public static final int show_vertical_lot_title=0x7f0b0004;
         public static final int show_zhibei=0x7f0b0003;
+        public static final int tv_content=0x7f0b0017;
+        public static final int tv_guishi=0x7f0b0012;
+        public static final int tv_jieyue=0x7f0b0010;
+        public static final int tv_name=0x7f0b000c;
+        public static final int tv_poem=0x7f0b000f;
+        public static final int tv_shiyi=0x7f0b0013;
+        public static final int tv_title=0x7f0b000d;
+        public static final int tv_type=0x7f0b000e;
+        public static final int tv_xianji=0x7f0b0011;
+        public static final int word2Anys=0x7f0b0015;
     }
     public static final class layout {
         public static final int activity_get_lot=0x7f030000;
-        public static final int activity_pelt_cup=0x7f030001;
-        public static final int activity_show_detail=0x7f030002;
-        public static final int activity_start_page=0x7f030003;
+        public static final int activity_main=0x7f030001;
+        public static final int activity_pelt_cup=0x7f030002;
+        public static final int activity_show_detail=0x7f030003;
+        public static final int activity_start_page=0x7f030004;
+        public static final int activity_word_analysis=0x7f030005;
+        public static final int activity_word_analysis_result=0x7f030006;
     }
     public static final class menu {
         public static final int start_page=0x7f0a0000;
@@ -88,6 +116,8 @@ public final class R {
         public static final int cupdesc=0x7f080002;
         public static final int pelt_cup_count=0x7f080003;
         public static final int pelt_cup_no=0x7f080004;
+        public static final int start_anys=0x7f080006;
+        public static final int type_three_word=0x7f080005;
     }
     public static final class style {
         /** 

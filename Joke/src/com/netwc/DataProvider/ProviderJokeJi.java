@@ -98,5 +98,6 @@ public class ProviderJokeJi extends AbsJokeProvider{
 			return "";
 		}
 	}
+	
 
 }

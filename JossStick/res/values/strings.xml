@@ -6,5 +6,6 @@
     <string name="cupdesc">需要连续掷出3次圣杯，此签才算灵签。</string>
     <string name="pelt_cup_count">您已掷%d次圣杯.</string>
     <string name="pelt_cup_no">必须掷出3次圣杯，请重新抽签.</string>
-
+    <string name="type_three_word">请输入3个汉字</string>
+    <string name="start_anys">开始测字</string>
 </resources>

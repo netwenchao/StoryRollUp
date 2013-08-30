@@ -54,7 +54,7 @@ public class GetLotActivity extends Activity {
 		mLotAnim=AnimationUtils.loadAnimation(GetLotActivity.this,R.anim.lot_out);
 		mVerticalLotTitle=(TextView)findViewById(R.id.show_vertical_lot_title);
 		mNameList=getResources().getStringArray(R.array.lot_names);
-		this.mMPLotSound = MediaPlayer.create(this,R.raw.lot_sound);
+		this.mMPLotSound = MediaPlayer.create(this,R.raw.lot_sound);		
 		
 		LinearLayout layout=(LinearLayout)findViewById(R.id.AdLinearLayout);		
 		AdViewTargeting.setRunMode(RunMode.NORMAL); 

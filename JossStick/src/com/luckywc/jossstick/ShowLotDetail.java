@@ -26,6 +26,28 @@ public class ShowLotDetail extends Activity{
 		super.onCreate(savedInstanceState);		
 		setContentView(R.layout.activity_show_detail);
 		mRanIndex=getIntent().getExtras().getInt("RanIndex");
+		DBManager dbm=new DBManager(ShowLotDetail.this);
+		dbm.OpenStickDb();
+		if(dbm.DataBase!=null){
+			StickResult rslt=dbm.GetStickResult(mRanIndex);
+			if(rslt!=null){
+				Log.v("JossStick",rslt.Title);
+				((TextView)findViewById(R.id.tv_title)).setText(rslt.Title);				
+				((TextView)findViewById(R.id.tv_guishi)).setText(rslt.GuiShi);
+				((TextView)findViewById(R.id.tv_jieyue)).setText(rslt.JieYue);
+				((TextView)findViewById(R.id.tv_name)).setText(rslt.Name);
+				((TextView)findViewById(R.id.tv_shiyi)).setText(rslt.ShiYi);
+				((TextView)findViewById(R.id.tv_type)).setText(rslt.Type);
+				((TextView)findViewById(R.id.tv_xianji)).setText(rslt.XianJi);
+			}
+			else{
+				Log.v("JossStick","Null Item"+mRanIndex);
+			}
+		}else{
+			Log.v("JossStick","dbm.DataBase==null");
+		}
+		/*
+		return;
 		mLogImage=(ImageView)findViewById(R.id.lotImage);
 		lotTitle=(TextView)findViewById(R.id.lotTitle);
 		lotDesc=(TextView)findViewById(R.id.lotDesc);	
@@ -58,5 +80,6 @@ public class ShowLotDetail extends Activity{
 		});
 		layout.addView(adViewLayout); 
 		layout.invalidate();
+		*/
 	}
 }

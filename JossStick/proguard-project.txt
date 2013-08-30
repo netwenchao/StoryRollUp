@@ -6,7 +6,7 @@
 -optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
 
 -libraryjars /libs/AdViewSDK_Android.jar 
--libraryjars /libs/Tencent_MobWIN_SDK_2.0.jar
+-libraryjars /libs/Tencent_MobWIN_SDK_2.1.jar
 -libraryjars /libs/android-support-v4.jar
 -libraryjars /libs/Baidu_MobAds_SDK_Agg_3.2.jar
 
