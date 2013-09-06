@@ -3531,7 +3531,8 @@ com.kyview.AdViewLayout -> com.kyview.AdViewLayout:
     android.os.Handler handler -> handler
     java.util.concurrent.ScheduledExecutorService scheduler -> scheduler
     boolean isTest -> isTest
-    java.lang.String a -> a
+    boolean isTerminated -> isTerminated
+    java.lang.String keyAdView -> keyAdView
     java.lang.String keyDev -> keyDev
     java.lang.String typeDev -> typeDev
     java.lang.String osVer -> osVer
@@ -3540,13 +3541,20 @@ com.kyview.AdViewLayout -> com.kyview.AdViewLayout:
     java.lang.String netType -> netType
     java.lang.String channel -> channel
     java.lang.String platform -> platform
-    com.kyview.b.a extra -> extra
+    java.lang.String bundle -> bundle
+    java.lang.String appVersion -> appVersion
+    java.lang.String appName -> appName
+    com.kyview.b.b extra -> extra
+    int a -> a
+    int b -> b
+    boolean isadFill -> isadFill
     android.widget.RelativeLayout umengView -> umengView
     java.lang.ref.WeakReference superViewReference -> superViewReference
-    com.kyview.b.b activeRation -> activeRation
-    com.kyview.b.b nextRation -> nextRation
+    com.kyview.b.c activeRation -> activeRation
+    com.kyview.b.c nextRation -> nextRation
     double mDensity -> mDensity
     com.kyview.AdViewInterface adViewInterface -> adViewInterface
+    com.kyview.a.c$d mAdListener -> mAdListener
     com.kyview.AdViewManager adViewManager -> adViewManager
     boolean a -> a
     boolean b -> b
@@ -3555,36 +3563,37 @@ com.kyview.AdViewLayout -> com.kyview.AdViewLayout:
     int maxHeight -> maxHeight
     void setMaxWidth(int) -> setMaxWidth
     void setMaxHeight(int) -> setMaxHeight
-    void onFocusChanged(boolean,int,android.graphics.Rect) -> onFocusChanged
+    void a(com.kyview.AdViewLayout) -> a
     java.lang.String a(android.content.Context) -> a
     void onMeasure(int,int) -> onMeasure
+    void a(int) -> a
     void onWindowVisibilityChanged(int) -> onWindowVisibilityChanged
     void setVisibility(int) -> setVisibility
+    void rotateAd() -> rotateAd
     void rotatePriAd() -> rotatePriAd
     boolean isConnectInternet() -> isConnectInternet
-    void rotateThreadedNow() -> rotateThreadedNow
-    void rotateThreadedPri() -> rotateThreadedPri
+    void rotateThreadedPri(int) -> rotateThreadedPri
     void rotateThreadedDelayed() -> rotateThreadedDelayed
     void fetchConfigThreadedDelayed(int) -> fetchConfigThreadedDelayed
     void pushSubView(android.view.ViewGroup) -> pushSubView
     void pushSubViewForIzp(android.view.ViewGroup) -> pushSubViewForIzp
     void AddSubView(android.widget.RelativeLayout) -> AddSubView
     void reportImpression() -> reportImpression
-    void reportBaiduImpression() -> reportBaiduImpression
     void reportClick() -> reportClick
     void rollover() -> rollover
     void a() -> a
     void b() -> b
     void appReport() -> appReport
-    void kyAdviewReport(java.lang.String,java.lang.String) -> kyAdviewReport
     java.lang.String b(android.content.Context) -> b
     void a(android.content.Context) -> a
+    java.lang.String getTokenMd5(long) -> getTokenMd5
+    java.lang.String c(android.content.Context) -> c
+    java.lang.String d(android.content.Context) -> d
     boolean onInterceptTouchEvent(android.view.MotionEvent) -> onInterceptTouchEvent
     void setAdViewInterface(com.kyview.AdViewInterface) -> setAdViewInterface
-    void release() -> release
+    void setAdListener(com.kyview.a.c$d) -> setAdListener
     boolean a(com.kyview.AdViewLayout) -> a
     void a(com.kyview.AdViewLayout,boolean) -> a
-    void a(com.kyview.AdViewLayout) -> a
     void b(com.kyview.AdViewLayout) -> b
 com.kyview.AdViewLayout$a -> com.kyview.AdViewLayout$a:
     java.lang.ref.WeakReference adViewLayoutReference -> adViewLayoutReference
@@ -3594,59 +3603,61 @@ com.kyview.AdViewLayout$b -> com.kyview.AdViewLayout$b:
     void run() -> run
 com.kyview.AdViewLayout$c -> com.kyview.AdViewLayout$c:
     java.lang.ref.WeakReference adViewLayoutReference -> adViewLayoutReference
-    java.lang.String a -> a
+    java.lang.String keyAdView -> keyAdView
+    com.kyview.AdViewLayout a -> a
     void run() -> run
 com.kyview.AdViewLayout$d -> com.kyview.AdViewLayout$d:
     java.lang.String url -> url
-    java.lang.String content -> content
     void run() -> run
 com.kyview.AdViewLayout$e -> com.kyview.AdViewLayout$e:
-    java.lang.String url -> url
+    java.lang.ref.WeakReference adViewLayoutReference -> adViewLayoutReference
     void run() -> run
 com.kyview.AdViewLayout$f -> com.kyview.AdViewLayout$f:
     java.lang.ref.WeakReference adViewLayoutReference -> adViewLayoutReference
     void run() -> run
 com.kyview.AdViewLayout$g -> com.kyview.AdViewLayout$g:
     java.lang.ref.WeakReference adViewLayoutReference -> adViewLayoutReference
-    void run() -> run
-com.kyview.AdViewLayout$h -> com.kyview.AdViewLayout$h:
-    java.lang.ref.WeakReference adViewLayoutReference -> adViewLayoutReference
     android.view.ViewGroup a -> a
     void run() -> run
 com.kyview.AdViewManager -> com.kyview.AdViewManager:
-    java.lang.String a -> a
-    com.kyview.b.a extra -> extra
+    java.lang.String keyAdView -> keyAdView
+    int c -> c
+    com.kyview.b.b extra -> extra
     java.util.List a -> a
     double a -> a
     java.lang.ref.WeakReference a -> a
-    int a -> a
-    boolean c -> c
+    int d -> d
     java.util.Iterator a -> a
-    int b -> b
+    int e -> e
+    boolean c -> c
     boolean d -> d
+    long a -> a
     boolean e -> e
-    boolean f -> f
-    java.lang.String b -> b
+    java.lang.String a -> a
     int width -> width
     int height -> height
     java.lang.String mDeviceid -> mDeviceid
     void setYoumiInit(boolean) -> setYoumiInit
     boolean getYoumiInit() -> getYoumiInit
-    com.kyview.b.a getExtra() -> getExtra
+    com.kyview.b.b getExtra() -> getExtra
     int getConfigExpiereTimeout() -> getConfigExpiereTimeout
-    com.kyview.b.b getRation() -> getRation
-    com.kyview.b.b getRollover() -> getRollover
-    com.kyview.b.b getRollover_pri() -> getRollover_pri
-    void resetRollover_pri() -> resetRollover_pri
+    com.kyview.b.c getRation() -> getRation
+    com.kyview.b.c getRollover() -> getRollover
+    com.kyview.b.c getRollover_pri() -> getRollover_pri
     void resetRollover() -> resetRollover
     java.lang.String a(java.lang.String) -> a
-    void fetchConfig() -> fetchConfig
-    void fetchConfigFromServer() -> fetchConfigFromServer
+    boolean needUpdateConfig() -> needUpdateConfig
+    void fetchConfig(com.kyview.AdViewLayout) -> fetchConfig
+    java.lang.String performGetContent(java.lang.String) -> performGetContent
+    java.lang.String a(boolean) -> a
+    void fetchConfigFromServer(com.kyview.AdViewLayout) -> fetchConfigFromServer
     java.lang.String convertStreamToString(java.io.InputStream) -> convertStreamToString
     boolean a(java.lang.String) -> a
+    void a(java.lang.String) -> a
     void a(org.json.JSONObject) -> a
     java.util.List getRationList() -> getRationList
-    void setTestRationsList(com.kyview.b.b) -> setTestRationsList
+    com.kyview.b.c getadFillRation() -> getadFillRation
+    com.kyview.b.c getAdFill() -> getAdFill
     void a(org.json.JSONArray) -> a
     boolean isLocateForeign() -> isLocateForeign
     java.lang.String getIDByMAC(android.content.Context) -> getIDByMAC
@@ -3654,11 +3665,12 @@ com.kyview.AdViewManager -> com.kyview.AdViewManager:
 com.kyview.AdViewTargeting -> com.kyview.AdViewTargeting:
     com.kyview.AdViewTargeting$RunMode a -> a
     com.kyview.AdViewTargeting$UpdateMode a -> a
+    com.kyview.AdViewTargeting$StatusMode a -> a
     com.kyview.AdViewTargeting$AdArea a -> a
     com.kyview.AdViewTargeting$Gender a -> a
     java.util.GregorianCalendar a -> a
+    java.lang.String b -> b
     java.lang.String c -> c
-    java.lang.String d -> d
     java.util.Set a -> a
     com.kyview.AdViewTargeting$Channel a -> a
     int adWidth -> adWidth
@@ -3669,6 +3681,8 @@ com.kyview.AdViewTargeting -> com.kyview.AdViewTargeting:
     void setRunMode(com.kyview.AdViewTargeting$RunMode) -> setRunMode
     com.kyview.AdViewTargeting$UpdateMode getUpdateMode() -> getUpdateMode
     void setUpdateMode(com.kyview.AdViewTargeting$UpdateMode) -> setUpdateMode
+    com.kyview.AdViewTargeting$StatusMode getStatusMode() -> getStatusMode
+    void setStatusMode(com.kyview.AdViewTargeting$StatusMode) -> setStatusMode
     com.kyview.AdViewTargeting$AdArea getAdArea() -> getAdArea
     void setAdArea(com.kyview.AdViewTargeting$AdArea) -> setAdArea
     com.kyview.AdViewTargeting$Gender getGender() -> getGender
@@ -3719,6 +3733,12 @@ com.kyview.AdViewTargeting$RunMode -> com.kyview.AdViewTargeting$RunMode:
     com.kyview.AdViewTargeting$RunMode[] a -> a
     com.kyview.AdViewTargeting$RunMode[] values() -> values
     com.kyview.AdViewTargeting$RunMode valueOf(java.lang.String) -> valueOf
+com.kyview.AdViewTargeting$StatusMode -> com.kyview.AdViewTargeting$StatusMode:
+    com.kyview.AdViewTargeting$StatusMode DEFAULT -> DEFAULT
+    com.kyview.AdViewTargeting$StatusMode CANCLOSED -> CANCLOSED
+    com.kyview.AdViewTargeting$StatusMode[] a -> a
+    com.kyview.AdViewTargeting$StatusMode[] values() -> values
+    com.kyview.AdViewTargeting$StatusMode valueOf(java.lang.String) -> valueOf
 com.kyview.AdViewTargeting$UpdateMode -> com.kyview.AdViewTargeting$UpdateMode:
     com.kyview.AdViewTargeting$UpdateMode DEFAULT -> DEFAULT
     com.kyview.AdViewTargeting$UpdateMode EVERYTIME -> EVERYTIME
@@ -3726,10 +3746,11 @@ com.kyview.AdViewTargeting$UpdateMode -> com.kyview.AdViewTargeting$UpdateMode:
     com.kyview.AdViewTargeting$UpdateMode[] values() -> values
     com.kyview.AdViewTargeting$UpdateMode valueOf(java.lang.String) -> valueOf
 com.kyview.AdviewWebView -> com.kyview.AdviewWebView:
+    java.lang.String WEBVIEW_IMAGE_BASE_PATH -> WEBVIEW_IMAGE_BASE_PATH
     android.webkit.WebView a -> a
     com.kyview.AdviewWebView$e a -> a
-    java.lang.String e -> e
-    boolean g -> g
+    java.lang.String d -> d
+    boolean f -> f
     android.widget.ImageView a -> a
     android.widget.ImageView b -> b
     android.widget.ImageView c -> c
@@ -3762,8 +3783,8 @@ com.kyview.AdviewWebView$e -> com.kyview.AdviewWebView$e:
     int height -> height
     android.graphics.Bitmap a -> a
     android.graphics.Bitmap b -> b
-    boolean h -> h
-    int c -> c
+    boolean g -> g
+    int f -> f
     android.os.Handler a -> a
     void onSizeChanged(int,int,int,int) -> onSizeChanged
     void onDraw(android.graphics.Canvas) -> onDraw
@@ -3774,7 +3795,7 @@ com.kyview.AdviewWebView$f -> com.kyview.AdviewWebView$f:
     void onPageFinished(android.webkit.WebView,java.lang.String) -> onPageFinished
 com.kyview.DownloadService -> com.kyview.DownloadService:
     java.lang.String title -> title
-    java.lang.String f -> f
+    java.lang.String e -> e
     java.io.File a -> a
     java.io.File b -> b
     int index -> index
@@ -3803,137 +3824,215 @@ com.kyview.DownloadService$a -> com.kyview.DownloadService$a:
     void run() -> run
 com.kyview.a -> com.kyview.a:
     com.kyview.a a -> a
-    java.util.HashMap a -> a
+    android.util.SparseArray a -> a
     com.kyview.a a() -> a
-    void a(int,java.lang.Class) -> a
-    java.lang.Class a(int) -> a
+    void a(java.lang.Integer,java.lang.Class) -> a
+    java.lang.Class a(java.lang.Integer) -> a
 com.kyview.a.a -> com.kyview.a.a:
-    java.lang.String appId -> appId
-    int d -> d
-    int e -> e
-    java.lang.String getAppId() -> getAppId
-    void setAppId(java.lang.String) -> setAppId
-    int b() -> b
-    void a(int) -> a
-    int c() -> c
-    void b(int) -> b
-    java.lang.String b(java.lang.String) -> b
-com.kyview.a.b -> com.kyview.a.b:
-    java.lang.String appId -> appId
+    java.lang.String f -> f
+    java.lang.String adText -> adText
     java.lang.String g -> g
-    int f -> f
-    int g -> g
-    int textColor -> textColor
-    boolean i -> i
-    com.kyview.a.a a -> a
+    java.lang.String d -> d
     java.lang.String h -> h
     java.lang.String i -> i
     java.lang.String j -> j
-    com.kyview.a.f a -> a
+    int adType -> adType
     java.lang.String k -> k
     java.lang.String l -> l
     java.lang.String m -> m
-    android.graphics.Bitmap c -> c
+    java.lang.String n -> n
+    java.lang.String o -> o
+    java.lang.String a() -> a
+    void b(java.lang.String) -> b
+    java.lang.String getAdText() -> getAdText
+    void setAdText(java.lang.String) -> setAdText
+    java.lang.String b() -> b
+    void c(java.lang.String) -> c
+    java.lang.String c() -> c
+    void d(java.lang.String) -> d
+    java.lang.String d() -> d
+    void e(java.lang.String) -> e
+    java.lang.String e() -> e
+    void f(java.lang.String) -> f
+    java.lang.String f() -> f
+    void g(java.lang.String) -> g
+    int b() -> b
+    void b(int) -> b
+    java.lang.String g() -> g
+    void h(java.lang.String) -> h
+    java.lang.String h() -> h
+    void i(java.lang.String) -> i
+    java.lang.String i() -> i
+    void setAdTextColor(java.lang.String) -> setAdTextColor
+    java.lang.String j() -> j
+    void j(java.lang.String) -> j
+    java.lang.String k() -> k
+    void k(java.lang.String) -> k
+    java.lang.String b(java.lang.String) -> b
+com.kyview.a.b -> com.kyview.a.b:
+    java.lang.String appId -> appId
+    int g -> g
+    int h -> h
+    int i -> i
+    int j -> j
+    java.lang.String p -> p
+    java.lang.String appName -> appName
+    int k -> k
+    int c -> c
+    java.lang.String q -> q
+    java.lang.String r -> r
+    java.lang.String s -> s
+    java.lang.String t -> t
+    java.lang.String u -> u
+    java.lang.String getTime() -> getTime
+    void setTime(java.lang.String) -> setTime
+    java.lang.String l() -> l
+    void l(java.lang.String) -> l
+    java.lang.String m() -> m
+    void m(java.lang.String) -> m
+    java.lang.String n() -> n
+    void n(java.lang.String) -> n
+    java.lang.String o() -> o
+    void o(java.lang.String) -> o
+    java.lang.String getAppName() -> getAppName
+    void setAppName(java.lang.String) -> setAppName
+    int c() -> c
+    void c(int) -> c
+    int d() -> d
+    void d(int) -> d
+    int e() -> e
+    void e(int) -> e
+    int f() -> f
+    void f(int) -> f
+    java.lang.String p() -> p
+    void p(java.lang.String) -> p
+    java.lang.String getAppId() -> getAppId
+    void setAppId(java.lang.String) -> setAppId
+    int g() -> g
+    void g(int) -> g
+    int h() -> h
+    void h(int) -> h
+com.kyview.a.c -> com.kyview.a.c:
+    java.lang.String appId -> appId
+    java.lang.String v -> v
+    int l -> l
+    int textColor -> textColor
+    boolean h -> h
+    com.kyview.a.b applyAdBean -> applyAdBean
+    java.lang.String w -> w
+    java.lang.String x -> x
+    java.lang.String y -> y
+    com.kyview.a.g retAdBean -> retAdBean
+    java.lang.String z -> z
+    java.lang.String A -> A
+    java.lang.String B -> B
+    android.graphics.Bitmap bitmap -> bitmap
     android.widget.ImageView d -> d
     android.widget.TextView a -> a
     android.widget.TextView b -> b
     int screenWidth -> screenWidth
     int screenHeight -> screenHeight
     java.lang.Thread a -> a
-    com.kyview.a.b$b a -> a
+    com.kyview.a.c$b a -> a
     java.lang.Thread b -> b
-    com.kyview.c.c a -> a
-    java.lang.Thread c -> c
+    com.kyview.c.i mGifFrame -> mGifFrame
+    java.lang.Thread mGifThread -> mGifThread
     java.lang.String keyDev -> keyDev
     android.content.Intent b -> b
     android.os.Handler handler -> handler
     android.view.View$OnClickListener a -> a
-    com.kyview.a.b$d a -> a
+    com.kyview.a.c$d a -> a
     void onDetachedFromWindow() -> onDetachedFromWindow
     void onLayout(boolean,int,int,int,int) -> onLayout
+    void i(int) -> i
+    void b(android.content.Context) -> b
     java.lang.String a(int,int,int) -> a
     void a(java.lang.String,android.content.Context) -> a
-    java.lang.String c(android.content.Context) -> c
+    java.lang.String e(android.content.Context) -> e
     void onMeasure(int,int) -> onMeasure
-    void a(com.kyview.a.b$d) -> a
-    com.kyview.a.f a(com.kyview.a.b) -> a
-    com.kyview.a.b$d a(com.kyview.a.b) -> a
-    android.graphics.Bitmap a(com.kyview.a.b) -> a
-    void a(com.kyview.a.b,android.graphics.Bitmap) -> a
-    com.kyview.a.a a(com.kyview.a.b) -> a
-    java.lang.String a(com.kyview.a.b) -> a
-    void a(com.kyview.a.b,int,int,int,java.lang.String) -> a
-    void a(com.kyview.a.b) -> a
-    void a(com.kyview.a.b,java.lang.String) -> a
-    java.lang.String b(com.kyview.a.b) -> b
-    java.lang.String c(com.kyview.a.b) -> c
-    void b(com.kyview.a.b,java.lang.String) -> b
-    java.lang.String d(com.kyview.a.b) -> d
-    java.lang.String e(com.kyview.a.b) -> e
-    void c(com.kyview.a.b,java.lang.String) -> c
-    java.lang.String f(com.kyview.a.b) -> f
-    void b(com.kyview.a.b) -> b
-    void a(com.kyview.a.b,com.kyview.a.f) -> a
-    void d(com.kyview.a.b,java.lang.String) -> d
-    void c(com.kyview.a.b) -> c
-    void d(com.kyview.a.b) -> d
-    java.lang.Thread a(com.kyview.a.b) -> a
-    void a(com.kyview.a.b,java.lang.Thread) -> a
-    void a(com.kyview.a.b,android.content.Intent) -> a
-    android.content.Intent a(com.kyview.a.b) -> a
-com.kyview.a.b$a -> com.kyview.a.b$a:
-    android.content.Context b -> b
-    java.lang.String o -> o
-    com.kyview.a.b a -> a
+    void setAdListener(com.kyview.a.c$d) -> setAdListener
+    com.kyview.a.g a(com.kyview.a.c) -> a
+    com.kyview.a.c$d a(com.kyview.a.c) -> a
+    android.graphics.Bitmap a(com.kyview.a.c) -> a
+    void a(com.kyview.a.c,android.graphics.Bitmap) -> a
+    com.kyview.a.b a(com.kyview.a.c) -> a
+    java.lang.String a(com.kyview.a.c) -> a
+    void a(com.kyview.a.c,int,int,int,java.lang.String) -> a
+    void a(com.kyview.a.c,int) -> a
+    void a(com.kyview.a.c,java.lang.String) -> a
+    java.lang.String b(com.kyview.a.c) -> b
+    java.lang.String c(com.kyview.a.c) -> c
+    void b(com.kyview.a.c,java.lang.String) -> b
+    java.lang.String d(com.kyview.a.c) -> d
+    java.lang.String e(com.kyview.a.c) -> e
+    void c(com.kyview.a.c,java.lang.String) -> c
+    java.lang.String f(com.kyview.a.c) -> f
+    void a(com.kyview.a.c,com.kyview.a.g) -> a
+    void d(com.kyview.a.c,java.lang.String) -> d
+    void a(com.kyview.a.c) -> a
+    java.lang.String a(com.kyview.a.c,int,int,int) -> a
+    java.lang.Thread a(com.kyview.a.c) -> a
+    void a(com.kyview.a.c,java.lang.Thread) -> a
+    void a(com.kyview.a.c,android.content.Intent) -> a
+    android.content.Intent a(com.kyview.a.c) -> a
+com.kyview.a.c$a -> com.kyview.a.c$a:
+    java.lang.String D -> D
+    com.kyview.a.c a -> a
     void run() -> run
-    java.lang.String a() -> a
-    java.lang.String b(int,int,int) -> b
+    java.lang.String q() -> q
     byte[] a(java.io.InputStream) -> a
-    void a(com.kyview.a.f) -> a
-    com.kyview.a.f a(java.lang.String) -> a
-    java.lang.String a(java.lang.String,java.lang.String) -> a
-com.kyview.a.b$b -> com.kyview.a.b$b:
+    android.graphics.Bitmap a(java.io.InputStream) -> a
+    com.kyview.a.g a(java.lang.String) -> a
+    java.lang.String a(org.w3c.dom.Element,java.lang.String) -> a
+    java.lang.String getResponse(java.lang.String,java.lang.String) -> getResponse
+com.kyview.a.c$b -> com.kyview.a.c$b:
     java.lang.String url -> url
     java.lang.String content -> content
     void run() -> run
-com.kyview.a.b$c -> com.kyview.a.b$c:
-    com.kyview.a.b a -> a
+com.kyview.a.c$c -> com.kyview.a.c$c:
+    com.kyview.a.c a -> a
     void run() -> run
-com.kyview.a.b$d -> com.kyview.a.b$d:
-    void onReceivedAd(com.kyview.a.b) -> onReceivedAd
-    void onConnectFailed(com.kyview.a.b) -> onConnectFailed
-com.kyview.a.c -> com.kyview.a.c:
-    com.kyview.a.b a -> a
-    void handleMessage(android.os.Message) -> handleMessage
+com.kyview.a.c$d -> com.kyview.a.c$d:
+    void onReceivedAd(com.kyview.a.c) -> onReceivedAd
+    void onConnectFailed(com.kyview.a.c) -> onConnectFailed
 com.kyview.a.d -> com.kyview.a.d:
-    com.kyview.a.b a -> a
-    void onClick(android.view.View) -> onClick
+    com.kyview.a.c a -> a
+    void handleMessage(android.os.Message) -> handleMessage
 com.kyview.a.e -> com.kyview.a.e:
-    com.kyview.a.b a -> a
-    android.content.Context a -> a
-    java.lang.String n -> n
-    void onClick(android.content.DialogInterface,int) -> onClick
+    com.kyview.a.c a -> a
+    void onClick(android.view.View) -> onClick
 com.kyview.a.f -> com.kyview.a.f:
-    java.lang.String p -> p
-    int h -> h
-    java.lang.String q -> q
-    java.lang.String r -> r
-    java.lang.String e -> e
-    java.lang.String b() -> b
-    void a(java.lang.String) -> a
-    int d() -> d
-    void c(int) -> c
-    java.lang.String c() -> c
+    com.kyview.a.c a -> a
+    android.content.Context a -> a
+    java.lang.String C -> C
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.kyview.a.g -> com.kyview.a.g:
+    java.lang.String f -> f
+    int m -> m
+    java.lang.String E -> E
+    java.lang.String F -> F
+    java.lang.String d -> d
+    int n -> n
+    java.lang.String G -> G
+    java.lang.String r() -> r
+    void q(java.lang.String) -> q
+    java.lang.String a() -> a
     void b(java.lang.String) -> b
-    java.lang.String d() -> d
-    void c(java.lang.String) -> c
-    java.lang.String e() -> e
+    int i() -> i
+    void j(int) -> j
+    java.lang.String s() -> s
+    void r(java.lang.String) -> r
+    java.lang.String t() -> t
+    void s(java.lang.String) -> s
+    java.lang.String c() -> c
     void d(java.lang.String) -> d
+    int j() -> j
+    void setResult(int) -> setResult
 com.kyview.adapters.AdBaiduAdapter -> com.kyview.adapters.AdBaiduAdapter:
     boolean isFailed -> isFailed
     int networkType() -> networkType
     void load(com.kyview.a) -> load
-    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b) -> initAdapter
+    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c) -> initAdapter
     void handle() -> handle
     void onAdClick(org.json.JSONObject) -> onAdClick
     void onAdFailed(java.lang.String) -> onAdFailed
@@ -3946,56 +4045,176 @@ com.kyview.adapters.AdBaiduAdapter -> com.kyview.adapters.AdBaiduAdapter:
     void onVideoError() -> onVideoError
     void onVideoFinish() -> onVideoFinish
     void onVideoStart() -> onVideoStart
+    void clean() -> clean
+com.kyview.adapters.AdFillAdapter -> com.kyview.adapters.AdFillAdapter:
+    java.lang.String adfillAddr -> adfillAddr
+    java.lang.String adfillAgent1 -> adfillAgent1
+    java.lang.String adfillAgent2 -> adfillAgent2
+    com.kyview.a.b applyAdBean -> applyAdBean
+    java.util.ArrayList adsBeanList -> adsBeanList
+    com.kyview.a.a adsBean -> adsBean
+    com.kyview.a.g retAdBean -> retAdBean
+    android.graphics.Bitmap bitmap -> bitmap
+    android.graphics.Bitmap secondBitmap -> secondBitmap
+    android.graphics.Bitmap gbBitmap -> gbBitmap
+    android.graphics.Bitmap behavBitmap -> behavBitmap
+    android.widget.ImageView icon -> icon
+    android.widget.TextView title -> title
+    android.widget.TextView subTitle -> subTitle
+    android.widget.ImageView behavIcon -> behavIcon
+    com.kyview.c.i mGifFrame -> mGifFrame
+    java.lang.Thread mGifThread -> mGifThread
+    android.widget.RelativeLayout relativeLayout -> relativeLayout
+    int reFreashTime -> reFreashTime
+    int NOTIFYRECIEVEOK -> NOTIFYRECIEVEOK
+    int NOTIFYRECIEVEERROR -> NOTIFYRECIEVEERROR
+    int NOTIFYRECIEVEGIF -> NOTIFYRECIEVEGIF
+    int CLICKERROR -> CLICKERROR
+    int CLICKNORMAL -> CLICKNORMAL
+    int ICONID -> ICONID
+    int TITLEID -> TITLEID
+    int SUBTITLEID -> SUBTITLEID
+    int BEHAVICONID -> BEHAVICONID
+    int adHeight -> adHeight
+    int adWidth -> adWidth
+    java.util.HashMap reportMaps -> reportMaps
+    android.os.Handler handler -> handler
+    int networkType() -> networkType
+    void load(com.kyview.a) -> load
+    void handle() -> handle
+    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c) -> initAdapter
+    void calcAdSize(int) -> calcAdSize
+    void displayAdFill(android.widget.RelativeLayout) -> displayAdFill
+    java.lang.String writeApplyInfo(com.kyview.a.b) -> writeApplyInfo
+    void initApplyAdInfo(com.kyview.AdViewLayout) -> initApplyAdInfo
+    void clickEvent(int) -> clickEvent
+    void click(int) -> click
+    java.lang.String getResponse(java.lang.String,java.lang.String) -> getResponse
+    java.lang.String getMd5Token(long) -> getMd5Token
+    java.lang.String getContent(com.kyview.a.a,com.kyview.a.b,int) -> getContent
+    java.util.ArrayList praseFromAds(java.lang.String) -> praseFromAds
+    com.kyview.a.g praseFromJson(java.lang.String) -> praseFromJson
+    void createBitmap(com.kyview.a.a) -> createBitmap
+    android.widget.RelativeLayout initLayout(com.kyview.a.a) -> initLayout
+    android.graphics.Bitmap getBitmap(java.io.InputStream,boolean) -> getBitmap
+    void notifyMsg(int) -> notifyMsg
+    void openWebBrowser(java.lang.String) -> openWebBrowser
+    void applyRotation(int,float,float,android.graphics.Bitmap) -> applyRotation
+    void onClick(android.view.View) -> onClick
+    com.kyview.a.a access$0(com.kyview.adapters.AdFillAdapter) -> access$0
+    android.widget.RelativeLayout access$1(com.kyview.adapters.AdFillAdapter,com.kyview.a.a) -> access$1
+    void access$2(com.kyview.adapters.AdFillAdapter,android.widget.RelativeLayout) -> access$2
+    android.widget.ImageView access$3(com.kyview.adapters.AdFillAdapter) -> access$3
+    android.graphics.Bitmap access$4(com.kyview.adapters.AdFillAdapter) -> access$4
+    android.widget.RelativeLayout access$5(com.kyview.adapters.AdFillAdapter) -> access$5
+    android.graphics.Bitmap access$6(com.kyview.adapters.AdFillAdapter) -> access$6
+    int access$7(com.kyview.adapters.AdFillAdapter) -> access$7
+    android.widget.TextView access$8(com.kyview.adapters.AdFillAdapter) -> access$8
+    android.widget.TextView access$9(com.kyview.adapters.AdFillAdapter) -> access$9
+    android.graphics.Bitmap access$10(com.kyview.adapters.AdFillAdapter) -> access$10
+    android.widget.ImageView access$11(com.kyview.adapters.AdFillAdapter) -> access$11
+    void access$12(com.kyview.adapters.AdFillAdapter,android.widget.RelativeLayout) -> access$12
+    com.kyview.c.i access$13(com.kyview.adapters.AdFillAdapter) -> access$13
+    void access$14(com.kyview.adapters.AdFillAdapter,android.graphics.Bitmap) -> access$14
+    java.util.HashMap access$15() -> access$15
+    void access$16(java.util.HashMap) -> access$16
+    java.lang.String access$17(com.kyview.adapters.AdFillAdapter,java.lang.String,java.lang.String) -> access$17
+    com.kyview.a.g access$18(com.kyview.adapters.AdFillAdapter,java.lang.String) -> access$18
+    void access$19(com.kyview.adapters.AdFillAdapter,com.kyview.a.g) -> access$19
+    com.kyview.a.g access$20(com.kyview.adapters.AdFillAdapter) -> access$20
+    java.util.ArrayList access$21(com.kyview.adapters.AdFillAdapter,java.lang.String) -> access$21
+    void access$22(com.kyview.adapters.AdFillAdapter,java.util.ArrayList) -> access$22
+    void access$23(com.kyview.adapters.AdFillAdapter,int) -> access$23
+    java.util.ArrayList access$24(com.kyview.adapters.AdFillAdapter) -> access$24
+    void access$25(com.kyview.adapters.AdFillAdapter,com.kyview.a.a) -> access$25
+    void access$26(com.kyview.adapters.AdFillAdapter,com.kyview.a.a) -> access$26
+    void access$27(com.kyview.adapters.AdFillAdapter,int,float,float,android.graphics.Bitmap) -> access$27
+com.kyview.adapters.AdFillAdapter$1 -> com.kyview.adapters.AdFillAdapter$1:
+    com.kyview.adapters.AdFillAdapter this$0 -> this$0
+    void handleMessage(android.os.Message) -> handleMessage
+com.kyview.adapters.AdFillAdapter$AnimaFreashRunable -> com.kyview.adapters.AdFillAdapter$AnimaFreashRunable:
+    android.graphics.Bitmap bitmap -> bitmap
+    com.kyview.adapters.AdFillAdapter this$0 -> this$0
+    void run() -> run
+com.kyview.adapters.AdFillAdapter$Client -> com.kyview.adapters.AdFillAdapter$Client:
+    java.lang.String content -> content
+    java.lang.String url -> url
+    java.lang.String result -> result
+    com.kyview.adapters.AdFillAdapter this$0 -> this$0
+    void run() -> run
+com.kyview.adapters.AdFillAdapter$ClientReport -> com.kyview.adapters.AdFillAdapter$ClientReport:
+    java.lang.String url -> url
+    java.lang.String content -> content
+    com.kyview.adapters.AdFillAdapter this$0 -> this$0
+    void run() -> run
+com.kyview.adapters.AdFillAdapter$GifRefresh -> com.kyview.adapters.AdFillAdapter$GifRefresh:
+    com.kyview.adapters.AdFillAdapter this$0 -> this$0
+    void run() -> run
 com.kyview.adapters.AdViewAdapter -> com.kyview.adapters.AdViewAdapter:
     java.lang.ref.WeakReference adViewLayoutReference -> adViewLayoutReference
-    com.kyview.b.b ration -> ration
+    com.kyview.b.c ration -> ration
     com.kyview.adapters.AdViewAdapter adapter -> adapter
+    com.kyview.adapters.AdViewAdapter lastAdapter -> lastAdapter
     java.util.Timer reqTimeListenerTimer -> reqTimeListenerTimer
-    void setParamters(com.kyview.AdViewLayout,com.kyview.b.b) -> setParamters
-    com.kyview.adapters.AdViewAdapter getAdapter(com.kyview.AdViewLayout,com.kyview.b.b) -> getAdapter
-    com.kyview.adapters.AdViewAdapter getNetworkAdapter(java.lang.Class,com.kyview.AdViewLayout,com.kyview.b.b) -> getNetworkAdapter
-    com.kyview.adapters.AdViewAdapter unknownAdNetwork(com.kyview.AdViewLayout,com.kyview.b.b) -> unknownAdNetwork
-    void handleOne(com.kyview.AdViewLayout,com.kyview.b.b) -> handleOne
+    void setParamters(com.kyview.AdViewLayout,com.kyview.b.c) -> setParamters
+    com.kyview.adapters.AdViewAdapter getAdapter(com.kyview.AdViewLayout,com.kyview.b.c) -> getAdapter
+    com.kyview.adapters.AdViewAdapter getNetworkAdapter(java.lang.Class,com.kyview.AdViewLayout,com.kyview.b.c) -> getNetworkAdapter
+    com.kyview.adapters.AdViewAdapter unknownAdNetwork(com.kyview.AdViewLayout,com.kyview.b.c) -> unknownAdNetwork
+    void handleOne(com.kyview.AdViewLayout,com.kyview.b.c) -> handleOne
     void onRelease() -> onRelease
-    void onClickAd() -> onClickAd
+    void onClickAd(int) -> onClickAd
     void startTimer() -> startTimer
     void shoutdownTimer() -> shoutdownTimer
+    void onSuccessed(com.kyview.AdViewLayout,com.kyview.b.c) -> onSuccessed
+    void onFailed(com.kyview.AdViewLayout,com.kyview.b.c) -> onFailed
     void requestTimeOut() -> requestTimeOut
+    void clean() -> clean
     void handle() -> handle
-    void release(com.kyview.AdViewLayout) -> release
-    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b) -> initAdapter
-    void click() -> click
+    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c) -> initAdapter
+    void click(int) -> click
 com.kyview.adapters.AdViewAdapter$1 -> com.kyview.adapters.AdViewAdapter$1:
     com.kyview.adapters.AdViewAdapter this$0 -> this$0
     void run() -> run
 com.kyview.adapters.AdViewHouseAdapter -> com.kyview.adapters.AdViewHouseAdapter:
     int networkType() -> networkType
     void load(com.kyview.a) -> load
-    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b) -> initAdapter
+    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c) -> initAdapter
     void handle() -> handle
-    void onConnectFailed(com.kyview.a.b) -> onConnectFailed
-    void onReceivedAd(com.kyview.a.b) -> onReceivedAd
+    void onConnectFailed(com.kyview.a.c) -> onConnectFailed
+    void onReceivedAd(com.kyview.a.c) -> onReceivedAd
 com.kyview.adapters.DisplaySuizongADRunnable -> com.kyview.adapters.DisplaySuizongADRunnable:
     com.kyview.adapters.SuizongInterfaceAdapter suizongADAdapter -> suizongADAdapter
     void run() -> run
+com.kyview.adapters.DoubleClickAdapter -> com.kyview.adapters.DoubleClickAdapter:
+    int networkType() -> networkType
+    void load(com.kyview.a) -> load
+    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c) -> initAdapter
+    void handle() -> handle
+    com.google.ads.AdRequest requestForAdWhirlLayout(com.kyview.AdViewLayout) -> requestForAdWhirlLayout
+    void onDismissScreen(com.google.ads.Ad) -> onDismissScreen
+    void onFailedToReceiveAd(com.google.ads.Ad,com.google.ads.AdRequest$ErrorCode) -> onFailedToReceiveAd
+    void onLeaveApplication(com.google.ads.Ad) -> onLeaveApplication
+    void onPresentScreen(com.google.ads.Ad) -> onPresentScreen
+    void onReceiveAd(com.google.ads.Ad) -> onReceiveAd
 com.kyview.adapters.EventAdapter -> com.kyview.adapters.EventAdapter:
     int networkType() -> networkType
     void load(com.kyview.a) -> load
-    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b) -> initAdapter
+    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c) -> initAdapter
     void handle() -> handle
 com.kyview.adapters.FetchSuizongADRunnable -> com.kyview.adapters.FetchSuizongADRunnable:
     com.kyview.adapters.SuizongInterfaceAdapter suizongADAdapter -> suizongADAdapter
-    com.kyview.b.b ration -> ration
+    com.kyview.b.c ration -> ration
     void run() -> run
 com.kyview.adapters.MobWinAdapter -> com.kyview.adapters.MobWinAdapter:
     com.tencent.exmobwin.banner.TAdView adView -> adView
     int networkType() -> networkType
     void load(com.kyview.a) -> load
-    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b) -> initAdapter
+    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c) -> initAdapter
     void handle() -> handle
     void onReceiveFailed(int) -> onReceiveFailed
     void onReceiveAd() -> onReceiveAd
     void onAdClick() -> onAdClick
+    void clean() -> clean
 com.kyview.adapters.SuizongAD -> com.kyview.adapters.SuizongAD:
     java.lang.String adid -> adid
     java.lang.String status -> status
@@ -4029,10 +4248,10 @@ com.kyview.adapters.SuizongInterfaceAdapter -> com.kyview.adapters.SuizongInterf
     int convertToScreenPixels(int,double) -> convertToScreenPixels
     int networkType() -> networkType
     void load(com.kyview.a) -> load
-    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b) -> initAdapter
+    void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c) -> initAdapter
     void handle() -> handle
     void calcAdSize(int) -> calcAdSize
-    void click() -> click
+    void click(int) -> click
     java.net.HttpURLConnection createConnection(java.util.HashMap,java.lang.String,java.lang.String,boolean,boolean,boolean,boolean,int,int) -> createConnection
     void httpRequest(java.util.HashMap,java.lang.String) -> httpRequest
     java.lang.String getLocalIPAddress() -> getLocalIPAddress
@@ -4052,14 +4271,6 @@ com.kyview.adapters.SuizongInterfaceAdapter$2 -> com.kyview.adapters.SuizongInte
 com.kyview.adapters.SuizongInterfaceAdapter$webViewClient -> com.kyview.adapters.SuizongInterfaceAdapter$webViewClient:
     java.lang.String url2 -> url2
     com.kyview.adapters.SuizongInterfaceAdapter this$0 -> this$0
-    boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String) -> shouldOverrideUrlLoading
-    com.kyview.adapters.SuizongInterfaceAdapter access$1(com.kyview.adapters.SuizongInterfaceAdapter$webViewClient) -> access$1
-com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$1 -> com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$1:
-    com.kyview.adapters.SuizongInterfaceAdapter$webViewClient this$1 -> this$1
-    void onClick(android.content.DialogInterface,int) -> onClick
-com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$2 -> com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$2:
-    com.kyview.adapters.SuizongInterfaceAdapter$webViewClient this$1 -> this$1
-    void onClick(android.content.DialogInterface,int) -> onClick
 com.kyview.adapters.SuizongScreenManager -> com.kyview.adapters.SuizongScreenManager:
     java.lang.String aw -> aw
     java.lang.String ah -> ah
@@ -4070,101 +4281,257 @@ com.kyview.adapters.SuizongScreenManager -> com.kyview.adapters.SuizongScreenMan
     void setAh(java.lang.String) -> setAh
     void calc() -> calc
 com.kyview.b -> com.kyview.b:
-    com.kyview.AdviewWebView a -> a
-    void handleMessage(android.os.Message) -> handleMessage
+    com.kyview.AdViewLayout a -> a
+    void onClick(android.view.View) -> onClick
 com.kyview.b.a -> com.kyview.b.a:
-    int i -> i
-    int j -> j
-    int k -> k
-    int l -> l
-    int m -> m
-    int n -> n
-    int o -> o
-    java.lang.String s -> s
 com.kyview.b.b -> com.kyview.b.b:
-    java.lang.String t -> t
+    int o -> o
+    int p -> p
+    int q -> q
+    int r -> r
+    int s -> s
+    int t -> t
+    int u -> u
+    java.lang.String H -> H
+com.kyview.b.c -> com.kyview.b.c:
+    java.lang.String I -> I
     int type -> type
     java.lang.String name -> name
     double b -> b
-    java.lang.String u -> u
-    java.lang.String v -> v
-    java.lang.String w -> w
-    int p -> p
+    java.lang.String J -> J
+    java.lang.String K -> K
+    java.lang.String L -> L
+    int v -> v
     int priority -> priority
-    java.lang.String o -> o
+    java.lang.String D -> D
     int compareTo(java.lang.Object) -> compareTo
 com.kyview.c -> com.kyview.c:
     com.kyview.AdviewWebView a -> a
-    void onSizeChanged(int,int,int,int) -> onSizeChanged
+    void handleMessage(android.os.Message) -> handleMessage
 com.kyview.c.a -> com.kyview.c.a:
-    java.lang.String x -> x
-    java.lang.String y -> y
-    java.lang.String z -> z
-    int[] a -> a
+    com.kyview.c.g a -> a
+    java.lang.String M -> M
+    java.lang.String N -> N
+    int w -> w
+    int x -> x
+    java.lang.Object a -> a
+    java.lang.Object b -> b
+    android.os.Handler mHandler -> mHandler
+    void a(com.kyview.c.g) -> a
+    void a(java.lang.Object) -> a
+    java.lang.Object a() -> a
+    void run() -> run
+    void a(int,java.lang.Object) -> a
+    void k(int) -> k
+    byte[] b(java.io.InputStream) -> b
+    java.lang.String a(java.io.InputStream) -> a
+    java.lang.Object a(com.kyview.c.a) -> a
+    com.kyview.c.g a(com.kyview.c.a) -> a
+com.kyview.c.b -> com.kyview.c.b:
+    com.kyview.c.a a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.kyview.c.c -> com.kyview.c.c:
+    com.kyview.c.c a -> a
+    java.util.ArrayList b -> b
+    com.kyview.c.c$a a -> a
+    long b -> b
+    com.kyview.c.a b -> b
+    com.kyview.c.f a -> a
+    com.kyview.AdViewLayout adViewLayout -> adViewLayout
+    java.lang.Object a -> a
+    android.content.Context context -> context
+    android.os.Handler c -> c
+    com.kyview.c.c$b a -> a
+    com.kyview.c.c a(android.content.Context) -> a
+    void c() -> c
+    void c(android.content.Context) -> c
+    void d() -> d
+    void a(com.kyview.c.a,int,java.lang.Object) -> a
+    void a(com.kyview.c.a,boolean) -> a
+    void e() -> e
+    void a(com.kyview.AdViewLayout,int,java.lang.String) -> a
+    void l(int) -> l
+    void a(com.kyview.c.c) -> a
+    void a(com.kyview.c.c,int) -> a
+com.kyview.c.c$a -> com.kyview.c.c$a:
+    long c -> c
+    int y -> y
+    boolean i -> i
+    org.json.JSONArray a -> a
+    boolean a() -> a
+    void a(boolean) -> a
+    boolean b() -> b
+com.kyview.c.c$b -> com.kyview.c.c$b:
+    com.kyview.c.c b -> b
+    void run() -> run
+com.kyview.c.d -> com.kyview.c.d:
+    java.lang.String O -> O
+    java.lang.String P -> P
+    java.lang.String Q -> Q
+    java.lang.String R -> R
+    java.lang.String S -> S
+    java.lang.String T -> T
     double mDensity -> mDensity
+    void t(java.lang.String) -> t
+    long a() -> a
     double a(android.app.Activity) -> a
     int convertToScreenPixels(int,double) -> convertToScreenPixels
-    boolean a(android.content.Context,java.lang.String) -> a
-    java.lang.String d(android.content.Context) -> d
-    java.lang.String e(android.content.Context) -> e
-    java.lang.String getIDByMAC(android.content.Context) -> getIDByMAC
-    java.lang.String f(android.content.Context) -> f
-    int[] a(android.content.Context) -> a
-    void logDebug(java.lang.String) -> logDebug
     void a(java.lang.String,java.lang.Throwable) -> a
-    void e(java.lang.String) -> e
-com.kyview.c.b -> com.kyview.c.b:
-    int q -> q
-    int[] b -> b
-    int r -> r
-    int s -> s
-    boolean j -> j
-    int[] c -> c
-    int width -> width
-    int height -> height
-    int t -> t
-    boolean k -> k
-    boolean l -> l
-    int[] d -> d
-    int u -> u
-    boolean m -> m
-    int v -> v
-    long a -> a
-    int w -> w
-    int[] e -> e
-    int[] f -> f
-    int x -> x
-    int y -> y
+    void logDebug(java.lang.String) -> logDebug
+    void b(java.lang.String,java.lang.Throwable) -> b
+    void u(java.lang.String) -> u
+    void a(java.lang.String,android.content.Context) -> a
+    byte[] a(java.io.InputStream) -> a
+    java.io.InputStream a(android.content.Context,java.lang.String) -> a
+com.kyview.c.e -> com.kyview.c.e:
+    android.content.Context a -> a
+    java.lang.String C -> C
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.kyview.c.f -> com.kyview.c.f:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+    void a(int,java.lang.String,java.lang.String) -> a
+    int k() -> k
+    void a(int,java.lang.String,java.lang.String,boolean) -> a
+    void m(int) -> m
+    void a(java.lang.Integer,java.lang.String,java.lang.String) -> a
+    java.util.ArrayList a() -> a
+com.kyview.c.g -> com.kyview.c.g:
+    void a(com.kyview.c.a,int,java.lang.Object) -> a
+com.kyview.c.h -> com.kyview.c.h:
     int z -> z
-    byte[] a -> a
+    int[] a -> a
     int A -> A
     int B -> B
+    boolean j -> j
+    int[] b -> b
+    int width -> width
+    int height -> height
     int C -> C
-    boolean a() -> a
-    void c() -> c
+    boolean k -> k
+    boolean l -> l
+    int[] c -> c
+    int D -> D
+    boolean m -> m
+    int E -> E
+    long d -> d
+    int F -> F
+    int[] d -> d
+    int[] e -> e
+    int G -> G
+    int H -> H
+    int I -> I
+    byte[] a -> a
+    int J -> J
+    int K -> K
+    int L -> L
+    boolean c() -> c
+    void f() -> f
     android.graphics.Bitmap a() -> a
     void clear() -> clear
     boolean a(int,boolean) -> a
-    int e() -> e
+    int l() -> l
     boolean a(int) -> a
     boolean a(int,int) -> a
-com.kyview.c.c -> com.kyview.c.c:
+com.kyview.c.i -> com.kyview.c.i:
     java.util.Vector a -> a
     int index -> index
     int size() -> size
     android.graphics.Bitmap b() -> b
-    void c() -> c
-    com.kyview.c.c a(byte[]) -> a
-com.kyview.c.d -> com.kyview.c.d:
+    void f() -> f
+    com.kyview.c.i a(byte[],int,int) -> a
+com.kyview.c.j -> com.kyview.c.j:
     java.lang.String[] b -> b
     java.lang.String a(byte[]) -> a
     java.lang.String c(java.lang.String) -> c
+com.kyview.c.k -> com.kyview.c.k:
+    float a -> a
+    float b -> b
+    float c -> c
+    float d -> d
+    float e -> e
+    boolean n -> n
+    android.graphics.Camera a -> a
+    void initialize(int,int,int,int) -> initialize
+    void applyTransformation(float,android.view.animation.Transformation) -> applyTransformation
+com.kyview.c.k$a -> com.kyview.c.k$a:
+    int M -> M
+    android.graphics.Bitmap bitmap -> bitmap
+    android.view.ViewGroup b -> b
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+com.kyview.c.k$b -> com.kyview.c.k$b:
+    int M -> M
+    android.view.ViewGroup b -> b
+    android.graphics.Bitmap bitmap -> bitmap
+    void run() -> run
 com.kyview.d -> com.kyview.d:
+    com.kyview.AdviewWebView a -> a
+    void onSizeChanged(int,int,int,int) -> onSizeChanged
+com.kyview.e -> com.kyview.e:
     com.kyview.AdviewWebView$e b -> b
     void handleMessage(android.os.Message) -> handleMessage
-com.kyview.e -> com.kyview.e:
+com.kyview.f -> com.kyview.f:
     com.kyview.DownloadService a -> a
     void handleMessage(android.os.Message) -> handleMessage
+com.luckywc.jossstick.ActivityAlmanac -> com.luckywc.jossstick.ActivityAlmanac:
+    android.widget.TextView mCongText -> a
+    android.widget.TextView mDateText -> b
+    android.widget.TextView mJiText -> c
+    android.widget.TextView mJsyqText -> d
+    android.widget.TextView mLunarText -> e
+    android.widget.TextView mPzbjText -> f
+    android.widget.TextView mSuiciText -> g
+    android.widget.TextView mTszfText -> h
+    android.widget.TextView mWuhangText -> i
+    android.widget.TextView mXsyjText -> j
+    android.widget.TextView mYiText -> k
+    void onPostCreate(android.os.Bundle) -> onPostCreate
+    void onCreate(android.os.Bundle) -> onCreate
+    void initViews() -> a
+    void onClick(android.view.View) -> onClick
+com.luckywc.jossstick.ActivityAlmanac$1 -> com.luckywc.jossstick.a:
+    com.luckywc.jossstick.ActivityAlmanac this$0 -> a
+    void onClickAd() -> onClickAd
+    void onDisplayAd() -> onDisplayAd
+com.luckywc.jossstick.ActivityMain -> com.luckywc.jossstick.ActivityMain:
+    android.widget.PopupWindow ppw -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void ShowAbout() -> a
+    void access$0(com.luckywc.jossstick.ActivityMain) -> a
+com.luckywc.jossstick.ActivityMain$1 -> com.luckywc.jossstick.b:
+    com.luckywc.jossstick.ActivityMain this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.luckywc.jossstick.ActivityMain$2 -> com.luckywc.jossstick.c:
+    com.luckywc.jossstick.ActivityMain this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.luckywc.jossstick.ActivityMain$3 -> com.luckywc.jossstick.d:
+    com.luckywc.jossstick.ActivityMain this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.luckywc.jossstick.ActivityMain$4 -> com.luckywc.jossstick.e:
+    com.luckywc.jossstick.ActivityMain this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.luckywc.jossstick.ActivityMain$5 -> com.luckywc.jossstick.f:
+    com.luckywc.jossstick.ActivityMain this$0 -> a
+    void onClickAd() -> onClickAd
+    void onDisplayAd() -> onDisplayAd
+com.luckywc.jossstick.ActivityMain$6 -> com.luckywc.jossstick.g:
+    com.luckywc.jossstick.ActivityMain this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.luckywc.jossstick.DBManager -> com.luckywc.jossstick.h:
+    android.content.Context mContext -> b
+    int Buffer_Size -> c
+    java.lang.String DBName -> d
+    java.lang.String Data_Path -> e
+    android.database.sqlite.SQLiteDatabase DataBase -> a
+    void OpenStickDb() -> a
+    void CloseStickDB() -> b
+    java.util.ArrayList GetJieMengResult(java.lang.String) -> a
+    java.util.ArrayList GetJieMengKeywords() -> c
+    com.luckywc.jossstick.StickResult GetStickResult(int) -> a
+    com.luckywc.jossstick.WordAnalysisResult GetAnalysisResult(java.lang.String,java.lang.String,java.lang.String) -> a
+    android.database.sqlite.SQLiteDatabase OpenDataBase(java.lang.String) -> b
 com.luckywc.jossstick.GetLotActivity -> com.luckywc.jossstick.GetLotActivity:
     android.widget.ImageView mAnimLot -> a
     android.widget.ImageView mLot -> b
@@ -4191,21 +4558,39 @@ com.luckywc.jossstick.GetLotActivity -> com.luckywc.jossstick.GetLotActivity:
     android.widget.ImageView access$9(com.luckywc.jossstick.GetLotActivity) -> h
     android.view.animation.Animation access$10(com.luckywc.jossstick.GetLotActivity) -> i
     android.graphics.drawable.AnimationDrawable access$11(com.luckywc.jossstick.GetLotActivity) -> j
-com.luckywc.jossstick.GetLotActivity$1 -> com.luckywc.jossstick.a:
+com.luckywc.jossstick.GetLotActivity$1 -> com.luckywc.jossstick.i:
     com.luckywc.jossstick.GetLotActivity this$0 -> a
     void onClickAd() -> onClickAd
     void onDisplayAd() -> onDisplayAd
-com.luckywc.jossstick.GetLotActivity$2 -> com.luckywc.jossstick.b:
+com.luckywc.jossstick.GetLotActivity$2 -> com.luckywc.jossstick.j:
     com.luckywc.jossstick.GetLotActivity this$0 -> a
     void onClick(android.view.View) -> onClick
-com.luckywc.jossstick.GetLotActivity$3 -> com.luckywc.jossstick.c:
+com.luckywc.jossstick.GetLotActivity$3 -> com.luckywc.jossstick.k:
     com.luckywc.jossstick.GetLotActivity this$0 -> a
     void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
     void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
     void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
-com.luckywc.jossstick.GetLotActivity$4 -> com.luckywc.jossstick.d:
+com.luckywc.jossstick.GetLotActivity$4 -> com.luckywc.jossstick.l:
     com.luckywc.jossstick.GetLotActivity this$0 -> a
     void onCompletion(android.media.MediaPlayer) -> onCompletion
+com.luckywc.jossstick.JieMengActivity -> com.luckywc.jossstick.JieMengActivity:
+    java.util.ArrayList keywords -> a
+    android.widget.AutoCompleteTextView tv -> b
+    android.widget.TextView tvContent -> c
+    android.widget.ScrollView sv -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    android.widget.ScrollView access$0(com.luckywc.jossstick.JieMengActivity) -> a
+com.luckywc.jossstick.JieMengActivity$1 -> com.luckywc.jossstick.m:
+    com.luckywc.jossstick.JieMengActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.luckywc.jossstick.JieMengActivity$2 -> com.luckywc.jossstick.n:
+    com.luckywc.jossstick.JieMengActivity this$0 -> a
+    void onClickAd() -> onClickAd
+    void onDisplayAd() -> onDisplayAd
+com.luckywc.jossstick.JieMengEntity -> com.luckywc.jossstick.o:
+    java.lang.Integer ID -> a
+    java.lang.String Keyword -> b
+    java.lang.String Content -> c
 com.luckywc.jossstick.ShengBei -> com.luckywc.jossstick.ShengBei:
     android.graphics.drawable.AnimationDrawable cupAnmi -> a
     android.widget.ImageView mcup -> b
@@ -4231,39 +4616,60 @@ com.luckywc.jossstick.ShengBei -> com.luckywc.jossstick.ShengBei:
     int access$9(com.luckywc.jossstick.ShengBei) -> h
     android.media.MediaPlayer access$10(com.luckywc.jossstick.ShengBei) -> i
     int access$11(com.luckywc.jossstick.ShengBei) -> j
-com.luckywc.jossstick.ShengBei$1 -> com.luckywc.jossstick.e:
+com.luckywc.jossstick.ShengBei$1 -> com.luckywc.jossstick.p:
     com.luckywc.jossstick.ShengBei this$0 -> a
     void onCompletion(android.media.MediaPlayer) -> onCompletion
-com.luckywc.jossstick.ShengBei$2 -> com.luckywc.jossstick.f:
+com.luckywc.jossstick.ShengBei$2 -> com.luckywc.jossstick.q:
     com.luckywc.jossstick.ShengBei this$0 -> a
     void onClick(android.view.View) -> onClick
-com.luckywc.jossstick.ShengBei$3 -> com.luckywc.jossstick.g:
+com.luckywc.jossstick.ShengBei$3 -> com.luckywc.jossstick.r:
     com.luckywc.jossstick.ShengBei this$0 -> a
     void onClickAd() -> onClickAd
     void onDisplayAd() -> onDisplayAd
 com.luckywc.jossstick.ShowLotDetail -> com.luckywc.jossstick.ShowLotDetail:
     int mRanIndex -> a
-    android.widget.ImageView mLogImage -> b
-    android.widget.TextView lotTitle -> c
-    android.widget.TextView lotDesc -> d
     void onCreate(android.os.Bundle) -> onCreate
-com.luckywc.jossstick.ShowLotDetail$1 -> com.luckywc.jossstick.h:
-    com.luckywc.jossstick.ShowLotDetail this$0 -> a
-    void onClickAd() -> onClickAd
-    void onDisplayAd() -> onDisplayAd
 com.luckywc.jossstick.StartPage -> com.luckywc.jossstick.StartPage:
     void onCreate(android.os.Bundle) -> onCreate
     boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
-com.luckywc.jossstick.StartPage$1 -> com.luckywc.jossstick.i:
+com.luckywc.jossstick.StartPage$1 -> com.luckywc.jossstick.s:
     com.luckywc.jossstick.StartPage this$0 -> a
     void onClickAd() -> onClickAd
     void onDisplayAd() -> onDisplayAd
-com.luckywc.jossstick.StartPage$2 -> com.luckywc.jossstick.j:
+com.luckywc.jossstick.StartPage$2 -> com.luckywc.jossstick.t:
     com.luckywc.jossstick.StartPage this$0 -> a
     void onClick(android.view.View) -> onClick
-com.luckywc.jossstick.Utility -> com.luckywc.jossstick.k:
-    android.graphics.Bitmap getImageFromAssetsFile(android.content.Context,java.lang.String) -> a
-    java.lang.String getStringFromAssetsFile(android.content.Context,java.lang.String) -> b
+com.luckywc.jossstick.StartPage$3 -> com.luckywc.jossstick.u:
+    com.luckywc.jossstick.StartPage this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.luckywc.jossstick.StickResult -> com.luckywc.jossstick.v:
+    java.lang.Integer ID -> a
+    java.lang.String Name -> b
+    java.lang.String Type -> c
+    java.lang.String Title -> d
+    java.lang.String GongWei -> e
+    java.lang.String ShiYue -> f
+    java.lang.String ShiYi -> g
+    java.lang.String JieYue -> h
+    java.lang.String XianJi -> i
+    java.lang.String GuiShi -> j
+com.luckywc.jossstick.WordAnalysisActivity -> com.luckywc.jossstick.WordAnalysisActivity:
+    android.widget.EditText txtArea -> a
+    android.widget.ScrollView sv -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    android.widget.EditText access$0(com.luckywc.jossstick.WordAnalysisActivity) -> a
+    android.widget.ScrollView access$1(com.luckywc.jossstick.WordAnalysisActivity) -> b
+com.luckywc.jossstick.WordAnalysisActivity$1 -> com.luckywc.jossstick.w:
+    com.luckywc.jossstick.WordAnalysisActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.luckywc.jossstick.WordAnalysisActivity$2 -> com.luckywc.jossstick.x:
+    com.luckywc.jossstick.WordAnalysisActivity this$0 -> a
+    void onClickAd() -> onClickAd
+    void onDisplayAd() -> onDisplayAd
+com.luckywc.jossstick.WordAnalysisResult -> com.luckywc.jossstick.y:
+    java.lang.String ID -> a
+    java.lang.String Title -> b
+    java.lang.String Content -> c
 com.tencent.exmobwin.MobWINManager -> com.tencent.exmobwin.MobWINManager:
     java.lang.String a -> a
     void init(android.content.Context,int[]) -> init
@@ -4275,139 +4681,10 @@ com.tencent.exmobwin.Type -> com.tencent.exmobwin.Type:
     int MOBWIN_INTEGRALWALL -> MOBWIN_INTEGRALWALL
     int MOBWIN_MINIBANNER -> MOBWIN_MINIBANNER
 com.tencent.exmobwin.a.a -> com.tencent.exmobwin.a.a:
-    com.tencent.exmobwin.a.e a -> a
-    java.util.ArrayList b -> b
-    void run() -> run
+    void a(boolean) -> a
 com.tencent.exmobwin.a.b -> com.tencent.exmobwin.a.b:
-    java.lang.String r -> r
-    byte[] s -> s
-    java.util.List t -> t
-    java.util.HashMap u -> u
-    java.util.HashMap v -> v
-    java.util.HashMap w -> w
-    boolean x -> x
-    com.tencent.exmobwin.c.f y -> y
-    android.content.Context z -> z
-    com.tencent.exmobwin.b.h A -> A
-    int B -> B
-    int a -> a
-    int b -> b
-    int c -> c
-    int d -> d
-    int e -> e
-    int f -> f
-    int g -> g
-    int h -> h
-    int i -> i
-    boolean C -> C
-    void a(com.tencent.exmobwin.c.c) -> a
-    void a(org.apache.http.HttpResponse,com.tencent.exmobwin.b.b) -> a
-    void a(int,com.tencent.exmobwin.b.b) -> a
-    void b(com.tencent.exmobwin.c.c) -> b
-    void a(int) -> a
-    void a() -> a
-    void a(boolean) -> a
-    void b() -> b
-com.tencent.exmobwin.a.c -> com.tencent.exmobwin.a.c:
-    int a -> a
-    java.util.WeakHashMap b -> b
-    java.lang.String c -> c
-    java.lang.String d -> d
-    java.lang.String e -> e
-    java.lang.String f -> f
-com.tencent.exmobwin.a.d -> com.tencent.exmobwin.a.d:
-    android.content.Context a -> a
-    java.lang.String e -> e
-    java.lang.String f -> f
-    java.lang.String g -> g
-    java.lang.String h -> h
-    java.lang.String i -> i
-    java.lang.String j -> j
-    int k -> k
-    java.lang.String e() -> e
-    java.lang.String f() -> f
-    void b(android.content.Context) -> b
-    android.content.Context g() -> g
-    boolean h() -> h
-    boolean a(int) -> a
-    void b() -> b
-    void d() -> d
-com.tencent.exmobwin.a.e -> com.tencent.exmobwin.a.e:
-    java.lang.String f -> f
-    java.lang.Object g -> g
-    com.tencent.exmobwin.a.e h -> h
-    java.lang.String i -> i
-    java.lang.String r -> r
-    long s -> s
-    java.lang.String a -> a
-    android.content.Context t -> t
-    int u -> u
-    int b -> b
-    int c -> c
-    int v -> v
-    int w -> w
-    int x -> x
-    int y -> y
-    int d -> d
-    java.util.HashMap z -> z
-    int A -> A
-    com.tencent.exmobwin.c.f B -> B
-    com.tencent.exmobwin.a.b C -> C
-    boolean e -> e
-    boolean D -> D
-    com.tencent.exmobwin.a.e a() -> a
-    void a(android.content.Context,int[]) -> a
-    com.tencent.exmobwin.a.b b() -> b
-    void a(java.lang.String,java.lang.String,java.lang.String,boolean) -> a
-    void a(org.apache.http.HttpResponse,com.tencent.exmobwin.b.b) -> a
-    void a(int,com.tencent.exmobwin.b.b) -> a
-    java.lang.String c() -> c
-    boolean f() -> f
-    void b(boolean) -> b
-    java.util.ArrayList a(boolean) -> a
-    com.tencent.exmobwin.c.a a(boolean,int) -> a
-    org.json.JSONObject a(java.util.ArrayList) -> a
-    java.util.ArrayList a(java.lang.String) -> a
-    void d() -> d
-    void e() -> e
-    android.content.Context a(com.tencent.exmobwin.a.e) -> a
-com.tencent.exmobwin.a.f -> com.tencent.exmobwin.a.f:
-    boolean a -> a
-    void a(java.lang.String,java.lang.String) -> a
-    void b(java.lang.String,java.lang.String) -> b
-    void c(java.lang.String,java.lang.String) -> c
-    void d(java.lang.String,java.lang.String) -> d
-com.tencent.exmobwin.a.g -> com.tencent.exmobwin.a.g:
-    java.lang.String b -> b
-    java.lang.String a -> a
-    int c -> c
-    java.lang.String b(android.content.Context) -> b
-    int[] a() -> a
-    java.lang.String c(android.content.Context) -> c
-    java.lang.String a(android.content.Context) -> a
-    void a(android.content.Context,java.lang.String) -> a
-    void b(android.content.Context,java.lang.String) -> b
-    void c(android.content.Context,java.lang.String) -> c
-    java.lang.String a(java.lang.String) -> a
-    int b(java.lang.String) -> b
-com.tencent.exmobwin.a.h -> com.tencent.exmobwin.a.h:
-    byte[] a(byte[],int,int[],int) -> a
-    byte[] b(byte[],int,int[],int) -> b
-    int[] a(byte[],int) -> a
-    byte[] a(int[],int) -> a
-    int a(byte) -> a
-    byte[] a(java.lang.String) -> a
-    java.lang.String a(byte[]) -> a
-    byte[] b(byte[]) -> b
-    byte[] c(byte[]) -> c
-com.tencent.exmobwin.a.i -> com.tencent.exmobwin.a.i:
-    com.tencent.exmobwin.a.e a -> a
-    void run() -> run
-com.tencent.exmobwin.b.a -> com.tencent.exmobwin.b.a:
-    void a(boolean) -> a
-com.tencent.exmobwin.b.b -> com.tencent.exmobwin.b.b:
     java.lang.String n -> n
-    com.tencent.exmobwin.b.e a -> a
+    com.tencent.exmobwin.a.e a -> a
     int b -> b
     int c -> c
     int d -> d
@@ -4421,20 +4698,20 @@ com.tencent.exmobwin.b.b -> com.tencent.exmobwin.b.b:
     android.os.Handler j -> j
     org.apache.http.client.methods.HttpPost k -> k
     org.apache.http.client.methods.HttpGet l -> l
-    com.tencent.exmobwin.c.c m -> m
+    com.tencent.exmobwin.b.c m -> m
     java.util.Map q -> q
     java.net.URI r -> r
     void a(java.lang.String,java.lang.String) -> a
     boolean a(java.net.URI) -> a
     void a(int) -> a
     org.apache.http.client.HttpClient b(int) -> b
-    void a(com.tencent.exmobwin.b.b,int) -> a
-com.tencent.exmobwin.b.c -> com.tencent.exmobwin.b.c:
-    long a -> a
-com.tencent.exmobwin.b.d -> com.tencent.exmobwin.b.d:
-    com.tencent.exmobwin.b.h a -> a
+    void a(com.tencent.exmobwin.a.b,int) -> a
+com.tencent.exmobwin.a.c -> com.tencent.exmobwin.a.c:
+    com.tencent.exmobwin.a.h a -> a
     void onReceive(android.content.Context,android.content.Intent) -> onReceive
-com.tencent.exmobwin.b.e -> com.tencent.exmobwin.b.e:
+com.tencent.exmobwin.a.d -> com.tencent.exmobwin.a.d:
+    long a -> a
+com.tencent.exmobwin.a.e -> com.tencent.exmobwin.a.e:
     int j -> j
     int k -> k
     int l -> l
@@ -4443,29 +4720,29 @@ com.tencent.exmobwin.b.e -> com.tencent.exmobwin.b.e:
     int o -> o
     int p -> p
     int q -> q
-    void a(org.apache.http.HttpResponse,com.tencent.exmobwin.b.b) -> a
-    void a(int,com.tencent.exmobwin.b.b) -> a
-com.tencent.exmobwin.b.f -> com.tencent.exmobwin.b.f:
-    com.tencent.exmobwin.b.b a -> a
+    void a(org.apache.http.HttpResponse,com.tencent.exmobwin.a.b) -> a
+    void a(int,com.tencent.exmobwin.a.b) -> a
+com.tencent.exmobwin.a.f -> com.tencent.exmobwin.a.f:
+    com.tencent.exmobwin.a.b a -> a
     int b -> b
     void run() -> run
-com.tencent.exmobwin.b.g -> com.tencent.exmobwin.b.g:
+com.tencent.exmobwin.a.g -> com.tencent.exmobwin.a.g:
     long a -> a
-com.tencent.exmobwin.b.h -> com.tencent.exmobwin.b.h:
+com.tencent.exmobwin.a.h -> com.tencent.exmobwin.a.h:
     java.lang.String d -> d
     java.lang.String a -> a
     android.content.Context e -> e
     java.lang.String b -> b
     boolean c -> c
-    com.tencent.exmobwin.b.d f -> f
-    com.tencent.exmobwin.b.a g -> g
+    com.tencent.exmobwin.a.c f -> f
+    com.tencent.exmobwin.a.a g -> g
     int h -> h
     int i -> i
     int j -> j
     boolean k -> k
     int l -> l
     int m -> m
-    void a(com.tencent.exmobwin.b.a) -> a
+    void a(com.tencent.exmobwin.a.a) -> a
     int a() -> a
     int b() -> b
     void c() -> c
@@ -4473,7 +4750,94 @@ com.tencent.exmobwin.b.h -> com.tencent.exmobwin.b.h:
     int a(android.content.Context) -> a
     boolean e() -> e
     void f() -> f
-    com.tencent.exmobwin.b.a a(com.tencent.exmobwin.b.h) -> a
+    com.tencent.exmobwin.a.a a(com.tencent.exmobwin.a.h) -> a
+com.tencent.exmobwin.b.a -> com.tencent.exmobwin.b.a:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    int e -> e
+    java.lang.String a() -> a
+    java.lang.String b() -> b
+    java.lang.String c() -> c
+    void a(android.content.Context) -> a
+    int d() -> d
+com.tencent.exmobwin.b.b -> com.tencent.exmobwin.b.b:
+    java.lang.String a -> a
+    java.lang.String b -> b
+    int c -> c
+    void a(java.lang.String) -> a
+    void b(java.lang.String) -> b
+    java.lang.String a() -> a
+    java.lang.String b() -> b
+    int c() -> c
+    void a(int) -> a
+com.tencent.exmobwin.b.c -> com.tencent.exmobwin.b.c:
+    int a -> a
+    int b -> b
+    int c -> c
+    java.lang.String d -> d
+    int e -> e
+    int f -> f
+    int g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    java.lang.String k -> k
+    int l -> l
+    java.lang.String m -> m
+    long n -> n
+    long o -> o
+    int p -> p
+    int a() -> a
+    void a(int) -> a
+    int b() -> b
+    void b(int) -> b
+    java.lang.String c() -> c
+    void a(java.lang.String) -> a
+    int d() -> d
+    void c(int) -> c
+    java.lang.String e() -> e
+    void b(java.lang.String) -> b
+    int f() -> f
+    void d(int) -> d
+    java.lang.String g() -> g
+    void c(java.lang.String) -> c
+    java.lang.String h() -> h
+    void d(java.lang.String) -> d
+    java.lang.String i() -> i
+    void e(java.lang.String) -> e
+    java.lang.String j() -> j
+    void f(java.lang.String) -> f
+    long k() -> k
+    void a(long) -> a
+    long l() -> l
+    void b(long) -> b
+    int m() -> m
+    void e(int) -> e
+com.tencent.exmobwin.b.d -> com.tencent.exmobwin.b.d:
+    int a -> a
+    java.lang.String b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.tencent.exmobwin.b.e -> com.tencent.exmobwin.b.e:
+    int a -> a
+    int b -> b
+    int c -> c
+    int d -> d
+com.tencent.exmobwin.b.f -> com.tencent.exmobwin.b.f:
+    java.lang.String a -> a
+    android.content.Context b -> b
+    boolean c -> c
+    android.database.sqlite.SQLiteDatabase a(com.tencent.exmobwin.b.d) -> a
+    void a(com.tencent.exmobwin.b.c) -> a
+    void b(com.tencent.exmobwin.b.c) -> b
+    void c(com.tencent.exmobwin.b.c) -> c
+    boolean a(int) -> a
+    com.tencent.exmobwin.b.c b(int) -> b
+    java.util.ArrayList a() -> a
 com.tencent.exmobwin.banner.AdListener -> com.tencent.exmobwin.banner.AdListener:
     int ERROR_CONNECTION_FAILED -> ERROR_CONNECTION_FAILED
     int ERROR_NO_AVAILABLE_ADS -> ERROR_NO_AVAILABLE_ADS
@@ -4521,43 +4885,52 @@ com.tencent.exmobwin.banner.MobWINBrowserActivity -> com.tencent.exmobwin.banner
     boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
     void a(java.lang.String) -> a
 com.tencent.exmobwin.banner.TAdView -> com.tencent.exmobwin.banner.TAdView:
-    java.lang.String TAG -> TAG
-    int CREATE_ADVIEW -> CREATE_ADVIEW
-    com.tencent.exmobwin.banner.AdListener a -> a
-    com.tencent.exmobwin.banner.d b -> b
-    java.lang.String c -> c
+    java.lang.String a -> a
+    int b -> b
+    com.tencent.exmobwin.banner.AdListener c -> c
+    com.tencent.exmobwin.banner.d d -> d
+    java.lang.String e -> e
+    void onLayout(boolean,int,int,int,int) -> onLayout
+    void onDetachedFromWindow() -> onDetachedFromWindow
+    void onWindowVisibilityChanged(int) -> onWindowVisibilityChanged
+    void setAdListener(com.tencent.exmobwin.banner.AdListener) -> setAdListener
+com.tencent.exmobwin.banner.TMiniAdView -> com.tencent.exmobwin.banner.TMiniAdView:
+    java.lang.String a -> a
+    int b -> b
+    com.tencent.exmobwin.banner.AdListener c -> c
+    com.tencent.exmobwin.banner.d d -> d
+    java.lang.String e -> e
     void onLayout(boolean,int,int,int,int) -> onLayout
     void onDetachedFromWindow() -> onDetachedFromWindow
     void onWindowVisibilityChanged(int) -> onWindowVisibilityChanged
     void setAdListener(com.tencent.exmobwin.banner.AdListener) -> setAdListener
 com.tencent.exmobwin.banner.a -> com.tencent.exmobwin.banner.a:
-    java.lang.String l -> l
-    java.lang.String m -> m
     java.lang.String n -> n
-    int o -> o
-    java.lang.Object p -> p
-    com.tencent.exmobwin.banner.a q -> q
+    java.lang.String o -> o
+    java.lang.String p -> p
+    int q -> q
+    java.lang.Object r -> r
+    com.tencent.exmobwin.banner.a s -> s
     java.lang.ref.WeakReference a -> a
     java.lang.ref.WeakReference b -> b
     java.lang.Class c -> c
-    boolean r -> r
-    boolean s -> s
-    java.util.Map t -> t
+    boolean t -> t
     boolean u -> u
-    boolean v -> v
+    java.util.Map v -> v
+    boolean w -> w
     android.os.Handler d -> d
-    void a(android.content.Context) -> a
-    void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> a
-    com.tencent.exmobwin.banner.a a() -> a
+    void a() -> a
+    void a(java.lang.String,java.lang.String,java.lang.String) -> a
+    com.tencent.exmobwin.banner.a b() -> b
     void a(java.lang.String,com.tencent.exmobwin.banner.d) -> a
     void a(java.lang.String) -> a
     void b(java.lang.String) -> b
-    void b() -> b
+    void c() -> c
     com.tencent.exmobwin.banner.d c(java.lang.String) -> c
     void a(com.tencent.exmobwin.banner.d) -> a
     void a(android.widget.RelativeLayout,com.tencent.exmobwin.banner.AdListener) -> a
-    android.widget.RelativeLayout c(android.content.Context) -> c
-    void c() -> c
+    android.widget.RelativeLayout a(android.content.Context,int) -> a
+    void a(android.content.Context) -> a
     void d() -> d
     com.tencent.exmobwin.banner.d a(com.tencent.exmobwin.banner.a,java.lang.String) -> a
     void a(com.tencent.exmobwin.banner.a,com.tencent.exmobwin.banner.d) -> a
@@ -4573,106 +4946,20 @@ com.tencent.exmobwin.banner.d -> com.tencent.exmobwin.banner.d:
     boolean c -> c
     boolean d -> d
     java.lang.ref.WeakReference e -> e
+    int f -> f
+    int a() -> a
     void a(com.tencent.exmobwin.banner.AdListener) -> a
-    com.tencent.exmobwin.banner.AdListener a() -> a
+    com.tencent.exmobwin.banner.AdListener b() -> b
     void a(boolean) -> a
-    boolean b() -> b
-    android.content.Context c() -> c
-    android.widget.RelativeLayout d() -> d
+    boolean c() -> c
+    android.content.Context d() -> d
+    android.widget.RelativeLayout e() -> e
     void b(boolean) -> b
-    boolean e() -> e
+    boolean f() -> f
 com.tencent.exmobwin.banner.e -> com.tencent.exmobwin.banner.e:
     com.tencent.exmobwin.banner.a a -> a
     void handleMessage(android.os.Message) -> handleMessage
 com.tencent.exmobwin.c.a -> com.tencent.exmobwin.c.a:
-    java.lang.String a -> a
-    java.lang.String b -> b
-    int c -> c
-    void a(java.lang.String) -> a
-    void b(java.lang.String) -> b
-    java.lang.String a() -> a
-    java.lang.String b() -> b
-    int c() -> c
-    void a(int) -> a
-com.tencent.exmobwin.c.b -> com.tencent.exmobwin.c.b:
-    java.lang.String a -> a
-    java.lang.String b -> b
-    java.lang.String c -> c
-    java.lang.String d -> d
-    int e -> e
-    java.lang.String a() -> a
-    java.lang.String b() -> b
-    java.lang.String c() -> c
-    void a(android.content.Context) -> a
-    int d() -> d
-com.tencent.exmobwin.c.c -> com.tencent.exmobwin.c.c:
-    int a -> a
-    int b -> b
-    int c -> c
-    java.lang.String d -> d
-    int e -> e
-    int f -> f
-    int g -> g
-    java.lang.String h -> h
-    java.lang.String i -> i
-    java.lang.String j -> j
-    java.lang.String k -> k
-    int l -> l
-    java.lang.String m -> m
-    long n -> n
-    long o -> o
-    int p -> p
-    int a() -> a
-    void a(int) -> a
-    int b() -> b
-    void b(int) -> b
-    java.lang.String c() -> c
-    void a(java.lang.String) -> a
-    int d() -> d
-    void c(int) -> c
-    java.lang.String e() -> e
-    void b(java.lang.String) -> b
-    int f() -> f
-    void d(int) -> d
-    java.lang.String g() -> g
-    void c(java.lang.String) -> c
-    java.lang.String h() -> h
-    void d(java.lang.String) -> d
-    java.lang.String i() -> i
-    void e(java.lang.String) -> e
-    java.lang.String j() -> j
-    void f(java.lang.String) -> f
-    long k() -> k
-    void a(long) -> a
-    long l() -> l
-    void b(long) -> b
-    int m() -> m
-    void e(int) -> e
-com.tencent.exmobwin.c.d -> com.tencent.exmobwin.c.d:
-    int a -> a
-    java.lang.String b -> b
-    java.lang.String c -> c
-    java.lang.String d -> d
-    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
-    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
-com.tencent.exmobwin.c.e -> com.tencent.exmobwin.c.e:
-    int a -> a
-    int b -> b
-    int c -> c
-    int d -> d
-com.tencent.exmobwin.c.f -> com.tencent.exmobwin.c.f:
-    java.lang.String a -> a
-    java.lang.String b -> b
-    android.content.Context c -> c
-    boolean d -> d
-    android.database.sqlite.SQLiteDatabase a(com.tencent.exmobwin.c.d) -> a
-    void a(com.tencent.exmobwin.c.c) -> a
-    void b(com.tencent.exmobwin.c.c) -> b
-    void c(com.tencent.exmobwin.c.c) -> c
-    boolean a(int) -> a
-    com.tencent.exmobwin.c.c b(int) -> b
-    java.util.ArrayList a() -> a
-com.tencent.exmobwin.d.a -> com.tencent.exmobwin.d.a:
     java.lang.String a -> a
     char[] b -> b
     java.lang.String a(byte[]) -> a
@@ -4694,5 +4981,180 @@ com.tencent.exmobwin.d.a -> com.tencent.exmobwin.d.a:
     void c() -> c
     void d() -> d
     void a(android.content.Context,java.lang.String,java.lang.String) -> a
-com.tencent.exmobwin.d.b -> com.tencent.exmobwin.d.b:
+com.tencent.exmobwin.c.b -> com.tencent.exmobwin.c.b:
     boolean accept(java.io.File,java.lang.String) -> accept
+com.tencent.exmobwin.core.TLog -> com.tencent.exmobwin.core.TLog:
+    boolean a -> a
+    void a(java.lang.String,java.lang.String) -> a
+    void b(java.lang.String,java.lang.String) -> b
+    void c(java.lang.String,java.lang.String) -> c
+    void d(java.lang.String,java.lang.String) -> d
+com.tencent.exmobwin.core.a -> com.tencent.exmobwin.core.a:
+    com.tencent.exmobwin.core.e a -> a
+    java.util.ArrayList b -> b
+    void run() -> run
+com.tencent.exmobwin.core.b -> com.tencent.exmobwin.core.b:
+    java.lang.String r -> r
+    byte[] s -> s
+    java.util.List t -> t
+    java.util.HashMap u -> u
+    java.util.HashMap v -> v
+    java.util.HashMap w -> w
+    boolean x -> x
+    com.tencent.exmobwin.b.f y -> y
+    android.content.Context z -> z
+    com.tencent.exmobwin.a.h A -> A
+    int B -> B
+    int a -> a
+    int b -> b
+    int c -> c
+    int d -> d
+    int e -> e
+    int f -> f
+    int g -> g
+    int h -> h
+    int i -> i
+    boolean C -> C
+    void a(com.tencent.exmobwin.b.c) -> a
+    void a(org.apache.http.HttpResponse,com.tencent.exmobwin.a.b) -> a
+    void a(int,com.tencent.exmobwin.a.b) -> a
+    void b(com.tencent.exmobwin.b.c) -> b
+    void a(int) -> a
+    void a() -> a
+    void a(boolean) -> a
+    void b() -> b
+com.tencent.exmobwin.core.c -> com.tencent.exmobwin.core.c:
+    java.lang.String e -> e
+    java.lang.String f -> f
+    java.lang.String g -> g
+    java.lang.String h -> h
+    java.lang.String i -> i
+    java.lang.String j -> j
+    java.lang.String k -> k
+    java.lang.String l -> l
+    int m -> m
+    java.lang.String e() -> e
+    java.lang.String f() -> f
+    boolean b(android.content.Context) -> b
+    boolean a(int,android.content.Context) -> a
+    void c() -> c
+    void d() -> d
+com.tencent.exmobwin.core.d -> com.tencent.exmobwin.core.d:
+    int a -> a
+    java.util.WeakHashMap b -> b
+    java.lang.String c -> c
+    java.lang.String d -> d
+    java.lang.String e -> e
+    java.lang.String f -> f
+com.tencent.exmobwin.core.e -> com.tencent.exmobwin.core.e:
+    java.lang.String f -> f
+    java.lang.Object g -> g
+    com.tencent.exmobwin.core.e h -> h
+    java.lang.String i -> i
+    long r -> r
+    java.lang.String a -> a
+    android.content.Context s -> s
+    int t -> t
+    int b -> b
+    int c -> c
+    int u -> u
+    int v -> v
+    int w -> w
+    int x -> x
+    int d -> d
+    java.util.HashMap y -> y
+    int z -> z
+    com.tencent.exmobwin.b.f A -> A
+    com.tencent.exmobwin.core.b B -> B
+    boolean e -> e
+    boolean C -> C
+    com.tencent.exmobwin.core.e a() -> a
+    void a(android.content.Context,int[]) -> a
+    com.tencent.exmobwin.core.b b() -> b
+    void a(java.lang.String,java.lang.String,java.lang.String,boolean) -> a
+    void a(org.apache.http.HttpResponse,com.tencent.exmobwin.a.b) -> a
+    void a(int,com.tencent.exmobwin.a.b) -> a
+    java.lang.String c() -> c
+    boolean f() -> f
+    void b(boolean) -> b
+    java.util.ArrayList a(boolean) -> a
+    com.tencent.exmobwin.b.b a(boolean,int) -> a
+    org.json.JSONObject a(java.util.ArrayList) -> a
+    java.util.ArrayList a(java.lang.String) -> a
+    void d() -> d
+    void e() -> e
+    android.content.Context a(com.tencent.exmobwin.core.e) -> a
+com.tencent.exmobwin.core.f -> com.tencent.exmobwin.core.f:
+    java.lang.String b -> b
+    java.lang.String a -> a
+    int c -> c
+    java.lang.String b(android.content.Context) -> b
+    int[] a() -> a
+    java.lang.String c(android.content.Context) -> c
+    java.lang.String a(android.content.Context) -> a
+    void a(android.content.Context,java.lang.String) -> a
+    void b(android.content.Context,java.lang.String) -> b
+    void c(android.content.Context,java.lang.String) -> c
+    java.lang.String a(java.lang.String) -> a
+    int b(java.lang.String) -> b
+com.tencent.exmobwin.core.g -> com.tencent.exmobwin.core.g:
+    byte[] a(byte[],int,int[],int) -> a
+    byte[] b(byte[],int,int[],int) -> b
+    int[] a(byte[],int) -> a
+    byte[] a(int[],int) -> a
+    int a(byte) -> a
+    byte[] a(java.lang.String) -> a
+    java.lang.String a(byte[]) -> a
+    byte[] b(byte[]) -> b
+    byte[] c(byte[]) -> c
+com.tencent.exmobwin.core.h -> com.tencent.exmobwin.core.h:
+    com.tencent.exmobwin.core.e a -> a
+    void run() -> run
+com.tencent.exmobwin.spot.SpotActivity -> com.tencent.exmobwin.spot.SpotActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+    void onSaveInstanceState(android.os.Bundle) -> onSaveInstanceState
+    void onConfigurationChanged(android.content.res.Configuration) -> onConfigurationChanged
+    void onResume() -> onResume
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    boolean onKeyDown(int,android.view.KeyEvent) -> onKeyDown
+    boolean onKeyUp(int,android.view.KeyEvent) -> onKeyUp
+    void onDestroy() -> onDestroy
+com.tencent.exmobwin.spot.SpotListener -> com.tencent.exmobwin.spot.SpotListener:
+    void onSpotActivityFinished() -> onSpotActivityFinished
+com.tencent.exmobwin.spot.a -> com.tencent.exmobwin.spot.a:
+    com.tencent.exmobwin.spot.b a -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.tencent.exmobwin.spot.b -> com.tencent.exmobwin.spot.b:
+    java.lang.String a -> a
+    android.content.Context b -> b
+    java.lang.Object c -> c
+    com.tencent.exmobwin.spot.b d -> d
+    java.lang.ref.WeakReference n -> n
+    java.lang.ref.WeakReference o -> o
+    java.lang.String p -> p
+    java.lang.String q -> q
+    java.lang.Class r -> r
+    boolean s -> s
+    int t -> t
+    int u -> u
+    int v -> v
+    android.app.Activity w -> w
+    java.lang.Class x -> x
+    java.lang.Object y -> y
+    android.os.Bundle z -> z
+    android.os.Handler A -> A
+    com.tencent.exmobwin.spot.b a() -> a
+    void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String) -> a
+    void a(android.content.Context,com.tencent.exmobwin.spot.SpotListener) -> a
+    void d() -> d
+    void c() -> c
+    void a(android.os.Bundle,android.app.Activity) -> a
+    void b() -> b
+    void a(android.os.Bundle) -> a
+    void a(android.content.res.Configuration) -> a
+    void a(int,int,android.content.Intent) -> a
+    void a(int,android.view.KeyEvent) -> a
+    void b(int,android.view.KeyEvent) -> b
+    void g() -> g
+    void a(com.tencent.exmobwin.spot.b,android.os.Bundle) -> a
+    android.app.Activity a(com.tencent.exmobwin.spot.b) -> a

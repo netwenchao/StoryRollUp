@@ -32,6 +32,12 @@
         <item name="android:shadowRadius">1.0</item>
     </style>
     
+    <style name="word_red_style">
+        <item name="android:textColor">#FFFF0000</item>
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
     <style name="prompt_text">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textStyle">bold</item>
@@ -44,6 +50,19 @@
         <item name="android:shadowRadius">1.0</item>
         <item name="android:layout_centerHorizontal">true</item>
     </style>
+    
+    <style name="about_text">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16sp</item>
+        <item name="android:layout_marginRight">16sp</item>
+        <item name="android:layout_marginBottom">4sp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+    
     <style name="lot_title_text">
         <item name="android:textSize">20.0sp</item>
         <item name="android:textStyle">bold</item>

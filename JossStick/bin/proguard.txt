@@ -13,6 +13,9 @@
 # view AndroidManifest.xml #generated:27
 -keep class com.luckywc.jossstick.GetLotActivity { <init>(...); }
 
+# view AndroidManifest.xml #generated:59
+-keep class com.luckywc.jossstick.JieMengActivity { <init>(...); }
+
 # view AndroidManifest.xml #generated:28
 -keep class com.luckywc.jossstick.ShengBei { <init>(...); }
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.luckywc.jossstick"
-    android:versionCode="1"
-    android:versionName="1.1" >
+    android:versionCode="2"
+    android:versionName="2.0.906" >
 
     <uses-sdk
         android:minSdkVersion="7"
@@ -34,7 +34,7 @@
             </intent-filter>
         </activity>
         <activity android:name="WordAnalysisActivity"/>
-        <activity android:name="WordAnalysisResultActivity"/>        
+        <activity android:name="WordAnalysisResultActivity"/>                      
         
         <!-- Must declare it for Adivew SDK -->
         <service android:name="com.kyview.DownloadService" />
@@ -56,6 +56,7 @@
             android:name="com.tencent.exmobwin.banner.DialogActivity"
             android:theme="@android:style/Theme.Dialog" >
         </activity>
+        <activity android:name="JieMengActivity"></activity>
     </application>
 
 </manifest>

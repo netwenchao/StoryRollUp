@@ -3900,7 +3900,8 @@ com.kyview.AdViewLayout: java.lang.ref.WeakReference activityReference
 com.kyview.AdViewLayout: android.os.Handler handler
 com.kyview.AdViewLayout: java.util.concurrent.ScheduledExecutorService scheduler
 com.kyview.AdViewLayout: boolean isTest
-com.kyview.AdViewLayout: java.lang.String a
+com.kyview.AdViewLayout: boolean isTerminated
+com.kyview.AdViewLayout: java.lang.String keyAdView
 com.kyview.AdViewLayout: java.lang.String keyDev
 com.kyview.AdViewLayout: java.lang.String typeDev
 com.kyview.AdViewLayout: java.lang.String osVer
@@ -3909,53 +3910,62 @@ com.kyview.AdViewLayout: java.lang.String servicePro
 com.kyview.AdViewLayout: java.lang.String netType
 com.kyview.AdViewLayout: java.lang.String channel
 com.kyview.AdViewLayout: java.lang.String platform
-com.kyview.AdViewLayout: com.kyview.b.a extra
+com.kyview.AdViewLayout: java.lang.String bundle
+com.kyview.AdViewLayout: java.lang.String appVersion
+com.kyview.AdViewLayout: java.lang.String appName
+com.kyview.AdViewLayout: com.kyview.b.b extra
+com.kyview.AdViewLayout: int a
+com.kyview.AdViewLayout: int b
+com.kyview.AdViewLayout: boolean isadFill
 com.kyview.AdViewLayout: android.widget.RelativeLayout umengView
 com.kyview.AdViewLayout: java.lang.ref.WeakReference superViewReference
-com.kyview.AdViewLayout: com.kyview.b.b activeRation
-com.kyview.AdViewLayout: com.kyview.b.b nextRation
+com.kyview.AdViewLayout: com.kyview.b.c activeRation
+com.kyview.AdViewLayout: com.kyview.b.c nextRation
 com.kyview.AdViewLayout: double mDensity
 com.kyview.AdViewLayout: com.kyview.AdViewInterface adViewInterface
+com.kyview.AdViewLayout: com.kyview.a.c$d mAdListener
 com.kyview.AdViewLayout: com.kyview.AdViewManager adViewManager
 com.kyview.AdViewLayout: boolean a
 com.kyview.AdViewLayout: boolean b
 com.kyview.AdViewLayout: java.lang.String[] a
 com.kyview.AdViewLayout: int maxWidth
 com.kyview.AdViewLayout: int maxHeight
+com.kyview.AdViewLayout: void <clinit>()
 com.kyview.AdViewLayout: void setMaxWidth(int)
 com.kyview.AdViewLayout: void setMaxHeight(int)
 com.kyview.AdViewLayout: AdViewLayout(android.app.Activity,java.lang.String)
-com.kyview.AdViewLayout: void onFocusChanged(boolean,int,android.graphics.Rect)
 com.kyview.AdViewLayout: AdViewLayout(android.content.Context,android.util.AttributeSet)
+com.kyview.AdViewLayout: void a(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout: java.lang.String a(android.content.Context)
 com.kyview.AdViewLayout: void onMeasure(int,int)
+com.kyview.AdViewLayout: void a(int)
 com.kyview.AdViewLayout: void onWindowVisibilityChanged(int)
 com.kyview.AdViewLayout: void setVisibility(int)
+com.kyview.AdViewLayout: void rotateAd()
 com.kyview.AdViewLayout: void rotatePriAd()
 com.kyview.AdViewLayout: boolean isConnectInternet()
-com.kyview.AdViewLayout: void rotateThreadedNow()
-com.kyview.AdViewLayout: void rotateThreadedPri()
+com.kyview.AdViewLayout: void rotateThreadedPri(int)
 com.kyview.AdViewLayout: void rotateThreadedDelayed()
 com.kyview.AdViewLayout: void fetchConfigThreadedDelayed(int)
 com.kyview.AdViewLayout: void pushSubView(android.view.ViewGroup)
 com.kyview.AdViewLayout: void pushSubViewForIzp(android.view.ViewGroup)
 com.kyview.AdViewLayout: void AddSubView(android.widget.RelativeLayout)
 com.kyview.AdViewLayout: void reportImpression()
-com.kyview.AdViewLayout: void reportBaiduImpression()
 com.kyview.AdViewLayout: void reportClick()
 com.kyview.AdViewLayout: void rollover()
 com.kyview.AdViewLayout: void a()
 com.kyview.AdViewLayout: void b()
 com.kyview.AdViewLayout: void appReport()
-com.kyview.AdViewLayout: void kyAdviewReport(java.lang.String,java.lang.String)
 com.kyview.AdViewLayout: java.lang.String b(android.content.Context)
 com.kyview.AdViewLayout: void a(android.content.Context)
+com.kyview.AdViewLayout: java.lang.String getTokenMd5(long)
+com.kyview.AdViewLayout: java.lang.String c(android.content.Context)
+com.kyview.AdViewLayout: java.lang.String d(android.content.Context)
 com.kyview.AdViewLayout: boolean onInterceptTouchEvent(android.view.MotionEvent)
 com.kyview.AdViewLayout: void setAdViewInterface(com.kyview.AdViewInterface)
-com.kyview.AdViewLayout: void release()
+com.kyview.AdViewLayout: void setAdListener(com.kyview.a.c$d)
 com.kyview.AdViewLayout: boolean a(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout: void a(com.kyview.AdViewLayout,boolean)
-com.kyview.AdViewLayout: void a(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout: void b(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout$a
 com.kyview.AdViewLayout$a: java.lang.ref.WeakReference adViewLayoutReference
@@ -3967,17 +3977,17 @@ com.kyview.AdViewLayout$b: AdViewLayout$b(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout$b: void run()
 com.kyview.AdViewLayout$c
 com.kyview.AdViewLayout$c: java.lang.ref.WeakReference adViewLayoutReference
-com.kyview.AdViewLayout$c: java.lang.String a
-com.kyview.AdViewLayout$c: AdViewLayout$c(com.kyview.AdViewLayout,java.lang.String)
+com.kyview.AdViewLayout$c: java.lang.String keyAdView
+com.kyview.AdViewLayout$c: com.kyview.AdViewLayout a
+com.kyview.AdViewLayout$c: AdViewLayout$c(com.kyview.AdViewLayout,com.kyview.AdViewLayout,java.lang.String)
 com.kyview.AdViewLayout$c: void run()
 com.kyview.AdViewLayout$d
 com.kyview.AdViewLayout$d: java.lang.String url
-com.kyview.AdViewLayout$d: java.lang.String content
-com.kyview.AdViewLayout$d: AdViewLayout$d(java.lang.String,java.lang.String)
+com.kyview.AdViewLayout$d: AdViewLayout$d(java.lang.String)
 com.kyview.AdViewLayout$d: void run()
 com.kyview.AdViewLayout$e
-com.kyview.AdViewLayout$e: java.lang.String url
-com.kyview.AdViewLayout$e: AdViewLayout$e(java.lang.String)
+com.kyview.AdViewLayout$e: java.lang.ref.WeakReference adViewLayoutReference
+com.kyview.AdViewLayout$e: AdViewLayout$e(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout$e: void run()
 com.kyview.AdViewLayout$f
 com.kyview.AdViewLayout$f: java.lang.ref.WeakReference adViewLayoutReference
@@ -3985,27 +3995,24 @@ com.kyview.AdViewLayout$f: AdViewLayout$f(com.kyview.AdViewLayout)
 com.kyview.AdViewLayout$f: void run()
 com.kyview.AdViewLayout$g
 com.kyview.AdViewLayout$g: java.lang.ref.WeakReference adViewLayoutReference
-com.kyview.AdViewLayout$g: AdViewLayout$g(com.kyview.AdViewLayout)
+com.kyview.AdViewLayout$g: android.view.ViewGroup a
+com.kyview.AdViewLayout$g: AdViewLayout$g(com.kyview.AdViewLayout,android.view.ViewGroup)
 com.kyview.AdViewLayout$g: void run()
-com.kyview.AdViewLayout$h
-com.kyview.AdViewLayout$h: java.lang.ref.WeakReference adViewLayoutReference
-com.kyview.AdViewLayout$h: android.view.ViewGroup a
-com.kyview.AdViewLayout$h: AdViewLayout$h(com.kyview.AdViewLayout,android.view.ViewGroup)
-com.kyview.AdViewLayout$h: void run()
 com.kyview.AdViewManager
-com.kyview.AdViewManager: java.lang.String a
-com.kyview.AdViewManager: com.kyview.b.a extra
+com.kyview.AdViewManager: java.lang.String keyAdView
+com.kyview.AdViewManager: int c
+com.kyview.AdViewManager: com.kyview.b.b extra
 com.kyview.AdViewManager: java.util.List a
 com.kyview.AdViewManager: double a
 com.kyview.AdViewManager: java.lang.ref.WeakReference a
-com.kyview.AdViewManager: int a
-com.kyview.AdViewManager: boolean c
+com.kyview.AdViewManager: int d
 com.kyview.AdViewManager: java.util.Iterator a
-com.kyview.AdViewManager: int b
+com.kyview.AdViewManager: int e
+com.kyview.AdViewManager: boolean c
 com.kyview.AdViewManager: boolean d
+com.kyview.AdViewManager: long a
 com.kyview.AdViewManager: boolean e
-com.kyview.AdViewManager: boolean f
-com.kyview.AdViewManager: java.lang.String b
+com.kyview.AdViewManager: java.lang.String a
 com.kyview.AdViewManager: int width
 com.kyview.AdViewManager: int height
 com.kyview.AdViewManager: java.lang.String mDeviceid
@@ -4013,21 +4020,25 @@ com.kyview.AdViewManager: void <clinit>()
 com.kyview.AdViewManager: AdViewManager(java.lang.ref.WeakReference,java.lang.String)
 com.kyview.AdViewManager: void setYoumiInit(boolean)
 com.kyview.AdViewManager: boolean getYoumiInit()
-com.kyview.AdViewManager: com.kyview.b.a getExtra()
+com.kyview.AdViewManager: com.kyview.b.b getExtra()
 com.kyview.AdViewManager: int getConfigExpiereTimeout()
-com.kyview.AdViewManager: com.kyview.b.b getRation()
-com.kyview.AdViewManager: com.kyview.b.b getRollover()
-com.kyview.AdViewManager: com.kyview.b.b getRollover_pri()
-com.kyview.AdViewManager: void resetRollover_pri()
+com.kyview.AdViewManager: com.kyview.b.c getRation()
+com.kyview.AdViewManager: com.kyview.b.c getRollover()
+com.kyview.AdViewManager: com.kyview.b.c getRollover_pri()
 com.kyview.AdViewManager: void resetRollover()
 com.kyview.AdViewManager: java.lang.String a(java.lang.String)
-com.kyview.AdViewManager: void fetchConfig()
-com.kyview.AdViewManager: void fetchConfigFromServer()
+com.kyview.AdViewManager: boolean needUpdateConfig()
+com.kyview.AdViewManager: void fetchConfig(com.kyview.AdViewLayout)
+com.kyview.AdViewManager: java.lang.String performGetContent(java.lang.String)
+com.kyview.AdViewManager: java.lang.String a(boolean)
+com.kyview.AdViewManager: void fetchConfigFromServer(com.kyview.AdViewLayout)
 com.kyview.AdViewManager: java.lang.String convertStreamToString(java.io.InputStream)
 com.kyview.AdViewManager: boolean a(java.lang.String)
+com.kyview.AdViewManager: void a(java.lang.String)
 com.kyview.AdViewManager: void a(org.json.JSONObject)
 com.kyview.AdViewManager: java.util.List getRationList()
-com.kyview.AdViewManager: void setTestRationsList(com.kyview.b.b)
+com.kyview.AdViewManager: com.kyview.b.c getadFillRation()
+com.kyview.AdViewManager: com.kyview.b.c getAdFill()
 com.kyview.AdViewManager: void a(org.json.JSONArray)
 com.kyview.AdViewManager: boolean isLocateForeign()
 com.kyview.AdViewManager: java.lang.String getIDByMAC(android.content.Context)
@@ -4035,11 +4046,12 @@ com.kyview.AdViewManager: java.lang.String getDeviceID(android.content.Context)
 com.kyview.AdViewTargeting
 com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$RunMode a
 com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$UpdateMode a
+com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$StatusMode a
 com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$AdArea a
 com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$Gender a
 com.kyview.AdViewTargeting: java.util.GregorianCalendar a
+com.kyview.AdViewTargeting: java.lang.String b
 com.kyview.AdViewTargeting: java.lang.String c
-com.kyview.AdViewTargeting: java.lang.String d
 com.kyview.AdViewTargeting: java.util.Set a
 com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$Channel a
 com.kyview.AdViewTargeting: int adWidth
@@ -4052,6 +4064,8 @@ com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$RunMode getRunMode()
 com.kyview.AdViewTargeting: void setRunMode(com.kyview.AdViewTargeting$RunMode)
 com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$UpdateMode getUpdateMode()
 com.kyview.AdViewTargeting: void setUpdateMode(com.kyview.AdViewTargeting$UpdateMode)
+com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$StatusMode getStatusMode()
+com.kyview.AdViewTargeting: void setStatusMode(com.kyview.AdViewTargeting$StatusMode)
 com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$AdArea getAdArea()
 com.kyview.AdViewTargeting: void setAdArea(com.kyview.AdViewTargeting$AdArea)
 com.kyview.AdViewTargeting: com.kyview.AdViewTargeting$Gender getGender()
@@ -4110,6 +4124,14 @@ com.kyview.AdViewTargeting$RunMode: void <clinit>()
 com.kyview.AdViewTargeting$RunMode: AdViewTargeting$RunMode(java.lang.String,int)
 com.kyview.AdViewTargeting$RunMode: com.kyview.AdViewTargeting$RunMode[] values()
 com.kyview.AdViewTargeting$RunMode: com.kyview.AdViewTargeting$RunMode valueOf(java.lang.String)
+com.kyview.AdViewTargeting$StatusMode
+com.kyview.AdViewTargeting$StatusMode: com.kyview.AdViewTargeting$StatusMode DEFAULT
+com.kyview.AdViewTargeting$StatusMode: com.kyview.AdViewTargeting$StatusMode CANCLOSED
+com.kyview.AdViewTargeting$StatusMode: com.kyview.AdViewTargeting$StatusMode[] a
+com.kyview.AdViewTargeting$StatusMode: void <clinit>()
+com.kyview.AdViewTargeting$StatusMode: AdViewTargeting$StatusMode(java.lang.String,int)
+com.kyview.AdViewTargeting$StatusMode: com.kyview.AdViewTargeting$StatusMode[] values()
+com.kyview.AdViewTargeting$StatusMode: com.kyview.AdViewTargeting$StatusMode valueOf(java.lang.String)
 com.kyview.AdViewTargeting$UpdateMode
 com.kyview.AdViewTargeting$UpdateMode: com.kyview.AdViewTargeting$UpdateMode DEFAULT
 com.kyview.AdViewTargeting$UpdateMode: com.kyview.AdViewTargeting$UpdateMode EVERYTIME
@@ -4119,10 +4141,11 @@ com.kyview.AdViewTargeting$UpdateMode: AdViewTargeting$UpdateMode(java.lang.Stri
 com.kyview.AdViewTargeting$UpdateMode: com.kyview.AdViewTargeting$UpdateMode[] values()
 com.kyview.AdViewTargeting$UpdateMode: com.kyview.AdViewTargeting$UpdateMode valueOf(java.lang.String)
 com.kyview.AdviewWebView
+com.kyview.AdviewWebView: java.lang.String WEBVIEW_IMAGE_BASE_PATH
 com.kyview.AdviewWebView: android.webkit.WebView a
 com.kyview.AdviewWebView: com.kyview.AdviewWebView$e a
-com.kyview.AdviewWebView: java.lang.String e
-com.kyview.AdviewWebView: boolean g
+com.kyview.AdviewWebView: java.lang.String d
+com.kyview.AdviewWebView: boolean f
 com.kyview.AdviewWebView: android.widget.ImageView a
 com.kyview.AdviewWebView: android.widget.ImageView b
 com.kyview.AdviewWebView: android.widget.ImageView c
@@ -4160,8 +4183,8 @@ com.kyview.AdviewWebView$e: int width
 com.kyview.AdviewWebView$e: int height
 com.kyview.AdviewWebView$e: android.graphics.Bitmap a
 com.kyview.AdviewWebView$e: android.graphics.Bitmap b
-com.kyview.AdviewWebView$e: boolean h
-com.kyview.AdviewWebView$e: int c
+com.kyview.AdviewWebView$e: boolean g
+com.kyview.AdviewWebView$e: int f
 com.kyview.AdviewWebView$e: android.os.Handler a
 com.kyview.AdviewWebView$e: AdviewWebView$e(com.kyview.AdviewWebView,android.content.Context)
 com.kyview.AdviewWebView$e: void onSizeChanged(int,int,int,int)
@@ -4174,7 +4197,7 @@ com.kyview.AdviewWebView$f: boolean shouldOverrideUrlLoading(android.webkit.WebV
 com.kyview.AdviewWebView$f: void onPageFinished(android.webkit.WebView,java.lang.String)
 com.kyview.DownloadService
 com.kyview.DownloadService: java.lang.String title
-com.kyview.DownloadService: java.lang.String f
+com.kyview.DownloadService: java.lang.String e
 com.kyview.DownloadService: java.io.File a
 com.kyview.DownloadService: java.io.File b
 com.kyview.DownloadService: int index
@@ -4206,149 +4229,228 @@ com.kyview.DownloadService$a: DownloadService$a(com.kyview.DownloadService)
 com.kyview.DownloadService$a: void run()
 com.kyview.a
 com.kyview.a: com.kyview.a a
-com.kyview.a: java.util.HashMap a
+com.kyview.a: android.util.SparseArray a
 com.kyview.a: void <clinit>()
 com.kyview.a: a()
 com.kyview.a: com.kyview.a a()
-com.kyview.a: void a(int,java.lang.Class)
-com.kyview.a: java.lang.Class a(int)
+com.kyview.a: void a(java.lang.Integer,java.lang.Class)
+com.kyview.a: java.lang.Class a(java.lang.Integer)
 com.kyview.a.a
-com.kyview.a.a: java.lang.String appId
-com.kyview.a.a: int d
-com.kyview.a.a: int e
+com.kyview.a.a: java.lang.String f
+com.kyview.a.a: java.lang.String adText
+com.kyview.a.a: java.lang.String g
+com.kyview.a.a: java.lang.String d
+com.kyview.a.a: java.lang.String h
+com.kyview.a.a: java.lang.String i
+com.kyview.a.a: java.lang.String j
+com.kyview.a.a: int adType
+com.kyview.a.a: java.lang.String k
+com.kyview.a.a: java.lang.String l
+com.kyview.a.a: java.lang.String m
+com.kyview.a.a: java.lang.String n
+com.kyview.a.a: java.lang.String o
 com.kyview.a.a: a()
-com.kyview.a.a: java.lang.String getAppId()
-com.kyview.a.a: void setAppId(java.lang.String)
+com.kyview.a.a: java.lang.String a()
+com.kyview.a.a: void b(java.lang.String)
+com.kyview.a.a: java.lang.String getAdText()
+com.kyview.a.a: void setAdText(java.lang.String)
+com.kyview.a.a: java.lang.String b()
+com.kyview.a.a: void c(java.lang.String)
+com.kyview.a.a: java.lang.String c()
+com.kyview.a.a: void d(java.lang.String)
+com.kyview.a.a: java.lang.String d()
+com.kyview.a.a: void e(java.lang.String)
+com.kyview.a.a: java.lang.String e()
+com.kyview.a.a: void f(java.lang.String)
+com.kyview.a.a: java.lang.String f()
+com.kyview.a.a: void g(java.lang.String)
 com.kyview.a.a: int b()
-com.kyview.a.a: void a(int)
-com.kyview.a.a: int c()
 com.kyview.a.a: void b(int)
+com.kyview.a.a: java.lang.String g()
+com.kyview.a.a: void h(java.lang.String)
+com.kyview.a.a: java.lang.String h()
+com.kyview.a.a: void i(java.lang.String)
+com.kyview.a.a: java.lang.String i()
+com.kyview.a.a: void setAdTextColor(java.lang.String)
+com.kyview.a.a: java.lang.String j()
+com.kyview.a.a: void j(java.lang.String)
+com.kyview.a.a: java.lang.String k()
+com.kyview.a.a: void k(java.lang.String)
 com.kyview.a.a: java.lang.String b(java.lang.String)
 com.kyview.a.b
 com.kyview.a.b: java.lang.String appId
-com.kyview.a.b: java.lang.String g
-com.kyview.a.b: int f
 com.kyview.a.b: int g
-com.kyview.a.b: int textColor
-com.kyview.a.b: boolean i
-com.kyview.a.b: com.kyview.a.a a
-com.kyview.a.b: java.lang.String h
-com.kyview.a.b: java.lang.String i
-com.kyview.a.b: java.lang.String j
-com.kyview.a.b: com.kyview.a.f a
-com.kyview.a.b: java.lang.String k
-com.kyview.a.b: java.lang.String l
-com.kyview.a.b: java.lang.String m
-com.kyview.a.b: android.graphics.Bitmap c
-com.kyview.a.b: android.widget.ImageView d
-com.kyview.a.b: android.widget.TextView a
-com.kyview.a.b: android.widget.TextView b
-com.kyview.a.b: int screenWidth
-com.kyview.a.b: int screenHeight
-com.kyview.a.b: java.lang.Thread a
-com.kyview.a.b: com.kyview.a.b$b a
-com.kyview.a.b: java.lang.Thread b
-com.kyview.a.b: com.kyview.c.c a
-com.kyview.a.b: java.lang.Thread c
-com.kyview.a.b: java.lang.String keyDev
-com.kyview.a.b: android.content.Intent b
-com.kyview.a.b: android.os.Handler handler
-com.kyview.a.b: android.view.View$OnClickListener a
-com.kyview.a.b: com.kyview.a.b$d a
-com.kyview.a.b: b(android.content.Context,java.lang.String,java.lang.String,java.lang.String,int,boolean,int,int,java.lang.String)
-com.kyview.a.b: void onDetachedFromWindow()
-com.kyview.a.b: void onLayout(boolean,int,int,int,int)
-com.kyview.a.b: java.lang.String a(int,int,int)
-com.kyview.a.b: void a(java.lang.String,android.content.Context)
-com.kyview.a.b: java.lang.String c(android.content.Context)
-com.kyview.a.b: void onMeasure(int,int)
-com.kyview.a.b: void a(com.kyview.a.b$d)
-com.kyview.a.b: com.kyview.a.f a(com.kyview.a.b)
-com.kyview.a.b: com.kyview.a.b$d a(com.kyview.a.b)
-com.kyview.a.b: android.graphics.Bitmap a(com.kyview.a.b)
-com.kyview.a.b: void a(com.kyview.a.b,android.graphics.Bitmap)
-com.kyview.a.b: com.kyview.a.a a(com.kyview.a.b)
-com.kyview.a.b: java.lang.String a(com.kyview.a.b)
-com.kyview.a.b: void a(com.kyview.a.b,int,int,int,java.lang.String)
-com.kyview.a.b: void a(com.kyview.a.b)
-com.kyview.a.b: void a(com.kyview.a.b,java.lang.String)
-com.kyview.a.b: java.lang.String b(com.kyview.a.b)
-com.kyview.a.b: java.lang.String c(com.kyview.a.b)
-com.kyview.a.b: void b(com.kyview.a.b,java.lang.String)
-com.kyview.a.b: java.lang.String d(com.kyview.a.b)
-com.kyview.a.b: java.lang.String e(com.kyview.a.b)
-com.kyview.a.b: void c(com.kyview.a.b,java.lang.String)
-com.kyview.a.b: java.lang.String f(com.kyview.a.b)
-com.kyview.a.b: void b(com.kyview.a.b)
-com.kyview.a.b: void a(com.kyview.a.b,com.kyview.a.f)
-com.kyview.a.b: void d(com.kyview.a.b,java.lang.String)
-com.kyview.a.b: void c(com.kyview.a.b)
-com.kyview.a.b: void d(com.kyview.a.b)
-com.kyview.a.b: java.lang.Thread a(com.kyview.a.b)
-com.kyview.a.b: void a(com.kyview.a.b,java.lang.Thread)
-com.kyview.a.b: void a(com.kyview.a.b,android.content.Intent)
-com.kyview.a.b: android.content.Intent a(com.kyview.a.b)
-com.kyview.a.b$a
-com.kyview.a.b$a: android.content.Context b
-com.kyview.a.b$a: java.lang.String o
-com.kyview.a.b$a: com.kyview.a.b a
-com.kyview.a.b$a: b$a(com.kyview.a.b,android.content.Context,java.lang.String)
-com.kyview.a.b$a: void run()
-com.kyview.a.b$a: java.lang.String a()
-com.kyview.a.b$a: java.lang.String b(int,int,int)
-com.kyview.a.b$a: byte[] a(java.io.InputStream)
-com.kyview.a.b$a: void a(com.kyview.a.f)
-com.kyview.a.b$a: com.kyview.a.f a(java.lang.String)
-com.kyview.a.b$a: java.lang.String a(java.lang.String,java.lang.String)
-com.kyview.a.b$b
-com.kyview.a.b$b: java.lang.String url
-com.kyview.a.b$b: java.lang.String content
-com.kyview.a.b$b: b$b(com.kyview.a.b,java.lang.String,java.lang.String)
-com.kyview.a.b$b: void run()
-com.kyview.a.b$c
-com.kyview.a.b$c: com.kyview.a.b a
-com.kyview.a.b$c: b$c(com.kyview.a.b)
-com.kyview.a.b$c: void run()
-com.kyview.a.b$d
-com.kyview.a.b$d: void onReceivedAd(com.kyview.a.b)
-com.kyview.a.b$d: void onConnectFailed(com.kyview.a.b)
+com.kyview.a.b: int h
+com.kyview.a.b: int i
+com.kyview.a.b: int j
+com.kyview.a.b: java.lang.String p
+com.kyview.a.b: java.lang.String appName
+com.kyview.a.b: int k
+com.kyview.a.b: int c
+com.kyview.a.b: java.lang.String q
+com.kyview.a.b: java.lang.String r
+com.kyview.a.b: java.lang.String s
+com.kyview.a.b: java.lang.String t
+com.kyview.a.b: java.lang.String u
+com.kyview.a.b: java.lang.String getTime()
+com.kyview.a.b: void setTime(java.lang.String)
+com.kyview.a.b: java.lang.String l()
+com.kyview.a.b: void l(java.lang.String)
+com.kyview.a.b: java.lang.String m()
+com.kyview.a.b: void m(java.lang.String)
+com.kyview.a.b: java.lang.String n()
+com.kyview.a.b: void n(java.lang.String)
+com.kyview.a.b: java.lang.String o()
+com.kyview.a.b: void o(java.lang.String)
+com.kyview.a.b: java.lang.String getAppName()
+com.kyview.a.b: void setAppName(java.lang.String)
+com.kyview.a.b: int c()
+com.kyview.a.b: void c(int)
+com.kyview.a.b: int d()
+com.kyview.a.b: void d(int)
+com.kyview.a.b: int e()
+com.kyview.a.b: void e(int)
+com.kyview.a.b: int f()
+com.kyview.a.b: void f(int)
+com.kyview.a.b: java.lang.String p()
+com.kyview.a.b: void p(java.lang.String)
+com.kyview.a.b: b()
+com.kyview.a.b: java.lang.String getAppId()
+com.kyview.a.b: void setAppId(java.lang.String)
+com.kyview.a.b: int g()
+com.kyview.a.b: void g(int)
+com.kyview.a.b: int h()
+com.kyview.a.b: void h(int)
 com.kyview.a.c
-com.kyview.a.c: com.kyview.a.b a
-com.kyview.a.c: c(com.kyview.a.b)
-com.kyview.a.c: void handleMessage(android.os.Message)
+com.kyview.a.c: java.lang.String appId
+com.kyview.a.c: java.lang.String v
+com.kyview.a.c: int l
+com.kyview.a.c: int textColor
+com.kyview.a.c: boolean h
+com.kyview.a.c: com.kyview.a.b applyAdBean
+com.kyview.a.c: java.lang.String w
+com.kyview.a.c: java.lang.String x
+com.kyview.a.c: java.lang.String y
+com.kyview.a.c: com.kyview.a.g retAdBean
+com.kyview.a.c: java.lang.String z
+com.kyview.a.c: java.lang.String A
+com.kyview.a.c: java.lang.String B
+com.kyview.a.c: android.graphics.Bitmap bitmap
+com.kyview.a.c: android.widget.ImageView d
+com.kyview.a.c: android.widget.TextView a
+com.kyview.a.c: android.widget.TextView b
+com.kyview.a.c: int screenWidth
+com.kyview.a.c: int screenHeight
+com.kyview.a.c: java.lang.Thread a
+com.kyview.a.c: com.kyview.a.c$b a
+com.kyview.a.c: java.lang.Thread b
+com.kyview.a.c: com.kyview.c.i mGifFrame
+com.kyview.a.c: java.lang.Thread mGifThread
+com.kyview.a.c: java.lang.String keyDev
+com.kyview.a.c: android.content.Intent b
+com.kyview.a.c: android.os.Handler handler
+com.kyview.a.c: android.view.View$OnClickListener a
+com.kyview.a.c: com.kyview.a.c$d a
+com.kyview.a.c: c(com.kyview.AdViewLayout,com.kyview.b.c,com.kyview.b.b)
+com.kyview.a.c: void onDetachedFromWindow()
+com.kyview.a.c: void onLayout(boolean,int,int,int,int)
+com.kyview.a.c: void i(int)
+com.kyview.a.c: void b(android.content.Context)
+com.kyview.a.c: java.lang.String a(int,int,int)
+com.kyview.a.c: void a(java.lang.String,android.content.Context)
+com.kyview.a.c: java.lang.String e(android.content.Context)
+com.kyview.a.c: void onMeasure(int,int)
+com.kyview.a.c: void setAdListener(com.kyview.a.c$d)
+com.kyview.a.c: com.kyview.a.g a(com.kyview.a.c)
+com.kyview.a.c: com.kyview.a.c$d a(com.kyview.a.c)
+com.kyview.a.c: android.graphics.Bitmap a(com.kyview.a.c)
+com.kyview.a.c: void a(com.kyview.a.c,android.graphics.Bitmap)
+com.kyview.a.c: com.kyview.a.b a(com.kyview.a.c)
+com.kyview.a.c: java.lang.String a(com.kyview.a.c)
+com.kyview.a.c: void a(com.kyview.a.c,int,int,int,java.lang.String)
+com.kyview.a.c: void a(com.kyview.a.c,int)
+com.kyview.a.c: void a(com.kyview.a.c,java.lang.String)
+com.kyview.a.c: java.lang.String b(com.kyview.a.c)
+com.kyview.a.c: java.lang.String c(com.kyview.a.c)
+com.kyview.a.c: void b(com.kyview.a.c,java.lang.String)
+com.kyview.a.c: java.lang.String d(com.kyview.a.c)
+com.kyview.a.c: java.lang.String e(com.kyview.a.c)
+com.kyview.a.c: void c(com.kyview.a.c,java.lang.String)
+com.kyview.a.c: java.lang.String f(com.kyview.a.c)
+com.kyview.a.c: void a(com.kyview.a.c,com.kyview.a.g)
+com.kyview.a.c: void d(com.kyview.a.c,java.lang.String)
+com.kyview.a.c: void a(com.kyview.a.c)
+com.kyview.a.c: java.lang.String a(com.kyview.a.c,int,int,int)
+com.kyview.a.c: java.lang.Thread a(com.kyview.a.c)
+com.kyview.a.c: void a(com.kyview.a.c,java.lang.Thread)
+com.kyview.a.c: void a(com.kyview.a.c,android.content.Intent)
+com.kyview.a.c: android.content.Intent a(com.kyview.a.c)
+com.kyview.a.c$a
+com.kyview.a.c$a: java.lang.String D
+com.kyview.a.c$a: com.kyview.a.c a
+com.kyview.a.c$a: c$a(com.kyview.a.c,android.content.Context,java.lang.String)
+com.kyview.a.c$a: void run()
+com.kyview.a.c$a: java.lang.String q()
+com.kyview.a.c$a: byte[] a(java.io.InputStream)
+com.kyview.a.c$a: android.graphics.Bitmap a(java.io.InputStream)
+com.kyview.a.c$a: com.kyview.a.g a(java.lang.String)
+com.kyview.a.c$a: java.lang.String a(org.w3c.dom.Element,java.lang.String)
+com.kyview.a.c$a: java.lang.String getResponse(java.lang.String,java.lang.String)
+com.kyview.a.c$b
+com.kyview.a.c$b: java.lang.String url
+com.kyview.a.c$b: java.lang.String content
+com.kyview.a.c$b: c$b(com.kyview.a.c,java.lang.String,java.lang.String)
+com.kyview.a.c$b: void run()
+com.kyview.a.c$c
+com.kyview.a.c$c: com.kyview.a.c a
+com.kyview.a.c$c: c$c(com.kyview.a.c)
+com.kyview.a.c$c: void run()
+com.kyview.a.c$d
+com.kyview.a.c$d: void onReceivedAd(com.kyview.a.c)
+com.kyview.a.c$d: void onConnectFailed(com.kyview.a.c)
 com.kyview.a.d
-com.kyview.a.d: com.kyview.a.b a
-com.kyview.a.d: d(com.kyview.a.b)
-com.kyview.a.d: void onClick(android.view.View)
+com.kyview.a.d: com.kyview.a.c a
+com.kyview.a.d: d(com.kyview.a.c)
+com.kyview.a.d: void handleMessage(android.os.Message)
 com.kyview.a.e
-com.kyview.a.e: com.kyview.a.b a
-com.kyview.a.e: android.content.Context a
-com.kyview.a.e: java.lang.String n
-com.kyview.a.e: e(com.kyview.a.b,android.content.Context,java.lang.String)
-com.kyview.a.e: void onClick(android.content.DialogInterface,int)
+com.kyview.a.e: com.kyview.a.c a
+com.kyview.a.e: e(com.kyview.a.c)
+com.kyview.a.e: void onClick(android.view.View)
 com.kyview.a.f
-com.kyview.a.f: java.lang.String p
-com.kyview.a.f: int h
-com.kyview.a.f: java.lang.String q
-com.kyview.a.f: java.lang.String r
-com.kyview.a.f: java.lang.String e
-com.kyview.a.f: f()
-com.kyview.a.f: java.lang.String b()
-com.kyview.a.f: void a(java.lang.String)
-com.kyview.a.f: int d()
-com.kyview.a.f: void c(int)
-com.kyview.a.f: java.lang.String c()
-com.kyview.a.f: void b(java.lang.String)
-com.kyview.a.f: java.lang.String d()
-com.kyview.a.f: void c(java.lang.String)
-com.kyview.a.f: java.lang.String e()
-com.kyview.a.f: void d(java.lang.String)
+com.kyview.a.f: com.kyview.a.c a
+com.kyview.a.f: android.content.Context a
+com.kyview.a.f: java.lang.String C
+com.kyview.a.f: f(com.kyview.a.c,android.content.Context,java.lang.String)
+com.kyview.a.f: void onClick(android.content.DialogInterface,int)
+com.kyview.a.g
+com.kyview.a.g: java.lang.String f
+com.kyview.a.g: int m
+com.kyview.a.g: java.lang.String E
+com.kyview.a.g: java.lang.String F
+com.kyview.a.g: java.lang.String d
+com.kyview.a.g: int n
+com.kyview.a.g: java.lang.String G
+com.kyview.a.g: g()
+com.kyview.a.g: java.lang.String r()
+com.kyview.a.g: void q(java.lang.String)
+com.kyview.a.g: java.lang.String a()
+com.kyview.a.g: void b(java.lang.String)
+com.kyview.a.g: int i()
+com.kyview.a.g: void j(int)
+com.kyview.a.g: java.lang.String s()
+com.kyview.a.g: void r(java.lang.String)
+com.kyview.a.g: java.lang.String t()
+com.kyview.a.g: void s(java.lang.String)
+com.kyview.a.g: java.lang.String c()
+com.kyview.a.g: void d(java.lang.String)
+com.kyview.a.g: int j()
+com.kyview.a.g: void setResult(int)
 com.kyview.adapters.AdBaiduAdapter
 com.kyview.adapters.AdBaiduAdapter: boolean isFailed
 com.kyview.adapters.AdBaiduAdapter: int networkType()
 com.kyview.adapters.AdBaiduAdapter: void load(com.kyview.a)
 com.kyview.adapters.AdBaiduAdapter: AdBaiduAdapter()
-com.kyview.adapters.AdBaiduAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.AdBaiduAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c)
 com.kyview.adapters.AdBaiduAdapter: void handle()
 com.kyview.adapters.AdBaiduAdapter: void onAdClick(org.json.JSONObject)
 com.kyview.adapters.AdBaiduAdapter: void onAdFailed(java.lang.String)
@@ -4361,27 +4463,141 @@ com.kyview.adapters.AdBaiduAdapter: void onVideoClickReplay()
 com.kyview.adapters.AdBaiduAdapter: void onVideoError()
 com.kyview.adapters.AdBaiduAdapter: void onVideoFinish()
 com.kyview.adapters.AdBaiduAdapter: void onVideoStart()
+com.kyview.adapters.AdBaiduAdapter: void clean()
+com.kyview.adapters.AdFillAdapter
+com.kyview.adapters.AdFillAdapter: java.lang.String adfillAddr
+com.kyview.adapters.AdFillAdapter: java.lang.String adfillAgent1
+com.kyview.adapters.AdFillAdapter: java.lang.String adfillAgent2
+com.kyview.adapters.AdFillAdapter: com.kyview.a.b applyAdBean
+com.kyview.adapters.AdFillAdapter: java.util.ArrayList adsBeanList
+com.kyview.adapters.AdFillAdapter: com.kyview.a.a adsBean
+com.kyview.adapters.AdFillAdapter: com.kyview.a.g retAdBean
+com.kyview.adapters.AdFillAdapter: android.graphics.Bitmap bitmap
+com.kyview.adapters.AdFillAdapter: android.graphics.Bitmap secondBitmap
+com.kyview.adapters.AdFillAdapter: android.graphics.Bitmap gbBitmap
+com.kyview.adapters.AdFillAdapter: android.graphics.Bitmap behavBitmap
+com.kyview.adapters.AdFillAdapter: android.widget.ImageView icon
+com.kyview.adapters.AdFillAdapter: android.widget.TextView title
+com.kyview.adapters.AdFillAdapter: android.widget.TextView subTitle
+com.kyview.adapters.AdFillAdapter: android.widget.ImageView behavIcon
+com.kyview.adapters.AdFillAdapter: com.kyview.c.i mGifFrame
+com.kyview.adapters.AdFillAdapter: java.lang.Thread mGifThread
+com.kyview.adapters.AdFillAdapter: android.widget.RelativeLayout relativeLayout
+com.kyview.adapters.AdFillAdapter: int reFreashTime
+com.kyview.adapters.AdFillAdapter: int NOTIFYRECIEVEOK
+com.kyview.adapters.AdFillAdapter: int NOTIFYRECIEVEERROR
+com.kyview.adapters.AdFillAdapter: int NOTIFYRECIEVEGIF
+com.kyview.adapters.AdFillAdapter: int CLICKERROR
+com.kyview.adapters.AdFillAdapter: int CLICKNORMAL
+com.kyview.adapters.AdFillAdapter: int ICONID
+com.kyview.adapters.AdFillAdapter: int TITLEID
+com.kyview.adapters.AdFillAdapter: int SUBTITLEID
+com.kyview.adapters.AdFillAdapter: int BEHAVICONID
+com.kyview.adapters.AdFillAdapter: int adHeight
+com.kyview.adapters.AdFillAdapter: int adWidth
+com.kyview.adapters.AdFillAdapter: java.util.HashMap reportMaps
+com.kyview.adapters.AdFillAdapter: android.os.Handler handler
+com.kyview.adapters.AdFillAdapter: AdFillAdapter()
+com.kyview.adapters.AdFillAdapter: int networkType()
+com.kyview.adapters.AdFillAdapter: void load(com.kyview.a)
+com.kyview.adapters.AdFillAdapter: void handle()
+com.kyview.adapters.AdFillAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c)
+com.kyview.adapters.AdFillAdapter: void calcAdSize(int)
+com.kyview.adapters.AdFillAdapter: void displayAdFill(android.widget.RelativeLayout)
+com.kyview.adapters.AdFillAdapter: java.lang.String writeApplyInfo(com.kyview.a.b)
+com.kyview.adapters.AdFillAdapter: void initApplyAdInfo(com.kyview.AdViewLayout)
+com.kyview.adapters.AdFillAdapter: void clickEvent(int)
+com.kyview.adapters.AdFillAdapter: void click(int)
+com.kyview.adapters.AdFillAdapter: java.lang.String getResponse(java.lang.String,java.lang.String)
+com.kyview.adapters.AdFillAdapter: java.lang.String getMd5Token(long)
+com.kyview.adapters.AdFillAdapter: java.lang.String getContent(com.kyview.a.a,com.kyview.a.b,int)
+com.kyview.adapters.AdFillAdapter: java.util.ArrayList praseFromAds(java.lang.String)
+com.kyview.adapters.AdFillAdapter: com.kyview.a.g praseFromJson(java.lang.String)
+com.kyview.adapters.AdFillAdapter: void createBitmap(com.kyview.a.a)
+com.kyview.adapters.AdFillAdapter: android.widget.RelativeLayout initLayout(com.kyview.a.a)
+com.kyview.adapters.AdFillAdapter: android.graphics.Bitmap getBitmap(java.io.InputStream,boolean)
+com.kyview.adapters.AdFillAdapter: void notifyMsg(int)
+com.kyview.adapters.AdFillAdapter: void openWebBrowser(java.lang.String)
+com.kyview.adapters.AdFillAdapter: void applyRotation(int,float,float,android.graphics.Bitmap)
+com.kyview.adapters.AdFillAdapter: void onClick(android.view.View)
+com.kyview.adapters.AdFillAdapter: com.kyview.a.a access$0(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: android.widget.RelativeLayout access$1(com.kyview.adapters.AdFillAdapter,com.kyview.a.a)
+com.kyview.adapters.AdFillAdapter: void access$2(com.kyview.adapters.AdFillAdapter,android.widget.RelativeLayout)
+com.kyview.adapters.AdFillAdapter: android.widget.ImageView access$3(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: android.graphics.Bitmap access$4(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: android.widget.RelativeLayout access$5(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: android.graphics.Bitmap access$6(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: int access$7(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: android.widget.TextView access$8(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: android.widget.TextView access$9(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: android.graphics.Bitmap access$10(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: android.widget.ImageView access$11(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: void access$12(com.kyview.adapters.AdFillAdapter,android.widget.RelativeLayout)
+com.kyview.adapters.AdFillAdapter: com.kyview.c.i access$13(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: void access$14(com.kyview.adapters.AdFillAdapter,android.graphics.Bitmap)
+com.kyview.adapters.AdFillAdapter: java.util.HashMap access$15()
+com.kyview.adapters.AdFillAdapter: void access$16(java.util.HashMap)
+com.kyview.adapters.AdFillAdapter: java.lang.String access$17(com.kyview.adapters.AdFillAdapter,java.lang.String,java.lang.String)
+com.kyview.adapters.AdFillAdapter: com.kyview.a.g access$18(com.kyview.adapters.AdFillAdapter,java.lang.String)
+com.kyview.adapters.AdFillAdapter: void access$19(com.kyview.adapters.AdFillAdapter,com.kyview.a.g)
+com.kyview.adapters.AdFillAdapter: com.kyview.a.g access$20(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: java.util.ArrayList access$21(com.kyview.adapters.AdFillAdapter,java.lang.String)
+com.kyview.adapters.AdFillAdapter: void access$22(com.kyview.adapters.AdFillAdapter,java.util.ArrayList)
+com.kyview.adapters.AdFillAdapter: void access$23(com.kyview.adapters.AdFillAdapter,int)
+com.kyview.adapters.AdFillAdapter: java.util.ArrayList access$24(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter: void access$25(com.kyview.adapters.AdFillAdapter,com.kyview.a.a)
+com.kyview.adapters.AdFillAdapter: void access$26(com.kyview.adapters.AdFillAdapter,com.kyview.a.a)
+com.kyview.adapters.AdFillAdapter: void access$27(com.kyview.adapters.AdFillAdapter,int,float,float,android.graphics.Bitmap)
+com.kyview.adapters.AdFillAdapter$1
+com.kyview.adapters.AdFillAdapter$1: com.kyview.adapters.AdFillAdapter this$0
+com.kyview.adapters.AdFillAdapter$1: AdFillAdapter$1(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter$1: void handleMessage(android.os.Message)
+com.kyview.adapters.AdFillAdapter$AnimaFreashRunable
+com.kyview.adapters.AdFillAdapter$AnimaFreashRunable: android.graphics.Bitmap bitmap
+com.kyview.adapters.AdFillAdapter$AnimaFreashRunable: com.kyview.adapters.AdFillAdapter this$0
+com.kyview.adapters.AdFillAdapter$AnimaFreashRunable: AdFillAdapter$AnimaFreashRunable(com.kyview.adapters.AdFillAdapter,android.graphics.Bitmap)
+com.kyview.adapters.AdFillAdapter$AnimaFreashRunable: void run()
+com.kyview.adapters.AdFillAdapter$Client
+com.kyview.adapters.AdFillAdapter$Client: java.lang.String content
+com.kyview.adapters.AdFillAdapter$Client: java.lang.String url
+com.kyview.adapters.AdFillAdapter$Client: java.lang.String result
+com.kyview.adapters.AdFillAdapter$Client: com.kyview.adapters.AdFillAdapter this$0
+com.kyview.adapters.AdFillAdapter$Client: AdFillAdapter$Client(com.kyview.adapters.AdFillAdapter,java.lang.String,java.lang.String)
+com.kyview.adapters.AdFillAdapter$Client: void run()
+com.kyview.adapters.AdFillAdapter$ClientReport
+com.kyview.adapters.AdFillAdapter$ClientReport: java.lang.String url
+com.kyview.adapters.AdFillAdapter$ClientReport: java.lang.String content
+com.kyview.adapters.AdFillAdapter$ClientReport: com.kyview.adapters.AdFillAdapter this$0
+com.kyview.adapters.AdFillAdapter$ClientReport: AdFillAdapter$ClientReport(com.kyview.adapters.AdFillAdapter,java.lang.String,java.lang.String)
+com.kyview.adapters.AdFillAdapter$ClientReport: void run()
+com.kyview.adapters.AdFillAdapter$GifRefresh
+com.kyview.adapters.AdFillAdapter$GifRefresh: com.kyview.adapters.AdFillAdapter this$0
+com.kyview.adapters.AdFillAdapter$GifRefresh: AdFillAdapter$GifRefresh(com.kyview.adapters.AdFillAdapter)
+com.kyview.adapters.AdFillAdapter$GifRefresh: void run()
 com.kyview.adapters.AdViewAdapter
 com.kyview.adapters.AdViewAdapter: java.lang.ref.WeakReference adViewLayoutReference
-com.kyview.adapters.AdViewAdapter: com.kyview.b.b ration
+com.kyview.adapters.AdViewAdapter: com.kyview.b.c ration
 com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter adapter
+com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter lastAdapter
 com.kyview.adapters.AdViewAdapter: java.util.Timer reqTimeListenerTimer
 com.kyview.adapters.AdViewAdapter: AdViewAdapter()
-com.kyview.adapters.AdViewAdapter: AdViewAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.AdViewAdapter: void setParamters(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter getAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter getNetworkAdapter(java.lang.Class,com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter unknownAdNetwork(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.AdViewAdapter: void handleOne(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.AdViewAdapter: AdViewAdapter(com.kyview.AdViewLayout,com.kyview.b.c)
+com.kyview.adapters.AdViewAdapter: void setParamters(com.kyview.AdViewLayout,com.kyview.b.c)
+com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter getAdapter(com.kyview.AdViewLayout,com.kyview.b.c)
+com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter getNetworkAdapter(java.lang.Class,com.kyview.AdViewLayout,com.kyview.b.c)
+com.kyview.adapters.AdViewAdapter: com.kyview.adapters.AdViewAdapter unknownAdNetwork(com.kyview.AdViewLayout,com.kyview.b.c)
+com.kyview.adapters.AdViewAdapter: void handleOne(com.kyview.AdViewLayout,com.kyview.b.c)
 com.kyview.adapters.AdViewAdapter: void onRelease()
-com.kyview.adapters.AdViewAdapter: void onClickAd()
+com.kyview.adapters.AdViewAdapter: void onClickAd(int)
 com.kyview.adapters.AdViewAdapter: void startTimer()
 com.kyview.adapters.AdViewAdapter: void shoutdownTimer()
+com.kyview.adapters.AdViewAdapter: void onSuccessed(com.kyview.AdViewLayout,com.kyview.b.c)
+com.kyview.adapters.AdViewAdapter: void onFailed(com.kyview.AdViewLayout,com.kyview.b.c)
 com.kyview.adapters.AdViewAdapter: void requestTimeOut()
+com.kyview.adapters.AdViewAdapter: void clean()
 com.kyview.adapters.AdViewAdapter: void handle()
-com.kyview.adapters.AdViewAdapter: void release(com.kyview.AdViewLayout)
-com.kyview.adapters.AdViewAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
-com.kyview.adapters.AdViewAdapter: void click()
+com.kyview.adapters.AdViewAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c)
+com.kyview.adapters.AdViewAdapter: void click(int)
 com.kyview.adapters.AdViewAdapter$1
 com.kyview.adapters.AdViewAdapter$1: com.kyview.adapters.AdViewAdapter this$0
 com.kyview.adapters.AdViewAdapter$1: AdViewAdapter$1(com.kyview.adapters.AdViewAdapter)
@@ -4390,35 +4606,48 @@ com.kyview.adapters.AdViewHouseAdapter
 com.kyview.adapters.AdViewHouseAdapter: int networkType()
 com.kyview.adapters.AdViewHouseAdapter: void load(com.kyview.a)
 com.kyview.adapters.AdViewHouseAdapter: AdViewHouseAdapter()
-com.kyview.adapters.AdViewHouseAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.AdViewHouseAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c)
 com.kyview.adapters.AdViewHouseAdapter: void handle()
-com.kyview.adapters.AdViewHouseAdapter: void onConnectFailed(com.kyview.a.b)
-com.kyview.adapters.AdViewHouseAdapter: void onReceivedAd(com.kyview.a.b)
+com.kyview.adapters.AdViewHouseAdapter: void onConnectFailed(com.kyview.a.c)
+com.kyview.adapters.AdViewHouseAdapter: void onReceivedAd(com.kyview.a.c)
 com.kyview.adapters.DisplaySuizongADRunnable
 com.kyview.adapters.DisplaySuizongADRunnable: com.kyview.adapters.SuizongInterfaceAdapter suizongADAdapter
 com.kyview.adapters.DisplaySuizongADRunnable: DisplaySuizongADRunnable(com.kyview.adapters.SuizongInterfaceAdapter)
 com.kyview.adapters.DisplaySuizongADRunnable: void run()
+com.kyview.adapters.DoubleClickAdapter
+com.kyview.adapters.DoubleClickAdapter: int networkType()
+com.kyview.adapters.DoubleClickAdapter: void load(com.kyview.a)
+com.kyview.adapters.DoubleClickAdapter: DoubleClickAdapter()
+com.kyview.adapters.DoubleClickAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c)
+com.kyview.adapters.DoubleClickAdapter: void handle()
+com.kyview.adapters.DoubleClickAdapter: com.google.ads.AdRequest requestForAdWhirlLayout(com.kyview.AdViewLayout)
+com.kyview.adapters.DoubleClickAdapter: void onDismissScreen(com.google.ads.Ad)
+com.kyview.adapters.DoubleClickAdapter: void onFailedToReceiveAd(com.google.ads.Ad,com.google.ads.AdRequest$ErrorCode)
+com.kyview.adapters.DoubleClickAdapter: void onLeaveApplication(com.google.ads.Ad)
+com.kyview.adapters.DoubleClickAdapter: void onPresentScreen(com.google.ads.Ad)
+com.kyview.adapters.DoubleClickAdapter: void onReceiveAd(com.google.ads.Ad)
 com.kyview.adapters.EventAdapter
 com.kyview.adapters.EventAdapter: int networkType()
 com.kyview.adapters.EventAdapter: void load(com.kyview.a)
 com.kyview.adapters.EventAdapter: EventAdapter()
-com.kyview.adapters.EventAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.EventAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c)
 com.kyview.adapters.EventAdapter: void handle()
 com.kyview.adapters.FetchSuizongADRunnable
 com.kyview.adapters.FetchSuizongADRunnable: com.kyview.adapters.SuizongInterfaceAdapter suizongADAdapter
-com.kyview.adapters.FetchSuizongADRunnable: com.kyview.b.b ration
-com.kyview.adapters.FetchSuizongADRunnable: FetchSuizongADRunnable(com.kyview.adapters.SuizongInterfaceAdapter,com.kyview.b.b)
+com.kyview.adapters.FetchSuizongADRunnable: com.kyview.b.c ration
+com.kyview.adapters.FetchSuizongADRunnable: FetchSuizongADRunnable(com.kyview.adapters.SuizongInterfaceAdapter,com.kyview.b.c)
 com.kyview.adapters.FetchSuizongADRunnable: void run()
 com.kyview.adapters.MobWinAdapter
 com.kyview.adapters.MobWinAdapter: com.tencent.exmobwin.banner.TAdView adView
 com.kyview.adapters.MobWinAdapter: int networkType()
 com.kyview.adapters.MobWinAdapter: void load(com.kyview.a)
 com.kyview.adapters.MobWinAdapter: MobWinAdapter()
-com.kyview.adapters.MobWinAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.MobWinAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c)
 com.kyview.adapters.MobWinAdapter: void handle()
 com.kyview.adapters.MobWinAdapter: void onReceiveFailed(int)
 com.kyview.adapters.MobWinAdapter: void onReceiveAd()
 com.kyview.adapters.MobWinAdapter: void onAdClick()
+com.kyview.adapters.MobWinAdapter: void clean()
 com.kyview.adapters.SuizongAD
 com.kyview.adapters.SuizongAD: java.lang.String adid
 com.kyview.adapters.SuizongAD: java.lang.String status
@@ -4455,10 +4684,10 @@ com.kyview.adapters.SuizongInterfaceAdapter: int convertToScreenPixels(int,doubl
 com.kyview.adapters.SuizongInterfaceAdapter: int networkType()
 com.kyview.adapters.SuizongInterfaceAdapter: void load(com.kyview.a)
 com.kyview.adapters.SuizongInterfaceAdapter: SuizongInterfaceAdapter()
-com.kyview.adapters.SuizongInterfaceAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.b)
+com.kyview.adapters.SuizongInterfaceAdapter: void initAdapter(com.kyview.AdViewLayout,com.kyview.b.c)
 com.kyview.adapters.SuizongInterfaceAdapter: void handle()
 com.kyview.adapters.SuizongInterfaceAdapter: void calcAdSize(int)
-com.kyview.adapters.SuizongInterfaceAdapter: void click()
+com.kyview.adapters.SuizongInterfaceAdapter: void click(int)
 com.kyview.adapters.SuizongInterfaceAdapter: java.net.HttpURLConnection createConnection(java.util.HashMap,java.lang.String,java.lang.String,boolean,boolean,boolean,boolean,int,int)
 com.kyview.adapters.SuizongInterfaceAdapter: void httpRequest(java.util.HashMap,java.lang.String)
 com.kyview.adapters.SuizongInterfaceAdapter: java.lang.String getLocalIPAddress()
@@ -4481,17 +4710,7 @@ com.kyview.adapters.SuizongInterfaceAdapter$webViewClient
 com.kyview.adapters.SuizongInterfaceAdapter$webViewClient: java.lang.String url2
 com.kyview.adapters.SuizongInterfaceAdapter$webViewClient: com.kyview.adapters.SuizongInterfaceAdapter this$0
 com.kyview.adapters.SuizongInterfaceAdapter$webViewClient: SuizongInterfaceAdapter$webViewClient(com.kyview.adapters.SuizongInterfaceAdapter)
-com.kyview.adapters.SuizongInterfaceAdapter$webViewClient: boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String)
 com.kyview.adapters.SuizongInterfaceAdapter$webViewClient: SuizongInterfaceAdapter$webViewClient(com.kyview.adapters.SuizongInterfaceAdapter,com.kyview.adapters.SuizongInterfaceAdapter$webViewClient)
-com.kyview.adapters.SuizongInterfaceAdapter$webViewClient: com.kyview.adapters.SuizongInterfaceAdapter access$1(com.kyview.adapters.SuizongInterfaceAdapter$webViewClient)
-com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$1
-com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$1: com.kyview.adapters.SuizongInterfaceAdapter$webViewClient this$1
-com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$1: SuizongInterfaceAdapter$webViewClient$1(com.kyview.adapters.SuizongInterfaceAdapter$webViewClient)
-com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$1: void onClick(android.content.DialogInterface,int)
-com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$2
-com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$2: com.kyview.adapters.SuizongInterfaceAdapter$webViewClient this$1
-com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$2: SuizongInterfaceAdapter$webViewClient$2(com.kyview.adapters.SuizongInterfaceAdapter$webViewClient)
-com.kyview.adapters.SuizongInterfaceAdapter$webViewClient$2: void onClick(android.content.DialogInterface,int)
 com.kyview.adapters.SuizongScreenManager
 com.kyview.adapters.SuizongScreenManager: java.lang.String aw
 com.kyview.adapters.SuizongScreenManager: java.lang.String ah
@@ -4503,115 +4722,234 @@ com.kyview.adapters.SuizongScreenManager: void setAh(java.lang.String)
 com.kyview.adapters.SuizongScreenManager: SuizongScreenManager(int)
 com.kyview.adapters.SuizongScreenManager: void calc()
 com.kyview.b
-com.kyview.b: com.kyview.AdviewWebView a
-com.kyview.b: b(com.kyview.AdviewWebView)
-com.kyview.b: void handleMessage(android.os.Message)
+com.kyview.b: com.kyview.AdViewLayout a
+com.kyview.b: b(com.kyview.AdViewLayout)
+com.kyview.b: void onClick(android.view.View)
 com.kyview.b.a
-com.kyview.b.a: int i
-com.kyview.b.a: int j
-com.kyview.b.a: int k
-com.kyview.b.a: int l
-com.kyview.b.a: int m
-com.kyview.b.a: int n
-com.kyview.b.a: int o
-com.kyview.b.a: java.lang.String s
 com.kyview.b.a: a()
 com.kyview.b.b
-com.kyview.b.b: java.lang.String t
-com.kyview.b.b: int type
-com.kyview.b.b: java.lang.String name
-com.kyview.b.b: double b
-com.kyview.b.b: java.lang.String u
-com.kyview.b.b: java.lang.String v
-com.kyview.b.b: java.lang.String w
+com.kyview.b.b: int o
 com.kyview.b.b: int p
-com.kyview.b.b: int priority
-com.kyview.b.b: java.lang.String o
+com.kyview.b.b: int q
+com.kyview.b.b: int r
+com.kyview.b.b: int s
+com.kyview.b.b: int t
+com.kyview.b.b: int u
+com.kyview.b.b: java.lang.String H
 com.kyview.b.b: b()
-com.kyview.b.b: int compareTo(java.lang.Object)
+com.kyview.b.c
+com.kyview.b.c: java.lang.String I
+com.kyview.b.c: int type
+com.kyview.b.c: java.lang.String name
+com.kyview.b.c: double b
+com.kyview.b.c: java.lang.String J
+com.kyview.b.c: java.lang.String K
+com.kyview.b.c: java.lang.String L
+com.kyview.b.c: int v
+com.kyview.b.c: int priority
+com.kyview.b.c: java.lang.String D
+com.kyview.b.c: c()
+com.kyview.b.c: int compareTo(java.lang.Object)
 com.kyview.c
 com.kyview.c: com.kyview.AdviewWebView a
-com.kyview.c: c(com.kyview.AdviewWebView,android.content.Context)
-com.kyview.c: void onSizeChanged(int,int,int,int)
+com.kyview.c: c(com.kyview.AdviewWebView)
+com.kyview.c: void handleMessage(android.os.Message)
 com.kyview.c.a
-com.kyview.c.a: java.lang.String x
-com.kyview.c.a: java.lang.String y
-com.kyview.c.a: java.lang.String z
-com.kyview.c.a: int[] a
-com.kyview.c.a: double mDensity
+com.kyview.c.a: com.kyview.c.g a
+com.kyview.c.a: java.lang.String M
+com.kyview.c.a: java.lang.String N
+com.kyview.c.a: int w
+com.kyview.c.a: int x
+com.kyview.c.a: java.lang.Object a
+com.kyview.c.a: java.lang.Object b
+com.kyview.c.a: android.os.Handler mHandler
 com.kyview.c.a: void <clinit>()
-com.kyview.c.a: a()
-com.kyview.c.a: double a(android.app.Activity)
-com.kyview.c.a: int convertToScreenPixels(int,double)
-com.kyview.c.a: boolean a(android.content.Context,java.lang.String)
-com.kyview.c.a: java.lang.String d(android.content.Context)
-com.kyview.c.a: java.lang.String e(android.content.Context)
-com.kyview.c.a: java.lang.String getIDByMAC(android.content.Context)
-com.kyview.c.a: java.lang.String f(android.content.Context)
-com.kyview.c.a: int[] a(android.content.Context)
-com.kyview.c.a: void logDebug(java.lang.String)
-com.kyview.c.a: void a(java.lang.String,java.lang.Throwable)
-com.kyview.c.a: void e(java.lang.String)
+com.kyview.c.a: void a(com.kyview.c.g)
+com.kyview.c.a: a(java.lang.String,java.lang.String)
+com.kyview.c.a: void a(java.lang.Object)
+com.kyview.c.a: java.lang.Object a()
+com.kyview.c.a: void run()
+com.kyview.c.a: void a(int,java.lang.Object)
+com.kyview.c.a: void k(int)
+com.kyview.c.a: byte[] b(java.io.InputStream)
+com.kyview.c.a: java.lang.String a(java.io.InputStream)
+com.kyview.c.a: java.lang.Object a(com.kyview.c.a)
+com.kyview.c.a: com.kyview.c.g a(com.kyview.c.a)
 com.kyview.c.b
-com.kyview.c.b: int q
-com.kyview.c.b: int[] b
-com.kyview.c.b: int r
-com.kyview.c.b: int s
-com.kyview.c.b: boolean j
-com.kyview.c.b: int[] c
-com.kyview.c.b: int width
-com.kyview.c.b: int height
-com.kyview.c.b: int t
-com.kyview.c.b: boolean k
-com.kyview.c.b: boolean l
-com.kyview.c.b: int[] d
-com.kyview.c.b: int u
-com.kyview.c.b: boolean m
-com.kyview.c.b: int v
-com.kyview.c.b: long a
-com.kyview.c.b: int w
-com.kyview.c.b: int[] e
-com.kyview.c.b: int[] f
-com.kyview.c.b: int x
-com.kyview.c.b: int y
-com.kyview.c.b: int z
-com.kyview.c.b: byte[] a
-com.kyview.c.b: int A
-com.kyview.c.b: int B
-com.kyview.c.b: int C
-com.kyview.c.b: void <clinit>()
-com.kyview.c.b: b(byte[])
-com.kyview.c.b: boolean a()
-com.kyview.c.b: void c()
-com.kyview.c.b: android.graphics.Bitmap a()
-com.kyview.c.b: void clear()
-com.kyview.c.b: boolean a(int,boolean)
-com.kyview.c.b: int e()
-com.kyview.c.b: boolean a(int)
-com.kyview.c.b: boolean a(int,int)
+com.kyview.c.b: com.kyview.c.a a
+com.kyview.c.b: b(com.kyview.c.a)
+com.kyview.c.b: void handleMessage(android.os.Message)
 com.kyview.c.c
-com.kyview.c.c: java.util.Vector a
-com.kyview.c.c: int index
-com.kyview.c.c: c()
-com.kyview.c.c: int size()
-com.kyview.c.c: android.graphics.Bitmap b()
+com.kyview.c.c: com.kyview.c.c a
+com.kyview.c.c: java.util.ArrayList b
+com.kyview.c.c: com.kyview.c.c$a a
+com.kyview.c.c: long b
+com.kyview.c.c: com.kyview.c.a b
+com.kyview.c.c: com.kyview.c.f a
+com.kyview.c.c: com.kyview.AdViewLayout adViewLayout
+com.kyview.c.c: java.lang.Object a
+com.kyview.c.c: android.content.Context context
+com.kyview.c.c: android.os.Handler c
+com.kyview.c.c: com.kyview.c.c$b a
+com.kyview.c.c: void <clinit>()
+com.kyview.c.c: c(android.content.Context)
+com.kyview.c.c: com.kyview.c.c a(android.content.Context)
 com.kyview.c.c: void c()
-com.kyview.c.c: com.kyview.c.c a(byte[])
+com.kyview.c.c: void c(android.content.Context)
+com.kyview.c.c: void d()
+com.kyview.c.c: void a(com.kyview.c.a,int,java.lang.Object)
+com.kyview.c.c: void a(com.kyview.c.a,boolean)
+com.kyview.c.c: void e()
+com.kyview.c.c: void a(com.kyview.AdViewLayout,int,java.lang.String)
+com.kyview.c.c: void l(int)
+com.kyview.c.c: void a(com.kyview.c.c)
+com.kyview.c.c: void a(com.kyview.c.c,int)
+com.kyview.c.c$a
+com.kyview.c.c$a: long c
+com.kyview.c.c$a: int y
+com.kyview.c.c$a: boolean i
+com.kyview.c.c$a: org.json.JSONArray a
+com.kyview.c.c$a: c$a()
+com.kyview.c.c$a: boolean a()
+com.kyview.c.c$a: void a(boolean)
+com.kyview.c.c$a: boolean b()
+com.kyview.c.c$b
+com.kyview.c.c$b: com.kyview.c.c b
+com.kyview.c.c$b: c$b(com.kyview.c.c)
+com.kyview.c.c$b: void run()
 com.kyview.c.d
-com.kyview.c.d: java.lang.String[] b
+com.kyview.c.d: java.lang.String O
+com.kyview.c.d: java.lang.String P
+com.kyview.c.d: java.lang.String Q
+com.kyview.c.d: java.lang.String R
+com.kyview.c.d: java.lang.String S
+com.kyview.c.d: java.lang.String T
+com.kyview.c.d: double mDensity
 com.kyview.c.d: void <clinit>()
-com.kyview.c.d: java.lang.String a(byte[])
-com.kyview.c.d: java.lang.String c(java.lang.String)
+com.kyview.c.d: d()
+com.kyview.c.d: void t(java.lang.String)
+com.kyview.c.d: long a()
+com.kyview.c.d: double a(android.app.Activity)
+com.kyview.c.d: int convertToScreenPixels(int,double)
+com.kyview.c.d: void a(java.lang.String,java.lang.Throwable)
+com.kyview.c.d: void logDebug(java.lang.String)
+com.kyview.c.d: void b(java.lang.String,java.lang.Throwable)
+com.kyview.c.d: void u(java.lang.String)
+com.kyview.c.d: void a(java.lang.String,android.content.Context)
+com.kyview.c.d: byte[] a(java.io.InputStream)
+com.kyview.c.d: java.io.InputStream a(android.content.Context,java.lang.String)
+com.kyview.c.e
+com.kyview.c.e: android.content.Context a
+com.kyview.c.e: java.lang.String C
+com.kyview.c.e: e(android.content.Context,java.lang.String)
+com.kyview.c.e: void onClick(android.content.DialogInterface,int)
+com.kyview.c.f
+com.kyview.c.f: f(android.content.Context,java.lang.String)
+com.kyview.c.f: void onCreate(android.database.sqlite.SQLiteDatabase)
+com.kyview.c.f: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
+com.kyview.c.f: void a(int,java.lang.String,java.lang.String)
+com.kyview.c.f: int k()
+com.kyview.c.f: void a(int,java.lang.String,java.lang.String,boolean)
+com.kyview.c.f: void m(int)
+com.kyview.c.f: void a(java.lang.Integer,java.lang.String,java.lang.String)
+com.kyview.c.f: java.util.ArrayList a()
+com.kyview.c.g
+com.kyview.c.g: void a(com.kyview.c.a,int,java.lang.Object)
+com.kyview.c.h
+com.kyview.c.h: int z
+com.kyview.c.h: int[] a
+com.kyview.c.h: int A
+com.kyview.c.h: int B
+com.kyview.c.h: boolean j
+com.kyview.c.h: int[] b
+com.kyview.c.h: int width
+com.kyview.c.h: int height
+com.kyview.c.h: int C
+com.kyview.c.h: boolean k
+com.kyview.c.h: boolean l
+com.kyview.c.h: int[] c
+com.kyview.c.h: int D
+com.kyview.c.h: boolean m
+com.kyview.c.h: int E
+com.kyview.c.h: long d
+com.kyview.c.h: int F
+com.kyview.c.h: int[] d
+com.kyview.c.h: int[] e
+com.kyview.c.h: int G
+com.kyview.c.h: int H
+com.kyview.c.h: int I
+com.kyview.c.h: byte[] a
+com.kyview.c.h: int J
+com.kyview.c.h: int K
+com.kyview.c.h: int L
+com.kyview.c.h: void <clinit>()
+com.kyview.c.h: h(byte[])
+com.kyview.c.h: boolean c()
+com.kyview.c.h: void f()
+com.kyview.c.h: android.graphics.Bitmap a()
+com.kyview.c.h: void clear()
+com.kyview.c.h: boolean a(int,boolean)
+com.kyview.c.h: int l()
+com.kyview.c.h: boolean a(int)
+com.kyview.c.h: boolean a(int,int)
+com.kyview.c.i
+com.kyview.c.i: java.util.Vector a
+com.kyview.c.i: int index
+com.kyview.c.i: i()
+com.kyview.c.i: int size()
+com.kyview.c.i: android.graphics.Bitmap b()
+com.kyview.c.i: void f()
+com.kyview.c.i: com.kyview.c.i a(byte[],int,int)
+com.kyview.c.j
+com.kyview.c.j: java.lang.String[] b
+com.kyview.c.j: void <clinit>()
+com.kyview.c.j: java.lang.String a(byte[])
+com.kyview.c.j: java.lang.String c(java.lang.String)
+com.kyview.c.k
+com.kyview.c.k: float a
+com.kyview.c.k: float b
+com.kyview.c.k: float c
+com.kyview.c.k: float d
+com.kyview.c.k: float e
+com.kyview.c.k: boolean n
+com.kyview.c.k: android.graphics.Camera a
+com.kyview.c.k: k(float,float,float,float,float,boolean)
+com.kyview.c.k: void initialize(int,int,int,int)
+com.kyview.c.k: void applyTransformation(float,android.view.animation.Transformation)
+com.kyview.c.k$a
+com.kyview.c.k$a: int M
+com.kyview.c.k$a: android.graphics.Bitmap bitmap
+com.kyview.c.k$a: android.view.ViewGroup b
+com.kyview.c.k$a: k$a(int,android.view.ViewGroup,android.graphics.Bitmap)
+com.kyview.c.k$a: void onAnimationStart(android.view.animation.Animation)
+com.kyview.c.k$a: void onAnimationEnd(android.view.animation.Animation)
+com.kyview.c.k$a: void onAnimationRepeat(android.view.animation.Animation)
+com.kyview.c.k$b
+com.kyview.c.k$b: int M
+com.kyview.c.k$b: android.view.ViewGroup b
+com.kyview.c.k$b: android.graphics.Bitmap bitmap
+com.kyview.c.k$b: k$b(int,android.view.ViewGroup,android.graphics.Bitmap)
+com.kyview.c.k$b: void run()
 com.kyview.d
-com.kyview.d: com.kyview.AdviewWebView$e b
-com.kyview.d: d(com.kyview.AdviewWebView$e)
-com.kyview.d: void handleMessage(android.os.Message)
+com.kyview.d: com.kyview.AdviewWebView a
+com.kyview.d: d(com.kyview.AdviewWebView,android.content.Context)
+com.kyview.d: void onSizeChanged(int,int,int,int)
 com.kyview.e
-com.kyview.e: com.kyview.DownloadService a
-com.kyview.e: e(com.kyview.DownloadService)
+com.kyview.e: com.kyview.AdviewWebView$e b
+com.kyview.e: e(com.kyview.AdviewWebView$e)
 com.kyview.e: void handleMessage(android.os.Message)
+com.kyview.f
+com.kyview.f: com.kyview.DownloadService a
+com.kyview.f: f(com.kyview.DownloadService)
+com.kyview.f: void handleMessage(android.os.Message)
+com.luckywc.jossstick.ActivityAlmanac
+com.luckywc.jossstick.ActivityAlmanac: void onClick(android.view.View)
+com.luckywc.jossstick.ActivityMain
+com.luckywc.jossstick.ActivityMain: ActivityMain()
 com.luckywc.jossstick.GetLotActivity
 com.luckywc.jossstick.GetLotActivity: GetLotActivity()
+com.luckywc.jossstick.JieMengActivity
+com.luckywc.jossstick.JieMengActivity: JieMengActivity()
 com.luckywc.jossstick.R$anim: int activity_close
 com.luckywc.jossstick.R$anim: int activity_open
 com.luckywc.jossstick.R$anim: int lot_out
@@ -4621,64 +4959,177 @@ com.luckywc.jossstick.R$dimen: int activity_vertical_margin
 com.luckywc.jossstick.R$drawable: int bei_0
 com.luckywc.jossstick.R$drawable: int bei_1
 com.luckywc.jossstick.R$drawable: int bei_2
+com.luckywc.jossstick.R$drawable: int btn_analysis
+com.luckywc.jossstick.R$drawable: int btn_analysis_focused
+com.luckywc.jossstick.R$drawable: int btn_analysis_normal
+com.luckywc.jossstick.R$drawable: int btn_analysis_pressed
+com.luckywc.jossstick.R$drawable: int btn_drawing
+com.luckywc.jossstick.R$drawable: int btn_drawing_focused
+com.luckywc.jossstick.R$drawable: int btn_drawing_normal
+com.luckywc.jossstick.R$drawable: int btn_drawing_pressed
 com.luckywc.jossstick.R$drawable: int btn_dropdown_normal
 com.luckywc.jossstick.R$drawable: int btn_dropdown_pressed
+com.luckywc.jossstick.R$drawable: int btn_start
+com.luckywc.jossstick.R$drawable: int btn_start_focused
+com.luckywc.jossstick.R$drawable: int btn_start_normal
+com.luckywc.jossstick.R$drawable: int btn_start_pressed
+com.luckywc.jossstick.R$drawable: int btn_style1
+com.luckywc.jossstick.R$drawable: int btn_style1_focused
+com.luckywc.jossstick.R$drawable: int btn_style1_normal
+com.luckywc.jossstick.R$drawable: int btn_style1_pressed
+com.luckywc.jossstick.R$drawable: int btn_style2
+com.luckywc.jossstick.R$drawable: int btn_style2_focused
+com.luckywc.jossstick.R$drawable: int btn_style2_normal
+com.luckywc.jossstick.R$drawable: int btn_style2_pressed
+com.luckywc.jossstick.R$drawable: int btn_zhougong
+com.luckywc.jossstick.R$drawable: int btn_zhougong_focused
+com.luckywc.jossstick.R$drawable: int btn_zhougong_normal
+com.luckywc.jossstick.R$drawable: int btn_zhougong_pressed
 com.luckywc.jossstick.R$drawable: int chakan
 com.luckywc.jossstick.R$drawable: int check_bg
 com.luckywc.jossstick.R$drawable: int chongchou
+com.luckywc.jossstick.R$drawable: int common_whitebox
 com.luckywc.jossstick.R$drawable: int ic_dialog
 com.luckywc.jossstick.R$drawable: int ic_launcher
 com.luckywc.jossstick.R$drawable: int list_above_nor
 com.luckywc.jossstick.R$drawable: int list_below_nor
+com.luckywc.jossstick.R$drawable: int logo
 com.luckywc.jossstick.R$drawable: int lot
 com.luckywc.jossstick.R$drawable: int lot_0
 com.luckywc.jossstick.R$drawable: int lot_1
 com.luckywc.jossstick.R$drawable: int lot_2
 com.luckywc.jossstick.R$drawable: int main_bg
 com.luckywc.jossstick.R$drawable: int qiuqian
+com.luckywc.jossstick.R$drawable: int result_frame
+com.luckywc.jossstick.R$drawable: int result_frame_two_part
+com.luckywc.jossstick.R$drawable: int scrollbar_vertical_thumb
+com.luckywc.jossstick.R$drawable: int seperate_line
 com.luckywc.jossstick.R$drawable: int show_lot_bg
+com.luckywc.jossstick.R$drawable: int split_line
 com.luckywc.jossstick.R$drawable: int start_zhibei
 com.luckywc.jossstick.R$drawable: int top_button
 com.luckywc.jossstick.R$drawable: int top_button_press
+com.luckywc.jossstick.R$drawable: int word_box_bg
+com.luckywc.jossstick.R$drawable: int word_box_bg_focused
+com.luckywc.jossstick.R$drawable: int word_box_bg_normal
+com.luckywc.jossstick.R$drawable: int word_box_bg_pressed
 com.luckywc.jossstick.R$drawable: int zhibei
 com.luckywc.jossstick.R$id: int AdLinearLayout
 com.luckywc.jossstick.R$id: int action_settings
-com.luckywc.jossstick.R$id: int lotDesc
-com.luckywc.jossstick.R$id: int lotImage
-com.luckywc.jossstick.R$id: int lotTitle
+com.luckywc.jossstick.R$id: int autoKeywords
+com.luckywc.jossstick.R$id: int btnAnys
+com.luckywc.jossstick.R$id: int btnClose
+com.luckywc.jossstick.R$id: int btnLanch
+com.luckywc.jossstick.R$id: int btnSearch
+com.luckywc.jossstick.R$id: int btn_almanac_query
+com.luckywc.jossstick.R$id: int btn_compatibility_query
+com.luckywc.jossstick.R$id: int btn_lot
+com.luckywc.jossstick.R$id: int btn_wedding_query
+com.luckywc.jossstick.R$id: int btn_word_analysis
+com.luckywc.jossstick.R$id: int btn_zhougong
+com.luckywc.jossstick.R$id: int llctrl
 com.luckywc.jossstick.R$id: int mian_qiuqian
 com.luckywc.jossstick.R$id: int pelt_cup_bt
 com.luckywc.jossstick.R$id: int pelt_cup_count
 com.luckywc.jossstick.R$id: int pelt_cup_cup
 com.luckywc.jossstick.R$id: int pelt_cup_prompt
+com.luckywc.jossstick.R$id: int rlmainContainer
+com.luckywc.jossstick.R$id: int scrollview
 com.luckywc.jossstick.R$id: int show_anim_lot
 com.luckywc.jossstick.R$id: int show_lot
 com.luckywc.jossstick.R$id: int show_vertical_lot_title
 com.luckywc.jossstick.R$id: int show_zhibei
+com.luckywc.jossstick.R$id: int svResult
+com.luckywc.jossstick.R$id: int tvUpdate
+com.luckywc.jossstick.R$id: int tv_cong
+com.luckywc.jossstick.R$id: int tv_content
+com.luckywc.jossstick.R$id: int tv_date
+com.luckywc.jossstick.R$id: int tv_guishi
+com.luckywc.jossstick.R$id: int tv_ji
+com.luckywc.jossstick.R$id: int tv_jieyue
+com.luckywc.jossstick.R$id: int tv_jsyq
+com.luckywc.jossstick.R$id: int tv_lunar
+com.luckywc.jossstick.R$id: int tv_name
+com.luckywc.jossstick.R$id: int tv_poem
+com.luckywc.jossstick.R$id: int tv_pzbj
+com.luckywc.jossstick.R$id: int tv_shiyi
+com.luckywc.jossstick.R$id: int tv_suici
+com.luckywc.jossstick.R$id: int tv_title
+com.luckywc.jossstick.R$id: int tv_tszf
+com.luckywc.jossstick.R$id: int tv_type
+com.luckywc.jossstick.R$id: int tv_wuhang
+com.luckywc.jossstick.R$id: int tv_xianji
+com.luckywc.jossstick.R$id: int tv_xsyj
+com.luckywc.jossstick.R$id: int tv_yi
+com.luckywc.jossstick.R$id: int tvjieMengContent
+com.luckywc.jossstick.R$id: int word2Anys
+com.luckywc.jossstick.R$layout: int activity_about
+com.luckywc.jossstick.R$layout: int activity_almanac
 com.luckywc.jossstick.R$layout: int activity_get_lot
+com.luckywc.jossstick.R$layout: int activity_jiemeng
+com.luckywc.jossstick.R$layout: int activity_main
 com.luckywc.jossstick.R$layout: int activity_pelt_cup
 com.luckywc.jossstick.R$layout: int activity_show_detail
 com.luckywc.jossstick.R$layout: int activity_start_page
+com.luckywc.jossstick.R$layout: int activity_word_analysis
 com.luckywc.jossstick.R$menu: int start_page
 com.luckywc.jossstick.R$raw: int cup
 com.luckywc.jossstick.R$raw: int lot_sound
 com.luckywc.jossstick.R$string: int action_settings
 com.luckywc.jossstick.R$string: int app_name
+com.luckywc.jossstick.R$string: int app_version
+com.luckywc.jossstick.R$string: int btn_almanac_query
+com.luckywc.jossstick.R$string: int btn_back
+com.luckywc.jossstick.R$string: int btn_compatibility_query
+com.luckywc.jossstick.R$string: int btn_jiemeng
+com.luckywc.jossstick.R$string: int btn_query
+com.luckywc.jossstick.R$string: int btn_select_date
+com.luckywc.jossstick.R$string: int btn_select_yiji
+com.luckywc.jossstick.R$string: int btn_wedding_query
 com.luckywc.jossstick.R$string: int cupdesc
+com.luckywc.jossstick.R$string: int history_content
+com.luckywc.jossstick.R$string: int label_cong
+com.luckywc.jossstick.R$string: int label_cong_simple
+com.luckywc.jossstick.R$string: int label_guayu
+com.luckywc.jossstick.R$string: int label_guishi
+com.luckywc.jossstick.R$string: int label_ji
+com.luckywc.jossstick.R$string: int label_jiemenglbl
+com.luckywc.jossstick.R$string: int label_jieyue
+com.luckywc.jossstick.R$string: int label_jsyq
+com.luckywc.jossstick.R$string: int label_lunar
+com.luckywc.jossstick.R$string: int label_nodata
+com.luckywc.jossstick.R$string: int label_pzbj
+com.luckywc.jossstick.R$string: int label_shiyi
+com.luckywc.jossstick.R$string: int label_suici
+com.luckywc.jossstick.R$string: int label_sure
+com.luckywc.jossstick.R$string: int label_tszf
+com.luckywc.jossstick.R$string: int label_wuhang
+com.luckywc.jossstick.R$string: int label_xianji
+com.luckywc.jossstick.R$string: int label_xsyj
+com.luckywc.jossstick.R$string: int label_yi
+com.luckywc.jossstick.R$string: int lbl_about
 com.luckywc.jossstick.R$string: int pelt_cup_count
 com.luckywc.jossstick.R$string: int pelt_cup_no
+com.luckywc.jossstick.R$string: int start_anys
+com.luckywc.jossstick.R$string: int type_three_tip
+com.luckywc.jossstick.R$string: int type_three_word
+com.luckywc.jossstick.R$string: int update_history
 com.luckywc.jossstick.R$style: int AppBaseTheme
 com.luckywc.jossstick.R$style: int AppTheme
+com.luckywc.jossstick.R$style: int about_text
 com.luckywc.jossstick.R$style: int lot_desc_text
 com.luckywc.jossstick.R$style: int lot_title_text
 com.luckywc.jossstick.R$style: int prompt_text
 com.luckywc.jossstick.R$style: int vertical_lot_title
+com.luckywc.jossstick.R$style: int word_red_style
 com.luckywc.jossstick.ShengBei
 com.luckywc.jossstick.ShengBei: ShengBei()
 com.luckywc.jossstick.ShowLotDetail
 com.luckywc.jossstick.ShowLotDetail: ShowLotDetail()
 com.luckywc.jossstick.StartPage
 com.luckywc.jossstick.StartPage: StartPage()
+com.luckywc.jossstick.WordAnalysisActivity
+com.luckywc.jossstick.WordAnalysisActivity: WordAnalysisActivity()
 com.tencent.exmobwin.MobWINManager
 com.tencent.exmobwin.MobWINManager: java.lang.String a
 com.tencent.exmobwin.MobWINManager: MobWINManager()
@@ -4692,228 +5143,180 @@ com.tencent.exmobwin.Type: int MOBWIN_INTEGRALWALL
 com.tencent.exmobwin.Type: int MOBWIN_MINIBANNER
 com.tencent.exmobwin.Type: Type()
 com.tencent.exmobwin.a.a
-com.tencent.exmobwin.a.a: com.tencent.exmobwin.a.e a
-com.tencent.exmobwin.a.a: java.util.ArrayList b
-com.tencent.exmobwin.a.a: a(com.tencent.exmobwin.a.e,java.util.ArrayList)
-com.tencent.exmobwin.a.a: void run()
+com.tencent.exmobwin.a.a: void a(boolean)
 com.tencent.exmobwin.a.b
-com.tencent.exmobwin.a.b: java.lang.String r
-com.tencent.exmobwin.a.b: byte[] s
-com.tencent.exmobwin.a.b: java.util.List t
-com.tencent.exmobwin.a.b: java.util.HashMap u
-com.tencent.exmobwin.a.b: java.util.HashMap v
-com.tencent.exmobwin.a.b: java.util.HashMap w
-com.tencent.exmobwin.a.b: boolean x
-com.tencent.exmobwin.a.b: com.tencent.exmobwin.c.f y
-com.tencent.exmobwin.a.b: android.content.Context z
-com.tencent.exmobwin.a.b: com.tencent.exmobwin.b.h A
-com.tencent.exmobwin.a.b: int B
-com.tencent.exmobwin.a.b: int a
+com.tencent.exmobwin.a.b: java.lang.String n
+com.tencent.exmobwin.a.b: com.tencent.exmobwin.a.e a
 com.tencent.exmobwin.a.b: int b
 com.tencent.exmobwin.a.b: int c
 com.tencent.exmobwin.a.b: int d
 com.tencent.exmobwin.a.b: int e
-com.tencent.exmobwin.a.b: int f
+com.tencent.exmobwin.a.b: boolean f
 com.tencent.exmobwin.a.b: int g
-com.tencent.exmobwin.a.b: int h
+com.tencent.exmobwin.a.b: java.lang.String h
+com.tencent.exmobwin.a.b: boolean o
+com.tencent.exmobwin.a.b: byte[] p
 com.tencent.exmobwin.a.b: int i
-com.tencent.exmobwin.a.b: boolean C
-com.tencent.exmobwin.a.b: void <clinit>()
-com.tencent.exmobwin.a.b: b(android.content.Context,boolean,java.util.HashMap)
-com.tencent.exmobwin.a.b: void a(com.tencent.exmobwin.c.c)
-com.tencent.exmobwin.a.b: void a(org.apache.http.HttpResponse,com.tencent.exmobwin.b.b)
-com.tencent.exmobwin.a.b: void a(int,com.tencent.exmobwin.b.b)
-com.tencent.exmobwin.a.b: void b(com.tencent.exmobwin.c.c)
+com.tencent.exmobwin.a.b: android.os.Handler j
+com.tencent.exmobwin.a.b: org.apache.http.client.methods.HttpPost k
+com.tencent.exmobwin.a.b: org.apache.http.client.methods.HttpGet l
+com.tencent.exmobwin.a.b: com.tencent.exmobwin.b.c m
+com.tencent.exmobwin.a.b: java.util.Map q
+com.tencent.exmobwin.a.b: java.net.URI r
+com.tencent.exmobwin.a.b: b(java.lang.String,boolean,int,byte[],com.tencent.exmobwin.a.e,android.os.Handler)
+com.tencent.exmobwin.a.b: b(java.lang.String,boolean,int,byte[],com.tencent.exmobwin.b.c,com.tencent.exmobwin.a.e,android.os.Handler)
+com.tencent.exmobwin.a.b: void a(java.lang.String,java.lang.String)
+com.tencent.exmobwin.a.b: boolean a(java.net.URI)
 com.tencent.exmobwin.a.b: void a(int)
-com.tencent.exmobwin.a.b: void a()
-com.tencent.exmobwin.a.b: void a(boolean)
-com.tencent.exmobwin.a.b: void b()
+com.tencent.exmobwin.a.b: org.apache.http.client.HttpClient b(int)
+com.tencent.exmobwin.a.b: void a(com.tencent.exmobwin.a.b,int)
 com.tencent.exmobwin.a.c
-com.tencent.exmobwin.a.c: int a
-com.tencent.exmobwin.a.c: java.util.WeakHashMap b
-com.tencent.exmobwin.a.c: java.lang.String c
-com.tencent.exmobwin.a.c: java.lang.String d
-com.tencent.exmobwin.a.c: java.lang.String e
-com.tencent.exmobwin.a.c: java.lang.String f
-com.tencent.exmobwin.a.c: void <clinit>()
-com.tencent.exmobwin.a.c: c()
+com.tencent.exmobwin.a.c: com.tencent.exmobwin.a.h a
+com.tencent.exmobwin.a.c: c(com.tencent.exmobwin.a.h)
+com.tencent.exmobwin.a.c: void onReceive(android.content.Context,android.content.Intent)
 com.tencent.exmobwin.a.d
-com.tencent.exmobwin.a.d: android.content.Context a
-com.tencent.exmobwin.a.d: java.lang.String e
-com.tencent.exmobwin.a.d: java.lang.String f
-com.tencent.exmobwin.a.d: java.lang.String g
-com.tencent.exmobwin.a.d: java.lang.String h
-com.tencent.exmobwin.a.d: java.lang.String i
-com.tencent.exmobwin.a.d: java.lang.String j
-com.tencent.exmobwin.a.d: int k
-com.tencent.exmobwin.a.d: d(int)
-com.tencent.exmobwin.a.d: java.lang.String e()
-com.tencent.exmobwin.a.d: java.lang.String f()
-com.tencent.exmobwin.a.d: void b(android.content.Context)
-com.tencent.exmobwin.a.d: android.content.Context g()
-com.tencent.exmobwin.a.d: boolean h()
-com.tencent.exmobwin.a.d: boolean a(int)
-com.tencent.exmobwin.a.d: void b()
-com.tencent.exmobwin.a.d: void d()
+com.tencent.exmobwin.a.d: long a
+com.tencent.exmobwin.a.d: d()
+com.tencent.exmobwin.a.d: d(java.lang.String)
 com.tencent.exmobwin.a.e
-com.tencent.exmobwin.a.e: java.lang.String f
-com.tencent.exmobwin.a.e: java.lang.Object g
-com.tencent.exmobwin.a.e: com.tencent.exmobwin.a.e h
-com.tencent.exmobwin.a.e: java.lang.String i
-com.tencent.exmobwin.a.e: java.lang.String r
-com.tencent.exmobwin.a.e: long s
-com.tencent.exmobwin.a.e: java.lang.String a
-com.tencent.exmobwin.a.e: android.content.Context t
-com.tencent.exmobwin.a.e: int u
-com.tencent.exmobwin.a.e: int b
-com.tencent.exmobwin.a.e: int c
-com.tencent.exmobwin.a.e: int v
-com.tencent.exmobwin.a.e: int w
-com.tencent.exmobwin.a.e: int x
-com.tencent.exmobwin.a.e: int y
-com.tencent.exmobwin.a.e: int d
-com.tencent.exmobwin.a.e: java.util.HashMap z
-com.tencent.exmobwin.a.e: int A
-com.tencent.exmobwin.a.e: com.tencent.exmobwin.c.f B
-com.tencent.exmobwin.a.e: com.tencent.exmobwin.a.b C
-com.tencent.exmobwin.a.e: boolean e
-com.tencent.exmobwin.a.e: boolean D
-com.tencent.exmobwin.a.e: void <clinit>()
-com.tencent.exmobwin.a.e: e()
-com.tencent.exmobwin.a.e: com.tencent.exmobwin.a.e a()
-com.tencent.exmobwin.a.e: void a(android.content.Context,int[])
-com.tencent.exmobwin.a.e: com.tencent.exmobwin.a.b b()
-com.tencent.exmobwin.a.e: void a(java.lang.String,java.lang.String,java.lang.String,boolean)
-com.tencent.exmobwin.a.e: void a(org.apache.http.HttpResponse,com.tencent.exmobwin.b.b)
-com.tencent.exmobwin.a.e: void a(int,com.tencent.exmobwin.b.b)
-com.tencent.exmobwin.a.e: java.lang.String c()
-com.tencent.exmobwin.a.e: boolean f()
-com.tencent.exmobwin.a.e: void b(boolean)
-com.tencent.exmobwin.a.e: java.util.ArrayList a(boolean)
-com.tencent.exmobwin.a.e: com.tencent.exmobwin.c.a a(boolean,int)
-com.tencent.exmobwin.a.e: org.json.JSONObject a(java.util.ArrayList)
-com.tencent.exmobwin.a.e: java.util.ArrayList a(java.lang.String)
-com.tencent.exmobwin.a.e: void d()
-com.tencent.exmobwin.a.e: void e()
-com.tencent.exmobwin.a.e: android.content.Context a(com.tencent.exmobwin.a.e)
+com.tencent.exmobwin.a.e: int j
+com.tencent.exmobwin.a.e: int k
+com.tencent.exmobwin.a.e: int l
+com.tencent.exmobwin.a.e: int m
+com.tencent.exmobwin.a.e: int n
+com.tencent.exmobwin.a.e: int o
+com.tencent.exmobwin.a.e: int p
+com.tencent.exmobwin.a.e: int q
+com.tencent.exmobwin.a.e: void a(org.apache.http.HttpResponse,com.tencent.exmobwin.a.b)
+com.tencent.exmobwin.a.e: void a(int,com.tencent.exmobwin.a.b)
 com.tencent.exmobwin.a.f
-com.tencent.exmobwin.a.f: boolean a
-com.tencent.exmobwin.a.f: void <clinit>()
-com.tencent.exmobwin.a.f: f()
-com.tencent.exmobwin.a.f: void a(java.lang.String,java.lang.String)
-com.tencent.exmobwin.a.f: void b(java.lang.String,java.lang.String)
-com.tencent.exmobwin.a.f: void c(java.lang.String,java.lang.String)
-com.tencent.exmobwin.a.f: void d(java.lang.String,java.lang.String)
+com.tencent.exmobwin.a.f: com.tencent.exmobwin.a.b a
+com.tencent.exmobwin.a.f: int b
+com.tencent.exmobwin.a.f: f(com.tencent.exmobwin.a.b,int)
+com.tencent.exmobwin.a.f: void run()
 com.tencent.exmobwin.a.g
-com.tencent.exmobwin.a.g: java.lang.String b
-com.tencent.exmobwin.a.g: java.lang.String a
-com.tencent.exmobwin.a.g: int c
-com.tencent.exmobwin.a.g: void <clinit>()
+com.tencent.exmobwin.a.g: long a
 com.tencent.exmobwin.a.g: g()
-com.tencent.exmobwin.a.g: java.lang.String b(android.content.Context)
-com.tencent.exmobwin.a.g: int[] a()
-com.tencent.exmobwin.a.g: java.lang.String c(android.content.Context)
-com.tencent.exmobwin.a.g: java.lang.String a(android.content.Context)
-com.tencent.exmobwin.a.g: void a(android.content.Context,java.lang.String)
-com.tencent.exmobwin.a.g: void b(android.content.Context,java.lang.String)
-com.tencent.exmobwin.a.g: void c(android.content.Context,java.lang.String)
-com.tencent.exmobwin.a.g: java.lang.String a(java.lang.String)
-com.tencent.exmobwin.a.g: int b(java.lang.String)
 com.tencent.exmobwin.a.h
-com.tencent.exmobwin.a.h: h()
-com.tencent.exmobwin.a.h: byte[] a(byte[],int,int[],int)
-com.tencent.exmobwin.a.h: byte[] b(byte[],int,int[],int)
-com.tencent.exmobwin.a.h: int[] a(byte[],int)
-com.tencent.exmobwin.a.h: byte[] a(int[],int)
-com.tencent.exmobwin.a.h: int a(byte)
-com.tencent.exmobwin.a.h: byte[] a(java.lang.String)
-com.tencent.exmobwin.a.h: java.lang.String a(byte[])
-com.tencent.exmobwin.a.h: byte[] b(byte[])
-com.tencent.exmobwin.a.h: byte[] c(byte[])
-com.tencent.exmobwin.a.i
-com.tencent.exmobwin.a.i: com.tencent.exmobwin.a.e a
-com.tencent.exmobwin.a.i: i(com.tencent.exmobwin.a.e)
-com.tencent.exmobwin.a.i: void run()
+com.tencent.exmobwin.a.h: java.lang.String d
+com.tencent.exmobwin.a.h: java.lang.String a
+com.tencent.exmobwin.a.h: android.content.Context e
+com.tencent.exmobwin.a.h: java.lang.String b
+com.tencent.exmobwin.a.h: boolean c
+com.tencent.exmobwin.a.h: com.tencent.exmobwin.a.c f
+com.tencent.exmobwin.a.h: com.tencent.exmobwin.a.a g
+com.tencent.exmobwin.a.h: int h
+com.tencent.exmobwin.a.h: int i
+com.tencent.exmobwin.a.h: int j
+com.tencent.exmobwin.a.h: boolean k
+com.tencent.exmobwin.a.h: int l
+com.tencent.exmobwin.a.h: int m
+com.tencent.exmobwin.a.h: void <clinit>()
+com.tencent.exmobwin.a.h: h(android.content.Context)
+com.tencent.exmobwin.a.h: void a(com.tencent.exmobwin.a.a)
+com.tencent.exmobwin.a.h: int a()
+com.tencent.exmobwin.a.h: int b()
+com.tencent.exmobwin.a.h: void c()
+com.tencent.exmobwin.a.h: void d()
+com.tencent.exmobwin.a.h: int a(android.content.Context)
+com.tencent.exmobwin.a.h: boolean e()
+com.tencent.exmobwin.a.h: void f()
+com.tencent.exmobwin.a.h: com.tencent.exmobwin.a.a a(com.tencent.exmobwin.a.h)
 com.tencent.exmobwin.b.a
-com.tencent.exmobwin.b.a: void a(boolean)
+com.tencent.exmobwin.b.a: java.lang.String a
+com.tencent.exmobwin.b.a: java.lang.String b
+com.tencent.exmobwin.b.a: java.lang.String c
+com.tencent.exmobwin.b.a: java.lang.String d
+com.tencent.exmobwin.b.a: int e
+com.tencent.exmobwin.b.a: java.lang.String a()
+com.tencent.exmobwin.b.a: java.lang.String b()
+com.tencent.exmobwin.b.a: java.lang.String c()
+com.tencent.exmobwin.b.a: a(android.content.Context)
+com.tencent.exmobwin.b.a: void a(android.content.Context)
+com.tencent.exmobwin.b.a: int d()
 com.tencent.exmobwin.b.b
-com.tencent.exmobwin.b.b: java.lang.String n
-com.tencent.exmobwin.b.b: com.tencent.exmobwin.b.e a
-com.tencent.exmobwin.b.b: int b
+com.tencent.exmobwin.b.b: java.lang.String a
+com.tencent.exmobwin.b.b: java.lang.String b
 com.tencent.exmobwin.b.b: int c
-com.tencent.exmobwin.b.b: int d
-com.tencent.exmobwin.b.b: int e
-com.tencent.exmobwin.b.b: boolean f
-com.tencent.exmobwin.b.b: int g
-com.tencent.exmobwin.b.b: java.lang.String h
-com.tencent.exmobwin.b.b: boolean o
-com.tencent.exmobwin.b.b: byte[] p
-com.tencent.exmobwin.b.b: int i
-com.tencent.exmobwin.b.b: android.os.Handler j
-com.tencent.exmobwin.b.b: org.apache.http.client.methods.HttpPost k
-com.tencent.exmobwin.b.b: org.apache.http.client.methods.HttpGet l
-com.tencent.exmobwin.b.b: com.tencent.exmobwin.c.c m
-com.tencent.exmobwin.b.b: java.util.Map q
-com.tencent.exmobwin.b.b: java.net.URI r
-com.tencent.exmobwin.b.b: b(java.lang.String,boolean,int,byte[],com.tencent.exmobwin.b.e,android.os.Handler)
-com.tencent.exmobwin.b.b: b(java.lang.String,boolean,int,byte[],com.tencent.exmobwin.c.c,com.tencent.exmobwin.b.e,android.os.Handler)
-com.tencent.exmobwin.b.b: void a(java.lang.String,java.lang.String)
-com.tencent.exmobwin.b.b: boolean a(java.net.URI)
+com.tencent.exmobwin.b.b: b()
+com.tencent.exmobwin.b.b: void a(java.lang.String)
+com.tencent.exmobwin.b.b: void b(java.lang.String)
+com.tencent.exmobwin.b.b: java.lang.String a()
+com.tencent.exmobwin.b.b: java.lang.String b()
+com.tencent.exmobwin.b.b: int c()
 com.tencent.exmobwin.b.b: void a(int)
-com.tencent.exmobwin.b.b: org.apache.http.client.HttpClient b(int)
-com.tencent.exmobwin.b.b: void a(com.tencent.exmobwin.b.b,int)
 com.tencent.exmobwin.b.c
-com.tencent.exmobwin.b.c: long a
+com.tencent.exmobwin.b.c: int a
+com.tencent.exmobwin.b.c: int b
+com.tencent.exmobwin.b.c: int c
+com.tencent.exmobwin.b.c: java.lang.String d
+com.tencent.exmobwin.b.c: int e
+com.tencent.exmobwin.b.c: int f
+com.tencent.exmobwin.b.c: int g
+com.tencent.exmobwin.b.c: java.lang.String h
+com.tencent.exmobwin.b.c: java.lang.String i
+com.tencent.exmobwin.b.c: java.lang.String j
+com.tencent.exmobwin.b.c: java.lang.String k
+com.tencent.exmobwin.b.c: int l
+com.tencent.exmobwin.b.c: java.lang.String m
+com.tencent.exmobwin.b.c: long n
+com.tencent.exmobwin.b.c: long o
+com.tencent.exmobwin.b.c: int p
 com.tencent.exmobwin.b.c: c()
-com.tencent.exmobwin.b.c: c(java.lang.String)
+com.tencent.exmobwin.b.c: c(java.lang.String,int,java.lang.String)
+com.tencent.exmobwin.b.c: int a()
+com.tencent.exmobwin.b.c: void a(int)
+com.tencent.exmobwin.b.c: int b()
+com.tencent.exmobwin.b.c: void b(int)
+com.tencent.exmobwin.b.c: java.lang.String c()
+com.tencent.exmobwin.b.c: void a(java.lang.String)
+com.tencent.exmobwin.b.c: int d()
+com.tencent.exmobwin.b.c: void c(int)
+com.tencent.exmobwin.b.c: java.lang.String e()
+com.tencent.exmobwin.b.c: void b(java.lang.String)
+com.tencent.exmobwin.b.c: int f()
+com.tencent.exmobwin.b.c: void d(int)
+com.tencent.exmobwin.b.c: java.lang.String g()
+com.tencent.exmobwin.b.c: void c(java.lang.String)
+com.tencent.exmobwin.b.c: java.lang.String h()
+com.tencent.exmobwin.b.c: void d(java.lang.String)
+com.tencent.exmobwin.b.c: java.lang.String i()
+com.tencent.exmobwin.b.c: void e(java.lang.String)
+com.tencent.exmobwin.b.c: java.lang.String j()
+com.tencent.exmobwin.b.c: void f(java.lang.String)
+com.tencent.exmobwin.b.c: long k()
+com.tencent.exmobwin.b.c: void a(long)
+com.tencent.exmobwin.b.c: long l()
+com.tencent.exmobwin.b.c: void b(long)
+com.tencent.exmobwin.b.c: int m()
+com.tencent.exmobwin.b.c: void e(int)
 com.tencent.exmobwin.b.d
-com.tencent.exmobwin.b.d: com.tencent.exmobwin.b.h a
-com.tencent.exmobwin.b.d: d(com.tencent.exmobwin.b.h)
-com.tencent.exmobwin.b.d: void onReceive(android.content.Context,android.content.Intent)
+com.tencent.exmobwin.b.d: int a
+com.tencent.exmobwin.b.d: java.lang.String b
+com.tencent.exmobwin.b.d: java.lang.String c
+com.tencent.exmobwin.b.d: java.lang.String d
+com.tencent.exmobwin.b.d: void <clinit>()
+com.tencent.exmobwin.b.d: d(android.content.Context)
+com.tencent.exmobwin.b.d: void onCreate(android.database.sqlite.SQLiteDatabase)
+com.tencent.exmobwin.b.d: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
 com.tencent.exmobwin.b.e
-com.tencent.exmobwin.b.e: int j
-com.tencent.exmobwin.b.e: int k
-com.tencent.exmobwin.b.e: int l
-com.tencent.exmobwin.b.e: int m
-com.tencent.exmobwin.b.e: int n
-com.tencent.exmobwin.b.e: int o
-com.tencent.exmobwin.b.e: int p
-com.tencent.exmobwin.b.e: int q
-com.tencent.exmobwin.b.e: void a(org.apache.http.HttpResponse,com.tencent.exmobwin.b.b)
-com.tencent.exmobwin.b.e: void a(int,com.tencent.exmobwin.b.b)
+com.tencent.exmobwin.b.e: int a
+com.tencent.exmobwin.b.e: int b
+com.tencent.exmobwin.b.e: int c
+com.tencent.exmobwin.b.e: int d
+com.tencent.exmobwin.b.e: e()
 com.tencent.exmobwin.b.f
-com.tencent.exmobwin.b.f: com.tencent.exmobwin.b.b a
-com.tencent.exmobwin.b.f: int b
-com.tencent.exmobwin.b.f: f(com.tencent.exmobwin.b.b,int)
-com.tencent.exmobwin.b.f: void run()
-com.tencent.exmobwin.b.g
-com.tencent.exmobwin.b.g: long a
-com.tencent.exmobwin.b.g: g()
-com.tencent.exmobwin.b.h
-com.tencent.exmobwin.b.h: java.lang.String d
-com.tencent.exmobwin.b.h: java.lang.String a
-com.tencent.exmobwin.b.h: android.content.Context e
-com.tencent.exmobwin.b.h: java.lang.String b
-com.tencent.exmobwin.b.h: boolean c
-com.tencent.exmobwin.b.h: com.tencent.exmobwin.b.d f
-com.tencent.exmobwin.b.h: com.tencent.exmobwin.b.a g
-com.tencent.exmobwin.b.h: int h
-com.tencent.exmobwin.b.h: int i
-com.tencent.exmobwin.b.h: int j
-com.tencent.exmobwin.b.h: boolean k
-com.tencent.exmobwin.b.h: int l
-com.tencent.exmobwin.b.h: int m
-com.tencent.exmobwin.b.h: void <clinit>()
-com.tencent.exmobwin.b.h: h(android.content.Context)
-com.tencent.exmobwin.b.h: void a(com.tencent.exmobwin.b.a)
-com.tencent.exmobwin.b.h: int a()
-com.tencent.exmobwin.b.h: int b()
-com.tencent.exmobwin.b.h: void c()
-com.tencent.exmobwin.b.h: void d()
-com.tencent.exmobwin.b.h: int a(android.content.Context)
-com.tencent.exmobwin.b.h: boolean e()
-com.tencent.exmobwin.b.h: void f()
-com.tencent.exmobwin.b.h: com.tencent.exmobwin.b.a a(com.tencent.exmobwin.b.h)
+com.tencent.exmobwin.b.f: java.lang.String a
+com.tencent.exmobwin.b.f: android.content.Context b
+com.tencent.exmobwin.b.f: boolean c
+com.tencent.exmobwin.b.f: f(android.content.Context,boolean)
+com.tencent.exmobwin.b.f: android.database.sqlite.SQLiteDatabase a(com.tencent.exmobwin.b.d)
+com.tencent.exmobwin.b.f: void a(com.tencent.exmobwin.b.c)
+com.tencent.exmobwin.b.f: void b(com.tencent.exmobwin.b.c)
+com.tencent.exmobwin.b.f: void c(com.tencent.exmobwin.b.c)
+com.tencent.exmobwin.b.f: boolean a(int)
+com.tencent.exmobwin.b.f: com.tencent.exmobwin.b.c b(int)
+com.tencent.exmobwin.b.f: java.util.ArrayList a()
 com.tencent.exmobwin.banner.AdListener
 com.tencent.exmobwin.banner.AdListener: int ERROR_CONNECTION_FAILED
 com.tencent.exmobwin.banner.AdListener: int ERROR_NO_AVAILABLE_ADS
@@ -4963,47 +5366,58 @@ com.tencent.exmobwin.banner.MobWINBrowserActivity: void onDestroy()
 com.tencent.exmobwin.banner.MobWINBrowserActivity: boolean onKeyDown(int,android.view.KeyEvent)
 com.tencent.exmobwin.banner.MobWINBrowserActivity: void a(java.lang.String)
 com.tencent.exmobwin.banner.TAdView
-com.tencent.exmobwin.banner.TAdView: java.lang.String TAG
-com.tencent.exmobwin.banner.TAdView: int CREATE_ADVIEW
-com.tencent.exmobwin.banner.TAdView: com.tencent.exmobwin.banner.AdListener a
-com.tencent.exmobwin.banner.TAdView: com.tencent.exmobwin.banner.d b
-com.tencent.exmobwin.banner.TAdView: java.lang.String c
+com.tencent.exmobwin.banner.TAdView: java.lang.String a
+com.tencent.exmobwin.banner.TAdView: int b
+com.tencent.exmobwin.banner.TAdView: com.tencent.exmobwin.banner.AdListener c
+com.tencent.exmobwin.banner.TAdView: com.tencent.exmobwin.banner.d d
+com.tencent.exmobwin.banner.TAdView: java.lang.String e
 com.tencent.exmobwin.banner.TAdView: TAdView(android.app.Activity)
 com.tencent.exmobwin.banner.TAdView: TAdView(android.content.Context,android.util.AttributeSet)
 com.tencent.exmobwin.banner.TAdView: void onLayout(boolean,int,int,int,int)
 com.tencent.exmobwin.banner.TAdView: void onDetachedFromWindow()
 com.tencent.exmobwin.banner.TAdView: void onWindowVisibilityChanged(int)
 com.tencent.exmobwin.banner.TAdView: void setAdListener(com.tencent.exmobwin.banner.AdListener)
+com.tencent.exmobwin.banner.TMiniAdView
+com.tencent.exmobwin.banner.TMiniAdView: java.lang.String a
+com.tencent.exmobwin.banner.TMiniAdView: int b
+com.tencent.exmobwin.banner.TMiniAdView: com.tencent.exmobwin.banner.AdListener c
+com.tencent.exmobwin.banner.TMiniAdView: com.tencent.exmobwin.banner.d d
+com.tencent.exmobwin.banner.TMiniAdView: java.lang.String e
+com.tencent.exmobwin.banner.TMiniAdView: TMiniAdView(android.app.Activity)
+com.tencent.exmobwin.banner.TMiniAdView: TMiniAdView(android.content.Context,android.util.AttributeSet)
+com.tencent.exmobwin.banner.TMiniAdView: void onLayout(boolean,int,int,int,int)
+com.tencent.exmobwin.banner.TMiniAdView: void onDetachedFromWindow()
+com.tencent.exmobwin.banner.TMiniAdView: void onWindowVisibilityChanged(int)
+com.tencent.exmobwin.banner.TMiniAdView: void setAdListener(com.tencent.exmobwin.banner.AdListener)
 com.tencent.exmobwin.banner.a
-com.tencent.exmobwin.banner.a: java.lang.String l
-com.tencent.exmobwin.banner.a: java.lang.String m
 com.tencent.exmobwin.banner.a: java.lang.String n
-com.tencent.exmobwin.banner.a: int o
-com.tencent.exmobwin.banner.a: java.lang.Object p
-com.tencent.exmobwin.banner.a: com.tencent.exmobwin.banner.a q
+com.tencent.exmobwin.banner.a: java.lang.String o
+com.tencent.exmobwin.banner.a: java.lang.String p
+com.tencent.exmobwin.banner.a: int q
+com.tencent.exmobwin.banner.a: java.lang.Object r
+com.tencent.exmobwin.banner.a: com.tencent.exmobwin.banner.a s
 com.tencent.exmobwin.banner.a: java.lang.ref.WeakReference a
 com.tencent.exmobwin.banner.a: java.lang.ref.WeakReference b
 com.tencent.exmobwin.banner.a: java.lang.Class c
-com.tencent.exmobwin.banner.a: boolean r
-com.tencent.exmobwin.banner.a: boolean s
-com.tencent.exmobwin.banner.a: java.util.Map t
+com.tencent.exmobwin.banner.a: boolean t
 com.tencent.exmobwin.banner.a: boolean u
-com.tencent.exmobwin.banner.a: boolean v
+com.tencent.exmobwin.banner.a: java.util.Map v
+com.tencent.exmobwin.banner.a: boolean w
 com.tencent.exmobwin.banner.a: android.os.Handler d
 com.tencent.exmobwin.banner.a: void <clinit>()
 com.tencent.exmobwin.banner.a: a()
-com.tencent.exmobwin.banner.a: void a(android.content.Context)
-com.tencent.exmobwin.banner.a: void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
-com.tencent.exmobwin.banner.a: com.tencent.exmobwin.banner.a a()
+com.tencent.exmobwin.banner.a: void a()
+com.tencent.exmobwin.banner.a: void a(java.lang.String,java.lang.String,java.lang.String)
+com.tencent.exmobwin.banner.a: com.tencent.exmobwin.banner.a b()
 com.tencent.exmobwin.banner.a: void a(java.lang.String,com.tencent.exmobwin.banner.d)
 com.tencent.exmobwin.banner.a: void a(java.lang.String)
 com.tencent.exmobwin.banner.a: void b(java.lang.String)
-com.tencent.exmobwin.banner.a: void b()
+com.tencent.exmobwin.banner.a: void c()
 com.tencent.exmobwin.banner.a: com.tencent.exmobwin.banner.d c(java.lang.String)
 com.tencent.exmobwin.banner.a: void a(com.tencent.exmobwin.banner.d)
 com.tencent.exmobwin.banner.a: void a(android.widget.RelativeLayout,com.tencent.exmobwin.banner.AdListener)
-com.tencent.exmobwin.banner.a: android.widget.RelativeLayout c(android.content.Context)
-com.tencent.exmobwin.banner.a: void c()
+com.tencent.exmobwin.banner.a: android.widget.RelativeLayout a(android.content.Context,int)
+com.tencent.exmobwin.banner.a: void a(android.content.Context)
 com.tencent.exmobwin.banner.a: void d()
 com.tencent.exmobwin.banner.a: com.tencent.exmobwin.banner.d a(com.tencent.exmobwin.banner.a,java.lang.String)
 com.tencent.exmobwin.banner.a: void a(com.tencent.exmobwin.banner.a,com.tencent.exmobwin.banner.d)
@@ -5021,140 +5435,239 @@ com.tencent.exmobwin.banner.d: android.widget.RelativeLayout b
 com.tencent.exmobwin.banner.d: boolean c
 com.tencent.exmobwin.banner.d: boolean d
 com.tencent.exmobwin.banner.d: java.lang.ref.WeakReference e
+com.tencent.exmobwin.banner.d: int f
 com.tencent.exmobwin.banner.d: d()
-com.tencent.exmobwin.banner.d: d(android.content.Context,android.widget.RelativeLayout)
+com.tencent.exmobwin.banner.d: d(android.content.Context,android.widget.RelativeLayout,int)
+com.tencent.exmobwin.banner.d: int a()
 com.tencent.exmobwin.banner.d: void a(com.tencent.exmobwin.banner.AdListener)
-com.tencent.exmobwin.banner.d: com.tencent.exmobwin.banner.AdListener a()
+com.tencent.exmobwin.banner.d: com.tencent.exmobwin.banner.AdListener b()
 com.tencent.exmobwin.banner.d: void a(boolean)
-com.tencent.exmobwin.banner.d: boolean b()
-com.tencent.exmobwin.banner.d: android.content.Context c()
-com.tencent.exmobwin.banner.d: android.widget.RelativeLayout d()
+com.tencent.exmobwin.banner.d: boolean c()
+com.tencent.exmobwin.banner.d: android.content.Context d()
+com.tencent.exmobwin.banner.d: android.widget.RelativeLayout e()
 com.tencent.exmobwin.banner.d: void b(boolean)
-com.tencent.exmobwin.banner.d: boolean e()
+com.tencent.exmobwin.banner.d: boolean f()
 com.tencent.exmobwin.banner.e
 com.tencent.exmobwin.banner.e: com.tencent.exmobwin.banner.a a
 com.tencent.exmobwin.banner.e: e(com.tencent.exmobwin.banner.a)
 com.tencent.exmobwin.banner.e: void handleMessage(android.os.Message)
 com.tencent.exmobwin.c.a
 com.tencent.exmobwin.c.a: java.lang.String a
-com.tencent.exmobwin.c.a: java.lang.String b
-com.tencent.exmobwin.c.a: int c
+com.tencent.exmobwin.c.a: char[] b
+com.tencent.exmobwin.c.a: void <clinit>()
 com.tencent.exmobwin.c.a: a()
-com.tencent.exmobwin.c.a: void a(java.lang.String)
-com.tencent.exmobwin.c.a: void b(java.lang.String)
+com.tencent.exmobwin.c.a: java.lang.String a(byte[])
+com.tencent.exmobwin.c.a: java.lang.String a(java.io.File)
+com.tencent.exmobwin.c.a: boolean a(java.lang.String,int)
+com.tencent.exmobwin.c.a: byte[] a(java.io.InputStream)
+com.tencent.exmobwin.c.a: java.lang.String a(android.content.Context,java.lang.String)
 com.tencent.exmobwin.c.a: java.lang.String a()
-com.tencent.exmobwin.c.a: java.lang.String b()
-com.tencent.exmobwin.c.a: int c()
-com.tencent.exmobwin.c.a: void a(int)
+com.tencent.exmobwin.c.a: java.lang.String a(android.content.Context)
+com.tencent.exmobwin.c.a: void b(android.content.Context)
+com.tencent.exmobwin.c.a: void c(java.lang.String)
+com.tencent.exmobwin.c.a: void a(java.lang.String)
+com.tencent.exmobwin.c.a: boolean b(java.lang.String)
+com.tencent.exmobwin.c.a: int a(java.lang.String,java.lang.String)
+com.tencent.exmobwin.c.a: java.lang.String c(android.content.Context)
+com.tencent.exmobwin.c.a: java.lang.String a(android.content.Context,boolean)
+com.tencent.exmobwin.c.a: java.lang.String b(android.content.Context,boolean)
+com.tencent.exmobwin.c.a: int b()
+com.tencent.exmobwin.c.a: void c()
+com.tencent.exmobwin.c.a: void d()
+com.tencent.exmobwin.c.a: void a(android.content.Context,java.lang.String,java.lang.String)
 com.tencent.exmobwin.c.b
-com.tencent.exmobwin.c.b: java.lang.String a
-com.tencent.exmobwin.c.b: java.lang.String b
-com.tencent.exmobwin.c.b: java.lang.String c
-com.tencent.exmobwin.c.b: java.lang.String d
-com.tencent.exmobwin.c.b: int e
-com.tencent.exmobwin.c.b: java.lang.String a()
-com.tencent.exmobwin.c.b: java.lang.String b()
-com.tencent.exmobwin.c.b: java.lang.String c()
-com.tencent.exmobwin.c.b: b(android.content.Context)
-com.tencent.exmobwin.c.b: void a(android.content.Context)
-com.tencent.exmobwin.c.b: int d()
-com.tencent.exmobwin.c.c
-com.tencent.exmobwin.c.c: int a
-com.tencent.exmobwin.c.c: int b
-com.tencent.exmobwin.c.c: int c
-com.tencent.exmobwin.c.c: java.lang.String d
-com.tencent.exmobwin.c.c: int e
-com.tencent.exmobwin.c.c: int f
-com.tencent.exmobwin.c.c: int g
-com.tencent.exmobwin.c.c: java.lang.String h
-com.tencent.exmobwin.c.c: java.lang.String i
-com.tencent.exmobwin.c.c: java.lang.String j
-com.tencent.exmobwin.c.c: java.lang.String k
-com.tencent.exmobwin.c.c: int l
-com.tencent.exmobwin.c.c: java.lang.String m
-com.tencent.exmobwin.c.c: long n
-com.tencent.exmobwin.c.c: long o
-com.tencent.exmobwin.c.c: int p
-com.tencent.exmobwin.c.c: c()
-com.tencent.exmobwin.c.c: c(java.lang.String,int,java.lang.String)
-com.tencent.exmobwin.c.c: int a()
-com.tencent.exmobwin.c.c: void a(int)
-com.tencent.exmobwin.c.c: int b()
-com.tencent.exmobwin.c.c: void b(int)
-com.tencent.exmobwin.c.c: java.lang.String c()
-com.tencent.exmobwin.c.c: void a(java.lang.String)
-com.tencent.exmobwin.c.c: int d()
-com.tencent.exmobwin.c.c: void c(int)
-com.tencent.exmobwin.c.c: java.lang.String e()
-com.tencent.exmobwin.c.c: void b(java.lang.String)
-com.tencent.exmobwin.c.c: int f()
-com.tencent.exmobwin.c.c: void d(int)
-com.tencent.exmobwin.c.c: java.lang.String g()
-com.tencent.exmobwin.c.c: void c(java.lang.String)
-com.tencent.exmobwin.c.c: java.lang.String h()
-com.tencent.exmobwin.c.c: void d(java.lang.String)
-com.tencent.exmobwin.c.c: java.lang.String i()
-com.tencent.exmobwin.c.c: void e(java.lang.String)
-com.tencent.exmobwin.c.c: java.lang.String j()
-com.tencent.exmobwin.c.c: void f(java.lang.String)
-com.tencent.exmobwin.c.c: long k()
-com.tencent.exmobwin.c.c: void a(long)
-com.tencent.exmobwin.c.c: long l()
-com.tencent.exmobwin.c.c: void b(long)
-com.tencent.exmobwin.c.c: int m()
-com.tencent.exmobwin.c.c: void e(int)
-com.tencent.exmobwin.c.d
-com.tencent.exmobwin.c.d: int a
-com.tencent.exmobwin.c.d: java.lang.String b
-com.tencent.exmobwin.c.d: java.lang.String c
-com.tencent.exmobwin.c.d: java.lang.String d
-com.tencent.exmobwin.c.d: void <clinit>()
-com.tencent.exmobwin.c.d: d(android.content.Context)
-com.tencent.exmobwin.c.d: void onCreate(android.database.sqlite.SQLiteDatabase)
-com.tencent.exmobwin.c.d: void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int)
-com.tencent.exmobwin.c.e
-com.tencent.exmobwin.c.e: int a
-com.tencent.exmobwin.c.e: int b
-com.tencent.exmobwin.c.e: int c
-com.tencent.exmobwin.c.e: int d
-com.tencent.exmobwin.c.e: e()
-com.tencent.exmobwin.c.f
-com.tencent.exmobwin.c.f: java.lang.String a
-com.tencent.exmobwin.c.f: java.lang.String b
-com.tencent.exmobwin.c.f: android.content.Context c
-com.tencent.exmobwin.c.f: boolean d
-com.tencent.exmobwin.c.f: f(android.content.Context,boolean)
-com.tencent.exmobwin.c.f: android.database.sqlite.SQLiteDatabase a(com.tencent.exmobwin.c.d)
-com.tencent.exmobwin.c.f: void a(com.tencent.exmobwin.c.c)
-com.tencent.exmobwin.c.f: void b(com.tencent.exmobwin.c.c)
-com.tencent.exmobwin.c.f: void c(com.tencent.exmobwin.c.c)
-com.tencent.exmobwin.c.f: boolean a(int)
-com.tencent.exmobwin.c.f: com.tencent.exmobwin.c.c b(int)
-com.tencent.exmobwin.c.f: java.util.ArrayList a()
-com.tencent.exmobwin.d.a
-com.tencent.exmobwin.d.a: java.lang.String a
-com.tencent.exmobwin.d.a: char[] b
-com.tencent.exmobwin.d.a: void <clinit>()
-com.tencent.exmobwin.d.a: a()
-com.tencent.exmobwin.d.a: java.lang.String a(byte[])
-com.tencent.exmobwin.d.a: java.lang.String a(java.io.File)
-com.tencent.exmobwin.d.a: boolean a(java.lang.String,int)
-com.tencent.exmobwin.d.a: byte[] a(java.io.InputStream)
-com.tencent.exmobwin.d.a: java.lang.String a(android.content.Context,java.lang.String)
-com.tencent.exmobwin.d.a: java.lang.String a()
-com.tencent.exmobwin.d.a: java.lang.String a(android.content.Context)
-com.tencent.exmobwin.d.a: void b(android.content.Context)
-com.tencent.exmobwin.d.a: void c(java.lang.String)
-com.tencent.exmobwin.d.a: void a(java.lang.String)
-com.tencent.exmobwin.d.a: boolean b(java.lang.String)
-com.tencent.exmobwin.d.a: int a(java.lang.String,java.lang.String)
-com.tencent.exmobwin.d.a: java.lang.String c(android.content.Context)
-com.tencent.exmobwin.d.a: java.lang.String a(android.content.Context,boolean)
-com.tencent.exmobwin.d.a: java.lang.String b(android.content.Context,boolean)
-com.tencent.exmobwin.d.a: int b()
-com.tencent.exmobwin.d.a: void c()
-com.tencent.exmobwin.d.a: void d()
-com.tencent.exmobwin.d.a: void a(android.content.Context,java.lang.String,java.lang.String)
-com.tencent.exmobwin.d.b
-com.tencent.exmobwin.d.b: b()
-com.tencent.exmobwin.d.b: boolean accept(java.io.File,java.lang.String)
+com.tencent.exmobwin.c.b: b()
+com.tencent.exmobwin.c.b: boolean accept(java.io.File,java.lang.String)
+com.tencent.exmobwin.core.TLog
+com.tencent.exmobwin.core.TLog: boolean a
+com.tencent.exmobwin.core.TLog: void <clinit>()
+com.tencent.exmobwin.core.TLog: TLog()
+com.tencent.exmobwin.core.TLog: void a(java.lang.String,java.lang.String)
+com.tencent.exmobwin.core.TLog: void b(java.lang.String,java.lang.String)
+com.tencent.exmobwin.core.TLog: void c(java.lang.String,java.lang.String)
+com.tencent.exmobwin.core.TLog: void d(java.lang.String,java.lang.String)
+com.tencent.exmobwin.core.a
+com.tencent.exmobwin.core.a: com.tencent.exmobwin.core.e a
+com.tencent.exmobwin.core.a: java.util.ArrayList b
+com.tencent.exmobwin.core.a: a(com.tencent.exmobwin.core.e,java.util.ArrayList)
+com.tencent.exmobwin.core.a: void run()
+com.tencent.exmobwin.core.b
+com.tencent.exmobwin.core.b: java.lang.String r
+com.tencent.exmobwin.core.b: byte[] s
+com.tencent.exmobwin.core.b: java.util.List t
+com.tencent.exmobwin.core.b: java.util.HashMap u
+com.tencent.exmobwin.core.b: java.util.HashMap v
+com.tencent.exmobwin.core.b: java.util.HashMap w
+com.tencent.exmobwin.core.b: boolean x
+com.tencent.exmobwin.core.b: com.tencent.exmobwin.b.f y
+com.tencent.exmobwin.core.b: android.content.Context z
+com.tencent.exmobwin.core.b: com.tencent.exmobwin.a.h A
+com.tencent.exmobwin.core.b: int B
+com.tencent.exmobwin.core.b: int a
+com.tencent.exmobwin.core.b: int b
+com.tencent.exmobwin.core.b: int c
+com.tencent.exmobwin.core.b: int d
+com.tencent.exmobwin.core.b: int e
+com.tencent.exmobwin.core.b: int f
+com.tencent.exmobwin.core.b: int g
+com.tencent.exmobwin.core.b: int h
+com.tencent.exmobwin.core.b: int i
+com.tencent.exmobwin.core.b: boolean C
+com.tencent.exmobwin.core.b: void <clinit>()
+com.tencent.exmobwin.core.b: b(android.content.Context,boolean,java.util.HashMap)
+com.tencent.exmobwin.core.b: void a(com.tencent.exmobwin.b.c)
+com.tencent.exmobwin.core.b: void a(org.apache.http.HttpResponse,com.tencent.exmobwin.a.b)
+com.tencent.exmobwin.core.b: void a(int,com.tencent.exmobwin.a.b)
+com.tencent.exmobwin.core.b: void b(com.tencent.exmobwin.b.c)
+com.tencent.exmobwin.core.b: void a(int)
+com.tencent.exmobwin.core.b: void a()
+com.tencent.exmobwin.core.b: void a(boolean)
+com.tencent.exmobwin.core.b: void b()
+com.tencent.exmobwin.core.c
+com.tencent.exmobwin.core.c: java.lang.String e
+com.tencent.exmobwin.core.c: java.lang.String f
+com.tencent.exmobwin.core.c: java.lang.String g
+com.tencent.exmobwin.core.c: java.lang.String h
+com.tencent.exmobwin.core.c: java.lang.String i
+com.tencent.exmobwin.core.c: java.lang.String j
+com.tencent.exmobwin.core.c: java.lang.String k
+com.tencent.exmobwin.core.c: java.lang.String l
+com.tencent.exmobwin.core.c: int m
+com.tencent.exmobwin.core.c: c(int)
+com.tencent.exmobwin.core.c: java.lang.String e()
+com.tencent.exmobwin.core.c: java.lang.String f()
+com.tencent.exmobwin.core.c: boolean b(android.content.Context)
+com.tencent.exmobwin.core.c: boolean a(int,android.content.Context)
+com.tencent.exmobwin.core.c: void c()
+com.tencent.exmobwin.core.c: void d()
+com.tencent.exmobwin.core.d
+com.tencent.exmobwin.core.d: int a
+com.tencent.exmobwin.core.d: java.util.WeakHashMap b
+com.tencent.exmobwin.core.d: java.lang.String c
+com.tencent.exmobwin.core.d: java.lang.String d
+com.tencent.exmobwin.core.d: java.lang.String e
+com.tencent.exmobwin.core.d: java.lang.String f
+com.tencent.exmobwin.core.d: void <clinit>()
+com.tencent.exmobwin.core.d: d()
+com.tencent.exmobwin.core.e
+com.tencent.exmobwin.core.e: java.lang.String f
+com.tencent.exmobwin.core.e: java.lang.Object g
+com.tencent.exmobwin.core.e: com.tencent.exmobwin.core.e h
+com.tencent.exmobwin.core.e: java.lang.String i
+com.tencent.exmobwin.core.e: long r
+com.tencent.exmobwin.core.e: java.lang.String a
+com.tencent.exmobwin.core.e: android.content.Context s
+com.tencent.exmobwin.core.e: int t
+com.tencent.exmobwin.core.e: int b
+com.tencent.exmobwin.core.e: int c
+com.tencent.exmobwin.core.e: int u
+com.tencent.exmobwin.core.e: int v
+com.tencent.exmobwin.core.e: int w
+com.tencent.exmobwin.core.e: int x
+com.tencent.exmobwin.core.e: int d
+com.tencent.exmobwin.core.e: java.util.HashMap y
+com.tencent.exmobwin.core.e: int z
+com.tencent.exmobwin.core.e: com.tencent.exmobwin.b.f A
+com.tencent.exmobwin.core.e: com.tencent.exmobwin.core.b B
+com.tencent.exmobwin.core.e: boolean e
+com.tencent.exmobwin.core.e: boolean C
+com.tencent.exmobwin.core.e: void <clinit>()
+com.tencent.exmobwin.core.e: e()
+com.tencent.exmobwin.core.e: com.tencent.exmobwin.core.e a()
+com.tencent.exmobwin.core.e: void a(android.content.Context,int[])
+com.tencent.exmobwin.core.e: com.tencent.exmobwin.core.b b()
+com.tencent.exmobwin.core.e: void a(java.lang.String,java.lang.String,java.lang.String,boolean)
+com.tencent.exmobwin.core.e: void a(org.apache.http.HttpResponse,com.tencent.exmobwin.a.b)
+com.tencent.exmobwin.core.e: void a(int,com.tencent.exmobwin.a.b)
+com.tencent.exmobwin.core.e: java.lang.String c()
+com.tencent.exmobwin.core.e: boolean f()
+com.tencent.exmobwin.core.e: void b(boolean)
+com.tencent.exmobwin.core.e: java.util.ArrayList a(boolean)
+com.tencent.exmobwin.core.e: com.tencent.exmobwin.b.b a(boolean,int)
+com.tencent.exmobwin.core.e: org.json.JSONObject a(java.util.ArrayList)
+com.tencent.exmobwin.core.e: java.util.ArrayList a(java.lang.String)
+com.tencent.exmobwin.core.e: void d()
+com.tencent.exmobwin.core.e: void e()
+com.tencent.exmobwin.core.e: android.content.Context a(com.tencent.exmobwin.core.e)
+com.tencent.exmobwin.core.f
+com.tencent.exmobwin.core.f: java.lang.String b
+com.tencent.exmobwin.core.f: java.lang.String a
+com.tencent.exmobwin.core.f: int c
+com.tencent.exmobwin.core.f: void <clinit>()
+com.tencent.exmobwin.core.f: f()
+com.tencent.exmobwin.core.f: java.lang.String b(android.content.Context)
+com.tencent.exmobwin.core.f: int[] a()
+com.tencent.exmobwin.core.f: java.lang.String c(android.content.Context)
+com.tencent.exmobwin.core.f: java.lang.String a(android.content.Context)
+com.tencent.exmobwin.core.f: void a(android.content.Context,java.lang.String)
+com.tencent.exmobwin.core.f: void b(android.content.Context,java.lang.String)
+com.tencent.exmobwin.core.f: void c(android.content.Context,java.lang.String)
+com.tencent.exmobwin.core.f: java.lang.String a(java.lang.String)
+com.tencent.exmobwin.core.f: int b(java.lang.String)
+com.tencent.exmobwin.core.g
+com.tencent.exmobwin.core.g: g()
+com.tencent.exmobwin.core.g: byte[] a(byte[],int,int[],int)
+com.tencent.exmobwin.core.g: byte[] b(byte[],int,int[],int)
+com.tencent.exmobwin.core.g: int[] a(byte[],int)
+com.tencent.exmobwin.core.g: byte[] a(int[],int)
+com.tencent.exmobwin.core.g: int a(byte)
+com.tencent.exmobwin.core.g: byte[] a(java.lang.String)
+com.tencent.exmobwin.core.g: java.lang.String a(byte[])
+com.tencent.exmobwin.core.g: byte[] b(byte[])
+com.tencent.exmobwin.core.g: byte[] c(byte[])
+com.tencent.exmobwin.core.h
+com.tencent.exmobwin.core.h: com.tencent.exmobwin.core.e a
+com.tencent.exmobwin.core.h: h(com.tencent.exmobwin.core.e)
+com.tencent.exmobwin.core.h: void run()
+com.tencent.exmobwin.spot.SpotActivity
+com.tencent.exmobwin.spot.SpotActivity: SpotActivity()
+com.tencent.exmobwin.spot.SpotActivity: void onCreate(android.os.Bundle)
+com.tencent.exmobwin.spot.SpotActivity: void onSaveInstanceState(android.os.Bundle)
+com.tencent.exmobwin.spot.SpotActivity: void onConfigurationChanged(android.content.res.Configuration)
+com.tencent.exmobwin.spot.SpotActivity: void onResume()
+com.tencent.exmobwin.spot.SpotActivity: void onActivityResult(int,int,android.content.Intent)
+com.tencent.exmobwin.spot.SpotActivity: boolean onKeyDown(int,android.view.KeyEvent)
+com.tencent.exmobwin.spot.SpotActivity: boolean onKeyUp(int,android.view.KeyEvent)
+com.tencent.exmobwin.spot.SpotActivity: void onDestroy()
+com.tencent.exmobwin.spot.SpotListener
+com.tencent.exmobwin.spot.SpotListener: void onSpotActivityFinished()
+com.tencent.exmobwin.spot.a
+com.tencent.exmobwin.spot.a: com.tencent.exmobwin.spot.b a
+com.tencent.exmobwin.spot.a: a(com.tencent.exmobwin.spot.b)
+com.tencent.exmobwin.spot.a: void handleMessage(android.os.Message)
+com.tencent.exmobwin.spot.b
+com.tencent.exmobwin.spot.b: java.lang.String a
+com.tencent.exmobwin.spot.b: android.content.Context b
+com.tencent.exmobwin.spot.b: java.lang.Object c
+com.tencent.exmobwin.spot.b: com.tencent.exmobwin.spot.b d
+com.tencent.exmobwin.spot.b: java.lang.ref.WeakReference n
+com.tencent.exmobwin.spot.b: java.lang.ref.WeakReference o
+com.tencent.exmobwin.spot.b: java.lang.String p
+com.tencent.exmobwin.spot.b: java.lang.String q
+com.tencent.exmobwin.spot.b: java.lang.Class r
+com.tencent.exmobwin.spot.b: boolean s
+com.tencent.exmobwin.spot.b: int t
+com.tencent.exmobwin.spot.b: int u
+com.tencent.exmobwin.spot.b: int v
+com.tencent.exmobwin.spot.b: android.app.Activity w
+com.tencent.exmobwin.spot.b: java.lang.Class x
+com.tencent.exmobwin.spot.b: java.lang.Object y
+com.tencent.exmobwin.spot.b: android.os.Bundle z
+com.tencent.exmobwin.spot.b: android.os.Handler A
+com.tencent.exmobwin.spot.b: void <clinit>()
+com.tencent.exmobwin.spot.b: b()
+com.tencent.exmobwin.spot.b: com.tencent.exmobwin.spot.b a()
+com.tencent.exmobwin.spot.b: void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
+com.tencent.exmobwin.spot.b: void a(android.content.Context,com.tencent.exmobwin.spot.SpotListener)
+com.tencent.exmobwin.spot.b: void d()
+com.tencent.exmobwin.spot.b: void c()
+com.tencent.exmobwin.spot.b: void a(android.os.Bundle,android.app.Activity)
+com.tencent.exmobwin.spot.b: void b()
+com.tencent.exmobwin.spot.b: void a(android.os.Bundle)
+com.tencent.exmobwin.spot.b: void a(android.content.res.Configuration)
+com.tencent.exmobwin.spot.b: void a(int,int,android.content.Intent)
+com.tencent.exmobwin.spot.b: void a(int,android.view.KeyEvent)
+com.tencent.exmobwin.spot.b: void b(int,android.view.KeyEvent)
+com.tencent.exmobwin.spot.b: void g()
+com.tencent.exmobwin.spot.b: void a(com.tencent.exmobwin.spot.b,android.os.Bundle)
+com.tencent.exmobwin.spot.b: android.app.Activity a(com.tencent.exmobwin.spot.b)

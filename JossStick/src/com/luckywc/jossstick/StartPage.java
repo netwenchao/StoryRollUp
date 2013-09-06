@@ -56,6 +56,16 @@ public class StartPage extends Activity {
 				overridePendingTransition(R.anim.activity_open, R.anim.activity_close);
 			}			
 		});
+		
+		((ImageView)findViewById(R.id.mian_qiuqian)).setOnClickListener(new OnClickListener(){
+			@Override
+			public void onClick(View arg0) {
+				// TODO Auto-generated method stub
+				Intent i=new Intent(StartPage.this,GetLotActivity.class);
+				startActivity(i);
+				overridePendingTransition(R.anim.activity_open, R.anim.activity_close);
+			}			
+		});
 	}
 
 	@Override

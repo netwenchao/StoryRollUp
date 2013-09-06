@@ -11,5 +11,10 @@ com.luckywc.jossstick.R$menu
 com.luckywc.jossstick.R$raw
 com.luckywc.jossstick.R$string
 com.luckywc.jossstick.R$style
-com.luckywc.jossstick.Utility:
-    11:11:public Utility()
+com.luckywc.jossstick.ShowLotDetail:
+    private android.widget.ImageView mLogImage
+    private android.widget.TextView lotTitle
+    private android.widget.TextView lotDesc
+com.luckywc.jossstick.Utility
+com.luckywc.jossstick.WordAnalysisActivity:
+    private static final java.lang.String ILLEGAL_STRING
