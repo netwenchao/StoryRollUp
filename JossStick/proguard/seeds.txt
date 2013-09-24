@@ -4944,6 +4944,7 @@ com.kyview.f: f(com.kyview.DownloadService)
 com.kyview.f: void handleMessage(android.os.Message)
 com.luckywc.jossstick.ActivityAlmanac
 com.luckywc.jossstick.ActivityAlmanac: void onClick(android.view.View)
+com.luckywc.jossstick.ActivityLunarView
 com.luckywc.jossstick.ActivityMain
 com.luckywc.jossstick.ActivityMain: ActivityMain()
 com.luckywc.jossstick.GetLotActivity
@@ -5062,11 +5063,13 @@ com.luckywc.jossstick.R$id: int tv_xianji
 com.luckywc.jossstick.R$id: int tv_xsyj
 com.luckywc.jossstick.R$id: int tv_yi
 com.luckywc.jossstick.R$id: int tvjieMengContent
+com.luckywc.jossstick.R$id: int viewFlip
 com.luckywc.jossstick.R$id: int word2Anys
 com.luckywc.jossstick.R$layout: int activity_about
 com.luckywc.jossstick.R$layout: int activity_almanac
 com.luckywc.jossstick.R$layout: int activity_get_lot
 com.luckywc.jossstick.R$layout: int activity_jiemeng
+com.luckywc.jossstick.R$layout: int activity_luar_cal
 com.luckywc.jossstick.R$layout: int activity_main
 com.luckywc.jossstick.R$layout: int activity_pelt_cup
 com.luckywc.jossstick.R$layout: int activity_show_detail

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlmainContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/check_bg"    
+    android:orientation="vertical" >
+    <ImageButton android:background="@android:color/transparent"  android:src="@drawable/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnLanch"/>
+	<TableLayout 
+	    android:orientation="vertical" android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" android:stretchColumns="0,1"	    
+	    android:layout_centerInParent="true">
+        <TableRow>
+            <ImageButton android:id="@+id/btn_lot" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_drawing" />
+            <ImageButton android:id="@+id/btn_word_analysis" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_analysis" />
+        </TableRow>
+        <TableRow android:layout_marginTop="20.0dip">
+            <ImageButton android:id="@+id/btn_zhougong" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_zhougong" />            
+            <!-- <ImageButton android:id="@id/btn_connection" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_connection" /> -->
+        </TableRow>
+        <TableRow android:layout_marginTop="20.0dip">
+            <!-- <ImageButton android:id="@id/btn_fortune" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_fortune" />
+            <ImageButton android:id="@id/btn_almanac" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/btn_almanac" />             -->
+        </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:id="@+id/AdLinearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"        
+        >        
+    </LinearLayout>
+</RelativeLayout>

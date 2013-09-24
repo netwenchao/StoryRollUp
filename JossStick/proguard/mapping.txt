@@ -4495,6 +4495,8 @@ com.luckywc.jossstick.ActivityAlmanac$1 -> com.luckywc.jossstick.a:
     com.luckywc.jossstick.ActivityAlmanac this$0 -> a
     void onClickAd() -> onClickAd
     void onDisplayAd() -> onDisplayAd
+com.luckywc.jossstick.ActivityLunarView -> com.luckywc.jossstick.ActivityLunarView:
+    void onCreate(android.os.Bundle) -> onCreate
 com.luckywc.jossstick.ActivityMain -> com.luckywc.jossstick.ActivityMain:
     android.widget.PopupWindow ppw -> a
     void onCreate(android.os.Bundle) -> onCreate

@@ -39,7 +39,7 @@ public class ShengBei extends Activity{
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_pelt_cup);
-		mRanIndex=getIntent().getExtras().getInt("RanIndex");
+		mRanIndex=getIntent().getExtras().getInt("mRanIndex");
 		GetControl();		
 	}
 	

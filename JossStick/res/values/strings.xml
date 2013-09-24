@@ -32,11 +32,13 @@
     <string name="label_shiyi">【释义】</string>
     <string name="label_jieyue">【解曰】</string>
     <string name="label_xianji">【仙机】</string>
-    <string name="label_nodata">哎呀呀，天机不可泄漏。</string>
+    <string name="label_nodata">哎呀呀，人家还没记住那么多嘛，等待下次更新吧。</string>
     <string name="btn_jiemeng">解梦</string>
     <string name="label_jiemenglbl">请输入梦到的关键字：</string>
     <string name="update_history">更新历史</string>
     <string name="history_content">
+版本:2.3.911\n
+1.增加“周公解梦”内容，整合目前市场上流行的周公解梦中梦境的描述。
 版本:V2.0.906 \n
 1.添加"周公解梦"内容;\n
 2.增加"测字"内容;\n

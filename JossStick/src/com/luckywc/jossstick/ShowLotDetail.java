@@ -25,7 +25,7 @@ public class ShowLotDetail extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);		
 		setContentView(R.layout.activity_show_detail);
-		mRanIndex=getIntent().getExtras().getInt("RanIndex");
+		mRanIndex=getIntent().getExtras().getInt("mRanIndex");
 		DBManager dbm=new DBManager(ShowLotDetail.this);
 		dbm.OpenStickDb();
 		if(dbm.DataBase!=null){

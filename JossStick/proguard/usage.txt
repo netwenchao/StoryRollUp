@@ -1,3 +1,6 @@
+com.luckywc.jossstick.ActivityLunarView:
+    private android.widget.LinearLayout layout1
+    private android.widget.LinearLayout layout2
 com.luckywc.jossstick.BuildConfig
 com.luckywc.jossstick.R
 com.luckywc.jossstick.R$anim
