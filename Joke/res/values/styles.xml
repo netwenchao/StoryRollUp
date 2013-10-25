@@ -18,6 +18,12 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
     
+    <style name="header_text">
+        <item name="android:textColor">#FFFFFFFF</item>     
+        <item name="android:textStyle">bold</item>      
+        <item name="android:textSize">18sp</item>     
+    </style>
+    
     <style name="dailyItemtitle">
         <item name="android:textSize">22sp</item>
         <item name="android:padding">4sp</item>

@@ -17,6 +17,8 @@ import org.htmlparser.tags.Span;
 import org.htmlparser.util.NodeList;
 import org.htmlparser.util.ParserException;
 
+import com.netwc.Entities.JokeInfo;
+
 import android.content.SharedPreferences.Editor;
 import android.util.Log;
 
@@ -24,7 +26,7 @@ public class JokeParser {
 	final String dailyUrl="http://www.jokeji.cn";	
 
 	public void GetPageIndexData(){
-		ArrayList<com.netwc.Provider.Entities.JokeInfo> jokes=new ArrayList<com.netwc.Provider.Entities.JokeInfo>();
+		ArrayList<JokeInfo> jokes=new ArrayList<JokeInfo>();
 		Parser htmlParse;
 		try {
 			htmlParse = new Parser(dailyUrl);
@@ -47,7 +49,7 @@ public class JokeParser {
 						aTags=liSubNodes.extractAllNodesThatMatch(new AndFilter(new TagNameFilter("a"),new HasAttributeFilter("target", "_blank")));
 						spanTags=liSubNodes.extractAllNodesThatMatch(new TagNameFilter("span"));
 						if(aTags!=null && aTags.size()>0){
-							com.netwc.Provider.Entities.JokeInfo joke=new com.netwc.Provider.Entities.JokeInfo();
+							JokeInfo joke=new JokeInfo();
 							joke.Title=((LinkTag)aTags.elementAt(0)).getLinkText();
 							String url;
 							url = dailyUrl+((TagNode)aTags.elementAt(0)).getAttribute("href");
@@ -62,7 +64,7 @@ public class JokeParser {
 					}
 				}
 				for(int i=0;i<jokes.size();i++){
-					com.netwc.Provider.Entities.JokeInfo joke=jokes.get(i);
+					JokeInfo joke=jokes.get(i);
 					String url=joke.Url;
 					if(url!=null && url.length()>0){							
 						String content=GetContent(url);

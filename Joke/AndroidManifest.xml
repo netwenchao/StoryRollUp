@@ -52,7 +52,7 @@
 		<meta-data android:name="BaiduMobAd_APP_SEC" android:value="d5f8fa1b_cbc24570" />-->
         <activity android:name="JokeDailyActivity"></activity>
         <activity android:name="MainAcvitity"></activity>
-        <activity android:name="SplashActivity">
+        <activity android:name="com.netwc.Activities.TabActivityMain">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

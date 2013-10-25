@@ -10,10 +10,10 @@ import org.htmlparser.filters.TagNameFilter;
 import org.htmlparser.util.NodeList;
 import org.htmlparser.util.ParserException;
 
-import com.netwc.Provider.Entities.JokeInfo;
-import com.netwc.Provider.Entities.LinkNodeData;
-import com.netwc.Provider.Entities.NodeData;
-import com.netwc.joke.EnumMgr.DataFrom;
+import com.netwc.Entities.DataFrom;
+import com.netwc.Entities.JokeInfo;
+import com.netwc.Entities.LinkNodeData;
+import com.netwc.Entities.NodeData;
 
 public class ProviderQiuShi extends AbsJokeProvider{
 	private final String siteUrl="http://www.qiushibaike.com";	
@@ -37,6 +37,11 @@ public class ProviderQiuShi extends AbsJokeProvider{
 				</div>
 				<div class="content" title="2013-06-08 14:09:56">
 					今天我跟女同事开玩笑，她对我说我看你是想当黄瓜了是吧！天啊，她竟然该跟一个看了这么多年糗百的人说这句话。。。
+				</div>
+				<div class="thumb">
+					<a href="/article/46893430" target="_blank" onclick="_hmt.push(['_trackEvent', 'post', 'click', 'signlePost'])">
+						<img src="http://pic.qiushibaike.com/system/pictures/4689/46893430/medium/app46893430.jpg" alt="糗事#46893430">
+					</a>
 				</div>
 			</div>
 			*/

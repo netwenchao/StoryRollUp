@@ -131,7 +131,7 @@ public class JokeJi_Provider extends AJokeProvider implements IJokeProvider{
 							}else{
 								joke.SiteDate="";
 							}
-							joke.dateAdd=(new Date()).getTime();
+							joke.DateAdd=(new Date()).getTime();
 							joke.IsDownLoad=false;
 							joke.IsNew=true;
 							joke.IsFavourite=false;

@@ -19,6 +19,7 @@ import org.htmlparser.tags.Span;
 import org.htmlparser.util.NodeList;
 import org.htmlparser.util.ParserException;
 
+import com.netwc.Entities.JokeInfo;
 import com.netwc.Provider.JokeAdapter;
 import com.netwc.Provider.MyDBHelper;
 import android.app.Activity;
@@ -131,7 +132,7 @@ public class JokeDailyActivity extends Activity implements OnScrollListener{
 		public void run() {
 			MyDBHelper db=new MyDBHelper(JokeDailyActivity.this);
 			final String dailyUrl="http://www.jokeji.cn";
-			ArrayList<com.netwc.Provider.Entities.JokeInfo> jokes=new ArrayList<com.netwc.Provider.Entities.JokeInfo>();
+			ArrayList<JokeInfo> jokes=new ArrayList<JokeInfo>();
 			Parser htmlParse;
 			try {
 				htmlParse = new Parser(dailyUrl);
@@ -154,7 +155,7 @@ public class JokeDailyActivity extends Activity implements OnScrollListener{
 							aTags=liSubNodes.extractAllNodesThatMatch(new AndFilter(new TagNameFilter("a"),new HasAttributeFilter("target", "_blank")));
 							spanTags=liSubNodes.extractAllNodesThatMatch(new TagNameFilter("span"));
 							if(aTags!=null && aTags.size()>0){
-								com.netwc.Provider.Entities.JokeInfo joke=new com.netwc.Provider.Entities.JokeInfo();
+								JokeInfo joke=new JokeInfo();
 								joke.Title=((LinkTag)aTags.elementAt(0)).getLinkText();
 								String url;
 								url = dailyUrl+((TagNode)aTags.elementAt(0)).getAttribute("href");
@@ -169,7 +170,7 @@ public class JokeDailyActivity extends Activity implements OnScrollListener{
 						}
 					}
 					for(int i=0;i<jokes.size();i++){
-						com.netwc.Provider.Entities.JokeInfo joke=jokes.get(i);
+						JokeInfo joke=jokes.get(i);
 						String url=joke.Url;
 						if(url!=null && url.length()>0){							
 							String content=GetContent(url);

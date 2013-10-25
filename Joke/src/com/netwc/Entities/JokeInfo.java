@@ -1,11 +1,14 @@
 package com.netwc.Entities;
 
 public class JokeInfo {
+	public int ID;
 	public String Title;
 	public String Url;
 	public String Content;
+	public String Category;
 	public String SiteDate;
-	public Long dateAdd;
+	public String DataFrom;
+	public Long DateAdd;
 	public Boolean IsDownLoad;
 	public Boolean IsNew;
 	public Boolean IsFavourite;

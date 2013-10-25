@@ -14,10 +14,9 @@ import org.htmlparser.tags.Span;
 import org.htmlparser.util.NodeList;
 import org.htmlparser.util.ParserException;
 
+import com.netwc.Entities.DataFrom;
+import com.netwc.Entities.JokeInfo;
 import android.util.Log;
-
-import com.netwc.Provider.Entities.JokeInfo;
-import com.netwc.joke.EnumMgr.DataFrom;
 
 public class ProviderJokeJi extends AbsJokeProvider{
 	private final String siteUrl="http://www.jokeji.cn";
@@ -47,7 +46,7 @@ public class ProviderJokeJi extends AbsJokeProvider{
 						aTags=liSubNodes.extractAllNodesThatMatch(new AndFilter(new TagNameFilter("a"),new HasAttributeFilter("target", "_blank")));
 						spanTags=liSubNodes.extractAllNodesThatMatch(new TagNameFilter("span"));
 						if(aTags!=null && aTags.size()>0){
-							com.netwc.Provider.Entities.JokeInfo joke=new com.netwc.Provider.Entities.JokeInfo();
+							JokeInfo joke=new JokeInfo();
 							joke.Title=((LinkTag)aTags.elementAt(0)).getLinkText();
 							joke.DataFrom=DataFrom.QIUSHI;
 							String url;
@@ -63,13 +62,13 @@ public class ProviderJokeJi extends AbsJokeProvider{
 					}
 				}
 				for(int i=0;i<jokes.size();i++){
-					com.netwc.Provider.Entities.JokeInfo joke=jokes.get(i);
+					JokeInfo joke=jokes.get(i);
 					String url=joke.Url;
 					if(url!=null && url.length()>0){							
 						String content=GetContent(url);
 						joke.Content=content;
 					}									
-					joke.dateAdd=(new Date()).getTime();
+					joke.DateAdd=(new Date()).getTime();
 					//db.AddJoke(joke);
 				}
 			}		

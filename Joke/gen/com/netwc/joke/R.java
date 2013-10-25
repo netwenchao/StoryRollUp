@@ -94,38 +94,42 @@ public final class R {
         public static final int top_bar_return_selector=0x7f020011;
     }
     public static final class id {
-        public static final int ItemTitle=0x7f09000e;
-        public static final int action_changeappr=0x7f09001e;
-        public static final int action_settings=0x7f09001f;
-        public static final int action_share=0x7f09001d;
+        public static final int ItemTitle=0x7f09000f;
+        public static final int JokeList=0x7f090020;
+        public static final int action_changeappr=0x7f090022;
+        public static final int action_settings=0x7f090023;
+        public static final int action_share=0x7f090021;
         public static final int adContainer=0x7f090004;
         public static final int bookList=0x7f090003;
-        public static final int btnBack2ClassList=0x7f090007;
+        public static final int btnBack2ClassList=0x7f090008;
         public static final int btnHome=0x7f090001;
-        public static final int btnMore=0x7f090019;
-        public static final int btnSettingCancel=0x7f090014;
-        public static final int btnSettingSure=0x7f090013;
-        public static final int contentAd=0x7f09000c;
+        public static final int btnMore=0x7f09001a;
+        public static final int btnRefresh=0x7f09001f;
+        public static final int btnSettingCancel=0x7f090015;
+        public static final int btnSettingSure=0x7f090014;
+        public static final int contentAd=0x7f09000d;
         public static final int contentContainer=0x7f090000;
-        public static final int contentScroll=0x7f09000a;
-        public static final int contentTitle=0x7f090008;
-        public static final int daily_item_jokeContent=0x7f090016;
-        public static final int daily_item_jokeTitle=0x7f090015;
-        public static final int daily_item_jokeUpdate=0x7f090018;
-        public static final int daily_item_jokeUrl=0x7f090017;
-        public static final int fontSize=0x7f090010;
-        public static final int itemImageRight=0x7f09000d;
+        public static final int contentScroll=0x7f09000b;
+        public static final int contentTitle=0x7f090009;
+        public static final int daily_item_jokeContent=0x7f090017;
+        public static final int daily_item_jokeTitle=0x7f090016;
+        public static final int daily_item_jokeUpdate=0x7f090019;
+        public static final int daily_item_jokeUrl=0x7f090018;
+        public static final int fontSize=0x7f090011;
+        public static final int itemImageRight=0x7f09000e;
         public static final int listDaily=0x7f090005;
-        public static final int prevText=0x7f09000f;
-        public static final int pull_to_refresh_header=0x7f09001b;
-        public static final int pull_to_refresh_progress=0x7f09001c;
-        public static final int sbFontSize=0x7f090011;
-        public static final int tabhost=0x7f090006;
-        public static final int tvRelease=0x7f09001a;
-        public static final int txtArticalTitle=0x7f090009;
-        public static final int txtContent=0x7f09000b;
+        public static final int prevText=0x7f090010;
+        public static final int pull_to_refresh_header=0x7f09001c;
+        public static final int pull_to_refresh_progress=0x7f09001d;
+        public static final int sbFontSize=0x7f090012;
+        public static final int tabhost=0x7f090007;
+        public static final int tvRelease=0x7f09001b;
+        public static final int txtArticalTitle=0x7f09000a;
+        public static final int txtContent=0x7f09000c;
         public static final int txtTitle=0x7f090002;
-        public static final int zoomFontSize=0x7f090012;
+        public static final int viewpager=0x7f09001e;
+        public static final int wvsplash=0x7f090006;
+        public static final int zoomFontSize=0x7f090013;
     }
     public static final class layout {
         public static final int activity_book_main=0x7f030000;
@@ -139,6 +143,8 @@ public final class R {
         public static final int daily_item_footer=0x7f030008;
         public static final int daily_item_header=0x7f030009;
         public static final int pull_to_refresh_header=0x7f03000a;
+        public static final int ui_main=0x7f03000b;
+        public static final int view_joke_list=0x7f03000c;
     }
     public static final class menu {
         public static final int content_menu=0x7f080000;
@@ -190,8 +196,9 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f070001;
-        public static final int dailyItemContent=0x7f070003;
-        public static final int dailyItemDate=0x7f070004;
-        public static final int dailyItemtitle=0x7f070002;
+        public static final int dailyItemContent=0x7f070004;
+        public static final int dailyItemDate=0x7f070005;
+        public static final int dailyItemtitle=0x7f070003;
+        public static final int header_text=0x7f070002;
     }
 }

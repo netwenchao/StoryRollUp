@@ -146,11 +146,12 @@ public final class R {
         public static final int activity_get_lot=0x7f030002;
         public static final int activity_jiemeng=0x7f030003;
         public static final int activity_luar_cal=0x7f030004;
-        public static final int activity_main=0x7f030005;
-        public static final int activity_pelt_cup=0x7f030006;
-        public static final int activity_show_detail=0x7f030007;
-        public static final int activity_start_page=0x7f030008;
-        public static final int activity_word_analysis=0x7f030009;
+        public static final int activity_lunar_cal=0x7f030005;
+        public static final int activity_main=0x7f030006;
+        public static final int activity_pelt_cup=0x7f030007;
+        public static final int activity_show_detail=0x7f030008;
+        public static final int activity_start_page=0x7f030009;
+        public static final int activity_word_analysis=0x7f03000a;
     }
     public static final class menu {
         public static final int start_page=0x7f0a0000;

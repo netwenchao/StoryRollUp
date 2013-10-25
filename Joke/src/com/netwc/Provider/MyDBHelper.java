@@ -1,4 +1,6 @@
 package com.netwc.Provider;
+import com.netwc.Entities.JokeInfo;
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -22,7 +24,7 @@ public class MyDBHelper{
 		if(mDB!=null) mDB.close();
 	}
 
-	public void AddJoke(com.netwc.Provider.Entities.JokeInfo joke){
+	public void AddJoke(JokeInfo joke){
 		if(!JokeExists(joke.Url)){
 			ContentValues data=new ContentValues();		
 			data.put("title",joke.Title);

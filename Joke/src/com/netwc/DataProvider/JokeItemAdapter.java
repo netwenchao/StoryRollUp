@@ -3,7 +3,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-import com.netwc.Provider.Entities.JokeInfo;
+import com.netwc.Entities.JokeInfo;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -44,7 +44,7 @@ public class JokeItemAdapter extends BaseAdapter{
 	@Override
 	public View getView(int position, View convertView, ViewGroup parent) {
 		JokeInfo joke=(JokeInfo)getItem(position);
-		LinearLayout view=mInflater.inflater();
+		//LinearLayout view=mInflater.inflater();
 		return null;
 	}
 
