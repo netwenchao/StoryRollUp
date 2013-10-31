@@ -52,7 +52,7 @@ public class JokeActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_book_main);
-		mListView=(ListView)findViewById(R.id.bookList);
+		/*mListView=(ListView)findViewById(R.id.bookList);
 		this.Catalogs = getResources().getStringArray(R.array.Catalogs);
 		setListAdapter(Catalogs);
 		contentAd=(LinearLayout)findViewById(R.id.adContainer);
@@ -89,6 +89,7 @@ public class JokeActivity extends Activity {
 				startActivity(intent);
 			}			
 		});
+		*/
 	}
 
 	@Override

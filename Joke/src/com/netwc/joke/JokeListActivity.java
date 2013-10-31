@@ -25,68 +25,16 @@ import android.widget.ListView;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
-public class JokeListActivity extends Activity{		
-	int[] Q = { R.array.Tfq, R.array.Tla, R.array.Tcr, R.array.Tet, R.array.Tjiating, R.array.Tyr, R.array.Tmr, R.array.Tzc, 
-		R.array.Txy, R.array.Taft, R.array.Tgd, R.array.Txd, R.array.Tdn, R.array.Tzz, R.array.Tjs, R.array.Tjt, R.array.Tzj, R.array.Tmj, 
-		R.array.Tgh, R.array.Tsf, R.array.Tty, R.array.Tjy, R.array.Tyl, R.array.Tgw, R.array.Twr };
+public class JokeListActivity extends Activity{
     ListView mListView;
-    String[] mQ;
-    LinearLayout contentAd;
-
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_book_main);
-		this.mListView = ((ListView)findViewById(R.id.bookList));
-	    this.mQ = getResources().getStringArray(this.Q[getIntent().getExtras().getInt("Num")]);
-	    ((TextView)findViewById(R.id.txtTitle)).setText(getIntent().getExtras().getString("Title"));
-	    setListAdapter(this.mQ);
-	    this.mListView.setOnItemClickListener(new OnItemClickListener()
-	    {
-			@Override
-			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
-					long arg3) {
-				Intent localIntent = new Intent(JokeListActivity.this, JokeDetail.class);
-		        Bundle localBundle = new Bundle();
-		        localBundle.putInt("Num", getIntent().getExtras().getInt("Num"));
-		        localBundle.putInt("ItemNum",arg2);
-		        localIntent.putExtras(localBundle);
-		        startActivity(localIntent);				
-			}
-	    });
-	    ((Button)findViewById(R.id.btnHome)).setOnClickListener(new OnClickListener(){
-
-			@Override
-			public void onClick(View arg0) {
-				// TODO Auto-generated method stub
-				finish();
-			}
-	    	
-	    });
-	
-	    contentAd=(LinearLayout)findViewById(R.id.adContainer);
-		AdViewTargeting.setRunMode(RunMode.NORMAL); 
-		AdViewTargeting.setUpdateMode(UpdateMode.DEFAULT); 
-		AdViewLayout adViewLayout = new AdViewLayout(this, "SDK20131012100521kidb0cxesk8oste"); 
-		//adViewLayout.setAdViewInterface(this); 
-		adViewLayout.setAdViewInterface(new AdViewInterface(){
-			@Override
-			public void onClickAd() {
-				// TODO Auto-generated method stub
-				Log.v("AD","Clicked");
-			}
-
-			@Override
-			public void onDisplayAd() {
-				// TODO Auto-generated method stub
-				Log.v("AD","Displayed");
-			}
-			
-		});
-		contentAd.addView(adViewLayout); 
-		contentAd.invalidate();
+		this.mListView = ((ListView)findViewById(R.id.jokeList));
+	    bindData2List(null);
 	}
 
 	@Override
@@ -102,7 +50,7 @@ public class JokeListActivity extends Activity{
 	}
 	
 
-	  public void setListAdapter(String[] paramArrayOfString)
+	  public void bindData2List(String[] paramArrayOfString)
 	  {
 	    try
 	    {

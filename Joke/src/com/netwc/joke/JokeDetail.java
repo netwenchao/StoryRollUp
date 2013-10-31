@@ -70,7 +70,7 @@ public class JokeDetail extends Activity{
 		this.mA = getResources().getStringArray(this.A[getIntent().getExtras().getInt("Num")]);
 		this.ItemNum = getIntent().getExtras().getInt("ItemNum");
 		
-		contentAd=(LinearLayout)findViewById(R.id.contentAd);
+		//contentAd=(LinearLayout)findViewById(R.id.contentAd);
 		AdViewTargeting.setRunMode(RunMode.NORMAL); 
 		AdViewTargeting.setUpdateMode(UpdateMode.DEFAULT); 
 		AdViewLayout adViewLayout = new AdViewLayout(this, "SDK20131012100521kidb0cxesk8oste"); 

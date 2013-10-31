@@ -10,8 +10,7 @@
     >
     	<RelativeLayout
 		    android:layout_width="match_parent"
-		    android:layout_height="wrap_content"
-			android:background="@drawable/top_bar_background" 
+		    android:layout_height="wrap_content"			
 		> 
 			<Button 
 			    android:id="@+id/btnBack2ClassList"
@@ -53,13 +52,5 @@
 		         android:textSize="16sp"
 		        android:text="TextView" />
 	    </ScrollView>
-	</LinearLayout>
-	<LinearLayout
-	    android:id="@+id/contentAd"
-	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content"
-	    android:gravity="center"
-	    android:layout_alignParentBottom="true">
-    >
 	</LinearLayout>
 </RelativeLayout>

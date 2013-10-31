@@ -1,45 +1,41 @@
-    <LinearLayout
+<LinearLayout
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/contentContainer"
 	    android:layout_width="wrap_content"
 	    android:layout_height="fill_parent"
 	    android:layout_alignParentTop="true"
 	    android:orientation="vertical" >
-	    <RelativeLayout
+	   <RelativeLayout
 		    android:layout_width="match_parent"
 		    android:layout_height="wrap_content"
-			android:background="@drawable/top_bar_background" 
-		> 
-			<Button 
-			    android:id="@+id/btnHome"
-			    android:background="@drawable/top_bar_home_selector"
-			    android:layout_height="wrap_content"
-			    android:layout_width="wrap_content"
-			    android:layout_alignParentLeft="true" 
-			    android:layout_centerVertical="true" 
-			    />
+		    android:paddingLeft="4sp"
+		    android:paddingRight="4sp"
+		    android:paddingTop="8sp"
+		    android:paddingBottom="8sp"
+			android:background="@drawable/nav_bg" 
+		>
 			<TextView
+			    android:layout_centerVertical="true"
 			    android:id="@+id/txtTitle"
 			    android:layout_height="wrap_content"
+			    android:layout_width="wrap_content"			    
+			    style="@style/header_text"			    
+			    android:text="@string/book_title"			    
+		        >	    
+			</TextView>			
+
+			<Spinner
+			    android:id="@+id/dplCategoryOfJokes"
 			    android:layout_width="wrap_content"
-			    android:padding="2sp"
-			    android:textSize="24sp"
-			    android:gravity="center"
-			    android:text="@string/book_title"
-			    android:layout_toRightOf="@id/btnHome"
-		        android:layout_centerVertical="true" >	    
-			</TextView>
+			    android:layout_height="wrap_content"
+			    android:layout_alignParentRight="true" />
+
 		</RelativeLayout>	
 	 	<ListView
-	 	    android:id="@+id/bookList"
+	 	    android:id="@+id/jokeList"
 		    android:layout_height="0dip"
 		    android:layout_width="fill_parent"
 		    android:layout_weight="1"
-	 	    ></ListView>
-	 	<LinearLayout
-		    android:id="@+id/adContainer"
-		    android:layout_width="match_parent"
-		    android:layout_height="wrap_content"
-		    android:gravity="center">	    
-		</LinearLayout>
-	</LinearLayout>	
+	 	    >	 	    
+	 	</ListView>
+</LinearLayout>	

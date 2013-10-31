@@ -5,6 +5,7 @@ public class JokeInfo {
 	public String Title;
 	public String Url;
 	public String Content;
+	public int CategoryID;
 	public String Category;
 	public String SiteDate;
 	public String DataFrom;

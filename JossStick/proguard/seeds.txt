@@ -5070,6 +5070,7 @@ com.luckywc.jossstick.R$layout: int activity_almanac
 com.luckywc.jossstick.R$layout: int activity_get_lot
 com.luckywc.jossstick.R$layout: int activity_jiemeng
 com.luckywc.jossstick.R$layout: int activity_luar_cal
+com.luckywc.jossstick.R$layout: int activity_lunar_cal
 com.luckywc.jossstick.R$layout: int activity_main
 com.luckywc.jossstick.R$layout: int activity_pelt_cup
 com.luckywc.jossstick.R$layout: int activity_show_detail
