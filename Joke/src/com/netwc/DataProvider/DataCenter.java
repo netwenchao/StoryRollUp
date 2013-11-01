@@ -5,6 +5,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.List;
 
 import com.netwc.Entities.CategoryInfo;
 import com.netwc.Entities.JokeInfo;
@@ -19,17 +20,20 @@ import android.os.Environment;
 public class DataCenter {
 	private Context mContext;
 	private SQLiteDatabase db;
+	private String dbName="jokeInfo.db3";
+	private String packageNameString="com.netwc.joke";
 	
 	public DataCenter(Context ctx){
 		this.mContext=ctx;
+		db=OpenDataBase(dbName);		
 	}
 	
 	private SQLiteDatabase OpenDataBase(String dbName){
-		File dataFolder=Environment.getDataDirectory(); 
+		File dataFolder=mContext.getFilesDir(); 
 		File dbFile=new File(dataFolder.getAbsolutePath()+"/"+dbName);
 		if(!dbFile.exists()){
-			try {
-				InputStream inputStream=mContext.getAssets().open("jokeInfo");
+			try {				
+				InputStream inputStream=mContext.getAssets().open("jokeInfo");				
 				FileOutputStream fso=new FileOutputStream(dbFile);
 				byte[] buffer=new byte[1024];
 				int readCount=0;
@@ -51,7 +55,7 @@ public class DataCenter {
 	 * Add CategoryInfo
 	 * */
 	public boolean AddCategoryInfo(CategoryInfo category){
-		try {
+		try {			
 			db.execSQL("insert into categoryinfo(ID,Name,PageUrl) values(?,?,?)", new Object[]{
 				category.ID,category.Name,category.PageUrl	
 			});
@@ -79,6 +83,25 @@ public class DataCenter {
 		return true;
 	}
 
+	public ArrayList<String> GetCategorys(){
+		ArrayList<String> arr=new ArrayList<String>();
+		Cursor cur=null;
+		try {
+			cur=db.rawQuery("select * from categoryinfo",null);					
+			while(cur.moveToNext()){
+				arr.add(cur.getString(1));
+			}
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+		finally{
+			if(cur!=null) cur.close();
+		}
+		return arr;
+	}
+	
 	/*
 	 * 
 	 * */
@@ -141,5 +164,9 @@ public class DataCenter {
 			e.printStackTrace();
 			return 0;
 		}
+	}
+
+	public void Dispose(){
+		if(db.isOpen()) db.close();		
 	}
 }
