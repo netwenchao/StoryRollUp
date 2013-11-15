@@ -1,4 +1,4 @@
-package com.luckywc.core.IO;
+package com.luckywc.core.Io;
 
 import android.os.Environment;
 
